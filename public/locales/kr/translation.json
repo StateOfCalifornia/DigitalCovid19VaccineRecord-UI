@@ -1,0 +1,93 @@
+{
+  "header": {
+    "selectlanguage": "언어 선택",
+    "highcontrast": "고 대비",
+    "contactus": "문의하기",
+    "settings": "설정"
+  },
+  "vaccinepage": {
+    "title": "백신 빠른 응답 코드",
+    "subtitle": "빠른 응답 코드를 생성하려면 양식을 작성하세요."
+  },
+  "dashboardpage": {
+    "contentheader": "디지털 코로나19 백신 기록",
+    "content1": "디지털 코로나19 백신 기록 포털에 오신 것을 환영합니다. 코로나19 백신 접종 기록의 디지털 사본 및 QR 코드 링크를 받으려면 아래에 몇 가지 정보를 입력하십시오. 백신 접종 증명서를 공유하고 싶은 경우 포털에서 제공되는 전자 버전이나 백신 접종 시 받은 카드를 사용할 수 있습니다.",
+    "content2": "부모 또는 보호자이며 하나의 휴대전화 번호나 이메일 주소에 여러 백신 기록이 연결되어 있는 경우, 각각의 디지털 백신 기록 요청을 따로 입력하십시오.",
+    "content3": "포털에서는 백신 기록의 디지털 사본만 제공합니다. 연방 정부 기관(예: 국방부, 원주민 보건 서비스 또는 미국 재향군인회)에서 백신을 접종받은 경우, 백신 접종과 관련하여 지원이 필요하면 해당 기관에 연락해야 합니다.",
+    "content4": "디지털 COVID-19 백신 기록에 관한 질문이 있는 경우, <1>당사의 FAQ를 방문</1>하십시오."
+  },
+  "vaccineform": {
+    "filloutheader": "코로나19 백신 접종 기록의 디지털 사본 및 QR 코드 링크를 받으려면 필수 필드를 작성하십시오:",
+    "title": "환자 정보",
+    "subtitle": "필수 필드는 * 표시가 되어 있습니다. 당사의 FAQ를 방문하십시오.",
+    "lastname": "성",
+    "firstname": "이름",
+    "middlename": "중간 이니셜",
+    "dateofbirth": "생년월일",
+    "phoneemailinfo": "코로나19 백신을 접종받을 때 사용한 휴대전화 번호나 이메일 주소를 제공하십시오.",
+    "pincode": "백신 기록에 액세스하려면 4자리 PIN 코드를 설정하십 시오. *",
+    "pinErrorMsg1": "PIN은 연속되는 4개의 숫자를 포함할 수 없습니다",
+    "pinErrorMsg2": "PIN에는 중복된 숫자 4개를 포함할 수 없습니다.",
+    "pinErrorMsg3": "입력 한 PIN이 잘못되었습니다. 제공된 링크를 클릭하여 PIN을 다시 입력하십시오.",
+    "pinErrorMsg4": "1분 후에 요청을 다시 시도해 주십시오.",
+    "pinErrorMsg5": "백신에 대한 자세한 내용은 CDPH에 문의하십시오.",
+    "pinErrorMsg6": "요청을 완료 할 수 없습니다. 다시 시도하십시오.",
+    "pinErrorMsg7": "잘못된 데이터 형식입니다. 다시 시도하십시오.",
+    "note": "<0>참고:</0> 이 PIN 코드는 귀하에게 전송되지 않으므로 이후에 사용할 수 있도록 기록해 두십시오.",
+    "checkboxdescription": "이 상자를 클릭하면 위증 시 처벌을 받는다는 것을 인지하며 캘리포니아주의 법에 따라 귀하가 환자 또는 환자의 부모/보호자이며 따라서 환자의 예방 접종 기록에 액세스할 권한이 있음을 선언하는 것입니다.",
+    "safe": "안전하고, 무료이고, 효과적인 코로나19 백신은 이제 만 12세 이상의 모든 사람이 사용할 수 있습니다, <1>백신 접종을 받으십시오.</1>",
+    "Phone": "휴대전화",
+    "Email": "이메일",
+    "vaccineproductname": "백신 제품명",
+    "subsubtitle": "1 차 접종 COVID-19 백신 정보",
+    "fproductname": "상품명",
+    "flotnumber": "로트 번호",
+    "ffirstvaccinationdate": "1 차 예방 접종 일",
+    "fhealthcareprofessional": "의료 전문가 또는 클리닉 사이트",
+    "subsubsubtitle": "2 차 접종 COVID-19 백신 정보",
+    "sproductname": "상품명",
+    "slotnumber": "로트 번호",
+    "sfirstvaccinationdate": "2 차 예방 접종 일",
+    "shealthcareprofessional": "의료 전문가 또는 클리닉 사이트",
+    "submitbutton": "제출",
+    "enterPin": "백신 기록에 대한 액세스를 요청하기 위해 생성한 PIN 코드를 입력하십시오."
+  },
+  "qrpage": {
+    "title": "개인 디지털 코로나19 백신 기록 ",
+    "pincode": "PIN 코드",
+    "vacinfo": "백신 정보: ",
+    "name": "이름: ",
+    "dateofbirth": "생년월일: ",
+    "dose": "정량 ",
+    "date": "데이트: ",
+    "type": "유형/제조업체: ",
+    "vac1date": "1차 접종 날짜: ",
+    "vac1brand": "1차 접종 유형/제조업자: ",
+    "vac2date": "2차 접종 날짜: ",
+    "vac2brand": "2차 접종 유형/제조업자: ",
+    "needhelp": "도움이 필요하십니까?",
+    "incorrect": "기록이 정확하지 않다면 CDPH 가상 도우미 페이지를 방문해 접종 기록 검토 및 업데이트를 요청하십시오.",
+    "linkto": "링크: ",
+    "virtualassistant": "가상 도우미",
+    "minrequirements": "최소 요구 사항: Android 버전 5 및 Google Pay Services 버전 21.18 이상"
+  },
+  "receivedpage": {
+    "title": "디지털 코로나19 백신 기록 제출 영수증",
+    "thankyou": "감사합니다.",
+    "content1": "귀하의 제출이 접수되었습니다. 제공된 정보가 백신 등록 내용과 일치하면 귀하의 코로나19 백신 기록에 액세스할 수 있는 링크를 받게 됩니다. ",
+    "content2": "8시간 이내에 링크를 받지 못한 경우 다시 시도하고 이름, 생년월일, 휴대폰 또는 이메일 주소가 백신 접종 당시 제공한 정보와 일치하는지 확인하십시오. ",
+    "content3": "디지털 코로나19 백신 기록에 대해 질문이 있는 경우 <1>FAQ를 방문</1>하면 답변이 제공됩니다.",
+    "privacyheader": "개인정보 보호(민법 섹션 1798.17) ",
+    "privacy1": "COVID-19 백신 접종을 증명할 목적으로 QR 코드를 받으려는 개인을 위해 캘리포니아 보건부(CDPH)에서 디지털 백신 접종 기록(DVR)을 만들었습니다. 이 정보는 보건 안전 코드 섹션 120440에 따라 수집되며 법에 의해 요구되는 바에 따라 기밀로 유지되며 파일에 보관됩니다. QR 코드를 받으려면 요청한 모든 정보를 제출해야 합니다. 요청한 정보를 제공하지 않으면 이 DVR을 사용할 수 없게 됩니다. DVR에서 수집된 모든 정보는 캘리포니아 주 감사관, 보건 정보청 캘리포니아 지사, 캘리포니아 정보 보안국 또는 법에 따라 요구되는 기타 주 및 연방 기관에 공개될 수 있습니다. ",
+    "privacy2": "귀하는 CDPH가 귀하에 대해 보유하는 기록을 검토할 권리가 있습니다. CDPH는 요청 시 귀하의 기록이 있는 위치와 해당 기록의 정보를 사용하는 사람들의 카테고리를 알려드립니다. 자세한 내용은 Chief, Immunization Branch, California Department of Public Health; 850 Marina Bay Pkwy, Bldg. P, Richmond, CA 94804 또는 (800) 578-7889번으로 문의하십시오. "
+  },
+  "footer": {
+    "home": "CA.gov 홈페이지",
+    "conditionsofuse": "사용 조건",
+    "privacypolicy": "개인 정보 보호 정책",
+    "accessibility": "접근성",
+    "faq": "FAQ",
+    "contactus": "연락 정보",
+    "copyright": "캘리포니아 주"
+  }
+}

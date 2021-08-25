@@ -1,0 +1,381 @@
+/* Header Styles */
+
+.no-border {
+  border: none !important;
+  outline: none !important;
+}
+
+.skip-to-content-link {
+  left: 50%;
+  position: absolute;
+  transform: translateY(-100%);
+  }
+  .skip-to-content-link {
+    background: #85460F;
+    height: 30px;
+    left: 50%;
+    padding: 4px 8px;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    }
+    
+    .skip-to-content-link:focus {
+    transform: translateY(0%);
+    }
+
+.translationList {
+  list-style-type: none;
+}
+
+.translationList li {
+  display: inline-block;
+  padding-right:10px;
+  cursor: pointer;
+}
+
+.translationList li:hover {
+  text-decoration: none;
+}
+
+.logoDescription {
+  display: inline-block;
+  padding-left: 20px;
+  font-size:20px;
+  font-weight: 700;
+  line-height:1.3em;
+  color: '#22489c';
+  vertical-align: middle;
+}
+.qrImg{
+  width: 300px;
+  position:relative;
+  z-index:0;
+  display:flex; 
+  justify-content:space-between;
+  align-items:flex-end;
+}
+.formContainer {
+  margin: 20px 0px;
+  position: relative;
+}
+
+.logo-nav-container {
+  /* align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 20vh; */
+  justify-content: space-between;
+  padding: 5px 12vw;
+}
+
+.title-container {
+  display: flex;
+  padding: 15px;
+}
+
+.covid-card-header {
+  color: #22489C;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.font-weight-500 {
+  font-weight: 500;
+}
+
+.MuiFormControl-root {
+  margin-bottom: 15px;
+}
+.qrContainer{
+  margin:0 12vw;
+}
+
+.DashContainer {
+  display: flex;
+  margin: 0 14vw;
+}
+.footerContainer {
+  margin: 0 14vw;
+}
+.bodyContainer{
+  min-height: 70vh;
+  /* bottom = footer height */
+}
+.pinContainer{
+  display: flex;
+}
+.qrDataItem{
+  margin: 0px;
+  font-size: 90%;
+}
+/* https://stackoverflow.com/questions/41658552/how-to-create-a-7-character-underline-input-text-field-in-html-and-cssscreensho */
+#partitioned {
+  border: none;
+  width: 6ch;  
+  background:
+    repeating-linear-gradient(90deg,
+        dimgrey 0,
+        dimgrey 1ch,
+        transparent 0,
+        transparent 1.5ch)
+      0 100%/100% 2px no-repeat;
+  color: dimgrey;
+  font: 5ch consolas, monospace;
+  letter-spacing: .5ch;
+  font-weight: 300;
+}
+#partitioned:focus {
+  /* outline: none; */
+  color: #22489c;
+}
+
+.headerContainer {
+  padding: 0px 13.5vw;
+}
+
+.logo-container-mobile {
+  display: none;
+}
+
+.covid-card-container {
+  width: 52%;
+}
+
+/* Footer */
+
+.footerLinks ul {
+  list-style-type: none;
+  text-align:left;
+
+}
+
+.footerLinks li {
+  display:inline-block;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+.footerLinks li:hover {
+  text-decoration: none;
+}
+
+/* .footerLinks li:first-child {
+  border-bottom: none;
+} */
+
+.footerLinks li a {
+  color: #000;
+  margin:0;
+}
+
+.received-screen-container {
+  margin: 0 14vw;
+}
+
+.center-w-margin {
+  margin: 3vw;
+}
+
+.qr-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pt-2 {
+  width: 50%;
+}
+
+hr {
+  margin: 0.35rem 0;
+}
+
+.actual-qr-img {
+  display: "block";
+  margin-left: -14px;
+}
+
+.smarthealthcard-container {
+  width: 290px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .received-screen-container {
+    margin: 0px 5vw;
+    padding-top: 20px;
+  }
+  .DashContainer {
+    margin: 0 5vw;
+  }
+  .footerContainer {
+    margin: 0 5vw;
+  }
+  .headerContainer {
+    padding: 0px 5vw;
+  }
+  .subheaderContainer, .vaccineLogo {
+    margin: 0 !important;
+  }
+  .logo-nav-container {
+    padding: 5px 3vw;
+  }
+  .qrContainer{
+    margin:0 2vw;
+  }
+}
+
+
+@media only screen and (max-width: 950px) {
+  /* .MuiInputLabel-formControl, .MuiInput-input {
+        font-size: 0.8rem !important;
+    }
+    .MuiSelect-selectMenu {
+        height: 0px !important;
+    } */
+    .footerLinks li {
+      display:block;
+      border-bottom:none;
+      padding-top:20px;
+    }
+}
+@media only screen and (max-width: 876px) {
+  #dose-data-container {
+    width: 100%;
+  }
+  #vaccine-data-container {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 860px) {
+  /* .MuiInputLabel-formControl, .MuiInput-input {
+        font-size: 0.7rem !important;
+    }
+    .MuiSelect-selectMenu {
+        height: 0px !important;
+    } */
+}
+@media only screen and (min-width: 552px) {
+  .qrDiv{
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+
+  
+  /* .MuiInputLabel-formControl,
+  .MuiInput-input {
+    font-size: 1rem !important;
+  } */
+
+  #patient_number > div {
+    font-size: 0.9rem !important;
+  }
+
+  .logo-nav-container {
+    align-items: unset;
+    justify-content: center;
+  }
+
+  .logo-container-desktop {
+    display: none;
+  }
+
+  .logo-container-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  .covid-card-container {
+    width: 100%;
+  }
+
+  .translationList {
+    padding-left: 0px;
+  }
+
+  .translationList li {
+    /* padding-top: 5px; */
+    padding-left:0px;
+  }
+  .qrContainer{
+    margin:unset;
+  }
+  
+
+  .center-w-margin {
+    text-align: center;
+  }
+
+  .qr-flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pt-2 {
+    width: 100%;
+  }
+
+  .actual-qr-img {
+    margin-left: 0px;
+  }
+
+  .qrImg{
+    margin-left: 14px;
+    width: 293px;
+    position:relative;
+    z-index:0;
+    display:flex; 
+    justify-content:space-between;
+    align-items:flex-end;
+  }
+
+  .smarthealthcard-container {
+    margin-left: 14px;
+    width: 293px;
+  }
+
+}
+
+@media only screen and (max-width: 425px) {
+  .DashContainer {
+    padding: 0vh;
+  }
+  .translationList li {
+    display: inline-block;
+    cursor: pointer;
+  }
+  .form-select{
+    padding: 0px 5px
+}
+  .pinContainer{
+    justify-content: center;
+  }
+  .received-screen-container {
+    padding-top:0px;
+  }
+  .qrContainer{
+    display:unset;
+    justify-content: unset;
+  }
+
+  /* .center-w-margin {
+    text-align: center;
+  }
+
+  .qr-flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .pt-2 {
+    width: 100%;
+  } */
+
+}

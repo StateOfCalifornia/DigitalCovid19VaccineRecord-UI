@@ -1,0 +1,93 @@
+{
+  "header": {
+    "selectlanguage": "Selecciona un idioma",
+    "highcontrast": "Alto contraste",
+    "contactus": "Contacta con nosotros",
+    "settings": "Ajustes"
+  },
+  "vaccinepage": {
+    "title": "Código de respuesta rápida para vacunas",
+    "subtitle": "Complete el formulario para generar un código de respuesta rápida"
+  },
+  "dashboardpage": {
+    "contentheader": "Registro digital de vacunación contra el COVID-19",
+    "content1": "Bienvenido al portal del Registro digital de vacunación contra el COVID-19. Solo debe ingresar algunos datos que figuran a continuación para obtener un enlace a un código QR y una copia digital de su registro de vacunación contra el COVID-19. Si desea compartir su comprobante de vacunación, puede usar tanto la versión electrónica que obtendrá a través del portal como la tarjeta que le entregaron al momento de la vacunación.",
+    "content2": "Si usted es padre, madre o tutor y tiene varios registros de vacunación asociados a un número de teléfono o dirección de correo electrónico único, ingrese cada solicitud de registro digital de vacunación por separado.",
+    "content3": "El portal brinda solo una copia digital de su registro de vacunación. Si recibió sus vacunas por parte de una agencia estatal (p. ej., el Departamento de Defensa, el de Asuntos de los Veteranos o Indian Health Service), deberá ponerse en contacto con esas agencias para que lo asistan con su registro de vacunación.",
+    "content4": "Si tiene preguntas sobre su Registro digital de vacunación contra el COVID-19, <1>visite nuestra sección de preguntas frecuentes</1>."
+  },
+  "vaccineform": {
+    "filloutheader": "Debe completar los campos obligatorios para recibir un enlace a un código QR y una copia digital de su registro de vacunación contra el COVID-19:",
+    "title": "Información del paciente",
+    "subtitle": "Los campos obligatorios están marcados con un *",
+    "lastname": "Apellido",
+    "firstname": "Nombre",
+    "middlename": "inicial del segundo nombre",
+    "dateofbirth": "Fecha de nacimiento",
+    "phoneemailinfo": "Proporcione un número de teléfono celular o correo electrónico que pueda estar asociado con su registro de vacunación. Si no logra obtener una coincidencia usando su teléfono celular, inténtelo de nuevo con su dirección de correo electrónico.",
+    "pincode": "Seleccione un número PIN de 4 dígitos para acceder a su registro de vacunación. *",
+    "pinErrorMsg1": "El PIN no puede tener 4 números consecutivos.",
+    "pinErrorMsg2": "El PIN no puede contener 4 números duplicados.",
+    "pinErrorMsg3": "El PIN ingresado no es válido. Vuelva a intentarlo haciendo clic en el enlace que se le proporcionó para volver a ingresar su PIN.",
+    "pinErrorMsg4": "Vuelva a intentarlo en 1 minuto.",
+    "pinErrorMsg5": "Póngase en contacto con el CDPH para obtener más información sobre su vacuna.",
+    "pinErrorMsg6": "No se pudo completar su solicitud. Vuelva a intentarlo.",
+    "pinErrorMsg7": "Formato de datos no válido, inténtelo de nuevo.",
+    "note": "<0>Nota:</0> Usted no recibirá este código PIN. Le pedimos que se asegure de anotarlo para que pueda utilizarlo en el futuro.",
+    "checkboxdescription": "Si marca esta casilla, declara bajo pena de perjurio, de acuerdo con las leyes del estado de California, que usted es el paciente o padre, madre o tutor del paciente y está, por lo tanto, autorizado a acceder al registro de inmunización del paciente.",
+    "safe": "Actualmente, hay vacunas contra el COVID-19 seguras, gratuitas y eficaces disponibles para las personas mayores de 12 años, <1>vacúnese.</1>",
+    "Phone": "Teléfono celular",
+    "Email": "Correo electrónico",
+    "vaccineproductname": "Nombre del producto de la vacuna",
+    "subsubtitle": "Información de la primera dosis de la vacuna COVID-19",
+    "fproductname": "nombre del producto",
+    "flotnumber": "Numero de lote",
+    "ffirstvaccinationdate": "Primera fecha de vacunación",
+    "fhealthcareprofessional": "Profesional de la salud o sitio de la clínica",
+    "subsubsubtitle": "2. Dosis COVID-19 Impfstoffinformationen",
+    "sproductname": "nombre del producto",
+    "slotnumber": "Numero de lote",
+    "sfirstvaccinationdate": "Primera fecha de vacunación",
+    "shealthcareprofessional": "Profesional de la salud o sitio de la clínica",
+    "submitbutton": "Presentar",
+    "enterPin": "Ingrese el código PIN que creó para solicitar el acceso a su registro de vacunación."
+  },
+  "qrpage": {
+    "title": "Registro personal digital de vacunación contra el COVID-19 ",
+    "pincode": "CÓDIGO PIN",
+    "vacinfo": "Información de la vacunación: ",
+    "name": "Nombre: ",
+    "dose": "Dosis ",
+    "date": "Fecha: ",
+    "type": "Tipo/fabricante: ",
+    "dateofbirth": "Fecha de nacimiento: ",
+    "vac1date": "Fecha de la dosis n° 1: ",
+    "vac1brand": "Tipo/fabricante de la dosis n° 1: ",
+    "vac2date": "Fecha de la dosis n° 2: ",
+    "vac2brand": "Tipo/fabricante de la dosis n° 2: ",
+    "needhelp": "¿Necesita ayuda?",
+    "incorrect": "Si su registro no es correcto, visite el asistente virtual del CDPH para solicitar una revisión y una actualización del registro.",
+    "linkto": "Enlace a: ",
+    "virtualassistant": "asistente virtual",
+    "minrequirements": "Requisitos mínimos: Android, versión 5, y Google Play Services, versión 21.18 y superior."
+  },
+  "receivedpage": {
+    "title": "Recepción de la presentación de solicitud del Registro digital de vacunación contra el COVID-19",
+    "thankyou": "Gracias.",
+    "content1": "Su presentación ha sido recibida. Si la información provista coincide con el registro de vacunación, recibirá un enlace para acceder a su registro de vacunación contra el COVID-19.",
+    "content2": "Si no recibe un enlace en un plazo de 24 horas, intente nuevamente y asegúrese de que su nombre, fecha de nacimiento, número de teléfono o dirección de correo electrónico coincidan con la información provista al momento de la vacunación.",
+    "content3": "Si tiene preguntas sobre el Registro digital de vacunas COVID-19, tenemos las respuestas solo <1> visite nuestras Preguntas frecuentes </1>.",
+    "privacyheader": "Declaración de privacidad (sección 1798.17 del Código Civil)",
+    "privacy1": "El Departamento de Salud Pública de California (California Department of Public Health, CDPH) creó el registro de vacunación digital (Digital Vaccine Record, DVR) para que lo utilicen las personas que deseen recibir un código de respuesta rápida (código QR) como prueba de la vacunación contra el COVID-19. La información se recopila de conformidad con la sección 120440 del Código de Salud y Seguridad y será de carácter confidencial y quedará archivada de acuerdo con los requisitos legales. Toda la información solicitada es obligatoria para recibir un código QR. Si no se proporciona la información solicitada, no se podrá utilizar el DVR. Tenga en cuenta que la información recopilada en el DVR puede ser revelada a la Auditoría Estatal de California, la Oficina de Integridad de la Información de Salud de California, la Oficina de Seguridad de la Información de California u otras agencias estatales y federales, según lo requiera la ley.",
+    "privacy2": "Usted tiene derecho a revisar su archivo de registros del CDPH. Si lo solicita, el CDPH le informará la ubicación de sus registros y de las categorías de las personas que utilizan la información que contienen. Para obtener más información, comuníquese con el director de la División de Inmunización del Departamento de Salud Pública de California, 850 Marina Bay Pkwy, Bldg. P, Richmond, CA 94804 o llame al (800) 578-7889."
+  },
+  "footer": {
+    "home": "Página de inicio de CA.gov",
+    "conditionsofuse": "Condiciones de uso",
+    "privacypolicy": "Política de privacidad",
+    "accessibility": "Accesibilidad",
+    "faq": "Preguntas frecuentes",
+    "contactus": "Comuníquese con nosotros",
+    "copyright": "Copyright"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.14.3",
+    "@date-io/date-fns": "^2.10.8",
+    "@date-io/dayjs": "^1.3.13",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@material-ui/pickers": "^3.3.10",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "dayjs": "^1.10.4",
+    "i18next": "^20.3.0",
+    "i18next-browser-languagedetector": "^6.1.1",
+    "i18next-http-backend": "^1.2.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-i18next": "^11.8.15",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-text-mask": "^5.4.3",
+    "sass": "^1.32.13",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "node ./scripts/start",
+    "start:local": "npm run start local",
+    "start:dev": "npm run start development",
+    "start:test": "npm run start test",
+    "start:prod": "npm run start production",
+    "build": "node ./scripts/build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
