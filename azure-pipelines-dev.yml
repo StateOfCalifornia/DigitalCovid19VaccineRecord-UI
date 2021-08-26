@@ -1,0 +1,53 @@
+
+trigger:
+  - Development
+  
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  major: 1
+  minor: 0
+   
+name: $(major).$(minor)$(Rev:.r)
+  
+steps:  
+- task: NodeTool@0
+  inputs:
+    versionSpec: '14.x'
+  displayName: 'Install Node.js'
+
+- task: Npm@1
+  inputs:
+    command: 'install'
+
+    
+- script: npm run build
+  displayName: "npm build"
+
+- task: CopyFiles@2
+  inputs:
+    Contents: 'web.config'
+    TargetFolder: build
+
+- task: CopyFiles@2
+  displayName: 'Copy Build Files to: $(Build.ArtifactStagingDirectory)'
+  inputs:
+    SourceFolder: build
+    TargetFolder: '$(Build.ArtifactStagingDirectory)/build'
+
+# - task: CopyFiles@2
+#   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+#   inputs:
+#     SourceFolder: config
+#     TargetFolder: '$(Build.ArtifactStagingDirectory)/config'
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish artifacts: drop'
+- task: ArchiveFiles@2
+  inputs:
+    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+    includeRootFolder: true
+    archiveType: 'zip'
+    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    replaceExistingArchive: true
