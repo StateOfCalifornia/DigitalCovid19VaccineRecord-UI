@@ -34,7 +34,7 @@ const ReceivedScreen = () => {
               </Trans>
             </p>
             <p>
-            <Trans i18nKey="receivedpage.content3">
+              <Trans i18nKey="receivedpage.content3">
                 If you have questions about the Digital COVID-19 Vaccine Record, we have answers just <a href={faqLinkLanguage()}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -81,14 +81,14 @@ const ReceivedScreen = () => {
           <p style={{ fontWeight: "300", fontSize: "1rem" }}>
             <Trans i18nKey="receivedpage.privacy1">
               The California Department of Public Health (CDPH) created the
-              Digital Vaccine Record (DVR) for use by individuals who wish to
+              Digital Vaccine Record (DCVR) for use by individuals who wish to
               receive a quick response code (QR Code) for use as proof of
               COVID-19 vaccination. The information is collected pursuant to
               Health and Safety Code section 120440 and will be kept
               confidential and on file as required by law. All requested
               information is mandatory to receive a QR Code; not supplying the
-              requested information will result in an inability to use DVR.
-              Please note that any and all information collected in the DVR may
+              requested information will result in an inability to use DCVR.
+              Please note that any and all information collected in the DCVR may
               be disclosed to the California State Auditor, the California
               Office of Health Information Integrity, the California Office of
               Information Security, or other state and federal agencies as

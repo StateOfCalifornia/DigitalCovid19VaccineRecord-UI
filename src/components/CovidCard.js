@@ -394,7 +394,7 @@ const CovidCard = () => {
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
               <FormLabel component="legend">
                 <Trans i18nKey="vaccineform.phoneemailinfo">
-                  Provide a cell phone or email that may be associated with your vaccine record.  If you fail to get a match using your cell phone, try again using your email address.
+                  Provide a mobile phone or email that may be associated with your vaccine record.  If you fail to get a match using your mobile phone, try again using your email address.
                 </Trans>
               </FormLabel>
               <RadioGroup
@@ -408,8 +408,8 @@ const CovidCard = () => {
                   value="Phone"
                   name="Phone"
                   control={<Radio aria-checked={contactType === "Phone" ? 'true' : 'false'} role={"radio"} inputProps={{ 'aria-label': 'Phone' }} color={"primary"} />}
-                  label={<Trans i18nKey={"vaccineform.Phone"}>Cell Phone</Trans>}
-                  aria-label={'Cell Phone Selector'}
+                  label={<Trans i18nKey={"vaccineform.Phone"}>Mobile Phone</Trans>}
+                  aria-label={'Mobile Phone Selector'}
                 />
                 <FormControlLabel
                   value="Email"
@@ -430,7 +430,7 @@ const CovidCard = () => {
                   }}
 
 
-                  label={<Trans i18nKey={"vaccineform.Phone"}>Cell Phone</Trans>}
+                  label={<Trans i18nKey={"vaccineform.Phone"}>Mobile Phone</Trans>}
                   placeholder={"(555) 555-5555"}
                   required
                   type='tel'
@@ -474,7 +474,7 @@ const CovidCard = () => {
             )}
             <FormLabel component="legend" style={{ color: error.Pin ? '#f44336' : 'dimgrey', marginTop: "50px" }}>
               <Trans i18nKey="vaccineform.pincode">
-                Set a 4-digit PIN code to access your vaccine record. *
+                Create a 4-digit PIN. You'll receive a link to enter the PIN and access your digital vaccine record. *
               </Trans>
             </FormLabel>
             <div className='pinContainer'>
@@ -512,8 +512,7 @@ const CovidCard = () => {
                 >
                   Note:
                 </span>
-                {" "} this code will not be sent
-                to you, so please ensure you write down for future use.
+                {" "} Your PIN is needed to securely access your digital record.
               </Trans>
             </div>
             <div style={{ display: "flex" }}>
