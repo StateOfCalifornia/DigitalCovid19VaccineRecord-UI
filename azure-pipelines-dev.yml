@@ -1,6 +1,6 @@
 
 trigger:
-  - Development
+  - Development 
   
 pool:
   vmImage: 'ubuntu-latest'
@@ -51,3 +51,27 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+ 
+- task: Veracode@3
+  inputs:
+    ConnectionDetailsSelection: 'Endpoint'
+    AnalysisService: 'Veracode'
+    veracodeAppProfile: 'New.VaccineCredentialUI'
+    version: '$(build.buildNumber)'
+    filepath: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    createProfile: true
+    maximumWaitTime: '360'
+
+- task: SonarQubePrepare@4
+  inputs:
+    SonarQube: 'SonarQube'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: 'VaccineCredentialUIDev'
+    cliProjectName: 'VaccineCredentialUIDev'
+    cliSources: '.'
+
+- task: SonarQubeAnalyze@4
+- task: SonarQubePublish@4
+  inputs:
+    pollingTimeoutSec: '300'

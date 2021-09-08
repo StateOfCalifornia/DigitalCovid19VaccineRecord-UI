@@ -13,20 +13,6 @@ const QrScreen = () => {
   const [apple, setappleState] = useState(true);
   const [google, setgoogleState] = useState(true);
 
-  // Testing data
-  // const testUser = {
-  //   firstName: "Test",
-  //   lastName: "User",
-  //   dob: "01/01/1990",
-  //   walletContent: "testwalletcontent",
-  //   doses: [
-  //     { type: "Pfizer", doa: "2021-04-01", provider: "CVS", lotNumber: "E123" },
-  //     { type: "Pfizer", doa: "2021-04-15", provider: "CVS", lotNumber: "E124" },
-  //     { type: "Pfizer", doa: "2021-04-30", provider: "CVS", lotNumber: "E125" },
-  //   ],
-  // };
-  // const testQr = "https://myvaccinerecord.cdph.ca.gov/imgs/qr-example.PNG";
-
   const getMobileOperatingSystem = () => {
     var userAgent = navigator.userAgent;
     let OS = "not mobile";

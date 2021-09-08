@@ -200,6 +200,29 @@ hr {
   width: 290px;
 }
 
+.save-buttons {
+  display: flex;
+}
+
+#desktop-save{
+  display: block;
+}
+
+.mobile-save{
+  display: none;
+}
+
+#apple-health-button{
+  margin-bottom: 52px;
+  margin-top: 10px;
+  width: 283px;
+}
+
+.dataDiv{
+  width: 50%;
+}
+
+
 @media only screen and (max-width: 1024px) {
   .received-screen-container {
     margin: 0px 5vw;
@@ -336,6 +359,37 @@ hr {
   .smarthealthcard-container {
     margin-left: 14px;
     width: 293px;
+  }
+
+  .save-buttons {
+    justify-content: center;
+  }
+
+  #print-button{
+    display: none;
+  }
+
+  #desktop-save{
+    display: none;
+  }
+
+  .mobile-save{
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #save-image-button{
+    height: 55px;
+    margin-left: 0px;
+    width: 280px;
+  }
+
+  #apple-health-button{
+    margin-bottom: 20px;
+  }
+
+  .dataDiv{
+    width: 100%;
   }
 
 }

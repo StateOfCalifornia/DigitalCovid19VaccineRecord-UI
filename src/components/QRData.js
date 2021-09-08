@@ -2,29 +2,95 @@ import React, { useEffect } from "react";
 import { Trans } from "react-i18next";
 import ReactGA from 'react-ga';
 import AppController from "../utils/AppController";
-import ForumIcon from "@material-ui/icons/Forum";
+import PrintIcon from '@material-ui/icons/Print';
+import SaveAltIcon from '@material-ui/icons/SaveAlt';
+import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
+// eslint-disable-next-line no-unused-vars
+import html2canvas from "html2canvas";
+import Canvas2Image from "../utils/canvas2image";
+
+
 
 const QRData = ({ user, qr, apple, google, isMobile }) => {
-  const Normalize = (str) => {
-    return str
-      .split("")
-      .map((char, i) => (i === 0 ? char : char.toLowerCase()))
-      .join("");
-  };
 
   useEffect(() => {
     const qrEl = document.getElementById("qr_img");
     qrEl.scrollIntoView();
+
   }, []);
 
+  const buildPdf = () => {
+
+    const dataItem = document.querySelectorAll(".qrDataItem");
+    let printWindow = window.open('', '', 'height=400', 'width=500');
+
+    window.setTimeout(function () {
+      printWindow.addEventListener("afterprint", function () {
+        printWindow.close();
+      }, false);
+    }, 0);
+
+    printWindow.document.write('<html><head><title>Digital COVID-19 Vaccine Record</title>');
+    printWindow.document.write('</head><body >');
+    printWindow.document.write(`<img className="actual-qr-img" width = "322px" height = "322px" alt = "VaccineQrCode" src = ${qr} id = { 'id-qr-img'} /> `);
+    printWindow.document.write('<br />');
+
+    dataItem.forEach((item, idx) => {
+      printWindow.document.write(item.innerHTML);
+      printWindow.document.write('<br />');
+      if (idx % 2 !== 0) {
+        printWindow.document.write('<hr />');
+      }
+    });
+
+    printWindow.document.write('</body></html>');
+    printWindow.document.close();
+    printWindow.print();
+  }
+
+  const handleImageSave = () => {
+    const qrDiv = document.getElementById('data-for-image');
+    if (window.screen.width > 768) {
+      qrDiv.style.padding = '20%';
+    }
+
+    html2canvas(qrDiv).then((canvas) => Canvas2Image.saveAsPNG(canvas));
+    qrDiv.style.padding = '0px';
+  }
+
+  const handlePdfSave = () => {
+    buildPdf();
+  }
+
   let isVersionGood;
+  let showMessage = false;
   const userAgent = navigator.userAgent;
 
   if (apple === true && isMobile() === "A") {
     const indexOfOS = userAgent.indexOf('OS');
     const versionStr = userAgent.substring(indexOfOS + 2, indexOfOS + 5);
     isVersionGood = Number.parseInt(versionStr) >= 15;
+
+    if (navigator.userAgent.match("CriOS") || navigator.userAgent.match("FxiOS")) {
+      showMessage = true;
+    }
   }
+
+  const useStyles = makeStyles({
+    button: {
+      '&:hover': {
+        color: '#ffffff'
+      }
+    },
+    buttonLeft: {
+      '&:hover': {
+        color: '#ffffff'
+      },
+      marginLeft: '2%'
+    }
+  });
+  const classes = useStyles();
 
   return (
     <div className={'center-w-margin'}>
@@ -35,7 +101,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           </Trans>
         </h1>
       </div>
-      <div className={'qr-flex'} style={{ display: "flex", flexWrap: "wrap" }}>
+      <div className={'qr-flex'} style={{ display: "flex", flexWrap: "wrap" }} id={'data-for-image'}>
         <div className="qrDiv" id="qr_img">
           <div className="qrImg" >
             <img alt={"ca gov logo"} width="45px" src="/imgs/cagovlogo.png" />
@@ -47,6 +113,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             height="322px"
             alt={"VaccineQrCode"}
             src={qr}
+            id={'id-qr-img'}
           />
           <div
             className="smarthealthcard-container d-flex justify-content-between"
@@ -66,7 +133,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
         </div>
 
-        <div className="dataDiv">
+        <div className="dataDiv" id="data-div">
           <h2
             style={{
               color: "#22489c",
@@ -79,7 +146,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             <b>
               <Trans i18nKey="qrpage.name">Name: </Trans>
             </b>
-            {`${Normalize(user.firstName)} ${Normalize(user.lastName)}`}
+            {`${user.firstName} ${user.lastName}`}
           </p>
           <p className="qrDataItem">
             <b>
@@ -93,31 +160,44 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             <div key={`dose${idx}`}>
               <p className="qrDataItem">
                 <b>
-                  <Trans i18nKey="qrpage.dose">Dose</Trans> #{idx + 1}{" "}
+                  <Trans i18nKey="qrpage.dose">Dose</Trans>{" "}
                   <Trans i18nKey="qrpage.date">Date:</Trans>{" "}
                 </b>
                 {dose.doa}
               </p>
               <p className="qrDataItem">
                 <b>
-                  <Trans i18nKey="qrpage.dose">Dose</Trans> #{idx + 1}{" "}
+                  <Trans i18nKey="qrpage.dose">Dose</Trans>{" "}
                   <Trans i18nKey="qrpage.type">Type/Mfr:</Trans>{" "}
                 </b>
                 {dose.type}
               </p>
-              {/* <p className='qrDataItem'><b>Dose #{idx + 1} Provider: </b>{dose.provider}</p>
-                  <p className='qrDataItem'><b>Dose #{idx + 1} Lot Number: </b>{dose.lotNumber}</p> */}
               <hr />
             </div>
           ))}
-          {google === true && isMobile() === "G" ? (
-            <>
 
+          <h2
+            style={{
+              color: "#22489c",
+              margin: "20px 0px 0px 0px",
+              fontSize: "130%",
+            }}
+            data-html2canvas-ignore="true"
+            className={'mobile-save'}>
+            <Trans i18nKey="qrpage.howtosave">To Save</Trans>
+          </h2>
+          <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}>Take a screenshot<br />OR</p>
+          <div className="save-buttons" data-html2canvas-ignore="true">
+            <Button id={'print-button'} variant="contained" startIcon={<PrintIcon />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}>Print Record</Button>
+            <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon />} color={"primary"} size={'large'} className={classes.buttonLeft} onClick={handleImageSave}>Download Image</Button>
+          </div>
+
+          {google === true && isMobile() === "G" ? (
+            <div data-html2canvas-ignore="true">
               {ReactGA.event({
                 category: 'google_render',
                 action: 'Rendered GPay Button'
               })}
-
 
               <ReactGA.OutboundLink
                 eventLabel="google_button"
@@ -136,12 +216,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   Services version 21.18 &amp; above.
                 </Trans>
               </p>{" "}
-
-            </>
+            </div>
           ) : null}
 
           {isVersionGood && apple === true && isMobile() === "A" ? (
-            <>
+            <div data-html2canvas-ignore="true">
               {ReactGA.event({
                 category: 'apple_render',
                 action: 'Rendered Apple Health Button'
@@ -152,14 +231,16 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 style={{ margin: '5px 0px 0px 0px' }}
               >
                 <img
-                  width="250px"
+                  id={"apple-health-button"}
                   src={"/imgs/add-to-apple-health.svg"}
                   alt={"Works with Apple Health"}
                 />
               </ReactGA.OutboundLink>
-            </>
+            </div>
           ) : null}
-          <div>
+          {showMessage ? <p style={{ fontSize: "0.75rem" }}>Use Safari web browser to save</p> : null}
+
+          <div data-html2canvas-ignore="true">
             <h2
               style={{
                 color: "#22489c",
@@ -176,7 +257,6 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 to submit for a record review and update.
               </Trans>
             </p>
-            <ForumIcon color={"primary"} />
             <Trans i18nKey={"qrpage.linkto"}>
               Link To:{" "}
             </Trans>
