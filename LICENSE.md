@@ -9,13 +9,13 @@ This is a human-readable summary of the
 
 [Legal Code (read the full text)](https://creativecommons.org/publicdomain/zero/1.0/legalcode) and also located at the bottom section of this file.
 
-#### No copyright
+### No copyright
 
 The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law.
 
 You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
 
-#### Other information
+### Other information
 
 In no way are the patent or trademark rights of any person affected by CC0, nor are the rights that other persons may have in the work or in how the work is used, such as publicity or privacy rights.
 
@@ -26,7 +26,7 @@ Unless expressly stated otherwise, the person who associated a work with this de
 All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest
 
 
-####Creative Commons Legal Code
+# Creative Commons Legal Code
 
 CC0 1.0 Universal
 
