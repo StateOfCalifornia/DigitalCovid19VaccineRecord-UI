@@ -34,7 +34,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      $config_dest = "$(System.DefaultWorkingDirectory)\config.js"
+      $config_dest = "$(System.DefaultWorkingDirectory)\build\config.js"
       $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
       echo $content | Set-Content $config_dest;
 - task: CopyFiles@2
