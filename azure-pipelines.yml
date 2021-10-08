@@ -1,53 +1,54 @@
-
+# Node.js with React
+# Build a Node.js project that uses React.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+ 
 trigger:
-  - main
-  
+- master
+ 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
 
+# Set variables
 variables:
-  major: 1
-  minor: 0
-   
-name: $(major).$(minor)$(Rev:.r)
-  
-steps:  
+  directory: $(System.DefaultWorkingDirectory)
+  stage: development
+ 
+steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '14.x'
+    versionSpec: '10.x'
   displayName: 'Install Node.js'
-
-- task: Npm@1
-  inputs:
-    command: 'install'
-
-    
-- script: npm run build
-  displayName: "npm build"
-
+ 
+- script: 
+    npm install
+  displayName: 'npm install'
+  workingDirectory: $(directory)
+ 
+- script: 
+    set "REACT_APP_STAGE=$(stage)" && npm run build
+  displayName: 'npm build'
+  workingDirectory: $(directory)
+ 
 - task: CopyFiles@2
+  displayName: 'Copy files'
   inputs:
-    Contents: 'web.config'
-    TargetFolder: build
-
-- task: CopyFiles@2
-  displayName: 'Copy Build Files to: $(Build.ArtifactStagingDirectory)'
-  inputs:
-    SourceFolder: build
-    TargetFolder: '$(Build.ArtifactStagingDirectory)/build'
-
-# - task: CopyFiles@2
-#   displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
-#   inputs:
-#     SourceFolder: config
-#     TargetFolder: '$(Build.ArtifactStagingDirectory)/config'
-
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish artifacts: drop'
+    sourceFolder: '$(directory)/build' 
+    Contents: '**/*'
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+    cleanTargetFolder: true
+ 
 - task: ArchiveFiles@2
+  displayName: 'Archive files'
   inputs:
     rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
-    includeRootFolder: true
-    archiveType: 'zip'
-    archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    includeRootFolder: false
+    archiveType: zip
+    archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
     replaceExistingArchive: true
+ 
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish Build Artifacts'
+  inputs: 
+    pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+ 
