@@ -177,7 +177,7 @@ const CovidCard = () => {
       `${CREDENTIALS_API_STATUS}/vaccineCredentialStatus`, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json',
+        'Content-Type': 'application/json'
       },
       body: JSON.stringify(userData),
     })
@@ -200,8 +200,7 @@ const CovidCard = () => {
       })
       .catch((error) => {
         setLoading(false);
-        //setResponseMessage({ type: 'pinErrorMsg6', message: "Could not complete your request, please try again." });
-        setResponseMessage({ type: 'pinErrorMsg6', message: error.message });
+        setResponseMessage({ type: 'pinErrorMsg6', message: "Could not complete your request, please try again." });
       });
   };
 
