@@ -200,7 +200,12 @@ const CovidCard = () => {
       })
       .catch((error) => {
         setLoading(false);
+<<<<<<< HEAD
         setResponseMessage({ type: 'pinErrorMsg6', message: "Could not complete your request, please try again." });
+=======
+        //setResponseMessage({ type: 'pinErrorMsg6', message: "Could not complete your request, please try again." });
+        setResponseMessage({ type: 'pinErrorMsg6', message: error.stack });
+>>>>>>> 8d0f1ef0502224d5e776877cdaa1b76ad24fa0a7
       });
   };
 
