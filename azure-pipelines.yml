@@ -30,13 +30,13 @@ steps:
   displayName: 'npm build'
   workingDirectory: $(directory)
 
-- task: PowerShell@2
-  inputs:
-    targetType: 'inline'
-    script: |
-      $config_dest = "$(directory)\build\config.js"
-      $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
-      echo $content | Set-Content $config_dest;
+#- task: PowerShell@2
+#  inputs:
+#    targetType: 'inline'
+#    script: |
+#      $config_dest = "$(directory)\build\config.js"
+#      $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
+#      echo $content | Set-Content $config_dest;
 
 - task: CopyFiles@2
   displayName: 'Copy files'
@@ -59,4 +59,27 @@ steps:
   displayName: 'Publish Build Artifacts'
   inputs: 
     pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
- 
+
+- task: DownloadBuildArtifacts@1
+  displayName: Download Artifact
+  inputs:
+    buildType: 'current'
+    downloadType: 'single'
+    artifactName: 'drop'
+    downloadPath: '$(System.ArtifactsDirectory)'
+
+- task: PowerShell@2
+  inputs:
+    targetType: 'inline'
+    script: |
+      $config_dest = "$(System.ArtifactsDirectory)\_$(Build.DefinitionName)\drop\$(Build.BuildId)\config.js"
+      $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
+      echo $content | Set-Content $config_dest;
+
+#- task: AzureRmWebAppDeployment@4
+#  inputs:
+#    ConnectionType: 'AzureRM'
+#    azureSubscription: 'doh-sub-vaccs-01 (c47773b2-99d9-4614-8b2c-737ab9ec3e73)-1813'
+#    appType: 'webApp'
+#    WebAppName: 'app-waverify-ui-dev'
+#    packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
