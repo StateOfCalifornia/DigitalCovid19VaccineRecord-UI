@@ -72,7 +72,7 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      $config_dest = "$(System.ArtifactsDirectory)\_$(Build.DefinitionName)\drop\$(Build.BuildId)\config.js"
+      $config_dest = "$(System.ArtifactsDirectory)\drop\$(Build.BuildId).zip\config.js"
       $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
       echo $content | Set-Content $config_dest;
 
