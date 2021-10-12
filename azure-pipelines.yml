@@ -7,7 +7,7 @@ trigger:
 - master
  
 pool:
-  vmImage: 'windows-latest'
+  name: Azure Pipelines
 
 # Set variables
 variables:
@@ -47,12 +47,12 @@ stages:
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
-        rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+        rootFolderOrFile: '$(Build.BinariesDirectory)'
         includeRootFolder: false
         archiveType: zip
         archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
         replaceExistingArchive: true
- 
+    
     - task: PublishBuildArtifacts@1
       displayName: 'Publish Build Artifacts'
       inputs: 
