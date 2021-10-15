@@ -7,56 +7,174 @@ trigger:
 - master
  
 pool:
-  vmImage: 'windows-latest'
+  name: Azure Pipelines
 
 # Set variables
 variables:
   directory: $(System.DefaultWorkingDirectory)
-  stage: development
- 
-steps:
-- task: NodeTool@0
-  inputs:
-    versionSpec: '10.x'
-  displayName: 'Install Node.js'
- 
-- script: 
-    npm install
-  displayName: 'npm install'
-  workingDirectory: $(directory)
- 
-- script: 
-    set "REACT_APP_STAGE=$(stage)" && npm run build
-  displayName: 'npm build'
-  workingDirectory: $(directory)
 
-- task: PowerShell@2
-  inputs:
-    targetType: 'inline'
-    script: |
-      $config_dest = "$(directory)\build\config.js"
-      $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
-      echo $content | Set-Content $config_dest;
+stages:
+- stage: dev_build
+  displayName: Build Dev Solution
+  jobs:  
+  - job: Build
+    displayName: Build and Publish Solution
+    steps:
+    - task: NodeTool@0
+      displayName: 'Install node.js'
+      inputs:
+        versionSpec: '10.x'
 
-- task: CopyFiles@2
-  displayName: 'Copy files'
-  inputs:
-    sourceFolder: '$(directory)/build' 
-    Contents: '**/*'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-    cleanTargetFolder: true
+    - script: 
+        npm install
+      displayName: 'npm install'
+      workingDirectory: $(directory)
  
-- task: ArchiveFiles@2
-  displayName: 'Archive files'
-  inputs:
-    rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
-    includeRootFolder: false
-    archiveType: zip
-    archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-    replaceExistingArchive: true
+    - script: 
+        set "REACT_APP_STAGE=$(stage)" && npm run build
+      displayName: 'npm build'
+      workingDirectory: $(directory)
+
+    - task: PowerShell@2
+      displayName: 'Replace config.js values for Development'
+      inputs:
+        targetType: 'inline'
+        script: |
+          $config_dest = "$(directory)\build\config.js"
+          $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
+          echo $content | Set-Content $config_dest;
  
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Build Artifacts'
-  inputs: 
-    pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
- 
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: '$(directory)/build'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+    
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Build Artifacts'
+      inputs: 
+        pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+
+- stage: dev_deployment
+  displayName: Deploy Solution to Development
+  dependsOn: [dev_build]
+  jobs:
+    - deployment: dev_deployment
+      displayName: Deploy to Development Environment
+      environment: Development
+      strategy: 
+        runOnce:
+          deploy:
+            steps:
+            - task: DownloadBuildArtifacts@1
+              displayName: 'Download Artifact'
+              inputs:
+                buildType: 'current'
+                downloadType: 'single'
+                artifactName: 'drop'
+                downloadPath: '$(System.ArtifactsDirectory)'
+            - task: AzureRmWebAppDeployment@4
+              displayName: 'Azure App Service Deployment'
+              inputs:
+                ConnectionType: 'AzureRM'
+                azureSubscription: 'doh-sub-vaccs-01 (c47773b2-99d9-4614-8b2c-737ab9ec3e73)-1813'
+                appType: 'webApp'
+                WebAppName: 'app-waverify-ui-dev'
+                packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
+
+- stage: qa_deployment
+  displayName: Build & Deploy Solution to QA
+  dependsOn: [dev_deployment]
+  jobs:
+    - deployment: qa_deployment
+      displayName: Build & Deploy to QA Environment
+      environment: QA
+      strategy: 
+        runOnce:
+          deploy:
+            steps:
+            - task: PowerShell@2
+              displayName: 'Replace config.js values for QA'
+              inputs:
+                targetType: 'inline'
+                script: |
+                  $config_dest = "$(directory)\build\config.js"
+                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-qa.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-qa.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
+                  echo $content | Set-Content $config_dest;
+            - task: ArchiveFiles@2
+              displayName: 'Archive files'
+              inputs:
+                rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+                includeRootFolder: false
+                archiveType: zip
+                archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+                replaceExistingArchive: true
+            - task: PublishBuildArtifacts@1
+              displayName: 'Publish Build Artifacts'
+              inputs: 
+                pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+            - task: DownloadBuildArtifacts@1
+              displayName: 'Download Artifact'
+              inputs:
+                buildType: 'current'
+                downloadType: 'single'
+                artifactName: 'drop'
+                downloadPath: '$(System.ArtifactsDirectory)'
+            - task: AzureRmWebAppDeployment@4
+              displayName: 'Azure App Service Deployment'
+              inputs:
+                ConnectionType: 'AzureRM'
+                azureSubscription: 'doh-sub-vaccs-01 (c47773b2-99d9-4614-8b2c-737ab9ec3e73)-1813'
+                appType: 'webApp'
+                WebAppName: 'app-waverify-ui-qa'
+                packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
+
+- stage: prod_deployment
+  displayName: Build & Deploy Solution to Production
+  dependsOn: [qa_deployment]
+  jobs:
+    - deployment: prod_deployment
+      displayName: Build & Deploy to Production Environment
+      environment: Production
+      strategy: 
+        runOnce:
+          deploy:
+            steps:
+            - task: PowerShell@2
+              displayName: 'Replace config.js values for Production'
+              inputs:
+                targetType: 'inline'
+                script: |
+                  $config_dest = "$(directory)\build\config.js"
+                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-prod.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-prod.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
+                  echo $content | Set-Content $config_dest;
+            - task: ArchiveFiles@2
+              displayName: 'Archive files'
+              inputs:
+                rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
+                includeRootFolder: false
+                archiveType: zip
+                archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+                replaceExistingArchive: true
+            - task: PublishBuildArtifacts@1
+              displayName: 'Publish Build Artifacts'
+              inputs: 
+                pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+            - task: DownloadBuildArtifacts@1
+              displayName: 'Download Artifact'
+              inputs:
+                buildType: 'current'
+                downloadType: 'single'
+                artifactName: 'drop'
+                downloadPath: '$(System.ArtifactsDirectory)'
+            - task: AzureRmWebAppDeployment@4
+              displayName: 'Azure App Service Deployment'
+              inputs:
+                ConnectionType: 'AzureRM'
+                azureSubscription: 'doh-sub-vaccs-01 (c47773b2-99d9-4614-8b2c-737ab9ec3e73)-1813'
+                appType: 'webApp'
+                WebAppName: 'app-waverify-ui-prod'
+                packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
