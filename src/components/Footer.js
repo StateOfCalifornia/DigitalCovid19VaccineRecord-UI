@@ -19,7 +19,7 @@ const Footer = () => {
                             to={'https://www.wa.gov/'}
                             target="_blank"
                         >
-                            <Trans i18nKey="footer.home">CA.gov home</Trans>
+                            <Trans i18nKey="footer.home">WA.gov home</Trans>
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
@@ -36,7 +36,7 @@ const Footer = () => {
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov_privacy"
-                            to={'https://www.ca.gov/privacy-policy/'}
+                            to={'https://www.wa.gov/privacy-policy/'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.privacypolicy">Privacy Policy</Trans>
@@ -46,7 +46,7 @@ const Footer = () => {
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov_accessibility"
-                            to={'https://www.ca.gov/accessibility/'}
+                            to={'https://www.wa.gov/accessibility/'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.accessibility">Accessibility</Trans>

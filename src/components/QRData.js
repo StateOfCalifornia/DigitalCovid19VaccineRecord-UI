@@ -262,7 +262,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </Trans>
             <ReactGA.OutboundLink
               eventLabel="virtual_assistant"
-              to={'https://chat.myturn.ca.gov/?id=17'}
+              to={'https://doh.wa.gov/?id=17'}
               target="_blank"
               style={{
                 color: "#0d6efd",

@@ -44,21 +44,6 @@ const ReceivedScreen = () => {
                     textDecoration: "underline",
                   }}>visit our FAQ</a>.
               </Trans>
-              {/* <Trans i18nKey="receivedpage.content3">
-                If you need further assistance, you may contact your vaccine
-                provider directly or{" "}
-                <a
-                  href="http://cdph.ca.gov/covidvaccinerecord"
-                  style={{
-                    color: "#0d6efd",
-                    margin: "0",
-                    textDecoration: "underline",
-                  }}
-                >
-                  submit a request
-                </a>{" "}
-                with the California Department of Public Health.
-              </Trans> */}
             </p>
           </div>
         </article>

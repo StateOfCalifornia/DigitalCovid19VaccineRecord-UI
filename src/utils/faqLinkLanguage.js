@@ -5,32 +5,32 @@ const faqLinkLanguage = () => {
   let hyperlink;
   switch (browserLanguage) {
     case 'en' || 'us':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq';
+      hyperlink = 'https://waverify.com/faq';
       break;
     case 'es':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-es';
+      hyperlink = 'https://waverify.com/faq-es';
       break;
     case 'cn':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ch ';
+      hyperlink = 'https://waverify.com/faq-ch ';
       break;
     case 'ae':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ar';
+      hyperlink = 'https://waverify.com/faq-ar';
       break;
     case 'kr':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ko';
+      hyperlink = 'https://waverify.com/faq-ko';
       break;
     case 'ph':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-tg';
+      hyperlink = 'https://waverify.com/faq-tg';
       break;
     case 'tw':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ch-hant';
+      hyperlink = 'https://waverify.com/faq-ch-hant';
       break;
     case 'vi':
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-vi';
+      hyperlink = 'https://waverify.com/faq-vi';
       break;
     default:
       // default is english
-      hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq';
+      hyperlink = 'https://waverify.com/faq';
   }
 
   return hyperlink;

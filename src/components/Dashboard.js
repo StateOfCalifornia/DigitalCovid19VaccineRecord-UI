@@ -77,7 +77,7 @@ const Dashboard = () => {
               everyone age 12 and up,
               <ReactGA.OutboundLink
                 eventLabel="myturn"
-                to={"https://myturn.ca.gov"}
+                to={"https://waverify.com"}
                 target="_blank"
                 style={{
                   display: "inline",
