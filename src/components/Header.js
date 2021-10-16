@@ -52,7 +52,7 @@ const Header = () => {
           <div className="subheaderContainer">
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of California">
-                <img src="/imgs/cagovlogo.png" alt="CA.Gov Logo" height="20px" width='50px' style={{ paddingRight: '20px' }} />
+                <img src="/imgs/govlogo.png" alt="CA.Gov Logo" height="20px" width='50px' style={{ paddingRight: '20px' }} />
                 <span style={{ verticalAlign: 'middle' }}>State of California</span>
               </div>
               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
@@ -91,7 +91,7 @@ const Header = () => {
                 alt={"CDT Logo"}
                 width="58px"
                 height='62px'
-                src="/imgs/cagovlogov2.png"
+                src="/imgs/govlogov2.png"
               />
               <span className='logoDescription' style={{ fontSize: '18px', display: 'inline-block', paddingLeft: '17px', color: '#22489c' }}>Digital COVID-19 <br /> Vaccine Record</span>
             </Link>
