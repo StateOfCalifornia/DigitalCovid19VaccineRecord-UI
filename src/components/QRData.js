@@ -104,8 +104,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
       <div className={'qr-flex'} style={{ display: "flex", flexWrap: "wrap" }} id={'data-for-image'}>
         <div className="qrDiv" id="qr_img">
           <div className="qrImg" >
-            <img alt={"ca gov logo"} width="45px" src="/imgs/cagovlogo.png" />
-            State of California
+            <img alt={"gov logo"} width="45px" src="/imgs/govlogo.png" />
+            State of Washington
           </div>
           <img
             className={'actual-qr-img'}
@@ -262,7 +262,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </Trans>
             <ReactGA.OutboundLink
               eventLabel="virtual_assistant"
-              to={'https://chat.myturn.ca.gov/?id=17'}
+              to={'https://doh.wa.gov/?id=17'}
               target="_blank"
               style={{
                 color: "#0d6efd",

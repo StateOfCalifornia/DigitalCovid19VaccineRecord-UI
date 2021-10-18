@@ -12,21 +12,21 @@ const Footer = () => {
         <footer style={{ padding: '20px 0', backgroundColor: '#F9F9F9' }}>
             <div className='footerContainer' style={{ position: 'relative' }}>
                 <ul style={{ paddingLeft: '0' }} className="footerLinks">
-                    <li><img src="/imgs/cagovlogo.png" height='25px' width='40px' alt="CA.gov Footer Logo" /></li>
+                    <li><img src="/imgs/govlogo.png" height='25px' width='40px' alt="WA.gov Footer Logo" /></li>
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov"
-                            to={'https://www.ca.gov/'}
+                            to={'https://www.wa.gov/'}
                             target="_blank"
                         >
-                            <Trans i18nKey="footer.home">CA.gov home</Trans>
+                            <Trans i18nKey="footer.home">WA.gov home</Trans>
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov_use"
-                            to={'https://www.ca.gov/use'}
+                            to={'https://www.wa.gov/use'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.conditionsofuse">Conditions of Use</Trans>
@@ -36,7 +36,7 @@ const Footer = () => {
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov_privacy"
-                            to={'https://www.ca.gov/privacy-policy/'}
+                            to={'https://www.wa.gov/privacy-policy/'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.privacypolicy">Privacy Policy</Trans>
@@ -46,7 +46,7 @@ const Footer = () => {
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov_accessibility"
-                            to={'https://www.ca.gov/accessibility/'}
+                            to={'https://www.wa.gov/accessibility/'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.accessibility">Accessibility</Trans>

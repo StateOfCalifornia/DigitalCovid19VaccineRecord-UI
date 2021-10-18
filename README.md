@@ -67,7 +67,7 @@ Welcome to the State of California's Digital COVID-19 Vaccine Record (DCVR). The
 3.	Use the command npm run start to start the application.
 ________________________________________
 
-![Digital Vaccine Record QR Code Example](/public/imgs/docs/sample-qr.png "Digital Vaccine Record QR Code Example")
+![Digital Vaccine Record QR Code Example](/public/imgs/docs/sample-qr_generic.png "Digital Vaccine Record QR Code Example")
 
 # Configuration
 The URLs found in public/config.js will need to be updated to point to the API that you intend to call to retrieve vaccination data.
