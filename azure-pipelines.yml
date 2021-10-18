@@ -35,6 +35,13 @@ stages:
       displayName: 'npm build'
       workingDirectory: $(directory)
 
+    - task: CopyFiles@2
+      displayName: 'Copy web.config to build folder'
+      inputs:
+        SourceFolder: '$(directory)/'
+        Contents: 'web.config'
+        TargetFolder: '$(directory)/build'
+
     - task: PowerShell@2
       displayName: 'Replace config.js values for Development'
       inputs:
@@ -47,7 +54,7 @@ stages:
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
-        rootFolderOrFile: '$(directory)/build'
+        rootFolderOrFile: 'build'
         includeRootFolder: false
         archiveType: zip
         archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
