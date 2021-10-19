@@ -78,8 +78,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
           setLoading(false);
         }
         else if (res.status === 422) {
-          setErrorMessage({ type: 'pinErrorMsg5', message: res.json()});
-          //setErrorMessage({ type: 'pinErrorMsg5', message: "Please contact CDPH for more info on your vaccine records." });
+          setErrorMessage({ type: 'pinErrorMsg5', message: "Please contact CDPH for more info on your vaccine records." });
           setLoading(false);
         }
         else if (res.status !== 200) {
@@ -101,7 +100,8 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
       })
       .catch((err) => {
         setLoading(false);
-        setErrorMessage({ type: 'pinErrorMsg6', message: "Could not connect right now, please retry later." });
+        setErrorMessage({ type: 'pinErrorMsg6', message: err.message });
+        //setErrorMessage({ type: 'pinErrorMsg6', message: "Could not connect right now, please retry later." });
       });
   };
 
