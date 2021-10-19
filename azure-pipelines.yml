@@ -48,7 +48,7 @@ stages:
         targetType: 'inline'
         script: |
           $config_dest = "$(directory)\build\config.js"
-          $content = "window.config = { CREDENTIALS_API_STATUS:'https://dev-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://dev-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+          $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-dev.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
           echo $content | Set-Content $config_dest;
  
     - task: ArchiveFiles@2
@@ -109,7 +109,7 @@ stages:
                 targetType: 'inline'
                 script: |
                   $config_dest = "$(directory)\build\config.js"
-                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-qa.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-qa.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
                   echo $content | Set-Content $config_dest;
             - task: ArchiveFiles@2
               displayName: 'Archive files'
@@ -156,7 +156,7 @@ stages:
                 targetType: 'inline'
                 script: |
                   $config_dest = "$(directory)\build\config.js"
-                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://app-waverify-api-prod.azurewebsites.net', CREDENTIALS_API_QR:'https://app-waverify-api-prod.azurewebsites.net', CREDENTIALS_GA_DEPARTMENT: ''};"
                   echo $content | Set-Content $config_dest;
             - task: ArchiveFiles@2
               displayName: 'Archive files'
