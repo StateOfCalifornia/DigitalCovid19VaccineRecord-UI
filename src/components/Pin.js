@@ -78,7 +78,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
           setLoading(false);
         }
         else if (res.status === 422) {
-          setErrorMessage({ type: 'pinErrorMsg5', message: res.message});
+          setErrorMessage({ type: 'pinErrorMsg5', message: res.json()});
           //setErrorMessage({ type: 'pinErrorMsg5', message: "Please contact CDPH for more info on your vaccine records." });
           setLoading(false);
         }
