@@ -51,7 +51,7 @@ const Dashboard = () => {
             </p>
             <p>
             <Trans i18nKey="dashboardpage.content4">
-                If you have any more questions about your Digital COVID-19 Vaccine Record, <a href="~/faq" target='_blank' rel="noreferrer" href={faqLinkLanguage()} style={{
+                If you have any more questions about your Digital COVID-19 Vaccine Record, <a target='_blank' rel="noreferrer" href={faqLinkLanguage()} style={{
                   color: "#0d6efd",
                   margin: "0",
                   textDecoration: "underline",
