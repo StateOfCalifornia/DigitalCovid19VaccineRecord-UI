@@ -51,9 +51,9 @@ const Header = () => {
         <div className="fluid-container">
           <div className="subheaderContainer">
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
-              <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of California">
+              <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
                 <img src="/imgs/govlogo.png" alt="Gov Logo" height="20px" width='50px' style={{ paddingRight: '20px' }} />
-                <span style={{ verticalAlign: 'middle' }}>State of California</span>
+                <span style={{ verticalAlign: 'middle' }}>State of Washington</span>
               </div>
               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
                 <ul className='translationList'>

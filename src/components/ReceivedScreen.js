@@ -65,7 +65,7 @@ const ReceivedScreen = () => {
         <article>
           <p style={{ fontWeight: "300", fontSize: "1rem" }}>
             <Trans i18nKey="receivedpage.privacy1">
-              The California Department of Public Health (CDPH) created the
+              The Washington State Department of Health (WADOH) created the
               Digital Vaccine Record (DCVR) for use by individuals who wish to
               receive a quick response code (QR Code) for use as proof of
               COVID-19 vaccination. The information is collected pursuant to
@@ -74,9 +74,7 @@ const ReceivedScreen = () => {
               information is mandatory to receive a QR Code; not supplying the
               requested information will result in an inability to use DCVR.
               Please note that any and all information collected in the DCVR may
-              be disclosed to the California State Auditor, the California
-              Office of Health Information Integrity, the California Office of
-              Information Security, or other state and federal agencies as
+              be disclosed to the Washington State Auditor or other state and federal agencies as
               required by law.
             </Trans>
           </p>
@@ -85,11 +83,9 @@ const ReceivedScreen = () => {
           <p style={{ fontWeight: "300", fontSize: "1rem" }}>
             <Trans i18nKey="receivedpage.privacy2">
               You have the right to review records CDPH maintains about you.
-              CDPH will, upon request, inform you of the location of your
+              WADOH will, upon request, inform you of the location of your
               records and the categories of persons who use the information in
-              those records. For more information, contact Chief, Immunization
-              Branch, California Department of Public Health, 850 Marina Bay
-              Pkwy, Bldg. P, Richmond, CA 94804 or by phone (800) 578-7889.
+              those records. 
             </Trans>
           </p>
         </article>

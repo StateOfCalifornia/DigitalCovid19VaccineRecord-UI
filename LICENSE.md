@@ -1,5 +1,5 @@
 # License
-As a work of the California State government, this project is in the public domain.
+As a work of the Washington State government, this project is in the public domain.
 
 Additionally, we waive copyright and related rights in the work worldwide through the [CC0 1.0 Universal public domain dedication](https://creativecommons.org/publicdomain/zero/1.0/).
 
