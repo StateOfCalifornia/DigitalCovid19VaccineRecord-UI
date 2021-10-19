@@ -24,7 +24,7 @@
     "react-ga": "^3.3.0",
     "react-i18next": "^11.8.15",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^3.4.4",
     "react-text-mask": "^5.4.3",
     "sass": "^1.32.13",
     "web-vitals": "^1.1.2"

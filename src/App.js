@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import QrScreen from "./components/QrScreen";
 import ReceivedScreen from "./components/ReceivedScreen";
+import ReceivedScreen from "./components/FAQScreen";
 import { MuiPickersUtilsProvider } from "@material-ui/pickers";
 import DayJsUtils from "@date-io/dayjs";
 import "./i18n";
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
           <Route path="/qr/:lang/:id" component={QrScreen} />
+          <Route path="/faq" component={FAQScreen} />
         </Router>
         <Footer />
       </div>
