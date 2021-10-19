@@ -533,7 +533,7 @@ const CovidCard = () => {
               <div>
                 <Trans i18nKey="vaccineform.checkboxdescription">
                   By checking this box, you are declaring under penalty of perjury
-                  under the laws of the State of California that you are the
+                  that you are the
                   Patient or Parent/Guardian of the Patient and are therefore
                   authorized to access the Patient’s immunization record.
                 </Trans>
