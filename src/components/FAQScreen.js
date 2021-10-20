@@ -7,7 +7,7 @@ const FAQScreen = () => {
   }, []);
 
   return (
-    <div className={"FAQ-screen-container bodyContainer"}>
+    <div className={"received-screen-container bodyContainer"}>
       <section>
         <div>
           <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px" }}>
@@ -17,7 +17,7 @@ const FAQScreen = () => {
           </h1>
         </div>
         <div>
-        <dl class="faq">
+        <dl class={"faq"}>
           <dt>
             <button aria-expanded="false" aria-controls="faq01_desc">
               What is a Digital COVID-19 Verification Record?
