@@ -2,7 +2,7 @@
 pr:
   branches:
     include:
-    - master
+    - main
     - releases/*
   
 pool:
