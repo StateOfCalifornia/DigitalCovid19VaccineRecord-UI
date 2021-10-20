@@ -14,7 +14,7 @@
     "content1": "Welcome to the Digital COVID-19 Verification Record system. Enter a few details below to get a link to a QR code and digital copy of your COVID-19 verification record. If you want to share proof of vaccination, you can use either the electronic or a printed version of the record you’ll get from the system.",
     "content2": "People within a family may have multiple verification records associated with a single phone number or email address, enter each digital verification record request separately.",
     "content3": "The system provides a digital copy of state vaccine records. If you received your vaccinations from a federal agency (Department of Defense, Indian Health Services, or Veterans Affairs), you will need to contact those agencies for assistance.",
-    "content4": "If you have questions about your Digital COVID-19 Verification Record, visit the Frequently Asked Questions (FAQ)."
+    "content4": "If you have questions about your Digital COVID-19 Verification Record, visit the Frequently Asked Questions (<Link to='/FAQ'>FAQ</Link>)."
   },
   "vaccineform": {
     "filloutheader": "Please fill out the required fields to receive a link to a QR code / digital copy of your COVID-19 Verification Record:",
