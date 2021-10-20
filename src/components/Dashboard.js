@@ -2,7 +2,7 @@ import React from "react";
 import ReactGA from "react-ga";
 import CovidCard from "./CovidCard";
 import { Trans } from "react-i18next";
-import faqLinkLanguage from "../utils/faqLinkLanguage";
+//import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from "../utils/AppController";
 
 const Dashboard = () => {
@@ -51,7 +51,7 @@ const Dashboard = () => {
             </p>
             <p>
             <Trans i18nKey="dashboardpage.content4">
-                If you have any more questions about your Digital COVID-19 Vaccine Record, <a target='_blank' rel="noreferrer" href={faqLinkLanguage()} style={{
+                If you have any more questions about your Digital COVID-19 Vaccine Record, <a target='_blank' rel="noreferrer" href="../FAQ" style={{
                   color: "#0d6efd",
                   margin: "0",
                   textDecoration: "underline",
