@@ -14,6 +14,7 @@ import "./i18n";
 import "./styles/CovidCard-style.css";
 import "./styles/override/styles.scss";
 import { useTranslation } from "react-i18next";
+import SplashScreen from "./components/SplashScreen";
 
 const { CREDENTIALS_GA_DEPARTMENT } = window.config;
 
@@ -29,6 +30,7 @@ function App() {
       <div className="App">
         <Router>
           <Header />
+          <Route exact path="/SplashScreen" component={SplashScreen} />
           <Route exact path="/" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
           <Route path="/FAQ" component={FAQScreen} />
