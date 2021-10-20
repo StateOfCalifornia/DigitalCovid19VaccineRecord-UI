@@ -12,12 +12,12 @@ const FAQScreen = () => {
         <div>
           <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px" }}>
             <Trans i18nKey="FAQpage.title">
-              Digital COVID-19 Vaccine Record Submission Receipt
+              Digital COVID-19 Vaccine Record FAQ
             </Trans>
           </h1>
         </div>
         <div>
-        <dl class={"faq"}>
+        <dl className={"faq"}>
           <dt>
             <button aria-expanded="false" aria-controls="faq01_desc">
               What is a Digital COVID-19 Verification Record?
