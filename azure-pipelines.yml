@@ -1,6 +1,9 @@
 
-trigger:
-  - main
+pr:
+  branches:
+    include:
+    - master
+    - releases/*
   
 pool:
   vmImage: 'ubuntu-latest'
