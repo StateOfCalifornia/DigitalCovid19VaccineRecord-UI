@@ -133,11 +133,11 @@ dl.faq button {
   }
   
   dl.faq button[aria-expanded="false"]::before {
-    content: url('right-arrow-brown.png');
+    content: url('../right-arrow-brown.png');
     padding-right: 0.35em;
   }
   
   dl.faq button[aria-expanded="true"]::before {
-    content: url('down-arrow-brown.png');
+    content: url('../down-arrow-brown.png');
     padding-right: 0.35em;
   }
