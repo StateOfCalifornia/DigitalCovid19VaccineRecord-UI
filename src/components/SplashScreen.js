@@ -9,7 +9,13 @@ const SplashScreen = () => {
 
   return (
     <div className={"received-screen-container bodyContainer"}>
-      Splash Screen
+      <div>
+        <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px" }}>
+          <Trans i18nKey="SplashScreenpage.title">
+            Welcome to WA Verify!
+          </Trans>
+        </h1>
+      </div>         
     </div>
   );  
 };
