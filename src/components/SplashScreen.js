@@ -24,23 +24,39 @@ const SplashScreen = () => {
       <div style={{ border: "1px solid black"}}>
         {/* Left Pane */}
         <div id="PaneLeft">
-              WA Verify<br />
-              <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo" /><br />
-              If you are looking for your State COVID-19 Verification Record with QR Code
-              <ul>
-                <li>*Available in 40 languages</li>
-                <li>*SMART Health Card compatible</li>
-              </ul>
-              <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" />
-              <img src="/imgs/smart-logo.svg"  alt="SmartHealth Logo" />
-              <div style={{ border: "1px solid black", background: "lightgreen"}}>
-                <Link to="/Dashboard"  style={{
-                color: "#0d6efd",
-                margin: "0",
-                textDecoration: "underline",
-                }}>Access Here</Link>
-              </div>                
-            </div>        
+          WA Verify<br />
+          <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo" /><br />
+          If you are looking for your State COVID-19 Verification Record with QR Code
+          <ul>
+            <li>*Available in 40 languages</li>
+            <li>*SMART Health Card compatible</li>
+          </ul>
+          <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" />
+          <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", width: "35px" }}  alt="SmartHealth Logo" />
+          <div style={{ border: "1px solid black", background: "lightgreen"}}>
+            <Link to="/Dashboard"  style={{
+            color: "#0d6efd",
+            margin: "0",
+            textDecoration: "underline",
+            }}>Access Here</Link>
+          </div>             
+        </div>  
+        {/* Center Pane */}
+        <div id="PaneCenter">
+          MyIR Mobile<br />
+          <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" /><br />
+          If you are looking for your household’s state COVID-19 Certificate
+          <ul>
+            <li>Only in English</li>
+          </ul>
+          <div style={{ border: "1px solid black", background: "lightgreen"}}>
+            <Link to="/Dashboard"  style={{
+            color: "#0d6efd",
+            margin: "0",
+            textDecoration: "underline",
+            }}>Register Here</Link>
+          </div>                
+        </div>              
       </div>               
     </div>
 
