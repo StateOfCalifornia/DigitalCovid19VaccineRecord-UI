@@ -1,10 +1,7 @@
 import React from "react";
-import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
-import CovidCard from "./CovidCard";
 import { Trans } from "react-i18next";
 //import faqLinkLanguage from "../utils/faqLinkLanguage";
-import AppController from "../utils/AppController";
 
 const SplashScreen = () => {
   return (
@@ -23,11 +20,71 @@ const SplashScreen = () => {
             WA Verify Splash Page
             </Trans>
           </h1>          
-          <table>
-            <tr>
+            <div style="text-align: center;">
+              Welcome to WA Verify!
+              <br />
+              To access your online verification records, please select from the options below.
+              <br />
+              If you have questions about WA Verify, please call 800-525-0127, press #
+            </div>
+            <div style="border: 1px solid black;">
+              {/* Left Pane */}
+              <div id="PaneLeft">
+                WA Verify<br />
+                <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo" /><br />
+                If you are looking for your State COVID-19 Verification Record with QR Code
+                <ul>
+                  <li>*Available in 40 languages</li>
+                  <li>*SMART Health Card compatible</li>
+                </ul>
+                <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" />
+                <img src="/imgs/smart-logo.svg"  alt="SmartHealth Logo" />
+                <div style="border: 1px solid black; background-color: lightgreen;">
+                  <Link to="/Dashboard"  style={{
+                  color: "#0d6efd",
+                  margin: "0",
+                  textDecoration: "underline",
+                  }}>Access Here</Link>
+                </div>                
+              </div>
 
-            </tr>
-          </table>
+              {/* Center Pane */}
+              <div id="PaneCenter">
+                MyIR Mobile<br />
+                <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" /><br />
+                If you are looking for your household’s state COVID-19 Certificate
+                <ul>
+                  <li>Only in English</li>
+                </ul>
+                <div style="border: 1px solid black; background-color: lightgreen;">
+                  <Link to="/Dashboard"  style={{
+                  color: "#0d6efd",
+                  margin: "0",
+                  textDecoration: "underline",
+                  }}>Register Here</Link>
+                </div>                
+              </div>
+
+              {/* Right Pane */}
+              <div id="PaneRight">
+              State School Certificate of Immunizations<br />
+                <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" /><br />
+                If you are looking for your children’s State School Certificate of Immunizations
+                <ul>
+                  <li>Only in English</li>
+                </ul>
+                <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" />
+                <img src="/imgs/smart-logo.svg"  alt="SmartHealth Logo" />
+              </div>
+              <div style="border: 1px solid black; background-color: lightgreen;">
+              <Link to="/Dashboard"  style={{
+                  color: "#0d6efd",
+                  margin: "0",
+                  textDecoration: "underline",
+                }}>Access Here</Link>
+                </div>                                
+            </div>
+            
         </section>
       </div>
     </div>

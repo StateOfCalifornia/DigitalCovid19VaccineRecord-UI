@@ -7,6 +7,7 @@ const FAQScreen = () => {
   }, []);
 
   return (
+    
     <div className={"received-screen-container bodyContainer"}>
       <section>
         <div>
