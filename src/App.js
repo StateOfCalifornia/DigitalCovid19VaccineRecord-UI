@@ -30,10 +30,10 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <Route exact path="/SplashScreen" component={SplashScreen} />
           <Route exact path="/" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
           <Route path="/FAQ" component={FAQScreen} />
+          <Route path="/SplashScreen" component={SplashScreen} />          
           <Route path="/qr/:lang/:id" component={QrScreen} />
         </Router>
         <Footer />
