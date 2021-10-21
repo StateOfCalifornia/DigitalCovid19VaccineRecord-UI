@@ -15,7 +15,12 @@ const SplashScreen = () => {
             Welcome to WA Verify!
           </Trans>
         </h1>
-      </div>         
+      </div>
+      <div style="text-align: center;">
+            To access your online verification records, please select from the options below.
+            <br />
+            If you have questions about WA Verify, please call 800-525-0127, press #
+      </div>                  
     </div>
   );  
 };
