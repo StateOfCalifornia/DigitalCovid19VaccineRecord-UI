@@ -103,26 +103,6 @@ stages:
         runOnce:
           deploy:
             steps:
-            - task: PowerShell@2
-              displayName: 'Replace config.js values for QA'
-              inputs:
-                targetType: 'inline'
-                script: |
-                  $config_dest = "$(directory)\build\config.js"
-                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
-                  echo $content | Set-Content $config_dest;
-            - task: ArchiveFiles@2
-              displayName: 'Archive files'
-              inputs:
-                rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
-                includeRootFolder: false
-                archiveType: zip
-                archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-                replaceExistingArchive: true
-            - task: PublishBuildArtifacts@1
-              displayName: 'Publish Build Artifacts'
-              inputs: 
-                pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
             - task: DownloadBuildArtifacts@1
               displayName: 'Download Artifact'
               inputs:
@@ -130,6 +110,14 @@ stages:
                 downloadType: 'single'
                 artifactName: 'drop'
                 downloadPath: '$(System.ArtifactsDirectory)'
+            - task: PowerShell@2
+              displayName: 'Replace appsettings.json values for Development'
+              inputs:
+                targetType: 'inline'
+                script: |
+                  $config_dest = "$(System.ArtifactsDirectory)/**/*.zip/config.js"
+                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+                  echo $content | Set-Content $config_dest;
             - task: AzureRmWebAppDeployment@4
               displayName: 'Azure App Service Deployment'
               inputs:
