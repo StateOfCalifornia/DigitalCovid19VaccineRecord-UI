@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 
 import Dashboard from "./components/Dashboard";
+import SplashScreen from "./components/SplashScreen";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import QrScreen from "./components/QrScreen";
@@ -29,7 +30,7 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <Route exact path="/Splash" component={SplashScreen} />
+          <Route exact path="/SplashScreen" component={SplashScreen} />
           <Route exact path="/" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
           <Route path="/FAQ" component={FAQScreen} />
