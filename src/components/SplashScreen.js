@@ -23,33 +23,32 @@ const SplashScreen = () => {
       </div> 
       <div style={{ borderColor: 'black', borderWidth: 1, paddingTop: 10, paddingTop: 30, height: 500}}>
         <table>
-          <tr style={{height: "100%", border: 1, borderWidth: 1, borderColor: "black"}}>
-            <td id="PaneLeft" style={{width: "33%"}}>
-              <h3 style={{ textAlign: "center"}}>WA Verify</h3>
-              <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo" /><br />
-                If you are looking for your State COVID-19 Verification Record with QR Code
-              <ul>
-                <li>*Available in 40 languages</li>
-                <li>*SMART Health Card compatible</li>
-              </ul>
-              <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" style={{ alignSelf: "baseline", height: "35px" }} />
-              <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", height: "35px" }}  alt="SmartHealth Logo" />
+          <tr style={{height: "100%", border: 1, borderWidth: 1, borderColor: "black" }}>
+            <td id="PaneLeft" style={{width: "33%",  textAlign: "center"}}>
+              <h3 >WA Verify</h3>
+              <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo"  />
+              <p>If you are looking for your State COVID-19 Verification Record with QR Code</p>
+              <p  style={{ textAlign: "left", paddingTop: 30}}>*Available in 40 languages</p>
+              <p  style={{ textAlign: "left"}}>*SMART Health Card compatible</p>
+              <div style={{ textAlign: "center"}}>
+                <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" style={{ alignSelf: "baseline", height: "35px", paddingRight: 10 }} />
+                <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", height: "35px" }}  alt="SmartHealth Logo" />
+              </div>
             </td>
-            <td id="PaneCenter" style={{width: "33%"}}>
+            <td id="PaneCenter" style={{width: "33%",  textAlign: "center"}}>
               <h3 style={{ textAlign: "center"}}>MyIR Mobile</h3>
-              <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" /><br />
-              If you are looking for your household’s state COVID-19 Certificate
-              <ul>
-                <li>Only in English</li>
-              </ul>
+              <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" />
+              <p>If you are looking for your household’s state COVID-19 Certificate</p>
+              <p  style={{ textAlign: "left", paddingTop: 30}}>Only in English</p>
+
             </td>    
-            <td id="PaneRight" style={{width: "33%"}}>
+            <td id="PaneRight" style={{width: "33%",  textAlign: "center"}}>
               <h3 style={{ textAlign: "center"}}>State School Certificate of Immunizations</h3>
-              <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" /><br />
-              If you are looking for your children’s State School Certificate of Immunizations
-              <ul>
-                <li>Only in English</li>
-              </ul>
+              <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" />
+              <p>If you are looking for your children’s State School Certificate of Immunizations</p>
+              <p  style={{ textAlign: "left", paddingTop: 30}}>Only in English</p>
+
+
             </td>                    
           </tr>
           <tr style={{height: "100%", border: 1, borderWidth: 1, borderColor: "black"}}>
