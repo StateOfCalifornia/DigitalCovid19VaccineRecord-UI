@@ -23,7 +23,7 @@ const SplashScreen = () => {
       </div> 
       <div style={{ border: "1px solid black"}}>
         {/* Left Pane */}
-        <div id="PaneLeft">
+        <div id="PaneLeft" style={{  float: "left"}}>
           WA Verify<br />
           <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo" /><br />
           If you are looking for your State COVID-19 Verification Record with QR Code
@@ -31,8 +31,8 @@ const SplashScreen = () => {
             <li>*Available in 40 languages</li>
             <li>*SMART Health Card compatible</li>
           </ul>
-          <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" />
-          <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", width: "35px" }}  alt="SmartHealth Logo" />
+          <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" style={{ alignSelf: "baseline", height: "35px" }} />
+          <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", height: "35px" }}  alt="SmartHealth Logo" />
           <div style={{ border: "1px solid black", background: "lightgreen"}}>
             <Link to="/Dashboard"  style={{
             color: "#0d6efd",
@@ -42,7 +42,7 @@ const SplashScreen = () => {
           </div>             
         </div>  
         {/* Center Pane */}
-        <div id="PaneCenter">
+        <div id="PaneCenter" style={{  float: "left"}}>
           MyIR Mobile<br />
           <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" /><br />
           If you are looking for your household’s state COVID-19 Certificate
@@ -50,12 +50,28 @@ const SplashScreen = () => {
             <li>Only in English</li>
           </ul>
           <div style={{ border: "1px solid black", background: "lightgreen"}}>
-            <Link to="/Dashboard"  style={{
+            <Link to="/"  style={{
             color: "#0d6efd",
             margin: "0",
             textDecoration: "underline",
             }}>Register Here</Link>
-          </div>                
+          </div> 
+          {/* Right Pane */}
+          <div id="PaneRight">
+            State School Certificate of Immunizations<br />
+              <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" /><br />
+              If you are looking for your children’s State School Certificate of Immunizations
+              <ul>
+                <li>Only in English</li>
+              </ul>
+              <div style={{ border: "1px solid black", background: "lightgreen"}}>
+                <Link to="/"  style={{
+                color: "#0d6efd",
+                margin: "0",
+                textDecoration: "underline",
+                }}>Access Here</Link>
+              </div>              
+            </div>                         
         </div>              
       </div>               
     </div>
