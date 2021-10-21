@@ -21,11 +21,11 @@ const SplashScreen = () => {
             <br />
             If you have questions about WA Verify, please call 800-525-0127, press #
       </div> 
-      <div style={{ borderColor: 'black', borderWidth: 1, paddingTop: 10, paddingTop: 30, height: 500}}>
+      <div style={{ borderColor: 'black', borderWidth: 1, borderStyle: "solid", paddingTop: 10, paddingTop: 30, height: 500}}>
         <table>
-          <tr style={{height: "100%", border: 1, borderWidth: 1, borderColor: "black" }}>
-            <td id="PaneLeft" style={{width: "33%",  textAlign: "center"}}>
-              <h3 >WA Verify</h3>
+          <tr style={{height: "100%", borderStyle: "solid", borderWidth: 1, borderColor: "black" }}>
+            <td id="PaneLeft" style={{width: "33%",  textAlign: "center", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+              <h5 >WA Verify</h5>
               <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo"  />
               <p>If you are looking for your State COVID-19 Verification Record with QR Code</p>
               <p  style={{ textAlign: "left", paddingTop: 30}}>*Available in 40 languages</p>
@@ -35,15 +35,15 @@ const SplashScreen = () => {
                 <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", height: "35px" }}  alt="SmartHealth Logo" />
               </div>
             </td>
-            <td id="PaneCenter" style={{width: "33%",  textAlign: "center"}}>
-              <h3 style={{ textAlign: "center"}}>MyIR Mobile</h3>
+            <td id="PaneCenter" style={{width: "33%",  textAlign: "center", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+              <h5 style={{ textAlign: "center"}}>MyIR Mobile</h5>
               <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" />
               <p>If you are looking for your household’s state COVID-19 Certificate</p>
               <p  style={{ textAlign: "left", paddingTop: 30}}>Only in English</p>
 
             </td>    
-            <td id="PaneRight" style={{width: "33%",  textAlign: "center"}}>
-              <h3 style={{ textAlign: "center"}}>State School Certificate of Immunizations</h3>
+            <td id="PaneRight" style={{width: "33%",  textAlign: "center", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+              <h5 style={{ textAlign: "center"}}>State School Certificate of Immunizations</h5>
               <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" />
               <p>If you are looking for your children’s State School Certificate of Immunizations</p>
               <p  style={{ textAlign: "left", paddingTop: 30}}>Only in English</p>
@@ -51,20 +51,20 @@ const SplashScreen = () => {
 
             </td>                    
           </tr>
-          <tr style={{height: "100%", border: 1, borderWidth: 1, borderColor: "black"}}>
-            <td style={{width: "33%"}}>
-              <div style={{ borderColor: 'black', borderWidth: 1, background: "lightgreen"}}>
-                <Link to="/Dashboard"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Access Here</Link>
+          <tr style={{height: "100%", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+            <td style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+              <div style={{ borderStyle: "solid", borderWidth: 1, borderColor: "black", background: "#73b82e"}}>
+                <Link to="/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Access Here</Link>
               </div>  
             </td>
-            <td  style={{width: "33%"}}>
-              <div style={{ borderColor: 'black', borderWidth: 1, background: "lightgreen"}}>
-                <Link to="/Dashboard"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
+            <td  style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+              <div style={{ borderStyle: "solid", borderWidth: 1, borderColor: "black", background: "#73b82e"}}>
+                <Link to="/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
               </div>  
             </td>    
-            <td  style={{width: "33%"}}>
-              <div style={{ borderColor: 'black', borderWidth: 1, background: "lightgreen"}}>
-                <Link to="/Dashboard"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
+            <td  style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+              <div style={{ borderStyle: "solid", borderWidth: 1, borderColor: "black", background: "#73b82e"}}>
+                <Link to="/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
               </div>  
             </td>                    
           </tr>          
