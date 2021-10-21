@@ -4,6 +4,10 @@ import { Trans } from "react-i18next";
 //import faqLinkLanguage from "../utils/faqLinkLanguage";
 
 const SplashScreen = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <div className="DashContainer bodyContainer">
