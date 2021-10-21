@@ -6,8 +6,7 @@ const FAQScreen = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  return (
-    
+  return (    
     <div className={"received-screen-container bodyContainer"}>
       <section>
         <div>
