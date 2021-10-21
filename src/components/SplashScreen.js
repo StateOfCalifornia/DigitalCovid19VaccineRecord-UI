@@ -23,8 +23,8 @@ const SplashScreen = () => {
       </div> 
       <div style={{ border: "1px solid black"}}>
         {/* Left Pane */}
-        <div id="PaneLeft" style={{  float: "left", textAlign: "center"}}>
-          WA Verify<br />
+        <div id="PaneLeft" style={{ width: "33%",  float: "left"}}>
+          <h3 style={{ textAlign: "center"}}>WA Verify</h3>
           <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo" /><br />
           If you are looking for your State COVID-19 Verification Record with QR Code
           <ul>
@@ -42,8 +42,8 @@ const SplashScreen = () => {
           </div>             
         </div>  
         {/* Center Pane */}
-        <div id="PaneCenter" style={{  float: "left", textAlign: "center"}}>
-          MyIR Mobile<br />
+        <div id="PaneCenter" style={{ width: "33%",  float: "left"}}>
+          <h3 style={{ textAlign: "center"}}>MyIR Mobile</h3>
           <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" /><br />
           If you are looking for your household’s state COVID-19 Certificate
           <ul>
@@ -57,8 +57,8 @@ const SplashScreen = () => {
             }}>Register Here</Link>
           </div> 
           {/* Right Pane */}
-          <div id="PaneRight" style={{  float: "left", textAlign: "center"}}>
-            State School Certificate of Immunizations<br />
+          <div id="PaneRight" style={{ width: "33%",  float: "left", textAlign: "center"}}>
+          <h3 style={{ textAlign: "center"}}>State School Certificate of Immunizations</h3>
               <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" /><br />
               If you are looking for your children’s State School Certificate of Immunizations
               <ul>
@@ -69,7 +69,7 @@ const SplashScreen = () => {
                 color: "#0d6efd",
                 margin: "0",
                 textDecoration: "underline",
-                }}>Access Here</Link>
+                }}>Register Here</Link>
               </div>              
             </div>                         
         </div>              
