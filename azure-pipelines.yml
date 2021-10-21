@@ -66,7 +66,7 @@ stages:
         pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
 
 - stage: dev_deployment
-  displayName: Deploy Solution to Development
+  displayName: Deploy Development Solution
   dependsOn: [dev_build]
   jobs:
     - deployment: dev_deployment
@@ -92,9 +92,61 @@ stages:
                 WebAppName: 'app-waverify-ui-dev'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
 
-- stage: qa_deployment
-  displayName: Build & Deploy Solution to QA
+- stage: qa_build
+  displayName: Build QA Solution
   dependsOn: [dev_deployment]
+  jobs:  
+  - job: Build
+    displayName: Build and Publish Solution
+    steps:
+    - task: NodeTool@0
+      displayName: 'Install node.js'
+      inputs:
+        versionSpec: '10.x'
+
+    - script: 
+        npm install
+      displayName: 'npm install'
+      workingDirectory: $(directory)
+ 
+    - script: 
+        set "REACT_APP_STAGE=$(stage)" && npm run build
+      displayName: 'npm build'
+      workingDirectory: $(directory)
+
+    - task: CopyFiles@2
+      displayName: 'Copy web.config to build folder'
+      inputs:
+        SourceFolder: '$(directory)/'
+        Contents: 'web.config'
+        TargetFolder: '$(directory)/build'
+
+    - task: PowerShell@2
+      displayName: 'Replace config.js values for Development'
+      inputs:
+        targetType: 'inline'
+        script: |
+          $config_dest = "$(directory)\build\config.js"
+          $content = "window.config = { CREDENTIALS_API_STATUS:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+          echo $content | Set-Content $config_dest;
+ 
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: 'build'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+    
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Build Artifacts'
+      inputs: 
+        pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+
+- stage: qa_deployment
+  displayName: Deploy QA Solution
+  dependsOn: [qa_build]
   jobs:
     - deployment: qa_deployment
       displayName: Build & Deploy to QA Environment
@@ -103,26 +155,6 @@ stages:
         runOnce:
           deploy:
             steps:
-            - task: PowerShell@2
-              displayName: 'Replace config.js values for QA'
-              inputs:
-                targetType: 'inline'
-                script: |
-                  $config_dest = "$(directory)\build\config.js"
-                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://qa-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
-                  echo $content | Set-Content $config_dest;
-            - task: ArchiveFiles@2
-              displayName: 'Archive files'
-              inputs:
-                rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
-                includeRootFolder: false
-                archiveType: zip
-                archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-                replaceExistingArchive: true
-            - task: PublishBuildArtifacts@1
-              displayName: 'Publish Build Artifacts'
-              inputs: 
-                pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
             - task: DownloadBuildArtifacts@1
               displayName: 'Download Artifact'
               inputs:
@@ -139,9 +171,61 @@ stages:
                 WebAppName: 'app-waverify-ui-qa'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
 
-- stage: prod_deployment
-  displayName: Build & Deploy Solution to Production
+- stage: prod_build
+  displayName: Build Production Solution
   dependsOn: [qa_deployment]
+  jobs:  
+  - job: Build
+    displayName: Build and Publish Solution
+    steps:
+    - task: NodeTool@0
+      displayName: 'Install node.js'
+      inputs:
+        versionSpec: '10.x'
+
+    - script: 
+        npm install
+      displayName: 'npm install'
+      workingDirectory: $(directory)
+ 
+    - script: 
+        set "REACT_APP_STAGE=$(stage)" && npm run build
+      displayName: 'npm build'
+      workingDirectory: $(directory)
+
+    - task: CopyFiles@2
+      displayName: 'Copy web.config to build folder'
+      inputs:
+        SourceFolder: '$(directory)/'
+        Contents: 'web.config'
+        TargetFolder: '$(directory)/build'
+
+    - task: PowerShell@2
+      displayName: 'Replace config.js values for Development'
+      inputs:
+        targetType: 'inline'
+        script: |
+          $config_dest = "$(directory)\build\config.js"
+          $content = "window.config = { CREDENTIALS_API_STATUS:'https://waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+          echo $content | Set-Content $config_dest;
+ 
+    - task: ArchiveFiles@2
+      displayName: 'Archive files'
+      inputs:
+        rootFolderOrFile: 'build'
+        includeRootFolder: false
+        archiveType: zip
+        archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+        replaceExistingArchive: true
+    
+    - task: PublishBuildArtifacts@1
+      displayName: 'Publish Build Artifacts'
+      inputs: 
+        pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
+
+- stage: prod_deployment
+  displayName: Deploy Production Solution
+  dependsOn: [prod_build]
   jobs:
     - deployment: prod_deployment
       displayName: Build & Deploy to Production Environment
