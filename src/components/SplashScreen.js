@@ -24,7 +24,7 @@ const SplashScreen = () => {
       <div style={{ paddingTop: 10, paddingTop: 30, height: 500}}>
         <table>
           <tr style={{height: "100%", borderStyle: "solid", borderWidth: 1, borderColor: "black" }}>
-            <td id="PaneLeft" style={{width: "33%",  textAlign: "center", verticalAlign: top, paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+            <td id="PaneLeft" style={{width: "33%",  textAlign: "center", verticalAlign: "top", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <h5 >WA Verify</h5>
               <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo"  />
               <p>If you are looking for your State COVID-19 Verification Record with QR Code</p>
@@ -35,14 +35,14 @@ const SplashScreen = () => {
                 <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", height: "35px" }}  alt="SmartHealth Logo" />
               </div>
             </td>
-            <td id="PaneCenter" style={{width: "33%",  textAlign: "center", verticalAlign: top, paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+            <td id="PaneCenter" style={{width: "33%",  textAlign: "center", verticalAlign: "top", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <h5 style={{ textAlign: "center"}}>MyIR Mobile</h5>
               <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" />
               <p>If you are looking for your household’s state COVID-19 Certificate</p>
               <p  style={{ textAlign: "left", paddingTop: 30}}>Only in English</p>
 
             </td>    
-            <td id="PaneRight" style={{width: "33%",  textAlign: "center", verticalAlign: top, paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+            <td id="PaneRight" style={{width: "33%",  textAlign: "center", verticalAlign: "top", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <h5 style={{ textAlign: "center"}}>State School Certificate of Immunizations</h5>
               <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" />
               <p>If you are looking for your children’s State School Certificate of Immunizations</p>
