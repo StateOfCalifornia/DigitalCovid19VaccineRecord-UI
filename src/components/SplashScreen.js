@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import { Trans } from "react-i18next";
-//import faqLinkLanguage from "../utils/faqLinkLanguage";
 
 const SplashScreen = () => {
   useEffect(() => {
@@ -9,8 +7,7 @@ const SplashScreen = () => {
   }, []);
 
   return (
-    <div>
-      <div className="DashContainer bodyContainer">
+      <div className="received-screen-container bodyContainer">
         <section>
         <h1
             style={{
@@ -20,13 +17,9 @@ const SplashScreen = () => {
               margin: "50px 0",
             }}
           >
-            <Trans i18nKey="SplashScreenpage.contentheader">
-            WA Verify Splash Page
-            </Trans>
+            Welcome to WA Verify!
           </h1>          
             <div style="text-align: center;">
-              Welcome to WA Verify!
-              <br />
               To access your online verification records, please select from the options below.
               <br />
               If you have questions about WA Verify, please call 800-525-0127, press #
@@ -91,8 +84,8 @@ const SplashScreen = () => {
             
         </section>
       </div>
-    </div>
-  );
+  );  
+
 };
 
 export default SplashScreen;
