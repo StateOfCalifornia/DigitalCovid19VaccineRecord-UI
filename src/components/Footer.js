@@ -12,7 +12,7 @@ const Footer = () => {
         <footer style={{ padding: '20px 0', backgroundColor: '#F9F9F9' }}>
             <div className='footerContainer' style={{ position: 'relative' }}>
                 <ul style={{ paddingLeft: '0' }} className="footerLinks">
-                    <li><img src="/imgs/waverifylogo.png" height='25px' width='40px' alt="DOH.WA.gov Footer Logo" /></li>
+                    <li><img src="/imgs/waverifylogo.png" width='90px' alt="DOH.WA.gov Footer Logo" /></li>
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov"
