@@ -86,13 +86,7 @@ const Header = () => {
         <div className="fluid-container">
           <div className='vaccineLogo' style={{ padding: '5px 1.5vw' }}>
             <Link to='/' style={{ display: 'inline-block', height: 'inherit', margin: '0', width: 'inherit' }}>
-              <img
-                style={{ alignSelf: "center" }}
-                alt={"CDT Logo"}
-                width="58px"
-                height='62px'
-                src="/imgs/govlogov2.png"
-              />
+              <img  style={{ alignSelf: "center" }} alt={"WaVerify Logo"}   width="120px"  src="/imgs/govlogov2.png"  />
               <span className='logoDescription' style={{ fontSize: '18px', display: 'inline-block', paddingLeft: '17px', color: '#22489c' }}>Digital COVID-19 <br /> Vaccine Record</span>
             </Link>
           </div>

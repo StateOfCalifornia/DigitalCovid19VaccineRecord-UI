@@ -64,7 +64,7 @@ const SplashScreen = () => {
             </td>    
             <td  style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <div >
-                <Link to="/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
+                <Link to="https://wa.myir.net/login/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
               </div>  
             </td>                    
           </tr>          
