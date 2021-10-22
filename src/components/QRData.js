@@ -104,7 +104,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
       <div className={'qr-flex'} style={{ display: "flex", flexWrap: "wrap" }} id={'data-for-image'}>
         <div className="qrDiv" id="qr_img">
           <div className="qrImg" >
-            <img alt={"gov logo"} width="45px" src="/imgs/govlogo.png" />
+            <img alt={"gov logo"} width="45px" src="/imgs/waverifylogo.png" />
             State of Washington
           </div>
           <img

@@ -51,7 +51,7 @@ const SplashScreen = () => {
 
             </td>                    
           </tr>
-          <tr style={{height: "100%", borderStyle: "solid", borderWidth: 1, borderColor: "black", background: "#73b82e"}}>
+          <tr style={{height: "100%", borderStyle: "solid", borderWidth: 1, borderColor: "black", background: "#6ab165"}}>  
             <td style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <div >
                 <Link to="/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Access Here</Link>
@@ -59,7 +59,7 @@ const SplashScreen = () => {
             </td>
             <td  style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <div >
-                <Link to="/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
+                <Link to="https://myirmobile.com/washington-sign-in/"  style={{ color: "#0d6efd", margin: "0",  textDecoration: "underline", }}>Register Here</Link>
               </div>  
             </td>    
             <td  style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
