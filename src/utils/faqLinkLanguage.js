@@ -5,32 +5,32 @@ const faqLinkLanguage = () => {
   let hyperlink;
   switch (browserLanguage) {
     case 'en' || 'us':
-      hyperlink = 'https://waverify.com/faq';
+      hyperlink = '/faq';
       break;
     case 'es':
-      hyperlink = 'https://waverify.com/faq-es';
+      hyperlink = '/faq-es';
       break;
     case 'cn':
-      hyperlink = 'https://waverify.com/faq-ch ';
+      hyperlink = '/faq-ch ';
       break;
     case 'ae':
-      hyperlink = 'https://waverify.com/faq-ar';
+      hyperlink = '/faq-ar';
       break;
     case 'kr':
-      hyperlink = 'https://waverify.com/faq-ko';
+      hyperlink = '/faq-ko';
       break;
     case 'ph':
-      hyperlink = 'https://waverify.com/faq-tg';
+      hyperlink = '/faq-tg';
       break;
     case 'tw':
-      hyperlink = 'https://waverify.com/faq-ch-hant';
+      hyperlink = '/faq-ch-hant';
       break;
     case 'vi':
-      hyperlink = 'https://waverify.com/faq-vi';
+      hyperlink = '/faq-vi';
       break;
     default:
       // default is english
-      hyperlink = 'https://waverify.com/faq';
+      hyperlink = '/faq';
   }
 
   return hyperlink;
