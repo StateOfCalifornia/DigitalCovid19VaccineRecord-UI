@@ -35,8 +35,8 @@ const Footer = () => {
                     </li>
                     <li>
                         <ReactGA.OutboundLink
-                            eventLabel="ca_gov_privacy"
-                            to={'https://www.doh.wa.gov/'}
+                            eventLabel="wa_gov_privacy"
+                            to={'https://watech.wa.gov/Privacy'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.privacypolicy">Privacy Policy</Trans>

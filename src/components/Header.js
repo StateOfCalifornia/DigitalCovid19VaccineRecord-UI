@@ -52,10 +52,8 @@ const Header = () => {
           <div className="subheaderContainer">
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
-                <Link to='/' >
-                  <img style={{ alignSelf: "center" }} alt={"WaVerify Logo"} width="90px" src="/imgs/waverifylogo.png" />
+                  <img style={{ alignSelf: "center" }} alt={"Wa State Seal"} width="90px" src="/imgs/wasymseal.gif" />
                   <span style={{ verticalAlign: 'middle' }}>State of Washington</span>
-                </Link>
               </div>
               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
                 <ul className='translationList'>
