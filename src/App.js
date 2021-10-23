@@ -13,6 +13,7 @@ import { MuiPickersUtilsProvider } from "@material-ui/pickers";
 import DayJsUtils from "@date-io/dayjs";
 import "./i18n";
 import "./styles/CovidCard-style.css";
+import "./styles/ButtonStyles.min.css";
 import "./styles/override/styles.scss";
 import { useTranslation } from "react-i18next";
 
