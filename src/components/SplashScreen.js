@@ -54,7 +54,7 @@ const SplashScreen = () => {
           </tr>
           <tr style={{height: "100%", paddingTop: 20}}>  
             <td style={{width: "33%", textAlign: "center", alignContent: "center"}}>
-                <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-block vc_btn3-color-success" href="/" title="">Access Here</a>
+                <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-block vc_btn3-color-success" href="/Dashboard" title="">Access Here</a>
             </td>
             <td  style={{width: "33%", textAlign: "center", alignContent: "center"}}>
               <div class="vc_btn3-container vc_btn3-center">
