@@ -51,13 +51,13 @@ const SplashScreen = () => {
             </td>                    
           </tr>
           <tr style={{height: "100%", paddingTop: 20}}>  
-            <td style={{width: "33%", textAlign: "center", alignContent: "center"}}>
+            <td style={{width: "33%", textAlign: "center", alignContent: "center", paddingTop: 20}}>
                 <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="/Dashboard" title="">Access Here</a>
             </td>
-            <td  style={{width: "33%", textAlign: "center", alignContent: "center"}}>
+            <td  style={{width: "33%", textAlign: "center", alignContent: "center", paddingTop: 20}}>
                 <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://myirmobile.com/washington-sign-in/" title="Click here to go to the MyIr Mobile site for Washington State" target="MyIrWA">Register Here</a>
             </td>    
-            <td  style={{width: "33%", textAlign: "center", alignContent: "center" }}>
+            <td  style={{width: "33%", textAlign: "center", alignContent: "center", paddingTop: 20}}>
                 <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://wa.myir.net/login/" title="Click here to go to the State School Certificate of Immunizations site" target="StateSchool">Register Here</a>
             </td>                    
           </tr>          
