@@ -250,7 +250,7 @@ const FAQScreen = () => {
                     </dd>
                 </dl>
             </td>
-            <td style="vertical-align: top;">
+            <td style={{verticalAlign: top}}>
                 <div id="NeedHelp" style={{width: "80%"}}>
                     <h3>Need more help?</h3>
                     For questions and other assistance, contact:
