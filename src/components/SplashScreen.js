@@ -28,10 +28,10 @@ const SplashScreen = () => {
             <td id="PaneLeft" style={{width: "33%",  textAlign: "center", verticalAlign: "top", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <h5 >WA Verify</h5>
               <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="WaVerify Logo"  />
-              <p>If you are looking for your State COVID-19 Verification Record with QR Code</p>
-              <p  style={{ textAlign: "left", paddingTop: 30}}>*Available in 40 languages</p>
-              <p  style={{ textAlign: "left"}}>*SMART Health Card compatible</p>
-              <div style={{ textAlign: "center"}}>
+              <p style={{paddingBottom: 30}}>If you are looking for your State COVID-19 Verification Record with QR Code</p>
+                &nbsp;&nbsp;&nbsp;°&nbsp;Available in 40 languages<br />
+                &nbsp;&nbsp;&nbsp;°&nbsp;SMART Health Card compatible<br />
+              <div style={{ textAlign: "center", paddingTop: 10, paddingBottom: 10}}>
                 <img src="/imgs/add-to-apple-health.svg"  alt="Add to Apple Health Logo" style={{ alignSelf: "baseline", height: "35px", paddingRight: 10 }} />
                 <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", height: "35px" }}  alt="SmartHealth Logo" />
               </div>
@@ -40,16 +40,14 @@ const SplashScreen = () => {
               <h5 style={{ textAlign: "center"}}>MyIR Mobile</h5>
               <img src="/imgs/myirmobillogo.png"  alt="MyIrMobile Logo" />
               <p>If you are looking for your household’s state COVID-19 Certificate</p>
-              <p  style={{ textAlign: "left", paddingTop: 30}}>Only in English</p>
+              <p  style={{ textAlign: "left", paddingTop: 30}}>&nbsp;&nbsp;&nbsp;°&nbsp;Only in English</p>
 
             </td>    
             <td id="PaneRight" style={{width: "33%",  textAlign: "center", verticalAlign: "top", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
               <h5 style={{ textAlign: "center"}}>State School Certificate of Immunizations</h5>
               <img src="/imgs/wastateschoolcertimmunizationslogo.png"  alt="WA State School Certification of Immunizations Logo" />
               <p>If you are looking for your children’s State School Certificate of Immunizations</p>
-              <p  style={{ textAlign: "left", paddingTop: 30}}>Only in English</p>
-
-
+              <p  style={{ textAlign: "left", paddingTop: 30}}>&nbsp;&nbsp;&nbsp;°&nbsp;Only in English</p>
             </td>                    
           </tr>
           <tr style={{height: "100%", paddingTop: 20}}>  
@@ -57,14 +55,10 @@ const SplashScreen = () => {
                 <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="/Dashboard" title="">Access Here</a>
             </td>
             <td  style={{width: "33%", textAlign: "center", alignContent: "center"}}>
-              <div class="vc_btn3-container vc_btn3-center">
-                <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://myirmobile.com/washington-sign-in/" title="">Register Here</a>
-              </div>              
- 
+                <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://myirmobile.com/washington-sign-in/" title="Click here to go to the MyIr Mobile site for Washington State" target="MyIrWA">Register Here</a>
             </td>    
             <td  style={{width: "33%", textAlign: "center", alignContent: "center" }}>
-                <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://wa.myir.net/login/" title="">Register Here</a>
- 
+                <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://wa.myir.net/login/" title="Click here to go to the State School Certificate of Immunizations site" target="StateSchool">Register Here</a>
             </td>                    
           </tr>          
         </table>

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Trans } from "react-i18next";
+import "~/scripts\disclosureButton.js";
 
 const FAQScreen = () => {
   useEffect(() => {
