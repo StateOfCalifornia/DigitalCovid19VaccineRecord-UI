@@ -416,20 +416,60 @@ hr {
     justify-content: unset;
   }
 
-  /* .center-w-margin {
-    text-align: center;
-  }
+/* 
+*--------------------------------------------
+**styles for the FAQ page
+*--------------------------------------------
+*/
+dl.faq button {
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+  font-weight: bold;
+  font-size: 110%;
+  border: thin solid transparent;
+  background-color: transparent;
+  padding-left: 0.125em;
+}
 
-  .qr-flex {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+dl dd {
+  margin: 0;
+  padding: 0;
+  margin-left: 1.5em;
+}
 
-  .pt-2 {
-    width: 100%;
-  } */
+dl.faq .desc {
+  margin: 0;
+  padding: 0.5em;
+  font-size: 110%;
+  display: none;
+  background-color: #fffedb;
+}
 
+dl.faq button:hover,
+dl.faq button:focus {
+  background-color: #eee;
+}
+
+dl.faq button:focus {
+  border-color: #630;
+}
+
+dl.faq button:hover {
+  text-decoration: underline;
+}
+
+dl.faq button:active {
+  background-color: #bbb;
+}
+
+dl.faq button[aria-expanded="false"]::before {
+  content: url('../right-arrow-brown.png');
+  padding-right: 0.35em;
+}
+
+dl.faq button[aria-expanded="true"]::before {
+  content: url('../down-arrow-brown.png');
+  padding-right: 0.35em;
+}
 }
