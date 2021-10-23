@@ -7,214 +7,266 @@ const FAQScreen = () => {
   }, []);
 
   return (
-    <div className={"received-screen-container bodyContainer"}>
-      <section>
-        <table >
-          <tr>
-            <td style={{ width: "70%", textAlign: "left" }}>
-              <dl class="faq">
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq01_desc">
-                    What is a Digital COVID-19 Verification Record?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq01_desc" class="desc">
-                    Your Digital COVID-19 Verification Record is an electronic vaccination record drawn from the data stored in the state immunization registry. The digital record shows the same information as your paper CDC COVID-19 vaccine card: your name, date of birth, vaccination dates and type of vaccine you received. The digital record also includes a QR code that when scanned by a SMART Health Card reader will display to the reader your name, date of birth, vaccine dates and vaccine type. The QR code also confirms the vaccine record as an official record of your state.
-                  </p>
-                </dd>
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq02_desc">
-                    How will my verification record be delivered?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq02_desc" class="desc">
-                    When your verification record is found, you will receive a link delivered to the email or mobile phone number associated with the vaccination record. After entering your four-digit PIN, you will see your COVID-19 verification information including your name, date of birth, vaccination date(s), and vaccine manufacturer. You will also receive a scannable QR code confirming your verification record is authentic.
-                  </p>
-                </dd>
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq03_desc">
-                    Can I save my digital verification record on an iPhone?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq03_desc" class="desc">
-                    You can save your Digital verification record to the Apple Health app with the iOS 15 operating system. You will need to use your Safari web browser to complete the process.
-                    <br />
-                    Alternatively, you can take a screenshot of your Digital COVID-19 Verification Record and save it to your photos.
-                  </p>
-                </dd>
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq04_desc">
-                    Can I save my Digital verification record on an Android device?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq04_desc" class="desc">
-                    Yes. You can save your Digital COVID-19 verification record to Google Pay if you have Android version 5 and Google Play Services version 21.18 or above.
-                    <br />
-                    You can also screenshot your Digital COVID-19 Verification Record and save it to your photos.
-                  </p>
-                </dd>
+    <div >
+    <table>
+        <tr>
+            <td style={{width: "70%", textAlign: "left" }}>
+                <dl class="faq" style={{width: "90%", paddingLeft: 10}}>
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq01_desc">
+                            What is a Digital COVID-19 Verification Record?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq01_desc" class="desc">
+                            Your Digital COVID-19 Verification Record is an electronic vaccination record drawn from the
+                            data stored in the state immunization registry. The digital record shows the same
+                            information as your paper CDC COVID-19 vaccine card: your name, date of birth, vaccination
+                            dates and type of vaccine you received. The digital record also includes a QR code that when
+                            scanned by a SMART Health Card reader will display to the reader your name, date of birth,
+                            vaccine dates and vaccine type. The QR code also confirms the vaccine record as an official
+                            record of your state.
+                        </p>
+                    </dd>
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq02_desc">
+                            How will my verification record be delivered?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq02_desc" class="desc">
+                            When your verification record is found, you will receive a link delivered to the email or
+                            mobile phone number associated with the vaccination record. After entering your four-digit
+                            PIN, you will see your COVID-19 verification information including your name, date of birth,
+                            vaccination date(s), and vaccine manufacturer. You will also receive a scannable QR code
+                            confirming your verification record is authentic.
+                        </p>
+                    </dd>
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq03_desc">
+                            Can I save my digital verification record on an iPhone?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq03_desc" class="desc">
+                            You can save your Digital verification record to the Apple Health app with the iOS 15
+                            operating system. You will need to use your Safari web browser to complete the process.
+                            <br />
+                            Alternatively, you can take a screenshot of your Digital COVID-19 Verification Record and
+                            save it to your photos.
+                        </p>
+                    </dd>
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq04_desc">
+                            Can I save my Digital verification record on an Android device?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq04_desc" class="desc">
+                            Yes. You can save your Digital COVID-19 verification record to Google Pay if you have
+                            Android version 5 and Google Play Services version 21.18 or above.
+                            <br />
+                            You can also screenshot your Digital COVID-19 Verification Record and save it to your
+                            photos.
+                        </p>
+                    </dd>
 
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq05_desc">
-                    If I get additional doses, will they show on my digital verification record?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq05_desc" class="desc">
-                    No. If you receive an additional dose or booster dose, it will not automatically reflect on your digital verification record. You will need to start over in the Digital COVID-19 Verification Record system to retrieve a new QR code.
-                    <br />
-                    We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
-                  </p>
-                </dd>
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq05_desc">
+                            If I get additional doses, will they show on my digital verification record?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq05_desc" class="desc">
+                            No. If you receive an additional dose or booster dose, it will not automatically reflect on
+                            your digital verification record. You will need to start over in the Digital COVID-19
+                            Verification Record system to retrieve a new QR code.
+                            <br />
+                            We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
+                        </p>
+                    </dd>
 
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq06_desc">
-                    When will my vaccine dose be available in my digital verification record?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq06_desc" class="desc">
-                    Clinics vary in the length of time it takes to submit dose information to the Immunization Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your record is still not located, you may contact us.
-                  </p>
-                </dd>
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq06_desc">
+                            When will my vaccine dose be available in my digital verification record?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq06_desc" class="desc">
+                            Clinics vary in the length of time it takes to submit dose information to the Immunization
+                            Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your
+                            record is still not located, you may contact us.
+                        </p>
+                    </dd>
 
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq07_desc">
-                    What if my record is not found?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq07_desc" class="desc">
-                    Your vaccine provider submits your vaccination record to the Immunization Registry, but they may have provided information that's incomplete. So, it's likely we have your record, but not your correct information. For instance:
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq07_desc">
+                            What if my record is not found?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq07_desc" class="desc">
+                        Your vaccine provider submits your vaccination record to the Immunization Registry, but they
+                        may have provided information that's incomplete. So, it's likely we have your record, but
+                        not your correct information. For instance:<br /><br />
+                        &nbsp;&nbsp;&nbsp;°&nbsp;Mobile phone number or email address was not included or does not match<br />
+                        &nbsp;&nbsp;&nbsp;°&nbsp;Name is spelled differently<br />
+                        &nbsp;&nbsp;&nbsp;°&nbsp;Date of birth does not match<br /><br />
+                        To find your record, try re-entering your information with a different email or mobile number.
+                        If your record still isn’t found, contact your provider to update your vaccination record or
+                        contact us to request a review of your record. You'll be notified of our findings and
+                        remediation actions within 2-3 weeks.
+                        <br />
+                        If you received your vaccination from a federal agency (like the Department of Defense, Indian
+                        Health Services or Veterans Affairs), you will need to contact those agencies for assistance
+                        with your vaccination.
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq08_desc">
+                            What if my Digital Verification Record is incorrect?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq08_desc" class="desc">
+                            If the information on your Digital vaccine record is incorrect or missing a dose, has wrong
+                            dates or incorrect brand), you may need to correct or update your immunization record. You
+                            can contact your provider to update your record or contact us. You will be notified of our
+                            findings and remediation actions within 2-3 weeks.
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq09_desc">
+                            How does the Digital COVID-19 Vaccine Record system work?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq09_desc" class="desc">
+                            The Digital COVID-19 Verification Record system draws COVID-19 records from the state’s
+                            immunization systems. Enter your name, date of birth, and an email or mobile phone number
+                            associated with your vaccination record, then create a four-digit PIN number. If the
+                            information you submitted matches the official record, you will receive a text or email with
+                            a link to your Digital COVID-19 Verification Record. Enter the PIN you created to view the
+                            record.
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq10_desc">
+                            Will my information remain private?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq10_desc" class="desc">
+                            Yes. Filling out the form on the system does not provide instant access to your verification
+                            record. The link to the verification record requires a PIN that you create and is sent only
+                            to the mobile phone or email that is associated with your immunization record.
+                            <br />
+                            The QR code is a SMART Health Card, a secure copy of your verification record. More
+                            information is at <a href="https://smarthealth.cards"
+                                target="smarthealth">https://smarthealth.cards</a>. To protect your privacy, the QR code
+                            can only be scanned and read by a SMART Health Card-compliant device.
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq11_desc">
+                            Can I reset my PIN?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq11_desc" class="desc">
+                            Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
+                            access your Digital COVID-19 Verification Record. If you don't, the link to your digital
+                            record will expire, but you can start over and reset your PIN using the Digital COVID-19
+                            Verification Record system.
+                            <br />
+                            If you can't remember your PIN, after 24 hours you can use the same process and create a new
+                            PIN.
+                            <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
+                                expire. </i>
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq12_desc">
+                            Will this provide proof of my vaccine status?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq12_desc" class="desc">
+                            Yes. It is one of several options for providing your Digital COVID-19 Verification Record
+                            and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
+                            your state immunization record.
+                            <br />
+                            You are not required to obtain a Digital COVID-19 Verification Record. It is an optional
+                            means to obtain your COVID-19 verification information, and is the digital version of your
+                            paper verification record. It is one of the options to show proof of vaccination. The state
+                            will not be implementing a mandatory passport system.
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq13_desc">
+                            What if I need to replace my vaccination card?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq13_desc" class="desc">
+                            The system provides a digital copy of your verification record. If you’ve lost your paper
+                            verification record, you may print out your digital record and use it. If you lose your
+                            Digital COVID-19 Verification Record, you can start the process over on the system.
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq14_desc">
+                            What happens to my information after I share it?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq14_desc" class="desc">
+                            Your Digital COVID-19 Verification Record shows the same information as your paper CDC
+                            vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19
+                            Verification Record how they will use your data or if they will keep it. Only you can decide
+                            how and when to share your record.
+                        </p>
+                    </dd>
+
+                    <dt>
+                        <button aria-expanded="false" aria-controls="faq15_desc">
+                            What if I made multiple vaccination appointments for multiple people with a single phone
+                            number?
+                        </button>
+                    </dt>
+                    <dd>
+                        <p id="faq15_desc" class="desc">
+                            If you are a parent or guardian and have created multiple appointments with a single phone
+                            number or email, enter the requests one at a time to receive separate links for each
+                            verification record.
+                        </p>
+                    </dd>
+                </dl>
+            </td>
+            <td style="vertical-align: top;">
+                <div id="NeedHelp" style={{width: "80%"}}>
+                    <h3>Need more help?</h3>
+                    For questions and other assistance, contact:
                     <ul>
-                      <li>Mobile phone number or email address was not included or does not match</li>
-                      <li>Name is spelled differently</li>
-                      <li>Date of birth does not match</li>
+                        <li style={{listStyleType: "none"}}>1-800-525-0127, press #</li>
+                        <li style={{listStyleType: "none"}}>Monday 6AM-10PM</li>
+                        <li style={{listStyleType: "none"}}>Tuesday-Sunday 6AM-6PM</li>
+                        <li style={{listStyleType: "none"}}>Closed state holidays</li>
                     </ul>
-                    To find your record, try re-entering your information with a different email or mobile number. If your record still isn’t found, contact your provider to update your vaccination record or contact us to request a review of your record. You'll be notified of our findings and remediation actions within 2-3 weeks.
-                    <br />
-                    If you received your vaccination from a federal agency (like the Department of Defense, Indian Health Services or Veterans Affairs), you will need to contact those agencies for assistance with your vaccination.
-                  </p>
-                </dd>
 
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq08_desc">
-                    What if my Digital Verification Record is incorrect?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq08_desc" class="desc">
-                    If the information on your Digital vaccine record is incorrect or missing a dose, has wrong dates or incorrect brand), you may need to correct or update your immunization record. You can contact your provider to update your record or contact us. You will be notified of our findings and remediation actions within 2-3 weeks.
-                  </p>
-                </dd>
+                    NOTE: We're unable to update your Digital COVID-19 Verification Record over the phone.
 
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq09_desc">
-                    How does the Digital COVID-19 Vaccine Record system work?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq09_desc" class="desc">
-                    The Digital COVID-19 Verification Record system draws COVID-19 records from the state’s immunization systems. Enter your name, date of birth, and an email or mobile phone number associated with your vaccination record, then create a four-digit PIN number. If the information you submitted matches the official record, you will receive a text or email with a link to your Digital COVID-19 Verification Record. Enter the PIN you created to view the record.
-                  </p>
-                </dd>
-
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq10_desc">
-                    Will my information remain private?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq10_desc" class="desc">
-                    Yes. Filling out the form on the system does not provide instant access to your verification record. The link to the verification record requires a PIN that you create and is sent only to the mobile phone or email that is associated with your immunization record.
-                    <br />
-                    The QR code is a SMART Health Card, a secure copy of your verification record. More information is at <a href="https://smarthealth.cards" target="smarthealth">https://smarthealth.cards</a>. To protect your privacy, the QR code can only be scanned and read by a SMART Health Card-compliant device.
-                  </p>
-                </dd>
-
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq11_desc">
-                    Can I reset my PIN?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq11_desc" class="desc">
-                    Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and access your Digital COVID-19 Verification Record. If you don't, the link to your digital record will expire, but you can start over and reset your PIN using the Digital COVID-19 Verification Record system.
-                    <br />
-                    If you can't remember your PIN, after 24 hours you can use the same process and create a new PIN.
-                    <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not expire. </i>
-                  </p>
-                </dd>
-
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq12_desc">
-                    Will this provide proof of my vaccine status?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq12_desc" class="desc">
-                    Yes. It is one of several options for providing your Digital COVID-19 Verification Record and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or your state immunization record.
-                    <br />
-                    You are not required to obtain a Digital COVID-19 Verification Record. It is an optional means to obtain your COVID-19 verification information, and is the digital version of your paper verification record. It is one of the options to show proof of vaccination. The state will not be implementing a mandatory passport system.
-                  </p>
-                </dd>
-
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq13_desc">
-                    What if I need to replace my vaccination card?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq13_desc" class="desc">
-                    The system provides a digital copy of your verification record. If you’ve lost your paper verification record, you may print out your digital record and use it. If you lose your Digital COVID-19 Verification Record, you can start the process over on the system.
-                  </p>
-                </dd>
-
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq14_desc">
-                    What happens to my information after I share it?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq14_desc" class="desc">
-                    Your Digital COVID-19 Verification Record shows the same information as your paper CDC vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19 Verification Record how they will use your data or if they will keep it. Only you can decide how and when to share your record.
-                  </p>
-                </dd>
-
-                <dt>
-                  <button aria-expanded="false" aria-controls="faq15_desc">
-                    What if I made multiple vaccination appointments for multiple people with a single phone number?
-                  </button>
-                </dt>
-                <dd>
-                  <p id="faq15_desc" class="desc">
-                    If you are a parent or guardian and have created multiple appointments with a single phone number or email, enter the requests one at a time to receive separate links for each verification record.
-                  </p>
-                </dd>
-              </dl>
+                </div>
             </td>
-            <td>
-              <div id="NeedHelp">
-                <h3 >Need more help?</h3>
-                For questions and other assistance, contact:
-                <ul>
-                  <li style="list-style-type: none;">1-800-525-0127, press #</li>
-                  <li style="list-style-type: none;">Monday 6AM-10PM</li>
-                  <li style="list-style-type: none;">Tuesday-Sunday 6AM-6PM</li>
-                  <li style="list-style-type: none;">Closed state holidays</li>
-                </ul>
-
-                NOTE: We're unable to update your Digital COVID-19 Verification Record over the phone.
-
-              </div>
-            </td>
-          </tr>
-        </table>
-      </section>
+        </tr>
+    </table>
     </div>
   );
 };
