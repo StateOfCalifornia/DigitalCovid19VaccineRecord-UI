@@ -7,7 +7,7 @@ const FAQScreen = () => {
   }, []);
 
   return (
-    <div className={logo-nav-container}>
+    <div className={"logo-nav-container"}>
       <h1>WA Verify FAQ</h1>
       <table>
         <tr>
