@@ -261,8 +261,7 @@ const FAQScreen = () => {
                 <li style={{ listStyleType: "none" }}>Tuesday-Sunday 6AM-6PM</li>
                 <li style={{ listStyleType: "none" }}>Closed state holidays</li>
               </ul>
-
-              <b>NOTE</b>: We're unable to update your Digital COVID-19 Verification Record over the phone.
+              <p style={{  paddingTop: 40 }}><strong>NOTE</strong>: We're unable to update your Digital COVID-19 Verification Record over the phone.</p>
 
             </div>
           </td>
