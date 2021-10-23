@@ -8,7 +8,7 @@ const FAQScreen = () => {
 
   return (
     <div className={"logo-nav-container"}>
-      <h1>WA Verify FAQ</h1>
+      <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>WA Verify FAQ</h1>
       <table>
         <tr>
           <td style={{ width: "70%", textAlign: "left", paddingLeft: 20 }}>
