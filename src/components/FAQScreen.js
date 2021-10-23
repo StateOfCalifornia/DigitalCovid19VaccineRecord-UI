@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "~/scripts/disclosureButton.js";
+import "../../scripts/disclosureButton.js";
 
 const FAQScreen = () => {
   useEffect(() => {
