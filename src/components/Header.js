@@ -52,7 +52,7 @@ const Header = () => {
           <div className="subheaderContainer">
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
-                <img src="/imgs/waverifylogo.png" alt="Gov Logo" height="20px" width='50px' style={{ paddingRight: '20px' }} />
+                <img src="/imgs/waverifylogo.png" alt="Gov Logo"  width='90px' style={{ paddingRight: '20px' }} />
                 <span style={{ verticalAlign: 'middle' }}>State of Washington</span>
               </div>
               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
@@ -86,7 +86,7 @@ const Header = () => {
         <div className="fluid-container">
           <div className='vaccineLogo' style={{ padding: '5px 1.5vw' }}>
             <Link to='/' style={{ display: 'inline-block', height: 'inherit', margin: '0', width: 'inherit' }}>
-              <img  style={{ alignSelf: "center" }} alt={"WaVerify Logo"}   width="120px"  src="/imgs/govlogov2.png"  />
+              <img  style={{ alignSelf: "center" }} alt={"WaVerify Logo"}   width="120px"  src="/imgs/waverifylogo.png"  />
               <span className='logoDescription' style={{ fontSize: '18px', display: 'inline-block', paddingLeft: '17px', color: '#22489c' }}>Digital COVID-19 <br /> Vaccine Record</span>
             </Link>
           </div>
