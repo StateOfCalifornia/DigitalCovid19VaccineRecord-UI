@@ -51,20 +51,20 @@ const SplashScreen = () => {
 
             </td>                    
           </tr>
-          <tr style={{height: "100%", borderStyle: "solid", borderWidth: 1, borderColor: "black", background: "#6ab165"}}>  
-            <td style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+          <tr style={{height: "100%"}}>  
+            <td style={{width: "33%", textAlign: "center"}}>
               <div class="vc_btn3-container vc_btn3-center">
                 <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-block vc_btn3-color-success" href="/" title="">Access Here</a>
               </div>
 
             </td>
-            <td  style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+            <td  style={{width: "33%", textAlign: "center"}}>
               <div class="vc_btn3-container vc_btn3-center">
                 <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-block vc_btn3-color-success" href="https://myirmobile.com/washington-sign-in/" title="">Register Here</a>
               </div>              
  
             </td>    
-            <td  style={{width: "33%", textAlign: "center", borderStyle: "solid", borderWidth: 1, borderColor: "black"}}>
+            <td  style={{width: "33%", textAlign: "center" }}>
               <div class="vc_btn3-container vc_btn3-center">
                 <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-block vc_btn3-color-success" href="https://wa.myir.net/login/" title="">Register Here</a>
               </div>                
