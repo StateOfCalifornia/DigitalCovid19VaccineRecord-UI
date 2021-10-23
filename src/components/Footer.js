@@ -3,7 +3,11 @@ import ReactGA from 'react-ga';
 import { Trans } from "react-i18next";
 import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from '../utils/AppController';
+{
+    
 
+
+}
 
 
 const Footer = () => {
