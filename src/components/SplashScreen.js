@@ -9,7 +9,7 @@ const SplashScreen = () => {
   }, []);
 
   return (
-    <div className={"received-screen-container bodyContainer"}>
+    <div className={"ebor-page-wrapper received-screen-container bodyContainer"}>
       <div>
         <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>
           <Trans i18nKey="SplashScreenpage.title">
