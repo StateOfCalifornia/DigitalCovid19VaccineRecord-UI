@@ -16,21 +16,21 @@ const Footer = () => {
         <footer style={{ padding: '20px 0', backgroundColor: '#F9F9F9' }}>
             <div className='footerContainer' style={{ position: 'relative' }}>
                 <ul style={{ paddingLeft: '0' }} className="footerLinks">
-                    <li><img src="/imgs/waverifylogo.png" width='90px' alt="DOH.WA.gov Footer Logo" /></li>
+                    <li><img src="/imgs/waverifylogo.png" width='90px' alt="doh.wa.gov Footer Logo" /></li>
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov"
                             to={'https://www.doh.wa.gov/'}
                             target="_blank"
                         >
-                            <Trans i18nKey="footer.home">DOH.WA.gov home</Trans>
+                            <Trans i18nKey="footer.home">doh.wa.gov home</Trans>
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
                     <li>
                         <ReactGA.OutboundLink
-                            eventLabel="ca_gov_use"
-                            to={'https://www.doh.wa.gov/use'}
+                            eventLabel="wa_gov_use"
+                            to={'https://www.doh.wa.gov'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.conditionsofuse">Conditions of Use</Trans>
@@ -40,7 +40,7 @@ const Footer = () => {
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="wa_gov_privacy"
-                            to={'https://watech.wa.gov/Privacy'}
+                            to={'https://www.doh.wa.gov/PrivacyandCopyright'}
                             target="_blank"
                         >
                             <Trans i18nKey="footer.privacypolicy">Privacy Policy</Trans>
