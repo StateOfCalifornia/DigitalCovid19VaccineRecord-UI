@@ -35,7 +35,7 @@ const SplashScreen = () => {
               </div>
               <div style={{ textAlign: "center", paddingTop: 10, paddingBottom: 10 }}>
                 <img src="/imgs/add-to-apple-health.svg" alt="Add to Apple Health Logo" style={{ alignSelf: "baseline", height: "35px", paddingRight: 10 }} />
-                <img src="/imgs/smart-logo.svg" style={{ alignSelf: "baseline", height: "35px" }} alt="SmartHealth Logo" />
+                <img src="/imgs/google-pay-black.svg" style={{ alignSelf: "baseline", height: "35px" }} alt="Google Pay Logo" />
               </div>
             </td>
             <td id="PaneCenter" style={{ width: "33%", textAlign: "center", verticalAlign: "top", paddingLeft: 10, paddingRight: 10, borderStyle: "solid", borderWidth: 1, borderColor: "black" }}>
@@ -57,7 +57,7 @@ const SplashScreen = () => {
               <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="/Dashboard" title="Click here to go to the WaVerify Verification Record page">Access Here</a>
             </td>
             <td style={{ width: "33%", textAlign: "center", alignContent: "center", paddingTop: 20 }}>
-              <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://myirmobile.com/washington-sign-in/" title="Click here to go to the MyIr Mobile site for Washington State" target="MyIrWA">Register Here</a>
+              <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://app.myirmobile.com/auth/sign-in?state=WA" title="Click here to go to the MyIr Mobile site for Washington State" target="MyIrWA">Register Here</a>
             </td>
             <td style={{ width: "33%", textAlign: "center", alignContent: "center", paddingTop: 20 }}>
               <a class="vc_general vc_btn3  vc_btn3-shape-rounded  vc_btn3-color-success" href="https://wa.myir.net/login/" title="Click here to go to the State School Certificate of Immunizations site" target="StateSchool">Register Here</a>
