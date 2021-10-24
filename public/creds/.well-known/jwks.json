@@ -2,7 +2,7 @@
   "keys": [
     {
       "kty": "EC",
-      "kid": "n0S0H6_mbA93e3pEu-a67qoiF4CAWYsOGoWo6TLHUzQ",
+      "kid": "R8__pWvRCTQ5l4ASVb4qltX80VN2NREf3TPhDIYkyMw",
       "use": "sig",
       "alg": "ES256",
       "crv": "P-256",
