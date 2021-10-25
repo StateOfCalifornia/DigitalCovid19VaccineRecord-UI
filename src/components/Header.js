@@ -44,9 +44,6 @@ const Header = () => {
 
   return (
     <nav>
-      <a className="skip-to-content-link" href="#main">
-        Skip to main content
-      </a>
       <div className="headerContainer" style={{ backgroundColor: '#f9f9f9', borderBottom: '1px solid #ccc' }}>
         <div className="fluid-container">
           <div className="subheaderContainer">
