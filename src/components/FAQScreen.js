@@ -262,18 +262,15 @@ const FAQScreen = () => {
           </dl>
         </div>
         <div class="col-sm-4">
-          <div id="NeedHelp" style={{ width: "80%" }}>
-            <h3>Need more help?</h3>
-            For questions and other assistance, contact:
-            <ul>
-              <li style={{ listStyleType: "none" }}>1-800-525-0127, press #</li>
-              <li style={{ listStyleType: "none" }}>Monday 6AM-10PM</li>
-              <li style={{ listStyleType: "none" }}>Tuesday-Sunday 6AM-6PM</li>
-              <li style={{ listStyleType: "none" }}>Closed state holidays</li>
-            </ul>
-            <p style={{ paddingTop: 40 }}><strong>NOTE</strong>: We're unable to update your Digital COVID-19 Verification Record over the phone.</p>
-
-          </div>
+          <h3>Need more help?</h3>
+          For questions and other assistance, contact:
+          <ul>
+            <li style={{ listStyleType: "none" }}>1-800-525-0127, press #</li>
+            <li style={{ listStyleType: "none" }}>Monday 6AM-10PM</li>
+            <li style={{ listStyleType: "none" }}>Tuesday-Sunday 6AM-6PM</li>
+            <li style={{ listStyleType: "none" }}>Closed state holidays</li>
+          </ul>
+          <p style={{ paddingTop: 40 }}><strong>NOTE</strong>: We're unable to update your Digital COVID-19 Verification Record over the phone.</p>
         </div>
       </div>
     </div>
