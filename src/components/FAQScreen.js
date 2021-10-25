@@ -167,12 +167,12 @@ const FAQScreen = () => {
                   to the mobile phone or email that is associated with your immunization record.
                   <br />
                   The QR code is a SMART Health Card, a secure copy of your verification record. More
-                  information is at 
-                  <Link to="https://smarthealth.cards"  style={{
-                  color: "#0d6efd",
-                  margin: "0",
-                  textDecoration: "underline",
-                }}>https://smarthealth.cards</Link>. To protect your privacy, the QR code
+                  information is at
+                  <Link to="https://smarthealth.cards" style={{
+                    color: "#0d6efd",
+                    margin: "0",
+                    textDecoration: "underline",
+                  }}>https://smarthealth.cards</Link>. To protect your privacy, the QR code
                   can only be scanned and read by a SMART Health Card-compliant device.
                 </p>
               </dd>
@@ -203,7 +203,11 @@ const FAQScreen = () => {
               </dt>
               <dd>
                 <p id="faq12_desc" class="desc">
-                  Yes. It is one of <a href="https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine" target="CoronaVirus" title="Click to see your options (opens in a new window)">several options</a> for providing your Digital COVID-19 Verification Record
+                  Yes. It is one of
+                  <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={"https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine"} target="CoronaVirus" style={{ display: "inline", color: "#0D6EFD", margin: "0 5px", textDecoration: "underline" }}>
+                    several options
+                  </ReactGA.OutboundLink>
+                  for providing your Digital COVID-19 Verification Record
                   and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
                   your state immunization record.
                   <br />
@@ -266,7 +270,7 @@ const FAQScreen = () => {
                 <li style={{ listStyleType: "none" }}>Tuesday-Sunday 6AM-6PM</li>
                 <li style={{ listStyleType: "none" }}>Closed state holidays</li>
               </ul>
-              <p style={{  paddingTop: 40 }}><strong>NOTE</strong>: We're unable to update your Digital COVID-19 Verification Record over the phone.</p>
+              <p style={{ paddingTop: 40 }}><strong>NOTE</strong>: We're unable to update your Digital COVID-19 Verification Record over the phone.</p>
 
             </div>
           </td>
