@@ -149,7 +149,7 @@ stages:
   dependsOn: [qa_build]
   jobs:
     - deployment: qa_deployment
-      displayName: Build & Deploy to QA Environment
+      displayName: Deploy to QA Environment
       environment: QA
       strategy: 
         runOnce:
@@ -201,7 +201,7 @@ stages:
         TargetFolder: '$(directory)/build'
 
     - task: PowerShell@2
-      displayName: 'Replace config.js values for Development'
+      displayName: 'Replace config.js values for Production'
       inputs:
         targetType: 'inline'
         script: |
@@ -228,32 +228,12 @@ stages:
   dependsOn: [prod_build]
   jobs:
     - deployment: prod_deployment
-      displayName: Build & Deploy to Production Environment
+      displayName: Deploy to Production Environment
       environment: Production
       strategy: 
         runOnce:
           deploy:
             steps:
-            - task: PowerShell@2
-              displayName: 'Replace config.js values for Production'
-              inputs:
-                targetType: 'inline'
-                script: |
-                  $config_dest = "$(directory)\build\config.js"
-                  $content = "window.config = { CREDENTIALS_API_STATUS:'https://waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
-                  echo $content | Set-Content $config_dest;
-            - task: ArchiveFiles@2
-              displayName: 'Archive files'
-              inputs:
-                rootFolderOrFile: '$(Build.ArtifactStagingDirectory)'
-                includeRootFolder: false
-                archiveType: zip
-                archiveFile: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
-                replaceExistingArchive: true
-            - task: PublishBuildArtifacts@1
-              displayName: 'Publish Build Artifacts'
-              inputs: 
-                pathtoPublish: $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip
             - task: DownloadBuildArtifacts@1
               displayName: 'Download Artifact'
               inputs:
