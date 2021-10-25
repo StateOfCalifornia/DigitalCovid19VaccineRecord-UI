@@ -82,7 +82,7 @@ const ReceivedScreen = () => {
         <article>
           <p style={{ fontWeight: "300", fontSize: "1rem" }}>
             <Trans i18nKey="receivedpage.privacy2">
-              You have the right to review records CDPH maintains about you.
+              You have the right to review records WADOH maintains about you.
               WADOH will, upon request, inform you of the location of your
               records and the categories of persons who use the information in
               those records. 

@@ -71,9 +71,9 @@
     "vac2brand": "Dose #2 Type/Mfr.: ",
     "download": "Download",
     "needhelp": "Need Help?",
-    "incorrect": "If your record is not correct, please visit the virtual assistant to submit for a record review and update",
+    "incorrect": "If your record is not correct, please visit the 'Need Help' on the FAQ page'",
     "linkto": "Link To: ",
-    "virtualassistant": "Virtual Assistant",
+    "virtualassistant": "",
     "minrequirements": "Minimum requirements: Android version 5 and Google Play Services version 21.18 & above."
   },
   "receivedpage": {

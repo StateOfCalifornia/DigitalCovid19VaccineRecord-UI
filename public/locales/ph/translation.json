@@ -30,7 +30,7 @@
     "pinErrorMsg2": "Hindi maaaring may 4 na duplicate na numero ang PIN.",
     "pinErrorMsg3": "Hindi valid ang inilagay na PIN. Mangyaring subukan ulit sa pamamagitan ng pag-click sa link na ibinigay sa iyo upang ilagay ulit ang iyong PIN.",
     "pinErrorMsg4": "Pakisubukan ulit ang kahilingan mo sa loob ng 1 minuto.",
-    "pinErrorMsg5": "Makipag-ugnayan sa CDPH para sa higit pang impormasyon tungkol sa iyong bakuna.",
+    "pinErrorMsg5": "Makipag-ugnayan sa WADOH para sa higit pang impormasyon tungkol sa iyong bakuna.",
     "pinErrorMsg6": "Hindi makumpleto ang iyong kahilingan, mangyaring subukang muli.",
     "pinErrorMsg7": "Di-wastong format ng data, mangyaring subukang muli",
     "note": "<0>Tandaan:</0> Kinakailangan ang iyong PIN para secure na ma-access ang iyong digital na rekord.",
@@ -67,9 +67,9 @@
     "vac2date": "Petsa ng Dose #2:",
     "vac2brand": "Uri/Mfr ng Dosis #2: ",
     "needhelp": "Kailangan ng Tulong?",
-    "incorrect": "Kung hindi tama ang iyong record, pakibisita ang virtual assistant ng CDPH para magsumite ng pagsusuri at pag-update ng record.",
+    "incorrect": "Kung hindi tama ang iyong record, pakibisita ang FAQ ng WADOH para magsumite ng pagsusuri at pag-update ng record.",
     "linkto": "Link sa: ",
-    "virtualassistant": "Virtual Assistant",
+    "virtualassistant": "",
     "minrequirements": "Mga minimum na kinakailangan: Android version 5 at Google Play Services version 21.18 at mas bago."
   },
   "receivedpage": {
@@ -79,8 +79,8 @@
     "content2": "Kung hindi ka makakatanggap ng link sa loob ng 24 oras, pakisubukan ulit at tiyaking tumutugma ang iyong pangalan, petsa ng kapanganakan, numero ng telepono o email address sa impormasyong ibinigay sa panahon ng iyong pagpapabakuna.",
     "content3": "Kung mayroon kang mga katanungan tungkol sa Digital COVID-19 Vaccine Record, mayroon kaming mga sagot <1> bisitahin lamang ang aming FAQ </1>.",
     "privacyheader": "Pahayag ng Privacy (seksyon 1798.17 ng Kodigo Sibil) ",
-    "privacy1": "Ginawa ng Kagawaran ng Pampublikong Kalusugan ng California (California Department of Public Health o CDPH) ang Digital na Record ng Bakuna (Digital Vaccine Record o DVR) para magamit ng mga indibidwal na gustong makatanggap ng quick response code (QR Code) bilang patunay ng pagpapabakuna laban sa COVID-19. Kinokolekta ang impormasyon alinsunod sa seksyon 120440 ng Kodigo sa Kalusugan at Kaligtasan at pananatilihing kumpidensyal sa file ayon sa ipinag-uutos ng batas. Mandatoryo ang lahat ng hiniling na impormasyon para makatanggap ng QR Code; hindi magagamit ang DVR kung hindi ibibigay ang hiniling na impormasyon. Pakitandaang posibleng maihayag sa California State Auditor, California Office of Health Information Integrity, California Office of Information Security, o sa iba pang pang-estado at pederal na ahensya ang anuman at lahat ng impormasyong nakolekta sa DVR kung ipinag-uutos ng batas. ",
-    "privacy2": "May karapatan kang suriin ang mga record na pinapanatili ng CDPH tungkol sa iyo. Kapag hiniling, ipapaalam sa iyo ng CDPH ang lokasyon ng iyong mga record, at ang mga kategorya ng mga taong gumagamit ng impormasyong nasa mga record na iyon. Para sa higit pang impormasyon, makipag-ugnayan sa Chief, Immunization Branch, California Department of Public Health, 850 Marina Bay Pkwy, Bldg. P, Richmond, CA 94804 o sa pamamagitan ng telepono sa (800) 578-7889. "
+    "privacy1": "Ginawa ng Kagawaran ng Pampublikong Kalusugan ng California (California Department of Public Health o WADOH) ang Digital na Record ng Bakuna (Digital Vaccine Record o DVR) para magamit ng mga indibidwal na gustong makatanggap ng quick response code (QR Code) bilang patunay ng pagpapabakuna laban sa COVID-19. Kinokolekta ang impormasyon alinsunod sa seksyon 120440 ng Kodigo sa Kalusugan at Kaligtasan at pananatilihing kumpidensyal sa file ayon sa ipinag-uutos ng batas. Mandatoryo ang lahat ng hiniling na impormasyon para makatanggap ng QR Code; hindi magagamit ang DVR kung hindi ibibigay ang hiniling na impormasyon. Pakitandaang posibleng maihayag sa California State Auditor, California Office of Health Information Integrity, California Office of Information Security, o sa iba pang pang-estado at pederal na ahensya ang anuman at lahat ng impormasyong nakolekta sa DVR kung ipinag-uutos ng batas. ",
+    "privacy2": "May karapatan kang suriin ang mga record na pinapanatili ng WADOH tungkol sa iyo. Kapag hiniling, ipapaalam sa iyo ng WADOH ang lokasyon ng iyong mga record, at ang mga kategorya ng mga taong gumagamit ng impormasyong nasa mga record na iyon. Para sa higit pang impormasyon, makipag-ugnayan sa Chief, Immunization Branch, California Department of Public Health, 850 Marina Bay Pkwy, Bldg. P, Richmond, CA 94804 o sa pamamagitan ng telepono sa (800) 578-7889. "
   },
   "footer": {
     "home": "doh.wa.gov home",

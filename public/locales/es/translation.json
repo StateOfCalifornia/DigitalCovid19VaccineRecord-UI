@@ -30,7 +30,7 @@
     "pinErrorMsg2": "El PIN no puede contener 4 números duplicados.",
     "pinErrorMsg3": "El PIN ingresado no es válido. Vuelva a intentarlo haciendo clic en el enlace que se le proporcionó para volver a ingresar su PIN.",
     "pinErrorMsg4": "Vuelva a intentarlo en 1 minuto.",
-    "pinErrorMsg5": "Póngase en contacto con el CDPH para obtener más información sobre su vacuna.",
+    "pinErrorMsg5": "Póngase en contacto con el WADOH para obtener más información sobre su vacuna.",
     "pinErrorMsg6": "No se pudo completar su solicitud. Vuelva a intentarlo.",
     "pinErrorMsg7": "Formato de datos no válido, inténtelo de nuevo.",
     "note": "<0>Nota:</0> Su PIN es necesario para acceder de forma segura a su registro digital.",
@@ -66,9 +66,9 @@
     "vac2date": "Fecha de la dosis n° 2: ",
     "vac2brand": "Tipo/fabricante de la dosis n° 2: ",
     "needhelp": "¿Necesita ayuda?",
-    "incorrect": "Si su registro no es correcto, visite el asistente virtual del CDPH para solicitar una revisión y una actualización del registro.",
+    "incorrect": "",
     "linkto": "Enlace a: ",
-    "virtualassistant": "asistente virtual",
+    "virtualassistant": "",
     "minrequirements": "Requisitos mínimos: Android, versión 5, y Google Play Services, versión 21.18 y superior."
   },
   "receivedpage": {
@@ -78,8 +78,8 @@
     "content2": "Si no recibe un enlace en un plazo de 24 horas, intente nuevamente y asegúrese de que su nombre, fecha de nacimiento, número de teléfono o dirección de correo electrónico coincidan con la información provista al momento de la vacunación.",
     "content3": "Si tiene preguntas sobre el Registro digital de vacunas COVID-19, tenemos las respuestas solo <1> visite nuestras Preguntas frecuentes </1>.",
     "privacyheader": "Declaración de privacidad (sección 1798.17 del Código Civil)",
-    "privacy1": "El Departamento de Salud Pública de California (California Department of Public Health, CDPH) creó el registro de vacunación digital (Digital Vaccine Record, DVR) para que lo utilicen las personas que deseen recibir un código de respuesta rápida (código QR) como prueba de la vacunación contra el COVID-19. La información se recopila de conformidad con la sección 120440 del Código de Salud y Seguridad y será de carácter confidencial y quedará archivada de acuerdo con los requisitos legales. Toda la información solicitada es obligatoria para recibir un código QR. Si no se proporciona la información solicitada, no se podrá utilizar el DVR. Tenga en cuenta que la información recopilada en el DVR puede ser revelada a la Auditoría Estatal de California, la Oficina de Integridad de la Información de Salud de California, la Oficina de Seguridad de la Información de California u otras agencias estatales y federales, según lo requiera la ley.",
-    "privacy2": "Usted tiene derecho a revisar su archivo de registros del CDPH. Si lo solicita, el CDPH le informará la ubicación de sus registros y de las categorías de las personas que utilizan la información que contienen. Para obtener más información, comuníquese con el director de la División de Inmunización del Departamento de Salud Pública de California, 850 Marina Bay Pkwy, Bldg. P, Richmond, CA 94804 o llame al (800) 578-7889."
+    "privacy1": "El Departamento de Salud Pública de California (California Department of Public Health, WADOH) creó el registro de vacunación digital (Digital Vaccine Record, DVR) para que lo utilicen las personas que deseen recibir un código de respuesta rápida (código QR) como prueba de la vacunación contra el COVID-19. La información se recopila de conformidad con la sección 120440 del Código de Salud y Seguridad y será de carácter confidencial y quedará archivada de acuerdo con los requisitos legales. Toda la información solicitada es obligatoria para recibir un código QR. Si no se proporciona la información solicitada, no se podrá utilizar el DVR. Tenga en cuenta que la información recopilada en el DVR puede ser revelada a la Auditoría Estatal de California, la Oficina de Integridad de la Información de Salud de California, la Oficina de Seguridad de la Información de California u otras agencias estatales y federales, según lo requiera la ley.",
+    "privacy2": "Usted tiene derecho a revisar su archivo de registros del WADOH. Si lo solicita, el WADOH le informará la ubicación de sus registros y de las categorías de las personas que utilizan la información que contienen. Para obtener más información, comuníquese con el director de la División de Inmunización del Departamento de Salud Pública de California, 850 Marina Bay Pkwy, Bldg. P, Richmond, CA 94804 o llame al (800) 578-7889."
   },
   "footer": {
     "home": "Página de inicio de doh.wa.gov",

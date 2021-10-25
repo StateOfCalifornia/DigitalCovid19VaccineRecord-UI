@@ -240,43 +240,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           ) : null}
           {showMessage ? <p style={{ fontSize: "0.75rem" }}>Use Safari web browser to save</p> : null}
 
-          <div data-html2canvas-ignore="true">
-            <h2
-              style={{
-                color: "#22489c",
-                margin: "20px 0 10px 0",
-                fontSize: "130%",
-              }}
-            >
-              <Trans i18nKey="qrpage.needhelp">Need Help?</Trans>
-            </h2>
-            <p className={"pt-2"}>
-              <Trans i18nKey={"qrpage.incorrect"}>
-                If your record is not correct, please visit the CDPH
-                virtual assistant
-                to submit for a record review and update.
-              </Trans>
-            </p>
-            <Trans i18nKey={"qrpage.linkto"}>
-              Link To:{" "}
-            </Trans>
-            <ReactGA.OutboundLink
-              eventLabel="virtual_assistant"
-              to={'https://doh.wa.gov/?id=17'}
-              target="_blank"
-              style={{
-                color: "#0d6efd",
-                margin: "0",
-                textDecoration: "underline",
-              }}
-              onClick={(e) => console.log(e)}
-            >
-              <Trans i18nKey={"qrpage.virtualassistant"}>
-                Virtual Assistant
-              </Trans>
-            </ReactGA.OutboundLink>
-            {AppController.externalLink()}
-          </div>
+
         </div>
       </div>
     </div>
