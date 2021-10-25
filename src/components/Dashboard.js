@@ -3,7 +3,7 @@ import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
 import CovidCard from "./CovidCard";
 import { Trans } from "react-i18next";
-//import faqLinkLanguage from "../utils/faqLinkLanguage";
+import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from "../utils/AppController";
 
 const Dashboard = () => {
