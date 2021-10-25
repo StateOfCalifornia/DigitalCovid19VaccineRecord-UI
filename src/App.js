@@ -31,10 +31,10 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <Route path="/Dashboard" component={Dashboard} />
+          <Route path="/" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
           <Route path="/FAQ" component={FAQScreen} />
-          <Route exact path="/" component={SplashScreen} />          
+          <Route exact path="/SplashScreen" component={SplashScreen} />          
           <Route path="/qr/:lang/:id" component={QrScreen} />
         </Router>
         <Footer />
