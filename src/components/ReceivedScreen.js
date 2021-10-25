@@ -34,6 +34,11 @@ const ReceivedScreen = () => {
               </Trans>
             </p>
             <p>
+              <Trans i18nKey="receivedpage.content2">
+              If you do not receive a link within 24 hours, please try again and make sure your name, date of birth, phone or email match the information provided at the time of your vaccination.
+              </Trans>
+            </p>
+            <p>
               <Trans i18nKey="receivedpage.content3">
                 If you have questions about the Digital COVID-19 Vaccine Record, we have answers just <a href={faqLinkLanguage()}
                   target="_blank"
