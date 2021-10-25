@@ -5,32 +5,32 @@ const faqLinkLanguage = () => {
   let hyperlink;
   switch (browserLanguage) {
     case 'en' || 'us':
-      hyperlink = '~/faq';
+      hyperlink = '/faq';
       break;
     case 'es':
-      hyperlink = '~/faq-es';
+      hyperlink = '/faq-es';
       break;
     case 'cn':
-      hyperlink = '~/faq-ch ';
+      hyperlink = '/faq-ch ';
       break;
     case 'ae':
-      hyperlink = '~/faq-ar';
+      hyperlink = '/faq-ar';
       break;
     case 'kr':
-      hyperlink = '~/faq-ko';
+      hyperlink = '/faq-ko';
       break;
     case 'ph':
-      hyperlink = '~/faq-tg';
+      hyperlink = '/faq-tg';
       break;
     case 'tw':
-      hyperlink = '~/faq-ch-hant';
+      hyperlink = '/faq-ch-hant';
       break;
     case 'vi':
-      hyperlink = '~/faq-vi';
+      hyperlink = '/faq-vi';
       break;
     default:
       // default is english
-      hyperlink = '~/faq';
+      hyperlink = '/faq';
   }
 
   return hyperlink;
