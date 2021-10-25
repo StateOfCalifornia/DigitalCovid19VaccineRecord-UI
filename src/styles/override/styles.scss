@@ -99,6 +99,7 @@ dl.faq button {
     border: thin solid transparent;
     background-color: transparent;
     padding-left: 0.125em;
+    text-align: left;
   }
   
   dl dd {
@@ -113,6 +114,7 @@ dl.faq button {
     font-size: 110%;
     display: none;
     background-color: #fffedb;
+    text-align: left;
   }
   
   dl.faq button:hover,
@@ -135,9 +137,11 @@ dl.faq button {
   dl.faq button[aria-expanded="false"]::before {
     content: url('../right-arrow-brown.png');
     padding-right: 0.35em;
+    text-align: left;
   }
   
   dl.faq button[aria-expanded="true"]::before {
     content: url('../down-arrow-brown.png');
     padding-right: 0.35em;
+    text-align: left;
   }
