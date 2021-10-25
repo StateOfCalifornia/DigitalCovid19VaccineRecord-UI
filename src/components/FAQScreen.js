@@ -10,10 +10,10 @@ const FAQScreen = () => {
   }, []);
 
   return (
-    <div className={"logo-nav-container container"}>
+    <div className={"container"}>
       <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>WA Verify FAQ</h1>
       <div class="row">
-        <div class="col-sm-10">
+        <div class="col-sm-8">
           <dl class="faq" style={{ width: "90%", paddingLeft: 10 }}>
             <dt>
               <button aria-expanded="false" aria-controls="faq01_desc">
@@ -261,7 +261,7 @@ const FAQScreen = () => {
             </dd>
           </dl>
         </div>
-        <div class="col-sm-2">
+        <div class="col-sm-4">
           <div id="NeedHelp" style={{ width: "80%" }}>
             <h3>Need more help?</h3>
             For questions and other assistance, contact:
