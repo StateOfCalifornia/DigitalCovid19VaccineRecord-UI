@@ -58,8 +58,8 @@ const Dashboard = () => {
                     color: "#0d6efd",
                     margin: "0",
                     textDecoration: "underline",
-                  }}>visit our FAQ</a>
-              </Trans>.
+                  }}>visit our FAQ.</a>
+              </Trans>
             </p>
           </article>
           <hr />
