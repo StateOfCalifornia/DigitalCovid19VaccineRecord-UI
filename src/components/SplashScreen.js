@@ -24,7 +24,7 @@ const SplashScreen = () => {
       <div className="container" style="padding-top: 30px;">
         <div className="row">
           <div id="paneLeft" class="shadow p-3 mb-5 bg-body rounded col-sm-4">
-            <h2 style={{fontSize: h5}}>WA Verify</h2>
+            <h2 style={{fontSize: "h5"}}>WA Verify</h2>
             <img src="/imgs/waverifylogo.png" height='71px' width='263px' alt="" />
             <p style={{ paddingBottom: 30 }}>If you are looking for your State COVID-19 Verification Record with QR Code</p>
             <ul>
