@@ -416,3 +416,39 @@ hr {
     justify-content: unset;
   }
 }
+
+/*  Attempt for Responsive DIV alignment */
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.ResponsiveColumn {
+  float: left;
+  width: 310px;
+  padding: 10px;
+  margin: 5px;
+  /*height: 300px;  Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.ResponsiveRow:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.ResponsiveRow {
+	background-color: blue;
+	margin: 20px;
+	text-align: center;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 320px) {
+  .ResponsiveColumn {
+    width: 100%;
+  }
+}
+

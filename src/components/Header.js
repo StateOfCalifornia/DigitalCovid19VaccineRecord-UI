@@ -55,7 +55,8 @@ const Header = () => {
                   <img style={{ alignSelf: "left", paddingRight: 15}} alt={"Wa State Seal"} width="70px" src="/imgs/doh_logo_doh-black.png" />
                   <span style={{ verticalAlign: 'middle' }}>State of Washington</span>
               </div>
-              <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
+              {/* Temporarily disabled until we have all the Translations */}
+{/*               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
                 <ul className='translationList'>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
@@ -77,7 +78,7 @@ const Header = () => {
                   <MenuItem onClick={() => { handleClose(); changeLanguage('tw') }} style={{ textDecoration: 'underline' }}>繁體字 (Traditional)</MenuItem>
                   <MenuItem onClick={() => { handleClose(); changeLanguage('ae') }} style={{ textDecoration: 'underline' }}>العربية (Arabic)</MenuItem>
                 </Menu>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -79,8 +79,8 @@ const Dashboard = () => {
               Safe, free, and effective COVID-19 vaccines are now available to
               everyone age 12 and up,
               <ReactGA.OutboundLink
-                eventLabel="myturn"
-                to={"https://waverify.com"}
+                eventLabel="VaccineLocator"
+                to={"https://vaccinelocator.doh.wa.gov/"}
                 target="_blank"
                 style={{
                   display: "inline",
