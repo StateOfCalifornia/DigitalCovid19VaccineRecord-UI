@@ -52,7 +52,7 @@ const Dashboard = () => {
             </p>
             <p>
             <Trans i18nKey="dashboardpage.content4">
-                If you have any more questions about your Digital COVID-19 Vaccine Record, visit our <a href={faqLinkLanguage()}  rel="noopener noreferrer">FAQ</a>.
+                If you have any more questions about your Digital COVID-19 Vaccine Record, visit our <a href="~/faq" rel="noopener noreferrer">FAQ</a>.
               </Trans>
             </p>
           </article>
