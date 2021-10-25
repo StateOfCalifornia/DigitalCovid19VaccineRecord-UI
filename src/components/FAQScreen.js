@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import ReactGA from "react-ga";
 import "../disclosureButton.js";
 
 const FAQScreen = () => {
