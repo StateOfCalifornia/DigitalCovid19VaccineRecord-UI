@@ -166,8 +166,12 @@ const FAQScreen = () => {
                   to the mobile phone or email that is associated with your immunization record.
                   <br />
                   The QR code is a SMART Health Card, a secure copy of your verification record. More
-                  information is at <a href="https://smarthealth.cards"
-                    target="smarthealth">https://smarthealth.cards</a>. To protect your privacy, the QR code
+                  information is at 
+                  <Link to="https://smarthealth.cards"  style={{
+                  color: "#0d6efd",
+                  margin: "0",
+                  textDecoration: "underline",
+                }}>https://smarthealth.cards</Link>. To protect your privacy, the QR code
                   can only be scanned and read by a SMART Health Card-compliant device.
                 </p>
               </dd>
@@ -198,7 +202,7 @@ const FAQScreen = () => {
               </dt>
               <dd>
                 <p id="faq12_desc" class="desc">
-                  Yes. It is one of several options for providing your Digital COVID-19 Verification Record
+                  Yes. It is one of <a href="https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine" target="CoronaVirus" title="Click to see your options (opens in a new window)">several options</a> for providing your Digital COVID-19 Verification Record
                   and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
                   your state immunization record.
                   <br />
