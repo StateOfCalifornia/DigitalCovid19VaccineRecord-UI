@@ -21,7 +21,7 @@ const SplashScreen = () => {
         <br />
         If you have questions about WA Verify, please call 800-525-0127, press #
       </div>
-      <div className="container" style="padding-top: 30px;">
+      <div className="container" style={{paddingTop: 30}}>
         <div className="row">
           <div id="paneLeft" class="shadow p-3 mb-5 bg-body rounded col-sm-4">
             <h2 style={{fontSize: "h5"}}>WA Verify</h2>
