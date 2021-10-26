@@ -52,11 +52,8 @@ const Header = () => {
                 <div style={{ textAlign: 'middle' }}>
                   <img style={{ alignSelf: "left", paddingRight: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
                 </div>
-                <div style={{ textAlign: 'center', float: "left" }}>
-                  Washington State
-                  </div>
-                  <div style={{ textAlign: 'center', float: "none" }}>
-                  Department of Health
+                <div style={{ verticalAlign: "middle", textAlign: 'middle'}}>
+                  Washington State<br/> Department of Health
                 </div>
               </div>
               {/* Temporarily disabled until we have all the Translations */}
