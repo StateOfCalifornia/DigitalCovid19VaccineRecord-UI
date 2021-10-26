@@ -47,13 +47,17 @@ const Header = () => {
       <div className="headerContainer" style={{ backgroundColor: '#f9f9f9', borderBottom: '1px solid #ccc' }}>
         <div className="fluid-container">
           <div className="subheaderContainer">
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', height: 70 }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
-                  <img style={{ alignSelf: "left", paddingRight: 15}} alt={"Wa State Seal"} width="70px" src="/imgs/doh_logo_doh-black.png" />
-                  <span style={{ verticalAlign: 'middle' }}>State of Washington</span>
+                <div style={{ textAlign: 'middle' }}>
+                  <img style={{ alignSelf: "left", paddingRight: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
+                </div>
+                <div style={{ textAlign: 'middle' }}>
+                  Washington State Department of Health
+                </div>
               </div>
               {/* Temporarily disabled until we have all the Translations */}
-{/*               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
+              {/*               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
                 <ul className='translationList'>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
