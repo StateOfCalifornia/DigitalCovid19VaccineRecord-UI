@@ -57,7 +57,7 @@ const Dashboard = () => {
                   style={{
                     color: "#0d6efd",
                     margin: "0",
-                    textDecoration: "underline",
+                    textDecoration: "underline"
                   }}>visit our FAQ.</a>
               </Trans>
             </p>
@@ -81,12 +81,12 @@ const Dashboard = () => {
               <ReactGA.OutboundLink
                 eventLabel="VaccineLocator"
                 to={"https://vaccinelocator.doh.wa.gov/"}
-                target="_blank"
+                target="VaccineLocator"
                 style={{
                   display: "inline",
                   color: "#0D6EFD",
                   margin: "0 5px",
-                  textDecoration: "underline",
+                  textDecoration: "underline"
                 }}
               >
                 get vaccinated.
