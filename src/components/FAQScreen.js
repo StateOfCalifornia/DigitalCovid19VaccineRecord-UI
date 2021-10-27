@@ -170,7 +170,7 @@ const FAQScreen = () => {
                 The QR code is a SMART Health Card, a secure copy of your verification record. More
                 information is at
                 <Link to="https://smarthealth.cards" style={{
-                  target="SmartHealth",
+                  target: "SmartHealth",
                   color: "#0d6efd",
                   margin: "0",
                   textDecoration: "underline"
