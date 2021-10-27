@@ -168,7 +168,7 @@ const FAQScreen = () => {
                 to the mobile phone or email that is associated with your immunization record.
                 <br />
                 The QR code is a SMART Health Card, a secure copy of your verification record. More
-                information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth">https://smarthealth.cards</a>. To protect your privacy, the QR code
+                information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" style={{  color: "#0d6efd",  margin: "0", textDecoration: "underline" }}>https://smarthealth.cards</a>. To protect your privacy, the QR code
                 can only be scanned and read by a SMART Health Card-compliant device.
               </p>
             </dd>
