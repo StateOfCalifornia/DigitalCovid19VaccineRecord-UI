@@ -40,7 +40,8 @@ const ReceivedScreen = () => {
             </p>
             <p>
               <Trans i18nKey="receivedpage.content3">
-                If you have questions about the Digital COVID-19 Vaccine Record, we have answers just <a href={faqLinkLanguage()}
+                If you have questions about the <a href="/" style={{  color: "#0d6efd",  margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>, we have answers just
+                <a href={faqLinkLanguage()}
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
