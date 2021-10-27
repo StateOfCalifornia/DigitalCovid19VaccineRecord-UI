@@ -54,7 +54,7 @@ const ReceivedScreen = () => {
           </div>
         </article>
       </section>
-      <hr />
+{/*       <hr />
       <section>
         <h1
           style={{
@@ -95,7 +95,7 @@ const ReceivedScreen = () => {
             </Trans>
           </p>
         </article>
-      </section>
+      </section> */}
     </div>
   );
 };
