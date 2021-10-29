@@ -254,5 +254,5 @@ stages:
                 ConnectionType: 'AzureRM'
                 azureSubscription: 'doh-sub-vaccs-01 (c47773b2-99d9-4614-8b2c-737ab9ec3e73)-1813'
                 appType: 'webApp'
-                WebAppName: 'app-waverify-ui-prod'
+                WebAppName: 'app-waverify-ui-prod-MaintenanceMode'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
