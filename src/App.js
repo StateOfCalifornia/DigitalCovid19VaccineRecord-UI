@@ -31,7 +31,8 @@ function App() {
       <div className="App">
         <Router>
           <Header />
-          <Route exact path="/" component={Dashboard} />
+          <Route exact path="/" component={MaintenanceScreen} />
+          <Route path="/received" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
           <Route path="/FAQ" component={FAQScreen} />
           <Route path="/SplashScreen" component={SplashScreen} />          
