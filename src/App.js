@@ -34,11 +34,11 @@ function App() {
         <Router>
           <Header />
           <Route exact path="/" component={MaintenanceScreen} />
-          <Route path="/received" component={Dashboard} />
-          <Route path="/received" component={ReceivedScreen} />
+{/*           <Route path="/Dashboard" component={Dashboard} />
+          <Route path="/received" component={ReceivedScreen} /> */}
           <Route path="/FAQ" component={FAQScreen} />
-          <Route path="/SplashScreen" component={SplashScreen} />          
-          <Route path="/qr/:lang/:id" component={QrScreen} /> 
+{/*           <Route path="/SplashScreen" component={SplashScreen} />          
+          <Route path="/qr/:lang/:id" component={QrScreen} />  */}
         </Router>
         <Footer />
       </div>
