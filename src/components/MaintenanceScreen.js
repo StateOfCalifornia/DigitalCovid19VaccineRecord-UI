@@ -5,15 +5,8 @@ const Maintenance = () => {
   return (
     <div class="maintainance-container">
     <div class="fluid-container">
-        <div class="maintainance-image">
-        <div className='vaccineLogo' style={{ padding: '5px 1.5vw' }}>
-            <Link to='/' style={{ display: 'inline-block', height: 'inherit', margin: '0', width: 'inherit' }}>
-              <img style={{ alignSelf: "center" }} alt={"WaVerify Logo"} width="200px" src="/imgs/waverifylogo.png" />
-              <span className='logoDescription' style={{ fontSize: '18px', display: 'inline-block', paddingLeft: '17px', color: '#22489c' }}>Digital COVID-19 Vaccine Record</span>
-            </Link>
-          </div>
-        </div>
-        <div class="maintainance-content">
+
+        <div class="maintainance-content" style={{textAlign: "center"}}>
             <div class="maintainance-article">
             <h1
             style={{
