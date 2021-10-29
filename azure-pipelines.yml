@@ -42,6 +42,13 @@ stages:
         Contents: 'web.config'
         TargetFolder: '$(directory)/build'
 
+    - task: CopyFiles@2
+      displayName: 'Copy maintenancepage.html to build folder'
+      inputs:
+        SourceFolder: '$(directory)/'
+        Contents: 'maintenancepage.html'
+        TargetFolder: '$(directory)/build'
+
     - task: PowerShell@2
       displayName: 'Replace config.js values for Development'
       inputs:
