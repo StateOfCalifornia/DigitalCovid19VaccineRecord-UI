@@ -327,13 +327,13 @@ const CovidCard = () => {
           <CardContent style={{ padding: "16px 12px" }}>
             <h2 className={"covid-card-header"}>
               <Trans i18nKey="vaccineform.filloutheader">
-                Please fill out the required fields to receive a link to a QR code and digital copy of your COVID-19 vaccination record:
+              Please fill out the required fields to receive a link to a QR code / digital copy of your COVID-19 Verification Record:
               </Trans>
             </h2>
             <div style={{ marginBottom: "15px" }}>
               <Typography>
                 <Trans i18nKey="vaccineform.subtitle">
-                  Required fields marked with *
+                Required fields marked with *
                 </Trans>
               </Typography>
             </div>
@@ -394,7 +394,7 @@ const CovidCard = () => {
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
               <FormLabel component="legend">
                 <Trans i18nKey="vaccineform.phoneemailinfo">
-                  Provide a mobile phone or email that may be associated with your vaccine record.  If you fail to get a match using your mobile phone, try again using your email address.
+                Provide a mobile phone or email that may be associated with your vaccine record. If you do not get a match using your mobile phone, try again using your email address.
                 </Trans>
               </FormLabel>
               <RadioGroup
@@ -474,7 +474,7 @@ const CovidCard = () => {
             )}
             <FormLabel component="legend" style={{ color: error.Pin ? '#f44336' : 'dimgrey', marginTop: "50px" }}>
               <Trans i18nKey="vaccineform.pincode">
-                Create a 4-digit PIN. You'll receive a link to enter the PIN and access your digital vaccine record. *
+                Create a 4-digit PIN number. You'll receive a link to enter the PIN number and access your digital vaccine record. *
               </Trans>
             </FormLabel>
             <div className='pinContainer'>
@@ -532,10 +532,7 @@ const CovidCard = () => {
               />
               <div>
                 <Trans i18nKey="vaccineform.checkboxdescription">
-                  By checking this box, you are declaring under penalty of perjury
-                  that you are the
-                  Patient or Parent/Guardian of the Patient and are therefore
-                  authorized to access the Patient’s immunization record.
+                By checking this box, you are declaring under penalty of perjury under state and federal laws that you are the Patient or Parent/Guardian of the Patient and are therefore authorized to access the Patient’s immunization record.
                 </Trans>
               </div>
             </div>
