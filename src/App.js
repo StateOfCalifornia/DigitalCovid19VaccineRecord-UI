@@ -10,6 +10,9 @@ import QrScreen from "./components/QrScreen";
 import ReceivedScreen from "./components/ReceivedScreen";
 import FAQScreen from "./components/FAQScreen";
 import { MuiPickersUtilsProvider } from "@material-ui/pickers";
+import MaintenanceScreen from "./components/MaintenanceScreen";
+
+MaintenanceScreen
 import DayJsUtils from "@date-io/dayjs";
 import "./i18n";
 import "./styles/CovidCard-style.css";
