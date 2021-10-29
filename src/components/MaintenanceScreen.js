@@ -15,7 +15,16 @@ const Maintenance = () => {
         </div>
         <div class="maintainance-content">
             <div class="maintainance-article">
-                <h1 style={{color: rgb(240, 103, 36), fontSizeAdjust:2.6}}>We'll be back soon</h1>
+            <h1
+            style={{
+              fontSize: "38px",
+              fontWeight: "700",
+              color: "#F06724",
+              margin: "50px 0",
+            }}
+          >
+            We'll be back soon
+          </h1>
                 <p>Site is temporarily unavailable for maintenance. <br/> Please
                     check back soon. We appreciate your patience!</p>
             </div>
