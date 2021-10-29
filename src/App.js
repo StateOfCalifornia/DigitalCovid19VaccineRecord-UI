@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 
 import Dashboard from "./components/Dashboard";
+import MaintenanceScreen from "./components/MaintenanceScreen";
 import SplashScreen from "./components/SplashScreen";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -10,7 +11,7 @@ import QrScreen from "./components/QrScreen";
 import ReceivedScreen from "./components/ReceivedScreen";
 import FAQScreen from "./components/FAQScreen";
 import { MuiPickersUtilsProvider } from "@material-ui/pickers";
-import MaintenanceScreen from "./components/MaintenanceScreen";
+
 
 MaintenanceScreen
 import DayJsUtils from "@date-io/dayjs";
