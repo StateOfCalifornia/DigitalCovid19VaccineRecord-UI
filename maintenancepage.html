@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <link rel="icon" href="~/favicon.ico" />
@@ -14,48 +15,55 @@
     * {
         font-family: 'Public Sans', sans-serif;
     }
+
     p {
-        font-size:1.125rem;
+        font-size: 1.125rem;
         line-height: 1.4em;
     }
+
     .maintainance-container {
         /* border: 1px solid #22489c; */
         text-align: center;
-        height:100vh;
+        height: 100vh;
     }
+
     .vaccineLogo {
         margin-top: 20px;
     }
+
     .maintainance-content {
-        height:100vh;
-        display:flex;
+        height: 100vh;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
 </style>
+
 <body>
-    <div class="maintainance-container">
-        <div class="fluid-container">
-            <div class="maintainance-image">
-                <div class="vaccineLogo">
-                      <img
-                        style="align-self: center;"
-                        alt="WAVerify Logo"
-                        width="263px"
-                        height='71px'
-                        src="~/imgs/waverifylogo.png"
-                      />
-                      <span class='logoDescription' style="font-size: 18px; display: inline-block; padding-left: 17px; color: #22489c; vertical-align: super; font-weight: 700; line-height: 1.3em; text-align: left;">Digital COVID-19 <br /> Verification Record</span>
-                  </div>
+    <div class="maintainance-container" style="padding-bottom: 300;">
+        <div className="logo-nav-container" style=" border-bottom: '1px solid #ccc' ">
+            <div className="fluid-container">
+                <div className='vaccineLogo' style=" padding: '5px 1.5vw' ">
+                    <img alt="WaVerify Logo" width="200px" src="/imgs/waverifylogo.png" />
+                    <span className='logoDescription'
+                        style=" font-size: '18px'; display: 'inline-block'; padding-left: '17px'; color: '#22489c';">
+                        Digital COVID-19 Vaccine Record
+                    </span>
+                </div>
             </div>
-            <div class="maintainance-content">
+        </div>
+        <div class="fluid-container">
+            <div class="maintainance-content" style="text-align: center">
                 <div class="maintainance-article">
-                    <h1 style="color: rgb(240, 103, 36); font-size:2.6em">We'll be back soon</h1>
-                    <p>Site is temporarily unavailable for maintenance. <br/> Please
+                    <h1 style="font-size: 38px; font-weight: 700px; color: #F06724; margin: 50px 0">
+                        We'll be back soon
+                    </h1>
+                    <p>Site is temporarily unavailable for maintenance. <br /> Please
                         check back soon. We appreciate your patience!</p>
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>
