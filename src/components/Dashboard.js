@@ -20,45 +20,31 @@ const Dashboard = () => {
             }}
           >
             <Trans i18nKey="dashboardpage.contentheader">
-              Digital COVID-19 Vaccine Record
+              Digital COVID-19 Verification Record
             </Trans>
           </h1>
           <article>
             <p>
               <Trans i18nKey="dashboardpage.content1">
-                Welcome to the Digital COVID-19 Vaccine Record portal. Just
-                enter a few details below to get a link to a QR code and digital
-                copy of your COVID-19 vaccination record. If you want to share
-                your proof of vaccination, you can use the electronic version
-                you’ll get from the portal or the card you were given at time of
-                vaccination.
+                Welcome to the Digital COVID-19 Verification Record system. Enter a few details below to get a link to a QR code and digital copy of your COVID-19 verification record. If you want to share proof of vaccination, you can use either the electronic or a printed version of the record you’ll get from the system.
               </Trans>
             </p>
             <p>
               <Trans i18nKey="dashboardpage.content2">
-                If you are a parent or guardian and have multiple vaccine
-                records associated with a mobile phone number or email
-                address, enter each digital vaccine record request separately.
+                People within a family may have multiple verification records associated with a single phone number or email address, enter each digital verification record request separately.
               </Trans>
             </p>
             <p>
               <Trans i18nKey="dashboardpage.content3">
-                The portal provides only a digital copy of your vaccine record.
-                If you received your vaccinations from a federal agency (e.g.,
-                Department of Defense, Indian Health Services, or Veterans
-                Affairs), you will need to reach out to those agencies for
-                assistance with your vaccination record.
+                The system provides a digital copy of state vaccine records. If you received your vaccinations from a federal agency (Department of Defense, Indian Health Services, or Veterans Affairs), you will need to contact those agencies for assistance.
               </Trans>
             </p>
             <p>
               <Trans i18nKey="dashboardpage.content4">
-                If you have any more questions about your Digital COVID-19 Vaccine Record, <a href={faqLinkLanguage()}
-                  rel="noopener noreferrer"
-                  style={{
-                    color: "#0d6efd",
-                    margin: "0",
-                    textDecoration: "underline"
-                  }}>visit our FAQ.</a>
+                If you have questions about your Digital COVID-19 Verification Record, visit the Frequently Asked Questions
+                (
+                <a href={faqLinkLanguage()} rel="noopener noreferrer" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}></a>
+                ).
               </Trans>
             </p>
           </article>
