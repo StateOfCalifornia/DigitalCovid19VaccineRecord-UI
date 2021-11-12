@@ -53,8 +53,8 @@ const Footer = () => {
                         </ReactGA.OutboundLink>
                         {AppController.externalLink()}
                     </li>
-                    <li><a href={faqLinkLanguage()}  rel="noopener noreferrer"><Trans i18nKey="footer.faq">FAQ</Trans></a></li>
-                    <li><a href={faqLinkLanguage()}  rel="noopener noreferrer"><Trans i18nKey="ffooter.faq">Contact Us</Trans></a></li>
+                    <li><a href="/faq"  rel="noopener noreferrer"><Trans i18nKey="footer.faq">FAQ</Trans></a></li>
+                    <li><a href="/faq"  rel="noopener noreferrer"><Trans i18nKey="ffooter.faq">Contact Us</Trans></a></li>
                 </ul>
                 <p style={{ paddingLeft: '0', paddingTop: '20px' }}>{<Trans i18nKey="footer.copyright">Copyright</Trans>} &copy; {date.getFullYear()} State of Washington</p>
             </div>
