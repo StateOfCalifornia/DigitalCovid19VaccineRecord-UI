@@ -52,18 +52,18 @@ const Header = () => {
                 <div style={{ textAlign: 'middle' }}>
                   <img style={{ alignSelf: "left", paddingRight: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
                 </div>
-                <div style={{ verticalAlign: "middle", textAlign: 'middle'}}>
-                  Washington State<br/> Department of Health
+                <div style={{ verticalAlign: "middle", textAlign: 'middle' }}>
+                  Washington State<br /> Department of Health
                 </div>
               </div>
               {/* Temporarily disabled until we have all the Translations */}
-              {/*               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
+              <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
                 <ul className='translationList'>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
-                  <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'cn')} onClick={() => changeLanguage('cn')}>简体字</li>
+                  {/* <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'cn')} onClick={() => changeLanguage('cn')}>简体字</li> */}
                 </ul>
-                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
+                {/*                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
                   More {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon />}
                 </Button>
                 <Menu
@@ -78,8 +78,8 @@ const Header = () => {
                   <MenuItem onClick={() => { handleClose(); changeLanguage('kr') }} style={{ textDecoration: 'underline' }}>한국어 (Korean)</MenuItem>
                   <MenuItem onClick={() => { handleClose(); changeLanguage('tw') }} style={{ textDecoration: 'underline' }}>繁體字 (Traditional)</MenuItem>
                   <MenuItem onClick={() => { handleClose(); changeLanguage('ae') }} style={{ textDecoration: 'underline' }}>العربية (Arabic)</MenuItem>
-                </Menu>
-              </div> */}
+                </Menu> */}
+              </div>
             </div>
           </div>
         </div>
