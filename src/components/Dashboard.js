@@ -43,7 +43,7 @@ const Dashboard = () => {
               <Trans i18nKey="dashboardpage.content4">
                 If you have questions about your Digital COVID-19 Verification Record, visit the Frequently Asked Questions
                 (
-                <a href={faqLinkLanguage()} rel="noopener noreferrer" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}></a>
+                <a href="/faq" rel="noopener noreferrer" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}></a>
                 ).
               </Trans>
             </p>
