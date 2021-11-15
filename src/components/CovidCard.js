@@ -16,6 +16,7 @@ import Checkbox from "@material-ui/core/Checkbox";
 import PhoneMask from "./PhoneMask";
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
+import i18next from "i18next";
 
 const CovidCard = () => {
   let newLang = localStorage.getItem('i18nextLng');
@@ -75,60 +76,7 @@ const CovidCard = () => {
   };
 
   const finalLanguageCheck = () => {
-    let languageValue = window.navigator.userLanguage || navigator.language.length > 2 ? navigator.language.substring(0, 2).toLowerCase() : navigator.language;
-
-    // If it doesnt exist go to english
-    if (!languageValue) {
-      languageValue = 'us';
-    }
-
-    // if other language is present not in this list return english
-    switch (languageValue) {
-      case 'us':
-        languageValue = 'us';
-        break;
-      case 'en':
-        languageValue = 'en';
-        break;
-      case 'es':
-        languageValue = 'es';
-        break;
-      case 'kr':
-        languageValue = 'kr';
-        break;
-      case 'ko':
-        languageValue = 'kr';
-        break;
-      case 'tw':
-        languageValue = 'tw';
-        break;
-      case 'fi':
-        languageValue = 'ph';
-        break;
-      case 'zh':
-        let newLanguage = window.navigator.userLanguage || navigator.language;
-        languageValue = newLanguage.substring(3, 5).toLowerCase();
-        break;
-      case 'cn':
-        languageValue = 'cn';
-        break;
-      case 'ae':
-        languageValue = 'ae';
-        break;
-      case 'ar':
-        languageValue = 'ae';
-        break;
-      case 'ph':
-        languageValue = 'ph';
-        break;
-      case 'vi':
-        languageValue = 'vi';
-        break;
-      default:
-        languageValue = 'us'
-    }
-
-    return languageValue;
+    return i18next.language;
   }
 
   const finalCheck = () => {

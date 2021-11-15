@@ -4,25 +4,25 @@ const faqLinkLanguage = () => {
 
   let hyperlink;
   switch (browserLanguage) {
-    case 'en' || 'us':
+    case 'en':
       hyperlink = '/faq';
       break;
     case 'es':
       hyperlink = '/faq-es';
       break;
-    case 'cn':
+    case 'zh':
       hyperlink = '/faq-ch ';
       break;
-    case 'ae':
+    case 'ar':
       hyperlink = '/faq-ar';
       break;
-    case 'kr':
+    case 'ko':
       hyperlink = '/faq-ko';
       break;
-    case 'ph':
+    case 'tl':
       hyperlink = '/faq-tg';
       break;
-    case 'tw':
+    case 'zh-tw':
       hyperlink = '/faq-ch-hant';
       break;
     case 'vi':
