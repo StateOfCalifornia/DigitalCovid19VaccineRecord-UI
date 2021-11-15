@@ -7,7 +7,7 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import TextField from "@material-ui/core/TextField";
 import FormControl from "@material-ui/core/FormControl";
 import { KeyboardDatePicker } from "@material-ui/pickers";
-import { Trans } from "react-i18next";
+import {Trans, useTranslation} from "react-i18next";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
@@ -16,10 +16,10 @@ import Checkbox from "@material-ui/core/Checkbox";
 import PhoneMask from "./PhoneMask";
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
-import i18next from "i18next";
 
 const CovidCard = () => {
   let newLang = localStorage.getItem('i18nextLng');
+  const { i18n } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [selectedBirthDate, setSelectedBirthDate] = useState(null);
   const [contactType, setContactType] = useState("Phone");
@@ -76,7 +76,7 @@ const CovidCard = () => {
   };
 
   const finalLanguageCheck = () => {
-    return i18next.language;
+    return i18n.language;
   }
 
   const finalCheck = () => {
