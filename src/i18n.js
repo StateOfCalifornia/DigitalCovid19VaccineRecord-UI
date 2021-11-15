@@ -1,16 +1,9 @@
 import i18n from "i18next";
-
 // This module will load the translations.
 import Backend from "i18next-http-backend";
-
 // This module will detect the language for us.
 import LanguageDetector from "i18next-browser-languagedetector";
-
 import { initReactI18next } from "react-i18next";
-
-// Check users default browser language...
-
-var lng = window.navigator.userLanguage || navigator.language.length > 2 ? navigator.language.substring(0, 2).toLowerCase() : navigator.language;
 
 /**
  * Defaults to 'en' using the `fallbackLng` option.
