@@ -49,7 +49,6 @@ const CovidCard = () => {
     document.querySelectorAll(".MuiButtonBase-root")[1].setAttribute("aria-label", "Date of birth")
     document.getElementById("submitcheckbox").setAttribute("aria-label", "Acknowledge Button")
     document.getElementById("partitioned").setAttribute("aria-label", "Set 4 Digit Pin")
-    finalLanguageCheck();
   }, []);
 
 
@@ -74,10 +73,6 @@ const CovidCard = () => {
     finalCheck();
     setChecked(!checked);
   };
-
-  const finalLanguageCheck = () => {
-    return i18n.language;
-  }
 
   const finalCheck = () => {
     let tempErrorObj = {
@@ -117,7 +112,7 @@ const CovidCard = () => {
       PhoneNumber: textmask ? normalize(textmask.value) : "",
       EmailAddress: contactType ? contactType.value : "",
       Pin: PIN.value,
-      Language: newLang ? newLang : finalLanguageCheck()
+      Language: i18n.language || 'en'
     };
 
     setLoading(true);
