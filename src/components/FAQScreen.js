@@ -291,7 +291,7 @@ const FAQScreen = () => {
             </dt>
             <dd>
               <p id="faq14_desc" class="desc">
-                <Trans i18nKey="faqpage.15answer">
+                <Trans i18nKey="faqpage.14answer">
                   Your <a href="/" >Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
                   vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19
                   Verification Record how they will use your data or if they will keep it. Only you can decide
