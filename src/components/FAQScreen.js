@@ -20,7 +20,9 @@ const FAQScreen = () => {
           <dl class="faq" style={{ width: "90%", paddingLeft: 10 }}>
             <dt>
               <button aria-expanded="false" aria-controls="faq01_desc">
-                What is a Digital COVID-19 Verification Record?
+              <Trans i18nKey="faqpage.01question">
+                What is a Digital COVID 19 Verification Record?
+                </Trans>
               </button>
             </dt>
             <dd>
