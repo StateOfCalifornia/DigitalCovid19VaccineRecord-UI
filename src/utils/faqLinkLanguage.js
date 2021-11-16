@@ -1,39 +1,26 @@
+import i18n from '../i18n';
+
 const faqLinkLanguage = () => {
-
-  let browserLanguage = localStorage.getItem('i18nextLng');
-
-  let hyperlink;
-  switch (browserLanguage) {
+  switch (i18n.resolvedLanguage) {
     case 'en':
-      hyperlink = '/faq';
-      break;
+      return '/faq';
     case 'es':
-      hyperlink = '/faq-es';
-      break;
+      return '/faq-es';
     case 'zh':
-      hyperlink = '/faq-ch ';
-      break;
+      return '/faq-ch ';
     case 'ar':
-      hyperlink = '/faq-ar';
-      break;
+      return '/faq-ar';
     case 'ko':
-      hyperlink = '/faq-ko';
-      break;
+      return '/faq-ko';
     case 'tl':
-      hyperlink = '/faq-tg';
-      break;
+      return '/faq-tg';
     case 'zh-tw':
-      hyperlink = '/faq-ch-hant';
-      break;
+      return '/faq-ch-hant';
     case 'vi':
-      hyperlink = '/faq-vi';
-      break;
+      return '/faq-vi';
     default:
-      // default is english
-      hyperlink = '/faq';
+      return '/faq';
   }
-
-  return hyperlink;
 }
 
 export default faqLinkLanguage;

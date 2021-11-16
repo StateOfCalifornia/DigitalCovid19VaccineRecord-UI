@@ -18,7 +18,6 @@ import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 
 const CovidCard = () => {
-  let newLang = localStorage.getItem('i18nextLng');
   const { i18n } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [selectedBirthDate, setSelectedBirthDate] = useState(null);
