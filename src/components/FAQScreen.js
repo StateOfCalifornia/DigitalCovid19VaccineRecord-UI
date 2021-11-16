@@ -27,6 +27,7 @@ const FAQScreen = () => {
             </dt>
             <dd>
               <p id="faq01_desc" class="desc">
+              <Trans i18nKey="faqpage.01answer">
                 Your <a href="/" >Digital COVID-19 Vaccine Record</a> is an electronic vaccination record drawn from the
                 data stored in the state immunization registry. The digital record shows the same
                 information as your paper CDC COVID-19 vaccine card: your name, date of birth, vaccination
@@ -34,6 +35,7 @@ const FAQScreen = () => {
                 scanned by a SMART Health Card reader will display to the reader your name, date of birth,
                 vaccine dates and vaccine type. The QR code also confirms the vaccine record as an official
                 record of your state.
+                </Trans>
               </p>
             </dd>
             <dt>
