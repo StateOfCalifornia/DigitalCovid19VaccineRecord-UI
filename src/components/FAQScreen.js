@@ -329,13 +329,13 @@ const FAQScreen = () => {
             For questions and other assistance, contact:
           </Trans>
           <ul>
-            <li style={{ listStyleType: "none" }}>1-800-525-0127, press #</li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">Monday</Trans> 6AM-10PM</li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Tuesday-Sunday</Trans> 6AM-6PM</li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Closed state holidays</Trans></li>
+            <li style={{ listStyleType: "none" }}>1-800-525-0127, <Trans i18nKey="faqpage.needhelpcontent02">press</Trans> #</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Monday</Trans> 6AM-10PM</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Tuesday-Sunday</Trans> 6AM-6PM</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent05">Closed state holidays</Trans></li>
           </ul>
           <p style={{ paddingTop: 40 }}>
-            <Trans i18nKey="faqpage.needhelpcontent05">
+            <Trans i18nKey="faqpage.needhelpcontent06">
               <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
             </Trans>
           </p>
