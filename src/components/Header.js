@@ -61,9 +61,9 @@ const Header = () => {
                 <ul className='translationList'>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
-                  {/* <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'cn')} onClick={() => changeLanguage('cn')}>简体字</li> */}
+                  <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'cn')} onClick={() => changeLanguage('cn')}>简体字</li>
                 </ul>
-                {/*                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
+                                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
                   More {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon />}
                 </Button>
                 <Menu
@@ -78,7 +78,7 @@ const Header = () => {
                   <MenuItem onClick={() => { handleClose(); changeLanguage('kr') }} style={{ textDecoration: 'underline' }}>한국어 (Korean)</MenuItem>
                   <MenuItem onClick={() => { handleClose(); changeLanguage('tw') }} style={{ textDecoration: 'underline' }}>繁體字 (Traditional)</MenuItem>
                   <MenuItem onClick={() => { handleClose(); changeLanguage('ae') }} style={{ textDecoration: 'underline' }}>العربية (Arabic)</MenuItem>
-                </Menu> */}
+                </Menu>
               </div>
             </div>
           </div>
