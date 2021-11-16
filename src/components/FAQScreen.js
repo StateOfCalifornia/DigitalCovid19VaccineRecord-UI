@@ -12,7 +12,7 @@ const FAQScreen = () => {
     <div className={"container"}>
       <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>
         <Trans i18nKey="faqpage.title">
-          WA Verify Frequently Asked Questions
+          WA Verify FAQ
         </Trans>
       </h1>
       <div class="row">
@@ -20,96 +20,112 @@ const FAQScreen = () => {
           <dl class="faq" style={{ width: "90%", paddingLeft: 10 }}>
             <dt>
               <button aria-expanded="false" aria-controls="faq01_desc">
-              <Trans i18nKey="faqpage.01question">
-                What is a Digital COVID 19 Verification Record?
+                <Trans i18nKey="faqpage.01question">
+                  What is a Digital COVID 19 Verification Record?
                 </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq01_desc" class="desc">
-              <Trans i18nKey="faqpage.01answer">
-                Your <a href="/" >Digital COVID-19 Vaccine Record</a> is an electronic vaccination record drawn from the
-                data stored in the state immunization registry. The digital record shows the same
-                information as your paper CDC COVID-19 vaccine card: your name, date of birth, vaccination
-                dates and type of vaccine you received. The digital record also includes a QR code that when
-                scanned by a SMART Health Card reader will display to the reader your name, date of birth,
-                vaccine dates and vaccine type. The QR code also confirms the vaccine record as an official
-                record of your state.
+                <Trans i18nKey="faqpage.01answer">
+                  Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> is an electronic vaccination record drawn from the
+                  data stored in the state immunization registry. The digital record shows the same
+                  information as your paper CDC COVID-19 vaccine card: your name, date of birth, vaccination
+                  dates and type of vaccine you received. The digital record also includes a QR code that when
+                  scanned by a SMART Health Card reader will display to the reader your name, date of birth,
+                  vaccine dates and vaccine type. The QR code also confirms the vaccine record as an official
+                  record of your state.
                 </Trans>
               </p>
             </dd>
             <dt>
               <button aria-expanded="false" aria-controls="faq02_desc">
-              <Trans i18nKey="faqpage.02question">
-                How will my verification record be delivered?
+                <Trans i18nKey="faqpage.02question">
+                  How will my verification record be delivered?
                 </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq02_desc" class="desc">
-              <Trans i18nKey="faqpage.02answer">
-                When your verification record is found, you will receive a link delivered to the email or
-                mobile phone number associated with the vaccination record. After entering your four-digit
-                PIN, you will see your COVID-19 verification information including your name, date of birth,
-                vaccination date(s), and vaccine manufacturer. You will also receive a scannable QR code
-                confirming your verification record is authentic.
+                <Trans i18nKey="faqpage.02answer">
+                  When your verification record is found, you will receive a link delivered to the email or
+                  mobile phone number associated with the vaccination record. After entering your four-digit
+                  PIN, you will see your COVID-19 verification information including your name, date of birth,
+                  vaccination date(s), and vaccine manufacturer. You will also receive a scannable QR code
+                  confirming your verification record is authentic.
                 </Trans>
               </p>
             </dd>
             <dt>
               <button aria-expanded="false" aria-controls="faq03_desc">
-                Can I save my digital verification record on an iPhone?
+                <Trans i18nKey="faqpage.03question">
+                  Can I save my digital verification record on an iPhone?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq03_desc" class="desc">
-                You can save your Digital verification record to the Apple Health app with the iOS 15
-                operating system. You will need to use your Safari web browser to complete the process.
-                <br />
-                Alternatively, you can take a screenshot of your <a href="/" >Digital COVID-19 Vaccine Record</a> and
-                save it to your photos.
+                <Trans i18nKey="faqpage.03answer">
+                  You can save your Digital verification record to the Apple Health app with the iOS 15
+                  operating system. You will need to use your Safari web browser to complete the process.
+                  <br />
+                  Alternatively, you can take a screenshot of your <a href="/" >Digital COVID-19 Vaccine Record</a> and
+                  save it to your photos.
+                </Trans>
               </p>
             </dd>
             <dt>
               <button aria-expanded="false" aria-controls="faq04_desc">
-                Can I save my Digital verification record on an Android device?
+                <Trans i18nKey="faqpage.04question">
+                  Can I save my Digital verification record on an Android device?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq04_desc" class="desc">
-                Yes. You can save your <a href="/" >Digital COVID-19 Vaccine Record</a> to Google Pay if you have
-                Android version 5 and Google Play Services version 21.18 or above.
-                <br />
-                You can also screenshot your <a href="/" >Digital COVID-19 Vaccine Record</a> and save it to your
-                photos.
+                <Trans i18nKey="faqpage.04answer">
+                  Yes. You can save your <a href="/" >Digital COVID-19 Vaccine Record</a> to Google Pay if you have
+                  Android version 5 and Google Play Services version 21.18 or above.
+                  <br />
+                  You can also screenshot your <a href="/" >Digital COVID-19 Vaccine Record</a> and save it to your
+                  photos.
+                </Trans>
               </p>
             </dd>
 
             <dt>
               <button aria-expanded="false" aria-controls="faq05_desc">
-                If I get additional doses, will they show on my digital verification record?
+                <Trans i18nKey="faqpage.05question">
+                  If I get additional doses, will they show on my digital verification record?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq05_desc" class="desc">
-                No. If you receive an additional dose or booster dose, it will not automatically reflect on
-                your digital verification record. You will need to start over in the Digital COVID-19
-                Verification Record system to retrieve a new QR code.
-                <br />
-                We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
+                <Trans i18nKey="faqpage.05answer">
+                  No. If you receive an additional dose or booster dose, it will not automatically reflect on
+                  your digital verification record. You will need to start over in the Digital COVID-19
+                  Verification Record system to retrieve a new QR code.
+                  <br />
+                  We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
+                </Trans>
               </p>
             </dd>
 
             <dt>
               <button aria-expanded="false" aria-controls="faq06_desc">
-                When will my vaccine dose be available in my digital verification record?
+                <Trans i18nKey="faqpage.06question">
+                  When will my vaccine dose be available in my digital verification record?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq06_desc" class="desc">
-                Clinics vary in the length of time it takes to submit dose information to the Immunization
-                Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your
-                record is still not located, you may contact us.
+                <Trans i18nKey="faqpage.06answer">
+                  Clinics vary in the length of time it takes to submit dose information to the Immunization
+                  Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your
+                  record is still not located, you may contact us.
+                </Trans>
               </p>
             </dd>
 
