@@ -45,6 +45,7 @@ i18n
           fallbacks.push('en')
           return fallbacks;
     },
+    transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', 'ul','li'],
     detection: {
       cache: ["cookie"],
     },
