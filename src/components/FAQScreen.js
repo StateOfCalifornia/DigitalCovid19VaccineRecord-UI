@@ -68,7 +68,6 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.03answer">
                   You can save your Digital verification record to the Apple Health app with the iOS 15
                   operating system. You will need to use your Safari web browser to complete the process.
-                  <br />
                   Alternatively, you can take a screenshot of your <a href="/" >Digital COVID-19 Vaccine Record</a> and
                   save it to your photos.
                 </Trans>
@@ -86,7 +85,6 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.04answer">
                   Yes. You can save your <a href="/" >Digital COVID-19 Vaccine Record</a> to Google Pay if you have
                   Android version 5 and Google Play Services version 21.18 or above.
-                  <br />
                   You can also screenshot your <a href="/" >Digital COVID-19 Vaccine Record</a> and save it to your
                   photos.
                 </Trans>
@@ -106,7 +104,6 @@ const FAQScreen = () => {
                   No. If you receive an additional dose or booster dose, it will not automatically reflect on
                   your digital verification record. You will need to start over in the Digital COVID-19
                   Verification Record system to retrieve a new QR code.
-                  <br />
                   We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
                 </Trans>
               </p>
