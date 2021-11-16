@@ -321,21 +321,21 @@ const FAQScreen = () => {
         </div>
         <div class="col-sm-4">
           <h3>
-            <Trans i18nKey="faqpage.NeedHelpTitle">
+            <Trans i18nKey="faqpage.needhelptitle">
               Need more help?
             </Trans>
           </h3>
-          <Trans i18nKey="faqpage.NeedHelpContent01">
+          <Trans i18nKey="faqpage.needhelpcontent01">
             For questions and other assistance, contact:
           </Trans>
           <ul>
-            <li style={{ listStyleType: "none" }}>1-800-525-0127, <Trans i18nKey="faqpage.NeedHelpContent02">press</Trans> #</li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.NeedHelpContent03">Monday</Trans> 6AM-10PM</li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.NeedHelpContent04">Tuesday-Sunday</Trans> 6AM-6PM</li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.NeedHelpContent05">Closed state holidays</Trans></li>
+            <li style={{ listStyleType: "none" }}>1-800-525-0127, <Trans i18nKey="faqpage.needhelpcontent02">press</Trans> #</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Monday</Trans> 6AM-10PM</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Tuesday-Sunday</Trans> 6AM-6PM</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent05">Closed state holidays</Trans></li>
           </ul>
           <p style={{ paddingTop: 40 }}>
-            <Trans i18nKey="faqpage.NeedHelpContent06">
+            <Trans i18nKey="faqpage.needhelpcontent06">
               <strong>NOTE</strong>: We're unable to update your <a href="/" >Digital COVID-19 Vaccine Record</a> over the phone.
             </Trans>
           </p>

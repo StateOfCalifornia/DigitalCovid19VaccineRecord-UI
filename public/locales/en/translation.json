@@ -127,12 +127,12 @@
     "14answer": "Your <1>Digital COVID-19 Vaccine Record</1> shows the same information as your paper CDC vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19 Verification Record how they will use your data or if they will keep it. Only you can decide how and when to share your record.",  
     "15question": "What if I made multiple vaccination appointments for multiple people with a single phone number?",
     "15answer": "If you are a parent or guardian and have created multiple appointments with a single phone number or email, enter the requests one at a time to receive separate links for each verification record.",
-    "NeedHelpTitle": "Need more help?",
-    "NeedHelpContent01": "For questions and other assistance, contact:",
-    "NeedHelpContent02": "press",
-    "NeedHelpContent03": "Monday",
-    "NeedHelpContent04": "Tuesday-Sunday",
-    "NeedHelpContent05": "Closed state holidays",
-    "NeedHelpContent06": "<strong>NOTE</strong>: We're unable to update your <1>Digital COVID-19 Vaccine Record</1> over the phone."                
+    "needhelptitle": "Need more help?",
+    "needhelpcontent01": "For questions and other assistance, contact:",
+    "needhelpcontent02": "press",
+    "needhelpcontent03": "Monday",
+    "needhelpcontent04": "Tuesday-Sunday",
+    "needhelpcontent05": "Closed state holidays",
+    "needhelpcontent06": "<strong>NOTE</strong>: We're unable to update your <1>Digital COVID-19 Vaccine Record</1> over the phone."                
   }
 }
