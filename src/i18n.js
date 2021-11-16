@@ -5,6 +5,11 @@ import Backend from "i18next-http-backend";
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
+const customFallbacks = {
+    'zh-MO': ['zh-tw'],
+    'zh-HK': ['zh-tw'],
+}
+
 /**
  * Defaults to 'en' using the `fallbackLng` option.
  *
@@ -16,9 +21,30 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'en',
-    // debug: true,
+      // Need to use fallback function approach
+      // See: https://github.com/i18next/i18next/issues/1506
+      // See: https://www.i18next.com/principles/fallback#fallback-to-different-languages
+      load: "currentOnly",
+      fallbackLng: (code) => {
+          // Set English as default
+          if (!code || code === 'en') return ['en'];
 
+          const fallbacks = [code];
+
+          // Process custom fallbacks
+          if (customFallbacks[code]) {
+              fallbacks.push(customFallbacks[code])
+              return fallbacks;
+          }
+
+          // add pure lang
+          const langPart = code.split('-')[0];
+          if (langPart !== code) fallbacks.push(langPart);
+
+          // developer lang
+          fallbacks.push('en')
+          return fallbacks;
+    },
     detection: {
       cache: ["cookie"],
     },
