@@ -218,100 +218,126 @@ const FAQScreen = () => {
 
             <dt>
               <button aria-expanded="false" aria-controls="faq11_desc">
-                Can I reset my PIN?
+                <Trans i18nKey="faqpage.11question">
+                  Can I reset my PIN?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq11_desc" class="desc">
-                Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
-                access your <a href="/" >Digital COVID-19 Vaccine Record</a>. If you don't, the link to your digital
-                record will expire, but you can start over and reset your PIN using the Digital COVID-19
-                Verification Record system.
+                <Trans i18nKey="faqpage.11answer">
+                  Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
+                  access your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. If you don't, the link to your digital
+                  record will expire, but you can start over and reset your PIN using the Digital COVID-19
+                  Verification Record system.
 
-                If you can't remember your PIN, after 24 hours you can use the same process and create a new
-                PIN.
-                <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
-                  expire. </i>
+                  If you can't remember your PIN, after 24 hours you can use the same process and create a new
+                  PIN.
+                  <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
+                    expire. </i>
+                </Trans>
               </p>
             </dd>
 
             <dt>
               <button aria-expanded="false" aria-controls="faq12_desc">
-                Will this provide proof of my vaccine status?
+                <Trans i18nKey="faqpage.12question">
+                  Will this provide proof of my vaccine status?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq12_desc" class="desc">
-                Yes. It is one of
-                <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={"https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine"} target="CoronaVirus" >
-                  several options
-                </ReactGA.OutboundLink>
-                for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>
-                and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
-                your state immunization record.
+                <Trans i18nKey="faqpage.12answer">
+                  Yes. It is one of
+                  <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={"https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine"} target="CoronaVirus" >
+                    several options
+                  </ReactGA.OutboundLink>
+                  for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>
+                  and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
+                  your state immunization record.
 
-                You are not required to obtain a <a href="/" >Digital COVID-19 Vaccine Record</a>. It is an optional
-                means to obtain your COVID-19 verification information, and is the digital version of your
-                paper verification record. It is one of the options to show proof of vaccination. The state
-                will not be implementing a mandatory passport system.
+                  You are not required to obtain a <a href="/" >Digital COVID-19 Vaccine Record</a>. It is an optional
+                  means to obtain your COVID-19 verification information, and is the digital version of your
+                  paper verification record. It is one of the options to show proof of vaccination. The state
+                  will not be implementing a mandatory passport system.
+                </Trans>
               </p>
             </dd>
 
             <dt>
               <button aria-expanded="false" aria-controls="faq13_desc">
-                What if I need to replace my vaccination card?
+                <Trans i18nKey="faqpage.13question">
+                  What if I need to replace my vaccination card?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq13_desc" class="desc">
-                The system provides a digital copy of your verification record. If you’ve lost your paper
-                verification record, you may print out your digital record and use it. If you lose your
-                <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>, you can start the process over on the system.
+                <Trans i18nKey="faqpage.13answer">
+                  The system provides a digital copy of your verification record. If you’ve lost your paper
+                  verification record, you may print out your digital record and use it. If you lose your
+                  <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>, you can start the process over on the system.
+                </Trans>
               </p>
             </dd>
 
             <dt>
               <button aria-expanded="false" aria-controls="faq14_desc">
-                What happens to my information after I share it?
+                <Trans i18nKey="faqpage.14question">
+                  What happens to my information after I share it?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq14_desc" class="desc">
-                Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
-                vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19
-                Verification Record how they will use your data or if they will keep it. Only you can decide
-                how and when to share your record.
+                <Trans i18nKey="faqpage.14answer">
+                  Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
+                  vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19
+                  Verification Record how they will use your data or if they will keep it. Only you can decide
+                  how and when to share your record.
+                </Trans>
               </p>
             </dd>
 
             <dt>
               <button aria-expanded="false" aria-controls="faq15_desc">
-                What if I made multiple vaccination appointments for multiple people with a single phone
-                number?
+                <Trans i18nKey="faqpage.15question">
+                  What if I made multiple vaccination appointments for multiple people with a single phone
+                  number?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq15_desc" class="desc">
-                If you are a parent or guardian and have created multiple appointments with a single phone
-                number or email, enter the requests one at a time to receive separate links for each
-                verification record.
+                <Trans i18nKey="faqpage.15answer">
+                  If you are a parent or guardian and have created multiple appointments with a single phone
+                  number or email, enter the requests one at a time to receive separate links for each
+                  verification record.
+                </Trans>
               </p>
             </dd>
           </dl>
         </div>
         <div class="col-sm-4">
           <h3>
-            Need more help?
+            <Trans i18nKey="faqpage.needhelptitle">
+              Need more help?
+            </Trans>
           </h3>
-          For questions and other assistance, contact:
+          <Trans i18nKey="faqpage.needhelpcontent01">
+            For questions and other assistance, contact:
+          </Trans>
           <ul>
             <li style={{ listStyleType: "none" }}>1-800-525-0127, press #</li>
-            <li style={{ listStyleType: "none" }}>Monday 6AM-10PM</li>
-            <li style={{ listStyleType: "none" }}>Tuesday-Sunday 6AM-6PM</li>
-            <li style={{ listStyleType: "none" }}>Closed state holidays</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">Monday</Trans> 6AM-10PM</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Tuesday-Sunday</Trans> 6AM-6PM</li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Closed state holidays</Trans></li>
           </ul>
           <p style={{ paddingTop: 40 }}>
-            <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
+            <Trans i18nKey="faqpage.needhelpcontent05">
+              <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
+            </Trans>
           </p>
         </div>
       </div>
