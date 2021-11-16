@@ -40,16 +40,20 @@ const FAQScreen = () => {
             </dd>
             <dt>
               <button aria-expanded="false" aria-controls="faq02_desc">
+              <Trans i18nKey="faqpage.02question">
                 How will my verification record be delivered?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq02_desc" class="desc">
+              <Trans i18nKey="faqpage.02answer">
                 When your verification record is found, you will receive a link delivered to the email or
                 mobile phone number associated with the vaccination record. After entering your four-digit
                 PIN, you will see your COVID-19 verification information including your name, date of birth,
                 vaccination date(s), and vaccine manufacturer. You will also receive a scannable QR code
                 confirming your verification record is authentic.
+                </Trans>
               </p>
             </dd>
             <dt>
