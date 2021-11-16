@@ -55,7 +55,7 @@ stages:
         targetType: 'inline'
         script: |
           $config_dest = "$(directory)\build\config.js"
-          $content = "window.config = { CREDENTIALS_API_STATUS:'https://dev-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://dev-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+          $content = "window.config = { CREDENTIALS_API_STATUS:'https://dev-waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://dev-waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: 'G-HHSVC4W7NS'};"
           echo $content | Set-Content $config_dest;
  
     - task: ArchiveFiles@2
@@ -213,7 +213,7 @@ stages:
         targetType: 'inline'
         script: |
           $config_dest = "$(directory)\build\config.js"
-          $content = "window.config = { CREDENTIALS_API_STATUS:'https://waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: ''};"
+          $content = "window.config = { CREDENTIALS_API_STATUS:'https://waverify-api.doh.wa.gov', CREDENTIALS_API_QR:'https://waverify-api.doh.wa.gov', CREDENTIALS_GA_DEPARTMENT: 'G-HHSVC4W7NS'};"
           echo $content | Set-Content $config_dest;
  
     - task: ArchiveFiles@2
