@@ -70,8 +70,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
   if (apple === true && isMobile() === "A") {
     const indexOfOS = userAgent.indexOf('OS');
     const versionStr = userAgent.substring(indexOfOS + 2, indexOfOS + 5);
-    const isPhone = userAgent.match("iPhone"); // iPad does not support this integration
-    isVersionGood = isPhone && Number.parseInt(versionStr) >= 15;
+    const isPhone = userAgent.match("iPhone"); // iPhones, iPods, and iPads in mobile mode all claim this
+    const isiPad = userAgent.match("iPad"); // iPads in mobile mode claim this
+    isVersionGood = isPhone && !isiPad && Number.parseInt(versionStr) >= 15;
 
     if (navigator.userAgent.match("CriOS") || navigator.userAgent.match("FxiOS")) {
       showMessage = true;
