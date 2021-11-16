@@ -69,7 +69,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: lng,
-    transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p'],
+    transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', '&nbsp;'],
     // debug: true,
 
     detection: {
