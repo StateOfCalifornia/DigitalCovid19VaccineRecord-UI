@@ -136,17 +136,20 @@ const FAQScreen = () => {
             <dd>
               <p id="faq07_desc" class="desc">
                 <Trans i18nKey="faqpage.07answer">
-                Your vaccine provider submits your vaccination record to the Immunization Registry, but they
+                  Your vaccine provider submits your vaccination record to the Immunization Registry, but they
                   may have provided information that's incomplete. So, it's likely we have your record, but
-                  not your correct information. For instance:<br /><br />
-                  &nbsp;&nbsp;&nbsp;°&nbsp;Mobile phone number or email address was not included or does not match<br />
-                  &nbsp;&nbsp;&nbsp;°&nbsp;Name is spelled differently<br />
-                  &nbsp;&nbsp;&nbsp;°&nbsp;Date of birth does not match<br /><br />
+                  not your correct information. For instance:<br />
+                  <ul>
+                    <li style={{ listStyleType: "none" }}>° Mobile phone number or email address was not included or does not match</li>
+                    <li style={{ listStyleType: "none" }}>° Name is spelled differently</li>
+                    <li style={{ listStyleType: "none" }}>° Date of birth does not match</li>
+                  </ul>
+
                   To find your record, try re-entering your information with a different email or mobile number.
                   If your record still isn’t found, contact your provider to update your vaccination record or
                   contact us to request a review of your record. You'll be notified of our findings and
                   remediation actions within 2-3 weeks.
-                  
+
                   If you received your vaccination from a federal agency (like the Department of Defense, Indian
                   Health Services or Veterans Affairs), you will need to contact those agencies for assistance
                   with your vaccination.
@@ -174,41 +177,41 @@ const FAQScreen = () => {
 
             <dt>
               <button aria-expanded="false" aria-controls="faq09_desc">
-              <Trans i18nKey="faqpage.09question">
-                How does the Digital COVID-19 Vaccine Record system work?
+                <Trans i18nKey="faqpage.09question">
+                  How does the Digital COVID-19 Vaccine Record system work?
                 </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq09_desc" class="desc">
-              <Trans i18nKey="faqpage.09answer">
-                The <a href="/" >Digital COVID-19 Vaccine Record</a> system draws COVID-19 records from the state’s
-                immunization systems. Enter your name, date of birth, and an email or mobile phone number
-                associated with your vaccination record, then create a four-digit PIN number. If the
-                information you submitted matches the official record, you will receive a text or email with
-                a link to your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. Enter the PIN you created to view the
-                record.
+                <Trans i18nKey="faqpage.09answer">
+                  The <a href="/" >Digital COVID-19 Vaccine Record</a> system draws COVID-19 records from the state’s
+                  immunization systems. Enter your name, date of birth, and an email or mobile phone number
+                  associated with your vaccination record, then create a four-digit PIN number. If the
+                  information you submitted matches the official record, you will receive a text or email with
+                  a link to your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. Enter the PIN you created to view the
+                  record.
                 </Trans>
               </p>
             </dd>
 
             <dt>
               <button aria-expanded="false" aria-controls="faq10_desc">
-              <Trans i18nKey="faqpage.10question">
-                Will my information remain private?
+                <Trans i18nKey="faqpage.10question">
+                  Will my information remain private?
                 </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq10_desc" class="desc">
-              <Trans i18nKey="faqpage.10answer">
-                Yes. Filling out the form on the system does not provide instant access to your verification
-                record. The link to the verification record requires a PIN that you create and is sent only
-                to the mobile phone or email that is associated with your immunization record.
-                
-                The QR code is a SMART Health Card, a secure copy of your verification record. More
-                information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }} >https://smarthealth.cards</a>. To protect your privacy, the QR code
-                can only be scanned and read by a SMART Health Card-compliant device.
+                <Trans i18nKey="faqpage.10answer">
+                  Yes. Filling out the form on the system does not provide instant access to your verification
+                  record. The link to the verification record requires a PIN that you create and is sent only
+                  to the mobile phone or email that is associated with your immunization record.
+
+                  The QR code is a SMART Health Card, a secure copy of your verification record. More
+                  information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }} >https://smarthealth.cards</a>. To protect your privacy, the QR code
+                  can only be scanned and read by a SMART Health Card-compliant device.
                 </Trans>
               </p>
             </dd>
@@ -224,7 +227,7 @@ const FAQScreen = () => {
                 access your <a href="/" >Digital COVID-19 Vaccine Record</a>. If you don't, the link to your digital
                 record will expire, but you can start over and reset your PIN using the Digital COVID-19
                 Verification Record system.
-                
+
                 If you can't remember your PIN, after 24 hours you can use the same process and create a new
                 PIN.
                 <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
@@ -246,7 +249,7 @@ const FAQScreen = () => {
                 for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>
                 and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
                 your state immunization record.
-                
+
                 You are not required to obtain a <a href="/" >Digital COVID-19 Vaccine Record</a>. It is an optional
                 means to obtain your COVID-19 verification information, and is the digital version of your
                 paper verification record. It is one of the options to show proof of vaccination. The state
