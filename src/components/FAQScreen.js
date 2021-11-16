@@ -68,7 +68,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.03answer">
                   You can save your Digital verification record to the Apple Health app with the iOS 15
                   operating system. You will need to use your Safari web browser to complete the process.
-                  Alternatively, you can take a screenshot of your <a href="/" >Digital COVID-19 Vaccine Record</a> and
+                  Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
                   save it to your photos.
                 </Trans>
               </p>
@@ -85,7 +85,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.04answer">
                   Yes. You can save your <a href="/" >Digital COVID-19 Vaccine Record</a> to Google Pay if you have
                   Android version 5 and Google Play Services version 21.18 or above.
-                  You can also screenshot your <a href="/" >Digital COVID-19 Vaccine Record</a> and save it to your
+                  You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
                   photos.
                 </Trans>
               </p>
@@ -128,25 +128,29 @@ const FAQScreen = () => {
 
             <dt>
               <button aria-expanded="false" aria-controls="faq07_desc">
+              <Trans i18nKey="faqpage.07question">
                 What if my record is not found?
+                </Trans>
               </button>
             </dt>
             <dd>
               <p id="faq07_desc" class="desc">
+              <Trans i18nKey="faqpage.07answer">
                 Your vaccine provider submits your vaccination record to the Immunization Registry, but they
                 may have provided information that's incomplete. So, it's likely we have your record, but
-                not your correct information. For instance:<br /><br />
-                &nbsp;&nbsp;&nbsp;°&nbsp;Mobile phone number or email address was not included or does not match<br />
-                &nbsp;&nbsp;&nbsp;°&nbsp;Name is spelled differently<br />
-                &nbsp;&nbsp;&nbsp;°&nbsp;Date of birth does not match<br /><br />
+                not your correct information. For instance:<br />
+                &nbsp;&nbsp;&nbsp;°&nbsp;Mobile phone number or email address was not included or does not match
+                &nbsp;&nbsp;&nbsp;°&nbsp;Name is spelled differently
+                &nbsp;&nbsp;&nbsp;°&nbsp;Date of birth does not match
                 To find your record, try re-entering your information with a different email or mobile number.
                 If your record still isn’t found, contact your provider to update your vaccination record or
                 contact us to request a review of your record. You'll be notified of our findings and
                 remediation actions within 2-3 weeks.
-                <br />
+                
                 If you received your vaccination from a federal agency (like the Department of Defense, Indian
                 Health Services or Veterans Affairs), you will need to contact those agencies for assistance
                 with your vaccination.
+                </Trans>
               </p>
             </dd>
 
@@ -175,7 +179,7 @@ const FAQScreen = () => {
                 immunization systems. Enter your name, date of birth, and an email or mobile phone number
                 associated with your vaccination record, then create a four-digit PIN number. If the
                 information you submitted matches the official record, you will receive a text or email with
-                a link to your <a href="/" >Digital COVID-19 Vaccine Record</a>. Enter the PIN you created to view the
+                a link to your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. Enter the PIN you created to view the
                 record.
               </p>
             </dd>
@@ -190,9 +194,9 @@ const FAQScreen = () => {
                 Yes. Filling out the form on the system does not provide instant access to your verification
                 record. The link to the verification record requires a PIN that you create and is sent only
                 to the mobile phone or email that is associated with your immunization record.
-                <br />
+                
                 The QR code is a SMART Health Card, a secure copy of your verification record. More
-                information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" >https://smarthealth.cards</a>. To protect your privacy, the QR code
+                information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }} >https://smarthealth.cards</a>. To protect your privacy, the QR code
                 can only be scanned and read by a SMART Health Card-compliant device.
               </p>
             </dd>
@@ -208,7 +212,7 @@ const FAQScreen = () => {
                 access your <a href="/" >Digital COVID-19 Vaccine Record</a>. If you don't, the link to your digital
                 record will expire, but you can start over and reset your PIN using the Digital COVID-19
                 Verification Record system.
-                <br />
+                
                 If you can't remember your PIN, after 24 hours you can use the same process and create a new
                 PIN.
                 <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
@@ -227,10 +231,10 @@ const FAQScreen = () => {
                 <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={"https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine"} target="CoronaVirus" >
                   several options
                 </ReactGA.OutboundLink>
-                for providing your <a href="/" >Digital COVID-19 Vaccine Record</a>
+                for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>
                 and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
                 your state immunization record.
-                <br />
+                
                 You are not required to obtain a <a href="/" >Digital COVID-19 Vaccine Record</a>. It is an optional
                 means to obtain your COVID-19 verification information, and is the digital version of your
                 paper verification record. It is one of the options to show proof of vaccination. The state
@@ -247,7 +251,7 @@ const FAQScreen = () => {
               <p id="faq13_desc" class="desc">
                 The system provides a digital copy of your verification record. If you’ve lost your paper
                 verification record, you may print out your digital record and use it. If you lose your
-                <a href="/" >Digital COVID-19 Vaccine Record</a>, you can start the process over on the system.
+                <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>, you can start the process over on the system.
               </p>
             </dd>
 
@@ -258,7 +262,7 @@ const FAQScreen = () => {
             </dt>
             <dd>
               <p id="faq14_desc" class="desc">
-                Your <a href="/" >Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
+                Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
                 vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19
                 Verification Record how they will use your data or if they will keep it. Only you can decide
                 how and when to share your record.
@@ -292,7 +296,7 @@ const FAQScreen = () => {
             <li style={{ listStyleType: "none" }}>Closed state holidays</li>
           </ul>
           <p style={{ paddingTop: 40 }}>
-            <strong>NOTE</strong>: We're unable to update your <a href="/" >Digital COVID-19 Vaccine Record</a> over the phone.
+            <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
           </p>
         </div>
       </div>
