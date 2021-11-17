@@ -10,19 +10,19 @@ const faqLinkLanguage = () => {
     case 'es':
       hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-es';
       break;
-    case 'cn':
+    case 'zh':
       hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ch ';
       break;
-    case 'ae':
+    case 'ar':
       hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ar';
       break;
-    case 'kr':
+    case 'ko':
       hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ko';
       break;
-    case 'ph':
+    case 'tl':
       hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-tg';
       break;
-    case 'tw':
+    case 'zh-tw':
       hyperlink = 'https://myvaccinerecord.cdph.ca.gov/faq-ch-hant';
       break;
     case 'vi':

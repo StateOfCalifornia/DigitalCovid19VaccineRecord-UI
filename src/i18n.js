@@ -26,33 +26,33 @@ switch(lng) {
   case 'es':
     lng = 'es';
     break;
-    case 'kr':
-      lng = 'kr';
+    case 'ko':
+      lng = 'ko';
       break;
       case 'ko':
-      lng = 'kr';
+      lng = 'ko';
       break;
-      case 'tw':
-        lng = 'tw';
+      case 'zh-tw':
+        lng = 'zh-tw';
         break;
         case 'fi':
-        lng = 'ph';
+        lng = 'tl';
         break;
         case 'zh':
         let newLanguage = window.navigator.userLanguage || navigator.language;
         lng = newLanguage.substring(3,5).toLowerCase();
           break;
-        case 'cn':
-        lng = 'cn';
-        break;
-        case 'ae':
-        lng = 'ae';
+        case 'zh':
+        lng = 'zh';
         break;
         case 'ar':
-          lng = 'ae';
+        lng = 'ar';
+        break;
+        case 'ar':
+          lng = 'ar';
             break;
-        case 'ph':
-        lng = 'ph';
+        case 'tl':
+        lng = 'tl';
         break;
         case 'vi':
         lng = 'vi';

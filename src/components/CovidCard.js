@@ -93,33 +93,33 @@ const CovidCard = () => {
       case 'es':
         languageValue = 'es';
         break;
-      case 'kr':
-        languageValue = 'kr';
+      case 'ko':
+        languageValue = 'ko';
         break;
       case 'ko':
-        languageValue = 'kr';
+        languageValue = 'ko';
         break;
-      case 'tw':
-        languageValue = 'tw';
+      case 'zh-tw':
+        languageValue = 'zh-tw';
         break;
       case 'fi':
-        languageValue = 'ph';
+        languageValue = 'tl';
         break;
       case 'zh':
         let newLanguage = window.navigator.userLanguage || navigator.language;
         languageValue = newLanguage.substring(3, 5).toLowerCase();
         break;
-      case 'cn':
-        languageValue = 'cn';
-        break;
-      case 'ae':
-        languageValue = 'ae';
+      case 'zh':
+        languageValue = 'zh';
         break;
       case 'ar':
-        languageValue = 'ae';
+        languageValue = 'ar';
         break;
-      case 'ph':
-        languageValue = 'ph';
+      case 'ar':
+        languageValue = 'ar';
+        break;
+      case 'tl':
+        languageValue = 'tl';
         break;
       case 'vi':
         languageValue = 'vi';
