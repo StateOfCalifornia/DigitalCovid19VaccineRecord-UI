@@ -7,7 +7,7 @@ import CircularProgress from "@material-ui/core/CircularProgress";
 import TextField from "@material-ui/core/TextField";
 import FormControl from "@material-ui/core/FormControl";
 import { KeyboardDatePicker } from "@material-ui/pickers";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
@@ -18,7 +18,7 @@ import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 
 const CovidCard = () => {
-  let newLang = localStorage.getItem('i18nextLng');
+  const { i18n } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [selectedBirthDate, setSelectedBirthDate] = useState(null);
   const [contactType, setContactType] = useState("Phone");
@@ -48,7 +48,6 @@ const CovidCard = () => {
     document.querySelectorAll(".MuiButtonBase-root")[1].setAttribute("aria-label", "Date of birth")
     document.getElementById("submitcheckbox").setAttribute("aria-label", "Acknowledge Button")
     document.getElementById("partitioned").setAttribute("aria-label", "Set 4 Digit Pin")
-    finalLanguageCheck();
   }, []);
 
 
@@ -73,63 +72,6 @@ const CovidCard = () => {
     finalCheck();
     setChecked(!checked);
   };
-
-  const finalLanguageCheck = () => {
-    let languageValue = window.navigator.userLanguage || navigator.language.length > 2 ? navigator.language.substring(0, 2).toLowerCase() : navigator.language;
-
-    // If it doesnt exist go to english
-    if (!languageValue) {
-      languageValue = 'us';
-    }
-
-    // if other language is present not in this list return english
-    switch (languageValue) {
-      case 'us':
-        languageValue = 'us';
-        break;
-      case 'en':
-        languageValue = 'en';
-        break;
-      case 'es':
-        languageValue = 'es';
-        break;
-      case 'ko':
-        languageValue = 'ko';
-        break;
-      case 'ko':
-        languageValue = 'ko';
-        break;
-      case 'zh-tw':
-        languageValue = 'zh-tw';
-        break;
-      case 'fi':
-        languageValue = 'tl';
-        break;
-      case 'zh':
-        let newLanguage = window.navigator.userLanguage || navigator.language;
-        languageValue = newLanguage.substring(3, 5).toLowerCase();
-        break;
-      case 'zh':
-        languageValue = 'zh';
-        break;
-      case 'ar':
-        languageValue = 'ar';
-        break;
-      case 'ar':
-        languageValue = 'ar';
-        break;
-      case 'tl':
-        languageValue = 'tl';
-        break;
-      case 'vi':
-        languageValue = 'vi';
-        break;
-      default:
-        languageValue = 'us'
-    }
-
-    return languageValue;
-  }
 
   const finalCheck = () => {
     let tempErrorObj = {
@@ -169,7 +111,7 @@ const CovidCard = () => {
       PhoneNumber: textmask ? normalize(textmask.value) : "",
       EmailAddress: contactType ? contactType.value : "",
       Pin: PIN.value,
-      Language: newLang ? newLang : finalLanguageCheck()
+      Language: i18n.resolvedLanguage
     };
 
     setLoading(true);
