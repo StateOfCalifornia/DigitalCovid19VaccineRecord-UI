@@ -1,79 +1,52 @@
 import i18n from "i18next";
-
 // This module will load the translations.
 import Backend from "i18next-http-backend";
-
 // This module will detect the language for us.
 import LanguageDetector from "i18next-browser-languagedetector";
-
 import { initReactI18next } from "react-i18next";
 
-// Check users default browser language...
-
-var lng = window.navigator.userLanguage || navigator.language.length > 2 ? navigator.language.substring(0, 2).toLowerCase() : navigator.language;
-
-//console.log('language is..222', window.navigator.userLanguage || navigator.language);
-//console.log('language is..', lng);
-
-// If language is not any of these languages default to english
-switch(lng) {
-  case 'us':
-    lng = 'us';
-  break;
-  case 'en':
-    lng = 'en';
-  break;
-  case 'es':
-    lng = 'es';
-    break;
-    case 'kr':
-      lng = 'kr';
-      break;
-      case 'ko':
-      lng = 'kr';
-      break;
-      case 'tw':
-        lng = 'tw';
-        break;
-        case 'fi':
-        lng = 'ph';
-        break;
-        case 'zh':
-        let newLanguage = window.navigator.userLanguage || navigator.language;
-        lng = newLanguage.substring(3,5).toLowerCase();
-          break;
-        case 'cn':
-        lng = 'cn';
-        break;
-        case 'ae':
-        lng = 'ae';
-        break;
-        case 'ar':
-          lng = 'ae';
-            break;
-        case 'ph':
-        lng = 'ph';
-        break;
-        case 'vi':
-        lng = 'vi';
-        break;
-        default:
-          lng = 'us'
+const customFallbacks = {
+    'zh-MO': ['zh-tw'],
+    'zh-HK': ['zh-tw'],
 }
 
-// console.log('language is..', lng)
-
+/**
+ * Defaults to 'en' using the `fallbackLng` option.
+ *
+ * Language variants containing a region (e.g. zh-cn) will fallback to the broader version of the language (e.g. zh)
+ * See: https://www.i18next.com/principles/fallback#variant-resolving-fallback-from-dialects-or-scripts
+ */
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: lng,
-    transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', 'ul','li'],
-    // debug: true,
+      // Need to use fallback function approach
+      // See: https://github.com/i18next/i18next/issues/1506
+      // See: https://www.i18next.com/principles/fallback#fallback-to-different-languages
+      load: "currentOnly",
+      fallbackLng: (code) => {
+          // Set English as default
+          if (!code || code === 'en') return ['en'];
 
+          const fallbacks = [code];
+
+          // Process custom fallbacks
+          if (customFallbacks[code]) {
+              fallbacks.push(customFallbacks[code])
+              return fallbacks;
+          }
+
+          // add pure lang
+          const langPart = code.split('-')[0];
+          if (langPart !== code) fallbacks.push(langPart);
+
+          // developer lang
+          fallbacks.push('en')
+          return fallbacks;
+    },
+    transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', 'ul','li'],
     detection: {
-      order: ["queryString", "cookie"],
       cache: ["cookie"],
     },
     interpolation: {
