@@ -62,7 +62,7 @@ const Dashboard = () => {
         <article>
           <span>
             <Trans i18nKey="vaccineform.safe">
-            Safe, free, and effective vaccines are now available to everyone age 12 and up,
+            Safe, free, and effective COVID-19 vaccines are now available to everyone age 5 and older,
               <ReactGA.OutboundLink
                 eventLabel="VaccineLocator"
                 to={"https://vaccinelocator.doh.wa.gov/"}
