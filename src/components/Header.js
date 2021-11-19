@@ -42,6 +42,38 @@ const Header = () => {
     }
   }
 
+  const menuLanguages = {
+    'am': 'Amharic - የቋንቋዎ ስም',
+    'ar': 'Arabic - العربية',
+    'zh-tw': 'Chinese (Traditional) - 繁體字',
+    'chk': 'Chuukese - Fosun Chuuk',
+    'prs': 'Dari - دری',
+    'fa': 'Farsi - نام زبان شما',
+    'fr': 'French - Français',
+    'de': 'German - Deutsch',
+    'hi': 'Hindi - हिन्दी',
+    'ja': 'Japanese - 日本語',
+    'ko': 'Korean - 한국어',
+    'mh': 'Marshallese',
+    'mxb': 'Mixteco Bajo - Mixteco bajo Tu\'un savi',
+    'ne': 'Nepali - नेपाली',
+    'om': 'Oromo - Maqaa Afaan Keessanii',
+    'ps': 'Pashto - پښتو',
+    'pt': 'Portuguese - Português',
+    'pa': 'Punjabi - ਪੰਜਾਬੀ',
+    'ro': 'Romanian - Română',
+    'ru': 'Russian - Русский',
+    'sm': 'Samoan - Igoa o le Gagana',
+    'so': 'Somali - Soomaali',
+    'sw': 'Swahili - Kiswahili',
+    'tl': 'Tagalog',
+    'te': 'Telugu - మీ భాష పేరు',
+    'ti': 'Tigrinya - ስም ቋንቋኹም',
+    'uk': 'Ukrainian - Український',
+    'ur': 'Urdu - آپ کی زبان کا نام',
+    'vi': 'Vietnamese - Tiếng Việt'
+  }
+
   return (
     <nav>
       <div className="headerContainer" style={{ backgroundColor: '#f9f9f9', borderBottom: '1px solid #ccc' }}>
@@ -73,11 +105,10 @@ const Header = () => {
                   open={Boolean(anchorEl)}
                   onClose={handleClose}
                 >
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('tl') }} style={{ textDecoration: 'underline' }}>Tagalog</MenuItem>
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('vi') }} style={{ textDecoration: 'underline' }}>Tiếng Việt (Vietnamese)</MenuItem>
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('ko') }} style={{ textDecoration: 'underline' }}>한국어 (Korean)</MenuItem>
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('zh-tw') }} style={{ textDecoration: 'underline' }}>繁體字 (Traditional)</MenuItem>
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('ar') }} style={{ textDecoration: 'underline' }}>العربية (Arabic)</MenuItem>
+                  {Object.entries(menuLanguages).map(([key, value]) => {
+                      return <MenuItem id={key} onClick={() => {handleClose(); changeLanguage(key)}} style={{textDecoration: 'underline'}}>{value}</MenuItem>
+                    })
+                  }
                 </Menu>
               </div>
             </div>
