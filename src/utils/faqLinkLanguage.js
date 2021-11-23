@@ -1,7 +1,7 @@
 import i18n from '../i18n';
 
 const faqLinkLanguage = () => {
-  switch (i18n.resolvedLanguage) {
+  switch (i18n.resolvedLanguage ? i18n.resolvedLanguage.toLowerCase() : undefined) {
     case 'en':
       return '/faq';
     case 'es':
