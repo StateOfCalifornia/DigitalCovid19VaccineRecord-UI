@@ -59,7 +59,7 @@ const Header = () => {
                 <ul className='translationList'>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
-                  <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'cn')} onClick={() => changeLanguage('cn')}>简体字</li>
+                  <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体字</li>
                 </ul>
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
                   More {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon />}
@@ -71,11 +71,11 @@ const Header = () => {
                   open={Boolean(anchorEl)}
                   onClose={handleClose}
                 >
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('ph') }} style={{ textDecoration: 'underline' }}>Tagalog</MenuItem>
+                  <MenuItem onClick={() => { handleClose(); changeLanguage('tl') }} style={{ textDecoration: 'underline' }}>Tagalog</MenuItem>
                   <MenuItem onClick={() => { handleClose(); changeLanguage('vi') }} style={{ textDecoration: 'underline' }}>Tiếng Việt (Vietnamese)</MenuItem>
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('kr') }} style={{ textDecoration: 'underline' }}>한국어 (Korean)</MenuItem>
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('tw') }} style={{ textDecoration: 'underline' }}>繁體字 (Traditional)</MenuItem>
-                  <MenuItem onClick={() => { handleClose(); changeLanguage('ae') }} style={{ textDecoration: 'underline' }}>العربية (Arabic)</MenuItem>
+                  <MenuItem onClick={() => { handleClose(); changeLanguage('ko') }} style={{ textDecoration: 'underline' }}>한국어 (Korean)</MenuItem>
+                  <MenuItem onClick={() => { handleClose(); changeLanguage('zh-tw') }} style={{ textDecoration: 'underline' }}>繁體字 (Traditional)</MenuItem>
+                  <MenuItem onClick={() => { handleClose(); changeLanguage('ar') }} style={{ textDecoration: 'underline' }}>العربية (Arabic)</MenuItem>
                 </Menu>
               </div>
             </div>
