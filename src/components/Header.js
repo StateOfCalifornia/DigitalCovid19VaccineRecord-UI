@@ -56,7 +56,7 @@ const Header = () => {
     'ja': 'Japanese - 日本語',
     'ko': 'Korean - 한국어',
     'mam': 'MAM - Qyool',
-    'mh': 'Marshallese',
+    'mh': 'Kajin Ṃajōḷ - Marshallese',
     'mxb': 'Mixteco Bajo - Mixteco bajo Tu\'un savi',
     'ne': 'Nepali - नेपाली',
     'om': 'Oromo - Maqaa Afaan Keessanii',
