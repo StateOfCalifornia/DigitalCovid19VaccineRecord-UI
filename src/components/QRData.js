@@ -60,7 +60,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     buildPdf();
   }
 
-  let isButtonSupported = false;
+  let isVersionGood = false;
   let imgSource = "/imgs/apple-wallet-health.svg";
   let altText = "Add to Apple Wallet & Health";
   let showMessage = false;
