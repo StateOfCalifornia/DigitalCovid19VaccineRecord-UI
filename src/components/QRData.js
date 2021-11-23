@@ -60,7 +60,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     buildPdf();
   }
 
-  let isButtonSupported = false;
+  let isVersionGood = false;
   let imgSource = "/imgs/apple-wallet-health.svg";
   let altText = "Add to Apple Wallet & Health";
   let showMessage = false;
@@ -71,12 +71,14 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     const versionStr = userAgent.substring(indexOfOS + 2, indexOfOS + 7);
     const versionInt = Number.parseInt(versionStr.substring(0, 3));
     const subversionInt = Number.parseInt(versionStr.substring(4))
+    const isPhone = userAgent.match("iPhone"); // iPhones, iPods, and iPads in mobile mode all claim this
+    const isiPad = userAgent.match("iPad"); // iPads in mobile mode claim this
+    isVersionGood = isPhone && !isiPad && versionInt >= 15;
 
     if (versionInt === 15 && subversionInt === 0) {
       imgSource = "/imgs/add-to-apple-health.svg";
       altText = "Works with Apple Health";
     }
-    isButtonSupported = versionInt >= 15;
 
     if (navigator.userAgent.match("CriOS") || navigator.userAgent.match("FxiOS")) {
       showMessage = true;
@@ -225,7 +227,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </div>
           ) : null}
 
-          {isButtonSupported && apple === true && isMobile() === "A" ? (
+          {isVersionGood && apple === true && isMobile() === "A" ? (
             <div data-html2canvas-ignore="true">
               {ReactGA.event({
                 category: 'apple_render',
