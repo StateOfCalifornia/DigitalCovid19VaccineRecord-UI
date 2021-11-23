@@ -227,7 +227,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </div>
           ) : null}
 
-          {isButtonSupported && apple === true && isMobile() === "A" ? (
+          {isVersionGood && apple === true && isMobile() === "A" ? (
             <div data-html2canvas-ignore="true">
               {ReactGA.event({
                 category: 'apple_render',
