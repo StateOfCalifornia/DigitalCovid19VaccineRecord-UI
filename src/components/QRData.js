@@ -6,11 +6,8 @@ import PrintIcon from '@material-ui/icons/Print';
 import SaveAltIcon from '@material-ui/icons/SaveAlt';
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
-// eslint-disable-next-line no-unused-vars
 import html2canvas from "html2canvas";
 import Canvas2Image from "../utils/canvas2image";
-
-
 
 const QRData = ({ user, qr, apple, google, isMobile }) => {
 
@@ -63,16 +60,25 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     buildPdf();
   }
 
-  let isVersionGood;
+  let isButtonSupported = false;
+  let imgSource = "/imgs/apple-wallet-health.svg";
+  let altText = "Add to Apple Wallet & Health";
   let showMessage = false;
   const userAgent = navigator.userAgent;
 
   if (apple === true && isMobile() === "A") {
     const indexOfOS = userAgent.indexOf('OS');
-    const versionStr = userAgent.substring(indexOfOS + 2, indexOfOS + 5);
+    const versionStr = userAgent.substring(indexOfOS + 2, indexOfOS + 7);
+    const versionInt = Number.parseInt(versionStr.substring(0, 3));
+    const subversionInt = Number.parseInt(versionStr.substring(4))
     const isPhone = userAgent.match("iPhone"); // iPhones, iPods, and iPads in mobile mode all claim this
     const isiPad = userAgent.match("iPad"); // iPads in mobile mode claim this
-    isVersionGood = isPhone && !isiPad && Number.parseInt(versionStr) >= 15;
+    isVersionGood = isPhone && !isiPad && versionInt >= 15;
+
+    if (versionInt === 15 && subversionInt === 0) {
+      imgSource = "/imgs/add-to-apple-health.svg";
+      altText = "Works with Apple Health";
+    }
 
     if (navigator.userAgent.match("CriOS") || navigator.userAgent.match("FxiOS")) {
       showMessage = true;
@@ -221,7 +227,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             </div>
           ) : null}
 
-          {isVersionGood && apple === true && isMobile() === "A" ? (
+          {isButtonSupported && apple === true && isMobile() === "A" ? (
             <div data-html2canvas-ignore="true">
               {ReactGA.event({
                 category: 'apple_render',
@@ -234,8 +240,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               >
                 <img
                   id={"apple-health-button"}
-                  src={"/imgs/add-to-apple-health.svg"}
-                  alt={"Works with Apple Health"}
+                  src={imgSource}
+                  alt={altText}
                 />
               </ReactGA.OutboundLink>
             </div>
