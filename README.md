@@ -75,7 +75,7 @@ The URLs found in public/config.js will need to be updated to point to the API t
 The default value is https://localhost:5001.
 
 # Using Google Analytics
-To use [Google Analytics](https://developers.google.com/analytics) :
+To use [Google Analytics](https://developers.google.com/analytics):
 1.	Set up a Google Analytics account [here](https://support.google.com/analytics/answer/1008015) to get an ID.
 2.	Update the id number in the Google Analytics script, found in public/index.html.
 
@@ -84,9 +84,8 @@ Line 54: <script async src="https://www.googletagmanager.com/gtag/js?id=[your id
 Line 67: gtag('config', '[your id goes here]');
 ```
 
-
-Build
-Use the command npm run build to generate a build folder containing the files to be hosted.
+# Build
+Use the command `npm run build` to generate a build folder containing the files to be hosted.
 
 # NPM Dependencies
 
