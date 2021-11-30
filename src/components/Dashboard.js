@@ -74,7 +74,7 @@ const Dashboard = () => {
           <span>
             <Trans i18nKey="vaccineform.safe">
               Safe, free, and effective COVID-19 vaccines are now available to
-              everyone age 12 and up,
+              everyone age 5 and up,
               <ReactGA.OutboundLink
                 eventLabel="myturn"
                 to={"https://myturn.ca.gov"}
