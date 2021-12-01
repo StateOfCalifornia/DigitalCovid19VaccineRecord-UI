@@ -26,7 +26,7 @@ const Header = () => {
 
   const [expand, setExpand] = useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
-  const [language, setLanguage] = useState(window.navigator.userLanguage || navigator.language.length > 10 ? navigator.language.substring(0, 10).toLowerCase() : navigator.language);
+  const [language, setLanguage] = useState(window.navigator.userLanguage || navigator.language.length > 3 ? navigator.language.substring(0, 3).toLowerCase() : navigator.language);
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
