@@ -49,7 +49,7 @@ const faqLinkLanguage = () => {
   return '/faq -' + userLanguage;
 
   //this may no longer be needed, below.
-  switch (left(i18n.resolvedLanguage, 2)) {
+  switch (userLanguage) {
     case 'en':
       return '/faq';
     case 'es':
