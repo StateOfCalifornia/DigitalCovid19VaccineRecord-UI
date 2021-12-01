@@ -14,6 +14,12 @@ const Header = () => {
 
   // Language
   const changeLanguage = (language) => {
+    //be sure the language code STOPs at the hyphen
+    var WhereBegin = language.indexOf("-");
+    if (WhereBegin > 1){
+      language = language.substring(0, WhereBegin)
+    }
+  
     i18n.changeLanguage(language);
     setLanguage(language)
   };
