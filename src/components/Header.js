@@ -51,6 +51,7 @@ const Header = () => {
   const menuLanguages = {
     'am': 'Amharic - የቋንቋዎ ስም',
     'ar': 'Arabic - العربية',
+    'my': "Burmese - မြန်မာ",    
     'zh-tw': 'Chinese (Traditional) - 繁體字',
     'chk': 'Chuukese - Fosun Chuuk',
     'prs': 'Dari - دری',
@@ -68,7 +69,6 @@ const Header = () => {
     'mam': 'Mam - Qyool',
     'mh': 'Marshallese - Kajin Ṃajōḷ',
     'mxb': 'Mixteco Bajo - Mixteco bajo Tu\'un savi',
-    'my': "Burmese - မြန်မာ",
     'ne': 'Nepali - नेपाली',
     'om': 'Oromo - Maqaa Afaan Keessanii',
     'ps': 'Pashto - پښتو',
