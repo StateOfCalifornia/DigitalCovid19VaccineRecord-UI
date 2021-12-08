@@ -76,6 +76,7 @@ const Header = () => {
     'sw': 'Swahili - Kiswahili',
     'tl': 'Tagalog - Wikang Tagalog',
     'te': 'Telugu - మీ భాష పేరు',
+    "th": 'Thai - ไทย',
     'ti': 'Tigrinya - ስም ቋንቋኹም',
     'to': 'Tongan - lea faka-Tonga',
     'tr': 'Turkish - Türkçe',
