@@ -174,13 +174,13 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               <button
                 style={{
                   borderRadius: "20px",
-                  paddingTop: "30px",
                   paddingLeft: "20px",
                   paddingRight: "20px",
                   textAlign: "center",
                   backgroundColor: pin ? "#22489C" : "gray",
                   color: "white",
                   margin: "0px",
+                  marginTop: "30px",
                   display: "block",
                   display: "inline-block"
                 }}
