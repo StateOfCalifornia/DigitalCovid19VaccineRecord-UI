@@ -174,6 +174,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               <button
                 style={{
                   borderRadius: "20px",
+                  paddingTop: "30px",
                   paddingLeft: "20px",
                   paddingRight: "20px",
                   textAlign: "center",
