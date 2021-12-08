@@ -35,7 +35,7 @@
     "pinErrorMsg7": "Formato de datos no válido, inténtelo de nuevo.",
     "note": "<0>Nota:</0> Su PIN es necesario para acceder de forma segura a su registro digital.",
     "checkboxdescription": "Si marca esta casilla, declara bajo pena de perjurio, de acuerdo con las leyes del estado de California, que usted es el paciente o padre, madre o tutor del paciente y está, por lo tanto, autorizado a acceder al registro de inmunización del paciente.",
-    "safe": "Actualmente, hay vacunas contra el COVID-19 seguras, gratuitas y eficaces disponibles para las personas mayores de 12 años, <1>vacúnese.</1>",
+    "safe": "Actualmente, hay vacunas contra el COVID-19 seguras, gratuitas y eficaces disponibles para las personas mayores de 5 años, <1>le recomendamos que se vacune.</1>",
     "Phone": "Teléfono móvil",
     "Email": "Correo electrónico",
     "vaccineproductname": "Nombre del producto de la vacuna",
