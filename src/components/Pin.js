@@ -175,6 +175,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
                 style={{
                   borderRadius: "50px",
                   padding: '10px 30px',
+                  textAlign: "center",
                   backgroundColor: pin ? "#22489C" : "gray",
                   color: "white",
                   height: '50px',
