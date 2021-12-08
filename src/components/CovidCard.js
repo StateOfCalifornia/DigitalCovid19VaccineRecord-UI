@@ -493,8 +493,8 @@ const CovidCard = () => {
                     checked && !errorMessage.type && document.getElementById("partitioned").value.length === 4 && isDobGood && !checkFormErrors() ? "rgba(0, 0, 139, 0.85)" : "#bdbdbd",
                   color: "white",
                   margin: "0px",
-                  display: block ,
-                  display: inline-block
+                  display: "block",
+                  display: "inline-block"
                 }}
                 type="submit"
                 size="small"
