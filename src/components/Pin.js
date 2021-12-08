@@ -180,7 +180,8 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
                   height: '50px',
                   margin: "0px",
                   marginTop: "30px",
-                  width: '123px',
+                  display: "block",
+                  display: "inline-block"
                 }}
                 type="submit"
                 size="small"
