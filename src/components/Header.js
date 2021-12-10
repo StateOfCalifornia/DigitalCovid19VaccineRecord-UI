@@ -16,10 +16,10 @@ const Header = () => {
   const changeLanguage = (language) => {
     //be sure the language code STOPs at the hyphen
     var WhereBegin = language.indexOf("-");
-    if (WhereBegin > 1){
+    if (WhereBegin > 1) {
       language = language.substring(0, WhereBegin)
     }
-  
+
     i18n.changeLanguage(language);
     setLanguage(language)
   };
@@ -51,7 +51,7 @@ const Header = () => {
   const menuLanguages = {
     'am': 'Amharic - የቋንቋዎ ስም',
     'ar': 'Arabic - العربية',
-    'my': "Burmese - မြန်မာ",    
+    'my': "Burmese - မြန်မာ",
     'zh-tw': 'Chinese (Traditional) - 繁體字',
     'chk': 'Chuukese - Fosun Chuuk',
     'prs': 'Dari - دری',
@@ -62,10 +62,10 @@ const Header = () => {
     'hi': 'Hindi - हिन्दी',
     'hmn': "Hmong - Hmoob",
     'kar': "Karen",
-    'khm': "Khmer - ខ្មែរ",
+    'km': "Khmer - ខ្មែរ",
     'ja': 'Japanese - 日本語',
     'ko': 'Korean - 한국어',
-    'lao': 'Lao - ພາສາລາວ',
+    'lo': 'Lao - ພາສາລາວ',
     'mam': 'Mam - Qyool',
     'mh': 'Marshallese - Kajin Ṃajōḷ',
     'mxb': 'Mixteco Bajo - Mixteco bajo Tu\'un savi',
@@ -79,10 +79,10 @@ const Header = () => {
     'sm': 'Samoan - Igoa o le Gagana',
     'so': 'Somali - Soomaali',
     'sw': 'Swahili - Kiswahili',
-    'tam': 'Tamil - தமிழ்',
+    'ta': 'Tamil - தமிழ்',
     'tl': 'Tagalog - Wikang Tagalog',
     'te': 'Telugu - మీ భాష పేరు',
-    "tha": 'Thai - ไทย',
+    "th": 'Thai - ไทย',
     'ti': 'Tigrinya - ስም ቋንቋኹም',
     'to': 'Tongan - lea faka-Tonga',
     'tr': 'Turkish - Türkçe',
@@ -112,7 +112,7 @@ const Header = () => {
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体字</li>
                 </ul>
-                                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
+                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
                   More {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon />}
                 </Button>
                 <Menu
@@ -123,8 +123,8 @@ const Header = () => {
                   onClose={handleClose}
                 >
                   {Object.entries(menuLanguages).map(([key, value]) => {
-                      return <MenuItem id={key} onClick={() => {handleClose(); changeLanguage(key)}} style={{textDecoration: 'underline'}}>{value}</MenuItem>
-                    })
+                    return <MenuItem id={key} onClick={() => { handleClose(); changeLanguage(key) }} style={{ textDecoration: 'underline' }}>{value}</MenuItem>
+                  })
                   }
                 </Menu>
               </div>
