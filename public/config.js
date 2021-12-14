@@ -1,5 +1,5 @@
 window.config = {
-    CREDENTIALS_API_STATUS: 'http://localhost:7070',
-    CREDENTIALS_API_QR: 'http://localhost:7070',
-    CREDENTIALS_GA_DEPARTMENT: 'G-HHSVC4W7NS'
+    CREDENTIALS_API_STATUS: 'https://dev-waverify-api.doh.wa.gov',
+    CREDENTIALS_API_QR: 'https://dev-waverify-api.doh.wa.gov',
+    CREDENTIALS_GA_DEPARTMENT: 'yourGoogleAnalyticsID'
 };
