@@ -7,6 +7,7 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
+import LanguageIcon from '@material-ui/icons/Language';
 
 
 const Header = () => {
@@ -112,8 +113,8 @@ const Header = () => {
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体字</li>
                 </ul>
-                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px' }}>
-                  More {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon />}
+                <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px', textTransform: 'none' }}>
+                  More <LanguageIcon /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon />}
                 </Button>
                 <Menu
                   id="simple-menu"
