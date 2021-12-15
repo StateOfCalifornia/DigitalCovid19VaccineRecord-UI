@@ -102,8 +102,7 @@ const FAQScreen = () => {
               <p id="faq05_desc" class="desc">
                 <Trans i18nKey="faqpage.05answer">
                   No. If you receive an additional dose or booster dose, it will not automatically reflect on
-                  your digital verification record. You will need to start over in the Digital COVID-19
-                  Verification Record system to retrieve a new QR code.
+                  your digital verification record. You will need to start over in the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system to retrieve a new QR code.
                   We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
                 </Trans>
               </p>
@@ -121,7 +120,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.06answer">
                   Clinics vary in the length of time it takes to submit dose information to the Immunization
                   Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your
-                  record is still not located, you may contact us.
+                  record is still not located, you may <a href="#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>.
                 </Trans>
               </p>
             </dd>
@@ -138,16 +137,15 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.07answer">
                   Your vaccine provider submits your vaccination record to the Immunization Registry, but they
                   may have provided information that's incomplete. So, it's likely we have your record, but
-                  not your correct information. For instance:<br />
-                  <ul>
-                    <li style={{ listStyleType: "none" }}>° Mobile phone number or email address was not included or does not match</li>
-                    <li style={{ listStyleType: "none" }}>° Name is spelled differently</li>
-                    <li style={{ listStyleType: "none" }}>° Date of birth does not match</li>
-                  </ul>
+                  not your correct information. For instance:
+                  
+                  ° Mobile phone number or email address was not included or does not match
+                  ° Name is spelled differently
+                  ° Date of birth does not match
 
                   To find your record, try re-entering your information with a different email or mobile number.
                   If your record still isn’t found, contact your provider to update your vaccination record or
-                  contact us to request a review of your record. You'll be notified of our findings and
+                  <a href="#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a> to request a review of your record. You'll be notified of our findings and
                   remediation actions within 2-3 weeks.
 
                   If you received your vaccination from a federal agency (like the Department of Defense, Indian
@@ -169,7 +167,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.08answer">
                   If the information on your Digital vaccine record is incorrect or missing a dose, has wrong
                   dates or incorrect brand), you may need to correct or update your immunization record. You
-                  can contact your provider to update your record or contact us. You will be notified of our
+                  can contact your provider to update your record or <a href="#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our
                   findings and remediation actions within 2-3 weeks.
                 </Trans>
               </p>
@@ -320,7 +318,7 @@ const FAQScreen = () => {
           </dl>
         </div>
         <div class="col-sm-4">
-          <h3>
+          <h3 id="NeedMoreHelp">
             <Trans i18nKey="faqpage.needhelptitle">
               Need more help?
             </Trans>
