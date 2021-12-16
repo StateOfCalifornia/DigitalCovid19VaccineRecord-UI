@@ -226,8 +226,8 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.11answer">
                   Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
                   access your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. If you don't, the link to your digital
-                  record will expire, but you can start over and reset your PIN using the Digital COVID-19
-                  Verification Record system.
+                  record will expire, but you can start over and reset your PIN using the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19
+                  Verification Record</a> system.
 
                   If you can't remember your PIN, after 24 hours you can use the same process and create a new
                   PIN.
@@ -291,8 +291,8 @@ const FAQScreen = () => {
               <p id="faq14_desc" class="desc">
                 <Trans i18nKey="faqpage.14answer">
                   Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
-                  vaccine card. You can ask organizations that will scan the QR code in your Digital COVID-19
-                  Verification Record how they will use your data or if they will keep it. Only you can decide
+                  vaccine card. You can ask organizations that will scan the QR code in your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19
+                  Verification Record</a> how they will use your data or if they will keep it. Only you can decide
                   how and when to share your record.
                 </Trans>
               </p>
