@@ -104,7 +104,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
       <div className={'qr-flex'} style={{ display: "flex", flexWrap: "wrap" }} id={'data-for-image'}>
         <div className="qrDiv" id="qr_img">
           <div className="qrImg" >
-            <img alt={"gov logo"} width="45px" src="/imgs/waverifylogo.png" />
+            <img alt={"gov logo"} width="100px" src="/imgs/waverifylogo.png" />
             State of Washington
           </div>
           <img
@@ -126,7 +126,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               <img
                 src="/imgs/smart-logo.svg"
                 alt="Smart Health Card"
-                style={{ alignSelf: "baseline", width: "35px" }}
+                style={{ alignSelf: "baseline", width: "60px" }}
               />
             </a>
           </div>
@@ -189,7 +189,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}>Take a screenshot<br />OR</p>
           <div className="save-buttons" data-html2canvas-ignore="true">
             <Button id={'print-button'} variant="contained" startIcon={<PrintIcon />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}>Print Record</Button>
-            <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon />} color={"primary"} size={'large'} className={classes.buttonLeft} onClick={handleImageSave}>Download Image</Button>
+            <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon />} color={"primary"} size={'large'} className={classes.buttonLeft} onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
           </div>
 
           {google === true && isMobile() === "G" ? (
