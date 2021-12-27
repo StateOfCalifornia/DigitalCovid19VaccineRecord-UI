@@ -37,7 +37,7 @@
         "pinErrorMsg7": "Tus qauv cov ntaub ntawv tsis raug, thov sim dua ib zaug ntxiv", 
         "note": "Cim tseg: Yuav tsum tau siv koj tus PIN txhawm rau kom muaj kev nyab xeeb rau kev nkag mus rau koj cov ntaub ntawv sau ua dis cis tauj.", 
         "checkboxdescription": "Los ntawm kev kos cim rau lub npov no, koj tab tom lav raws li txoj cai kev raug plua hais txog kev dag ntxias raws li lub xeev thiab tsoom fwv cov kev cai lij choj tias koj yog tus Neeg Mob los sis Niam Txiv/Tus Saib Xyuas Tus Neeg Mob thiab yog li ntawd thiaj tau txais kev tso cai nkag mus siv tus Neeg Mob li ntaub ntawv sau tseg txog kev txhaj tshuaj tiv thaiv kab mob.", 
-        "safe": "Tam sim no muaj cov tshuaj tiv thaiv kab mob COVID-19 uas muaj kev nyab xeeb, tsis xam nqi, thiab muaj kev pov thaiv tau zoo rau txhua tus neeg uas muaj hnub nyoog li 5 xyoos thiab siab dua, tau txhaj tshuaj tiv thaiv kab mob lawm (Lus Askiv nkaus xwb)..", 
+        "safe": "Tam sim no muaj cov tshuaj tiv thaiv kab mob COVID-19 uas muaj kev nyab xeeb, tsis xam nqi, thiab muaj kev pov thaiv tau zoo rau txhua tus neeg uas muaj hnub nyoog li 5 xyoos thiab siab dua, <1>tau txhaj tshuaj tiv thaiv kab mob lawm</1> (Lus Askiv nkaus xwb)..", 
         "vaccineproductname": "Lub Npe Tshuaj Tiv Thaiv Kab Mob", 
         "subsubtitle": "Ntaub ntawv kev paub txog Tshuaj Tiv Thaiv Kab Mob COVID-19 koob thib 1", 
         "fproductname": "Lub Npe Tshuaj", 
