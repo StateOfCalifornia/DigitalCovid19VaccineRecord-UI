@@ -3,7 +3,10 @@
     "selectlanguage": "Select a Language",
     "highcontrast": "High Contrast",
     "contactus": "Contact Us",
-    "settings": "Settings"
+    "settings": "Settings",
+    "dohlogotext": "Washington State<1></1>Department of Health",
+    "waverifylogo": "waverifylogo.png",
+    "waverifylogoalt": "WA Verify Logo"
   },
   "vaccinepage": {
     "title": "Verification Quick Response (QR) Code",
