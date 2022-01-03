@@ -35,7 +35,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     printWindow.document.write('</head><body >');
     printWindow.document.write('<div style="width:300px;padding-left:10px;"><img width="100px" height="27px" src="/imgs/waverifylogo.png" /><span style="float:right;padding-top:10px;font-family:Public Sans, sans-serif;">State of Washington</span></div>');
     printWindow.document.write(`<img className="actual-qr-img" width = "322px" height = "322px" alt = "VaccineQrCode" src = ${qr} id = { 'id-qr-img'} /> `);
-    printWindow.document.write('<div style="width:300px;padding-left:10px;"><span style="font-size:18px;font-weight:700;font-family:Public Sans, sans-serif;">SMART Health Card</span><img src="/imgs/smart-logo.svg" alt="Smart Health Card" style="width:60px;height:31.69px;float:right;" /></div>')
+    printWindow.document.write('<div style="width:300px;padding-left:10px;"><span style="font-size:18px;font-weight:700;font-family:Public Sans, sans-serif;">SMART Health Card</span><img src="/imgs/smart-logo.svg" alt="Smart Health Card" style="width:60px;height:31.69px;float:right;" /></div>');
     printWindow.document.write('<br />');
 
     dataItem.forEach((item, idx) => {
