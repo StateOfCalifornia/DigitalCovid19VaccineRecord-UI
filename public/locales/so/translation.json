@@ -14,7 +14,7 @@
     "content1": "Ku soo dhawow nidaamka Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka Ah. Halkaan hoose waxaad gelisaa xog kooban si aad u hesho lifaaqa koodhka QR iyo nuqulka/koobiga dhijitaalka ee diiwaankaaga xaqiijinta tallaalka COVID-19. Haddii aad dooneyso inaad wadaagto caddeynta xaqiijinta tallaalka, waxaad isticmaali kartaa qaabka elektarooniga ah ama qaabka daabacan ee diiwaanka aad ka heli doontid nidaamka.",
     "content2": "Dadka ka wada tirsan qoys waxaa laga yaabaa inay leeyihiin diiwaano xaqiijineed oo badan oo lagu lifaaqay hal taleefan ama hal ciwaan oo iimayl ah, u geli codsiga diiwaan kasta oo xaqiijinta dhijitaalka ah si gooni-gooni ah.",
     "content3": "Nidaamku waxa uu bixinayaa nuqulka/koobiga dhijitaalka ah ee diiwaanada tallaalka gobolka. Haddii aad tallaalada ka qadatay hay'ad federaal ah (Department of Defense (Waaxda Difaaca), Indian Health Services (Adeegyada Caafimaadka Hindida), ama Veterans Affairs (Arimaha Dagaalyahanada)), waxaad u baahnaan doontaa inaad la xariirto hay'adahaan si aad u hesho wixi caawimaad ah.",
-    "content4": "Haddii aad qabto su'aalo ku saabsan Diiwaankaaga Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka Ah, booqo (Su'aalaha Badanaa La Iswaydiiyo) ."
+    "content4": "Haddii aad qabto su'aalo ku saabsan Diiwaankaaga Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka Ah, booqo (<1>Su'aalaha Badanaa La Iswaydiiyo</1>)."
   },
   "vaccineform": {
     "filloutheader": "Fadalan buuxi meelaha loo baahan yahay in wax lagu qoro si aad u hesho lifaaqa koodhka Jawaabta Degdegga iyo nuqulka/koobiga dhijitaalka ee Diiwaankaaga Xaqiijinta Tallaalka COVID-19:",
@@ -58,7 +58,7 @@
     "thankyou": "Mahadsanid.",
     "content1": "Codsigaada waa la helay. Haddii aad macluumaadka aad bixisay uu waafaqo macluumaadka kujira nidaamkeena, waxaad heli doontaa lifaaqa lagu galaayo diiwaankaaga xaqiijinta tallaalka COVID-19.",
     "content2": "Haddii aadan helin lifaaqa 24 saac gudahood, fadlan markale iskuday oona xaqiiji magacaada, taariikhda dhalashada, taleefanka ama iimeelka inay isleeyihiin macluumaadki aad bixisay waqtigi tallaalka aad qaadaneysay.",
-    "content3": "Haddii aad qabto su'aalo ku saabsan Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka ah , waxaan kuu haynaa jawaabo. Booqo boggeena (Su'aalaha Badanaa La Iswaydiiyo) .",
+    "content3": "Haddii aad qabto su'aalo ku saabsan <1>Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka ah</1>, waxaan kuu haynaa jawaabo. Booqo boggeena (<3>Su'aalaha Badanaa La Iswaydiiyo</3>).",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
