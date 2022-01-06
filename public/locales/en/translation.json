@@ -57,7 +57,7 @@
     "shealthcareprofessional": "",
     "submitbutton": "Submit",
     "enterPin": "Please enter the PIN code you created to request access to your vaccine record.",
-    "PinCode": "PIN CODE:"
+    "PinCode": "PIN Number:"
   },
   "qrpage": {
     "language": "en",
