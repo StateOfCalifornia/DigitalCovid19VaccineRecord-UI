@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
+import { Trans } from "react-i18next";
 import { useTranslation } from "react-i18next";
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
@@ -11,7 +12,8 @@ import LanguageIcon from '@material-ui/icons/Language';
 
 
 const Header = () => {
-  const { i18n } = useTranslation();
+
+  const { t, i18n } = useTranslation();
 
   // Language
   const changeLanguage = (language) => {
@@ -103,7 +105,7 @@ const Header = () => {
                   <img style={{ alignSelf: "left", paddingRight: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
                 </div>
                 <div style={{ verticalAlign: "middle", textAlign: 'middle' }}>
-                  Washington State<br /> Department of Health
+                <Trans i18nKey="header.dohlogotext">Washington State<br /> Department of Health</Trans>
                 </div>
               </div>
               {/* Temporarily disabled until we have all the Translations */}
@@ -137,14 +139,15 @@ const Header = () => {
         <div className="fluid-container">
           <div className='vaccineLogo' style={{ padding: '5px 1.5vw' }}>
             <Link to='/' style={{ display: 'inline-block', height: 'inherit', margin: '0', width: 'inherit' }}>
-              <img style={{ alignSelf: "center" }} alt={"WaVerify Logo"} width="200px" src="/imgs/waverifylogo.png" />
-              <span className='logoDescription' style={{ fontSize: '18px', display: 'inline-block', paddingLeft: '17px', color: '#22489c' }}>Digital COVID-19 Vaccine Record</span>
+              <Trans><img style={{ alignSelf: "center" }} alt={"WaVerify Logo"} width="200px" src={'/imgs/' + t('header.waverifylogo')} /></Trans>
+              <span className='logoDescription' style={{ fontSize: '18px', display: 'inline-block', paddingLeft: '17px', color: '#22489c' }}><Trans i18nKey="dashboardpage.contentheader">Digital COVID-19 Vaccine Record</Trans></span>
             </Link>
           </div>
         </div>
       </div>
     </nav>
   );
+
 };
 
 export default Header;

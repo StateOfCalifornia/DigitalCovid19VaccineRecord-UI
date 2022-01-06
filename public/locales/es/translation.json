@@ -3,7 +3,10 @@
     "selectlanguage": "Elija un idioma",
     "highcontrast": "Mucho contraste",
     "contactus": "Comuníquese con nosotros",
-    "settings": "Configuración"
+    "settings": "Configuración",
+    "dohlogotext": "Departamento de Salud del<1></1>Estado de Washington",
+    "waverifylogo": "verificawalogo.png",
+    "waverifylogoalt": "Verifica WA Logo"
   },
   "vaccinepage": {
     "title": "Código de respuesta rápida (QR) de verificación",
