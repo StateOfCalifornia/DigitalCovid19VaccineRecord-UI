@@ -185,7 +185,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             className={'mobile-save'}>
             <Trans i18nKey="qrpage.howtosave">To Save</Trans>
           </h2> */}
-          <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}><Trans i18nKey="qrpage.howtosave">To Save</Trans><br /><Trans i18nKey="takeascreenshot">Take a screenshot</Trans><br /><Trans i18nKey="qrpage.or">Or</Trans></p>
+          <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}><Trans i18nKey="qrpage.howtosave">To Save</Trans><br /><Trans i18nKey="qrpage.takeascreenshot">Take a screenshot</Trans><br /><Trans i18nKey="qrpage.or">Or</Trans></p>
           <div className="save-buttons" data-html2canvas-ignore="true">
             <Button id={'print-button'} variant="contained" startIcon={<PrintIcon />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
             <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon />} color={"primary"} size={'large'} className={classes.buttonLeft} onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
