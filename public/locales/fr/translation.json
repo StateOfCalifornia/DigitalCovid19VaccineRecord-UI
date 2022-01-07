@@ -53,6 +53,26 @@
     "submitbutton": "Envoyer",
     "enterPin": "Veuillez saisir le code PIN que vous avez créé pour demander l'accès à votre attestation de vaccination."
   },
+  "qrpage": {
+    "language": "Français",
+    "title": "Attestation numérique personnelle de vaccination COVID-19",
+    "pincode": "Code PIN: ",
+    "vacinfo": "Informations relatives à la vaccination: ",
+    "name": "Nom: ",
+    "dateofbirth": "Date de naissance: ",
+    "dose": "Dose: ",
+    "date": "Date: ",
+    "type": "Type/Fabricant: ",
+    "howtosave": "Pour enregistrer",
+    "takeascreenshot": "Prendre une capture d'écran",
+    "or": "Ou",
+    "minrequirementsandroid": "Exigences minimales: Android version 5 et Google Play Services version 21.18 et ultérieures.",
+    "minrequirementsios": "Exigences minimales: Sur un appareil iOS, utilisez le navigateur Internet Safari.",
+    "printrecord": "Imprimer l'attestation",
+    "download": "Télécharger",
+    "needhelp": "Vous avez besoin d'aide?",
+    "incorrect": "Si les informations figurant dans votre attestation de vaccination numérique sont incorrectes ou s'il manque une dose, si les dates sont erronées ou si la marque du vaccin administré est incorrecte, vous devrez peut-être corriger ou mettre à jour votre attestation de vaccination. Vous pouvez contacter votre professionnel de santé pour mettre à jour votre attestation ou <1>nous contacter</1>. Vous serez informé de nos conclusions et des mesures correctives dans un délai de 2 à 3 semaines."
+  },
   "receivedpage": {
     "title": "Récépissé numérique de demande d'attestation de vaccination COVID-19",
     "thankyou": "Merci.",
