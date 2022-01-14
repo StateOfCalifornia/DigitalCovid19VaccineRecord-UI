@@ -159,15 +159,15 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             <div key={`dose${idx}`}>
               <p className="qrDataItem">
                 <b>
-                  <Trans i18nKey="qrpage.dose">Dose</Trans>
-                  <Trans i18nKey="qrpage.date">Date:</Trans>
+                  <Trans i18nKey="qrpage.dose">Dose </Trans>
+                  <Trans i18nKey="qrpage.date">Date: </Trans>
                 </b>
                 {dose.doa}
               </p>
               <p className="qrDataItem">
                 <b>
-                  <Trans i18nKey="qrpage.dose">Dose</Trans>
-                  <Trans i18nKey="qrpage.type">Type/Mfr:</Trans>
+                  <Trans i18nKey="qrpage.dose">Dose </Trans>
+                  <Trans i18nKey="qrpage.type">Type/Mfr: </Trans>
                 </b>
                 {dose.type}
               </p>
