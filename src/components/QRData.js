@@ -254,7 +254,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             >
               <Trans i18nKey="qrpage.needhelp">Need More Help?</Trans>
             </h2>
-            <p className={"pt-2"}>
+            <p>
               <Trans i18nKey={"qrpage.incorrect"}>
                 If the information on your digital vaccine record is incorrect or missing a dose, has wrong dates or incorrect brand, you may need to correct or update your immunization record. You can contact your provider to update your record or <a href="/faq#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our findings and remediation actions within 2-3 weeks.
               </Trans>
