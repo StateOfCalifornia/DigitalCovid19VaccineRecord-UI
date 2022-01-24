@@ -60,7 +60,7 @@
     "name": "Nome: ", 
     "dateofbirth": "Data de nascimento: ", 
     "dose": "Dose ", 
-    "date": "Data:", 
+    "date": "Data: ", 
     "type": "Tipo/Fabricante: ", 
     "howtosave": "Para salvar: ", 
     "takeascreenshot": "Tirar print da tela", 
