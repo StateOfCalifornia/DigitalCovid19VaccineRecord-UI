@@ -53,6 +53,25 @@
     "submitbutton": "Fakahū",
     "enterPin": "Kātaki ‘o fakahū ho’o fika PIN na’a ke fa’ú ke ma’u tau ‘aki ho’o lēkooti huhu malu’í."
   },
+  "qrpage": {
+    "title": "Personal Digital COVID-19 Verification Record (Lēkooti Fakamo’oni Fakafo’ituitui Huhu Malu'i COVID-19)", 
+    "pincode": "Fika Fakapulipuli:", 
+    "vacinfo": "Fakamatala ki he Huhu Malu’í: ", 
+    "name": "Hingoa: ", 
+    "dateofbirth": "‘Aho fa’ele’i: ", 
+    "dose": "Lahi ‘o e huhú ", 
+    "date": "‘Aho: ", 
+    "type": "Kalasi/Mfr.: ", 
+    "howtosave": "Ke Tauhi", 
+    "takeascreenshot": "Faitā’aki ho’o telefoní", 
+    "or": "Pe", 
+    "minrequirementsandroid": "Tu'utu'uni fiema’u: Android kalasi 5 mo e Sēvesi Google Play ‘i he kalasi 21.18 pe ma’olunga ange.", 
+    "minrequirementsiOS": "Tu'utu'uni fiema’u: ‘I ha naunau iOS, ngaue’aki ‘a e Safari web browser.", 
+    "printrecord": "Paaki ho’o Lēkootí", 
+    "download": "Tauhi", 
+    "needhelp": "Toe fiema’u ha tokoni?", 
+    "incorrect": "Kapau ‘oku hala pe ‘ikai kakato ‘a e fakamatala huhu malu’i ‘i ho’o lēkooti huhu malu’í, hala ‘a e ‘aho pe hingoa ‘o e huhu malu’í, ‘e fiema’u ke ke fakatonutonu mo fakafo’ou ho’o lēkooti huhu malu’í. Fetu’utaki ki ho’o toketá ke fakafo’ou ho’o lēkootí pe <1>fetu’utaki mai</1>. ‘E fakahoko atu ‘a e ola ‘o <br />‘emau ngāue ‘i loto ‘i he uike ‘e 2-3."
+  },
   "receivedpage": {
     "title": "La’i Talitotongi ki hono ma’u ho’o Lēkooti Huhu Malu’i COVID-19",
     "thankyou": "Mālō.",
