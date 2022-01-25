@@ -231,8 +231,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               >
                 <img
                   id={"apple-health-button"}
-                  src={"/imgs/add-to-apple-health.svg"}
-                  alt={"Works with Apple Health"}
+                  src={"/imgs/add-to-apple-wallet-and-health.svg"}
+                  alt={"Works with Apple Health and Apple Wallet"}
                 />
               </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
