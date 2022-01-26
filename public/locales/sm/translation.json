@@ -53,6 +53,25 @@
     "submitbutton": "Tuuina atu",
     "enterPin": "Faamolemole tuu i totonu le numera PIN e mafaia ai ona maua faamaumauga o ou tui."
   },
+  "qrpage": {
+    "title": "Faamaumauga Faamaonia o le KOVITI-19", 
+    "pincode": "Numera Faalilolilo:", 
+    "vacinfo": "Faamatalaga o Tui Puipui: ", 
+    "name": "Igoa: ", 
+    "dateofbirth": "Aso Fanau: ", 
+    "dose": "Tui lona fia ", 
+    "date": "Aso: ", 
+    "type": "Ituaiga Tui: ", 
+    "howtosave": "Ina ia Sefe se kopi", 
+    "takeascreenshot": "Pue se ata i luga o lau telefoni", 
+    "or": "Poo", 
+    "minrequirementsandroid": "Aiaiga e tatau ona ausia: O lau telefoni e tatau ona iai le Android ituaiga 5 faapena foi le Google Play Services ituaiga 21.18 & isi ituaiga maualuga atu.", 
+    "minrequirementsiOS": "Aiaiga e tatau ona ausia: Pea faaaoga se masini o le ituaiga iOS, faaaoga le polokalame o le Safari ina ia mafai ona oo atu i luga o upega tafailagi.", 
+    "printrecord": "Lolomi se kopi o Faamaumauga", 
+    "download": "Sefe se kopi o faamaumauga", 
+    "needhelp": "E manaomia nisi fesoasoani?", 
+    "incorrect": "Afai e te silafia e sese faamaumauga faamaonia o ou tui puipui faa pei o le misia o sou tuiga, e le o sa’o le aso, pe sese le ituaiga tui puipui sa faaogaina, e tatau lava ia oe ona toe faasa’oina nei faamaumauga. Faafesootai le auaunaga sa maua mai ail au tui e toe teuteu nei faamaumauga pe <1>faafesootai mai matou</1>. O le a logoina oe pe a maua taunuuga o suesuega poo se fofo o gaioiga e tatau ona faia i totonu o le 2-3 vaiaso."
+  },
   "receivedpage": {
     "title": "Risiti o Faamaumauga Faamaonia o talosaga o le KOVITI-19",
     "thankyou": "Faafetai lava.",
