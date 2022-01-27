@@ -53,6 +53,25 @@
     "submitbutton": "Uwaak",
     "enterPin": "Konaan moon ko PIN nomba eok kōṃanṃan nan kajjitōk akto ami wa jeje."
   },
+  "qrpage": {
+    "title": "Rekoot in Kein Kamool COVID-19 eo am Make ilo Kein Jerbal Kapeel", 
+    "pincode": "Nomba in PIN:", 
+    "vacinfo": "Melele in Kamool: ", 
+    "name": "Etam: ", 
+    "dateofbirth": "Raan in Lotak: ", 
+    "dose": "Jonan Wa ", 
+    "date": "Raan: ", 
+    "type": "Kain/Mfr: ", 
+    "howtosave": "Nan am kakwone", 
+    "takeascreenshot": "Bijaiki", 
+    "or": "Ak", 
+    "minrequirementsandroid": "Mennin aikuj ko rediktata: Android mottan 5 im Google Play mottan 21.18 & lonlok.", 
+    "minrequirementsiOS": "Mennin aikuj ko rediktata: Ilo juon kein jerbal kapeel in iOS, kojerbal Safari nan am lale web eo.", 
+    "printrecord": "Print Rekoot", 
+    "download": "Download", 
+    "needhelp": "Kwoj ke Bar Aikuj Jiban?", 
+    "incorrect": "Ne ebōd melele eo ilo rekoot in wa eo am ilo kein jerbal kapeel eo ak ejab walok juon wa kwar boke, ebōd raan ko ak etan wa eo, kwomaron aikuj kokkaal rekoot in wa eo am. <1>Kwōmaron kebaak takto eo am nan kokkaal rekoot eo am ne ejab kebaak tok kim</1>. Kim naj kebaak kwe kin ta melele ko emoj amim loi im komadmod ko kim naj kommani iloan 2-3 wiik."
+  }, 
   "receivedpage": {
     "title": "Iaam jarom COVID-19 jaak jeje kajjitōk rijjiit",
     "thankyou": "Koṃṃool eok.",
