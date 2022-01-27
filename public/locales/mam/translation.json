@@ -53,6 +53,25 @@
     "submitbutton": "Smanx ",
     "enterPin": "Tz’ib’ak’ax j-PIN tey xjaw tb’incha’ tu’ tokx tqanay te tu’ tokxay toj jatuma tz’ib’waxay ti’j b’aq."
   },
+  "qrpage": {
+    "title": "U’j tu’n tku’x Ke’yit Tqanil kyi’j Xjal ti’j COVID-19", 
+    "pincode": "Tajlal PIN:", 
+    "vacinfo": "Tqanil ti’j vacuna ti’ja: ", 
+    "name": "Tb’iya: ", 
+    "dateofbirth": "Alkye tajlal q’ij tul itz’jiya: ", 
+    "dose": "Tajlal vacuna ", 
+    "date": "Alkye q’ij tok: ", 
+    "type": "Alkye tb’i vacuna: ", 
+    "howtosave": "Tu’n tkux’ k’u’t", 
+    "takeascreenshot": "Tu’n tetz jun tilb’ilal twitz yolb’il", 
+    "or": "Mo", 
+    "minrequirementsandroid": "Aju il ti’j: Android 5 ex Google Play Services 21.18 ex qa mas k’itzqe.", 
+    "minrequirementsiOS": "Aju il ti’j: Qa in najb’en iOS toj tyolb’ila, tz’ajb’enx Safari tu’ne toj internet.", 
+    "printrecord": "Tu’n tetz u’j toj k’uxb’il", 
+    "download": "Tu’n tkutz ti’na", 
+    "needhelp": "¿Taja Ch’intl Onb’il?", 
+    "incorrect": "B’alo il ti’j tu’n t-xi b’inchet ti’j tqanil ti’j vacuna ti’je, qa nya tz’aqle tqanil tku’x toj mo na’mx tok aju juntl vacuna ti’je, ex qa aju tajlal q’ij mo aju tb’i vacuna nya b’a’n ate’. Jaku yolina ti’j jlu tuk’e aju q’ol vacuna ti’ja mo jaku <1>tzaj tq’ama’na qeye</1>. Kxel qtzaq’we’na teya ti’jju kxel qb’incha’ne ti’j tqanil ti’ja toj 2 ex qa 3 seman.<br />"
+  }, 
   "receivedpage": {
     "title": "T-xaq’ u’j taj toktz q’i’ Tqanb’alay te tz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19 toj xk’utz’ib’",
     "thankyou": "Chjontay.",
