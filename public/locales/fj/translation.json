@@ -53,6 +53,25 @@
     "submitbutton": "Vakauta",
     "enterPin": "Yalovinaka mo tabaka na naba ni PIN o bulia mo rawa ni raica kina na itukutuku ni nomu cula."
   },
+  "qrpage": {
+    "title": "iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19", 
+    "pincode": "Naba ni PIN:", 
+    "vacinfo": "Me ikuri ni ivakamacala: ", 
+    "name": "Yaca: ", 
+    "dateofbirth": "Tikinisiga ni Sucu: ", 
+    "dose": "Levu ni ivakarau e soli ", 
+    "date": "Tikinisiga: ", 
+    "type": "Kena mataqali/Mfr.: ", 
+    "howtosave": "Me Maroi", 
+    "takeascreenshot": "Maroi kena itaba", 
+    "or": "Se", 
+    "minrequirementsandroid": "Veika me caka: Android version 5 kei na Google Play Services version 21.18 se sivia.", 
+    "minrequirementsiOS": "Veika me caka: Ena misini ni iOS, vakayagataka na vanua ni vakadidike ena internet na Safari.", 
+    "printrecord": "Tabaka na Volaitukutuku", 
+    "download": "Downloadtaka", 
+    "needhelp": "Vinakata eso tale na veivuke?", 
+    "incorrect": "Ke sega ni donu na ivolatukutuku vakalivaliva ni cula se cala se sega ni volai na itukutuku ni icula, e cala na tikinisiga se cala na wainimate e volai, ena vinakati mo na veisautaka se vakadodonutaka na itukutuku ni nomu cula. O rawa ni veitaratara kei koya e veicula me vakadodonutaka se <1>veitaratara mai vei keitou</1>. Keitou na vakaraitaka yani na veika keitou sa dikeva rawa kei na veika sa vakayacori rawa ena loma ni 2 ina 3 na macawa."
+  },
   "receivedpage": {
     "title": "Risiti Kerei ni iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19",
     "thankyou": "Vinaka vakalevu.",

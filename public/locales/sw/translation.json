@@ -53,6 +53,25 @@
     "submitbutton": "Wasilisha",
     "enterPin": "Tafadhali ingiza nambari ya PIN uliyounda ili kuomba ufikiaji wa rekodi yako ya chanjo."
   },
+  "qrpage": {
+    "title": "Rekodi ya Kibinafsi ya Kidijitali ya Uthibitishaji wa COVID-19", 
+    "pincode": "Nambari ya PIN:", 
+    "vacinfo": "Taarifa ya Chanjo: ", 
+    "name": "Jina: ", 
+    "dateofbirth": "Tarehe ya Kuzaliwa: ", 
+    "dose": "Dozi ", 
+    "date": "Tarehe: ", 
+    "type": "Aina/Mtengenezaji: ", 
+    "howtosave": "Hifadhi", 
+    "takeascreenshot": "Piga picha ya skrini", 
+    "or": "Au", 
+    "minrequirementsandroid": "Mahitaji ya chini: Toleo la 5 la Android na toleo la 21.18 au juu la Google Play Services.", 
+    "minrequirementsiOS": "Mahitaji ya chini: Kwenye kifaa cha iOS, tumia kivinjari cha wavuti wa Safari.", 
+    "printrecord": "Chapisha Rekodi", 
+    "download": "Pakua", 
+    "needhelp": "Unahitaji Usaidizi Zaidi?", 
+    "incorrect": "Maelezo yaliyopo kwenye rekodi yako ya chanjo ya Kidijitali si sahihi au inakosa dozi, ina tarehe zisizo sahihi au chapa isiyo sahihi), unaweza kuhitaji kusahihisha au kusasisha rekodi yako ya chanjo. Unaweza kuwasiliana na mtoaji wako ili asasishe rekodi yako au <1>wasiliana nasi</1>. Utaarifiwa kuhusu matokeo yetu na hatua za kutatua suala hili ndani ya wiki 2-3."
+  }, 
   "receivedpage": {
     "title": "Stakabadhi ya Ombi la Rekodi ya Kidijitali ya Uthibitishaji wa COVID-19",
     "thankyou": "Asante.",

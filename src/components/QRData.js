@@ -231,8 +231,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               >
                 <img
                   id={"apple-health-button"}
-                  src={"/imgs/add-to-apple-health.svg"}
-                  alt={"Works with Apple Health"}
+                  src={"/imgs/add-to-apple-wallet-and-health.svg"}
+                  alt={"Works with Apple Health and Apple Wallet"}
                 />
               </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
@@ -254,7 +254,11 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             >
               <Trans i18nKey="qrpage.needhelp">Need More Help?</Trans>
             </h2>
-            <p className={"pt-2"}>
+            <p 
+              style={{
+                overflowWrap: "break-word"
+              }}
+            >
               <Trans i18nKey={"qrpage.incorrect"}>
                 If the information on your digital vaccine record is incorrect or missing a dose, has wrong dates or incorrect brand, you may need to correct or update your immunization record. You can contact your provider to update your record or <a href="/faq#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our findings and remediation actions within 2-3 weeks.
               </Trans>

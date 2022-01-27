@@ -53,6 +53,25 @@
     "submitbutton": "Trimiteți",
     "enterPin": "Introduceți codul PIN pe care l-ați creat pentru a solicita accesul la fișa dvs. de vaccinare."
   },
+  "qrpage": {
+    "title": "Fișă personală digitală privind vaccinarea COVID-19", 
+    "pincode": "Cod PIN:", 
+    "vacinfo": "Informații despre vaccin: ", 
+    "name": "Nume: ", 
+    "dateofbirth": "Data nașterii: ", 
+    "dose": "Doza ", 
+    "date": "Data: ", 
+    "type": "Tip/Prod.: ", 
+    "howtosave": "Pentru a salva ", 
+    "takeascreenshot": "Captură de ecran", 
+    "or": "Sau", 
+    "minrequirementsandroid": "Cerințe minime: Android versiunea 5 și Google Play Services versiunea 21.18 sau ulterioară.", 
+    "minrequirementsiOS": "Cerințe minime: pe un dispozitiv iOS, utilizați browserul web Safari.", 
+    "printrecord": "Imprimare fișă", 
+    "download": "Descărcare", 
+    "needhelp": "Aveți nevoie de ajutor?", 
+    "incorrect": "Dacă datele din fișa de vaccinare digitală sunt incorecte, dacă lipsește una dintre doze sau dacă o doză este înregistrată cu date de administrare incorecte sau cu marca incorectă, vă recomandăm să corectați sau să actualizați fișa de vaccinare. Contactați furnizorul solicitându-i să vă actualizeze fișa de vaccinare sau <1>contactați-ne</1>. În 2 – 3 săptămâni veți primi o notificare cu constatările noastre și măsurile de remediere."
+  }, 
   "receivedpage": {
     "title": "Recipisă de solicitare a certificatului digital COVID-19",
     "thankyou": "Vă mulțumim.",
