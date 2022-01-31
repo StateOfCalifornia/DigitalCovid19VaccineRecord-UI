@@ -65,7 +65,7 @@
       "takeascreenshot": "スクリーンショットを撮る", 
       "or": "または", 
       "minrequirementsandroid": "最低限の条件: Androidバージョン5およびGoogle Play Servicesバージョン21.18以降", 
-      "minrequirementsiOS": "最低限の条件: iOSデバイスの場合、Safariウェブブラウザを使用してください。", 
+      "minrequirementsios": "最低限の条件: iOSデバイスの場合、Safariウェブブラウザを使用してください。", 
       "printrecord": "記録を印刷", 
       "download": "ダウンロード", 
       "needhelp": "詳細な情報が必要ですか？", 

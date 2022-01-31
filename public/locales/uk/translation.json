@@ -66,7 +66,7 @@
     "takeascreenshot": "Зробити знімок екрана", 
     "or": "або", 
     "minrequirementsandroid": "Мінімальні вимоги: система Android версії 5 і Google Play Services версії 21.18 або новішої.", 
-    "minrequirementsiOS": "Мінімальні вимоги: на пристроях із системою iOS, використовуйте веббраузер Safari.", 
+    "minrequirementsios": "Мінімальні вимоги: на пристроях із системою iOS, використовуйте веббраузер Safari.", 
     "printrecord": "Роздрукувати запис", 
     "download": "Завантажити", 
     "needhelp": "Потрібна допомога?", 

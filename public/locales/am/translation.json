@@ -66,7 +66,7 @@
     "takeascreenshot": "የገፅ እይታውን (ስክሪንሾት) ያንሱ", 
     "or": "ወይም", 
     "minrequirementsandroid": "ዝቅተኛ መስፈርቶች፦ አንድሮይድ ስሪት 5 እና ጉግል ፕሌይ አገልግሎቶች ስሪት 21.18 እና ከዚያ በላይ።", 
-    "minrequirementsiOS": "ዝቅተኛ መስፈርቶች፦ በ iOS መሳሪያ ላይ የሳፋሪ ድር አሳሽ ይጠቀሙ።", 
+    "minrequirementsios": "ዝቅተኛ መስፈርቶች፦ በ iOS መሳሪያ ላይ የሳፋሪ ድር አሳሽ ይጠቀሙ።", 
     "printrecord": "መዝገቡን አትም", 
     "download": "አውርድ", 
     "needhelp": "ተጨማሪ እገዛ ይፈልጋሉ?", 

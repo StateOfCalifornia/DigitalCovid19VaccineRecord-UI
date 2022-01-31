@@ -66,7 +66,7 @@
     "takeascreenshot": "Ekran görüntüsü al", 
     "or": "Ya da", 
     "minrequirementsandroid": "Minimum Gereksinimler: Android sürüm 5 ve Google Play Hizmetleri sürüm 21.18 ve üzeri.", 
-    "minrequirementsiOS": "Minimum Gereksinimler: Bir iOS cihazında Safari web tarayıcısını kullanın.", 
+    "minrequirementsios": "Minimum Gereksinimler: Bir iOS cihazında Safari web tarayıcısını kullanın.", 
     "printrecord": "Kaydı Yazdır", 
     "download": "İndir", 
     "needhelp": "Daha Fazla Yardıma Mı İhtiyacınız Var?", 
