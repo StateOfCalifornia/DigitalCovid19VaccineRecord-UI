@@ -3,7 +3,10 @@
     "selectlanguage": "请选择一种语言",
     "highcontrast": "高对比度",
     "contactus": "联系我们",
-    "settings": "设定"
+    "settings": "设定",
+    "dohlogotext": "Washington State<1></1>Department of Health",
+    "waverifylogo": "waverifylogo.png",
+    "waverifylogoalt": "WA Verify Logo"
   },
   "vaccinepage": {
     "title": "验证 Quick Response (QR) 码",

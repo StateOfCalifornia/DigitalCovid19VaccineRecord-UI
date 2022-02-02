@@ -14,14 +14,14 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Header = () => {
 
   const { t, i18n } = useTranslation();
-
+  
   // Language
   const changeLanguage = (language) => {
     //be sure the language code STOPs at the hyphen
-    var WhereBegin = language.indexOf("-");
-    if (WhereBegin > 1) {
-      language = language.substring(0, WhereBegin)
-    }
+    //var WhereBegin = language.indexOf("-");
+    //if (WhereBegin > 1) {
+     // language = language.substring(0, WhereBegin)
+    //}
 
     i18n.changeLanguage(language);
     setLanguage(language)
