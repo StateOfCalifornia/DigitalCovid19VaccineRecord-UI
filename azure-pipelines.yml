@@ -98,6 +98,7 @@ stages:
                 appType: 'webApp'
                 WebAppName: 'app-waverify-ui-dev'
                 deployToSlotOrASE: true
+                ResourceGroupName: 'rg-waverify-dev'
                 SlotName: 'app-waverify-ui-dev-staging'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'
 
