@@ -111,7 +111,7 @@ const CovidCard = () => {
       PhoneNumber: textmask ? normalize(textmask.value) : "",
       EmailAddress: contactType ? contactType.value : "",
       Pin: PIN.value,
-      Language: i18n.resolvedLanguage
+      Language: i18n.resolvedLanguage.toString()
     };
 
     setLoading(true);
