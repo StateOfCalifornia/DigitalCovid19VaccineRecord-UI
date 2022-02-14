@@ -14,7 +14,7 @@
     "content1": "Bun venit în sistemul de generare a certificatelor digitale COVID-19. Introduceți câteva detalii mai jos pentru a obține un link către un cod QR și copia digitală a certificatului dvs. COVID-19. Dacă doriți să prezentați dovada vaccinării, puteți utiliza fie versiunea electronică, fie versiunea tipărită a certificatului generat de sistem.",
     "content2": "În cazul persoanelor din cadrul unei familii pot să existe mai multe certificate asociate cu un singur număr de telefon sau cu o singură adresă de e-mail, de aceea, trebuie să introduceți separat fiecare solicitare pentru certificatul digital.",
     "content3": "Sistemul generează o copie digitală a certificatului de vaccinare emis de stat. Dacă ați primit dozele de vaccin de la o agenție federală (Department of Defense (Departamentul de Apărare), Indian Health Services (Serviciile de Sănătate Indiene) sau Veterans Affairs (Ministerul Veteranilor de război)), va trebui să contactați agențiile respective pentru asistență.",
-    "content4": "Dacă aveți întrebări referitoare la certificatul digital COVID-19, accesați pagina Întrebări frecvente (Întrebări frecvente) ."
+    "content4": "Dacă aveți întrebări referitoare la certificatul digital COVID-19, accesați pagina Întrebări frecvente (<1>Întrebări frecvente</1>) . "
   },
   "vaccineform": {
     "filloutheader": "Completați câmpurile obligatorii pentru a obține un link către un cod QR/copia digitală a certificatului dvs. COVID-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Format de date nevalid, încercați din nou.",
     "note": "Notă: codul PIN este necesar pentru a accesa în siguranță fișa dvs. digitală.",
     "checkboxdescription": "Dacă bifați această casetă, declarați sub incidența legii de stat și federale privind sperjurul că sunteți Pacientul sau Părintele/Tutorele legal al Pacientului și că, prin urmare, sunteți autorizat să accesați fișa de vaccinare a Pacientului.",
-    "safe": "În prezent există vaccinuri anti-COVID-19 sigure, gratuite și eficiente pentru toate persoanele începând cu vârsta de 5 ani; vaccinați-vă .",
+    "safe": "În prezent există vaccinuri anti-COVID-19 sigure, gratuite și eficiente pentru toate persoanele începând cu vârsta de 5 ani; <1>vaccinați-vă</1>. ",
     "vaccineproductname": "Denumire vaccin",
     "subsubtitle": "Informații privind doza 1 a vaccinului anti-COVID-19",
     "fproductname": "Denumire produs",
@@ -58,7 +58,7 @@
     "thankyou": "Vă mulțumim.",
     "content1": "Solicitarea dvs. a fost primită. Dacă informațiile furnizate corespund informațiilor din sistemul nostru, veți primi un link pentru a accesa certificatul dvs. COVID-19.",
     "content2": "Dacă nu primiți un link în interval de 24 de ore, încercați din nou și verificați dacă numele, data nașterii, numărul de telefon și adresa de e-mail corespund cu informațiile furnizate în momentul vaccinării.",
-    "content3": "Dacă aveți întrebări referitoare la Certificatul digital COVID-19 , noi vă răspundem. Accesați pagina Întrebări frecvente (Întrebări frecvente) .",
+    "content3": "Dacă aveți întrebări referitoare la <1>Certificatul digital COVID-19</1>, noi vă răspundem. Accesați pagina Întrebări frecvente (<3>Întrebări frecvente</3>) . ",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
