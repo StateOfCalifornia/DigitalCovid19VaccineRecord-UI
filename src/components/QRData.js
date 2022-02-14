@@ -97,7 +97,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
   return (
     <div className={'center-w-margin'}>
       <div>
-        <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "20px" }}>
+        <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "20px", overflowWrap: "break-word" }}>
           <Trans i18nKey="qrpage.title">
             Personal Digital COVID-19 Vaccine Record
           </Trans>
