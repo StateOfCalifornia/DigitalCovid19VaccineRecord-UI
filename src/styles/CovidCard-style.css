@@ -28,6 +28,10 @@
   list-style-type: none;
 }
 
+.translationListRtl {
+  padding-left: 1rem;
+}
+
 .translationList li {
   display: inline-block;
   padding-right:10px;
@@ -96,21 +100,16 @@
   display: flex;
   margin: 0 14vw;
 }
+
 .footerContainer {
-  margin: 0 14vw;
+  position: relative;
 }
-.footerContainerRtl {
-  margin: 0 10vw;
-}
+
 .footerCopyright {
   padding-left: 0; 
   padding-top: 20px;
 }
-.footerCopyrightRtl {
-  padding-left: 0; 
-  padding-top: 20px;
-  margin: 0 3vw;
-}
+
 .bodyContainer{
   min-height: 70vh;
   /* bottom = footer height */
@@ -165,16 +164,40 @@
 
 /* Footer */
 
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow:hidden;
+  padding: 20px 14vw; 
+  background-color: #F9F9F9;
+}
+
 .footerLinks ul {
   list-style-type: none;
   text-align:left;
+}
 
+.footerLinksDirRtl{
+  padding-right:0px;
+}
+
+.footerLinksDirLtr{
+  padding-left:0px;
 }
 
 .footerLinks li {
   display:inline-block;
-  margin-right: 20px;
   text-decoration: underline;
+}
+
+.footerLinksDirLtr li{
+  margin-right: 20px;
+}
+
+.footerLinksDirRtl li {
+  margin-left: 20px;
 }
 
 .footerLinks li:hover {
@@ -256,8 +279,8 @@ hr {
   .DashContainer {
     margin: 0 5vw;
   }
-  .footerContainer {
-    margin: 0 5vw;
+  .footer {
+    padding: 0 5vw;
   }
   .headerContainer {
     padding: 0px 5vw;
@@ -286,6 +309,14 @@ hr {
       border-bottom:none;
       padding-top:20px;
     }
+
+    .footerContainerRtl{
+      margin: 0 0;
+    }
+  
+    .footerLinksRtl {
+      padding-right:0px;
+    }
 }
 @media only screen and (max-width: 876px) {
   #dose-data-container {
@@ -294,6 +325,7 @@ hr {
   #vaccine-data-container {
     flex-direction: column;
   }
+  
 }
 @media only screen and (max-width: 860px) {
   /* .MuiInputLabel-formControl, .MuiInput-input {
@@ -343,6 +375,11 @@ hr {
 
   .translationList {
     padding-left: 0px;
+  }
+
+  .translationListRtl {
+    padding-left: 1rem;
+    margin-right: -50px;
   }
 
   .translationList li {
@@ -418,6 +455,14 @@ hr {
 
   .dataDiv{
     width: 100%;
+  }
+
+  .footerContainerRtl{
+    margin: 0 0;
+  }
+
+  .footerLinksRtl {
+    padding-right:0px;
   }
 
 }
