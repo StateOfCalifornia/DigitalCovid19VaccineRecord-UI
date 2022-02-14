@@ -12,7 +12,7 @@ const Footer = () => {
     const date = new Date();
     return (
         <footer style={{ padding: '20px 0', backgroundColor: '#F9F9F9' }}>
-            <div className='footerContainer' style={i18n.dir() == "rtl"? { position: 'relative', margin: '0 10vw' } : { position: 'relative' }}>
+            <div className={i18n.dir() == "rtl"? 'footerContainerRtl' : 'footerContainer'} style={{ position: 'relative' }}>
                 <ul style={{ paddingLeft: '0' }} className="footerLinks">
                     <li><img src="/imgs/dohlogoblack.png" width='120px' alt="doh.wa.gov Footer Logo" /></li>
                     <li>
@@ -58,7 +58,7 @@ const Footer = () => {
                     <li><a href="/faq"   rel="noopener noreferrer"><Trans i18nKey="footer.faq">FAQ</Trans></a></li>
                     <li><a href="/faq#NeedMoreHelp"  rel="noopener noreferrer"><Trans i18nKey="footer.contactus">Contact Us</Trans></a></li>
                 </ul>
-                <p style={i18n.dir() == "rtl"? { paddingLeft: '0', paddingTop: '20px', margin: '0 3vw'} : { paddingLeft: '0', paddingTop: '20px' }}>{<Trans i18nKey="footer.copyright">Copyright</Trans>} &copy; {date.getFullYear()} State of Washington</p>
+                <p className={i18n.dir() == "rtl" ? 'footerCopyrightRtl' : 'footerCopyright'}>{<Trans i18nKey="footer.copyright">Copyright</Trans>} &copy; {date.getFullYear()} State of Washington</p>
             </div>
         </footer>
     )

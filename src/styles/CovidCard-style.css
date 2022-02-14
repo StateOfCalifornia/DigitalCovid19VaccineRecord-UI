@@ -99,6 +99,18 @@
 .footerContainer {
   margin: 0 14vw;
 }
+.footerContainerRtl {
+  margin: 0 10vw;
+}
+.footerCopyright {
+  padding-left: 0; 
+  padding-top: 20px;
+}
+.footerCopyrightRtl {
+  padding-left: 0; 
+  padding-top: 20px;
+  margin: 0 3vw;
+}
 .bodyContainer{
   min-height: 70vh;
   /* bottom = footer height */
@@ -196,6 +208,11 @@ hr {
   margin-left: -14px;
 }
 
+.actual-qr-img-rtl {
+  display: "block";
+  margin-right: -14px;
+}
+
 .smarthealthcard-container {
   width: 290px;
 }
@@ -281,6 +298,9 @@ hr {
 @media only screen and (min-width: 552px) {
   .qrDiv{
     margin-right: 20px;
+  }
+  .qrDivRtl{
+    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 768px) {
