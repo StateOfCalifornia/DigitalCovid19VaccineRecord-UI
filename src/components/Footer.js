@@ -11,9 +11,9 @@ const Footer = () => {
     const { t, i18n } = useTranslation();
     const date = new Date();
     return (
-        <footer style={{ padding: '20px 0', backgroundColor: '#F9F9F9' }}>
-            <div className={i18n.dir() == "rtl"? 'footerContainerRtl' : 'footerContainer'} style={{ position: 'relative' }}>
-                <ul style={{ paddingLeft: '0' }} className="footerLinks">
+        <footer className="footer">
+            <div className="footerContainer">
+                <ul style={{ paddingLeft: '0' }} className={i18n.dir() == "rtl"? "footerLinks footerLinksDirRtl" : "footerLinks footerLinksDirLtr"}>
                     <li><img src="/imgs/dohlogoblack.png" width='120px' alt="doh.wa.gov Footer Logo" /></li>
                     <li>
                         <ReactGA.OutboundLink
@@ -58,7 +58,7 @@ const Footer = () => {
                     <li><a href="/faq"   rel="noopener noreferrer"><Trans i18nKey="footer.faq">FAQ</Trans></a></li>
                     <li><a href="/faq#NeedMoreHelp"  rel="noopener noreferrer"><Trans i18nKey="footer.contactus">Contact Us</Trans></a></li>
                 </ul>
-                <p className={i18n.dir() == "rtl" ? 'footerCopyrightRtl' : 'footerCopyright'}>{<Trans i18nKey="footer.copyright">Copyright</Trans>} &copy; {date.getFullYear()} State of Washington</p>
+                <p className="footerCopyright">{<Trans i18nKey="footer.copyright">Copyright</Trans>} &copy; {date.getFullYear()} State of Washington</p>
             </div>
         </footer>
     )
