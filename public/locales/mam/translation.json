@@ -14,7 +14,7 @@
     "content1": "B’a’ tulenay toj jkloj te Tz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19 toj xk’utz’ib’. Tz’ib’ak’ax ju’nqch qaj tten tz’alu te tu’ ttiq’ay jun enlace ti’j jun código QR ex jun copia tojx xkutz’ib’ tej tey ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19. Qa tajay kub’ tchitpu’na jun u’j jatuma tz’ib’ak’ax qa ot tz’ok tb’aqay, b’a’ tajb’en tey ja tten toj xk’utz’ib’ mo etetz t-ipimirana ja jatuma tz’ib’ak’ax jtey k’elatz ti’ toj jkloj te xk’utz’ib’.",
     "content2": "Qaj xjal te jun jax ja najaj b’a’ ttiq’ nimk’a ttz’ib’b’al chmo’ tten toj junx tajlal yolb’il mo correo electrónico, tz’ib’akx ju’n qanb’al te tz’ib’b’al te cheylakxta toj xk’utz’ib’ tekax ju’n.",
     "content3": "Jkloj te xk’utz’ib’ ntzaj tq’o’ jun copia tojx xk’utz’ib’ che qaj tz’ib’b’al te qa ot tz’ok tb’aqay toj ja tnom. Qa s-etz ti’na tb’aqay toj jun tja q’oltzta onb’al te kawb’al tex jatzana (Tja nik’ub’ aq’unt te Klolakta [Department of Defense, toj tyol me’x xjal], Qaj onb’al te Tb’anal xumlal te che qaj at Chxe’chal [Indian Health Services, toj tyol me’x xjal] mo Tqanil chyol qaj eten toj Q’oj [Veterans Affairs, toj tyol me’x xjal]),\rilti’j kyolana tuya ja tja q’oltzta onb’al te tu’ tq’ij onb’al.",
-    "content4": "Qa at tajay tzaj tqanay tib’aj jtey Ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19 toj xkutz’ib’, tokx toj jkloj che qaj Qanb’al jakax (FAQ, ch’ij qaj t-xe’ tb’i toj tyol me’x xjal) ."
+    "content4": "Qa at tajay tzaj tqanay tib’aj jtey Ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19 toj xkutz’ib’, tokx toj jkloj che qaj Qanb’al jakax (<1>FAQ, ch’ij qaj t-xe’ tb’i toj tyol me’x xjal</1>) ."
   },
   "vaccineform": {
     "filloutheader": "Nojsank’ax qaj tchq’ajlaj ilchi’j tu’ toktz q’i’ jun enlace toj jun código QR/copia tojx xk’utz’ib’ tej tey Ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Jtten mya’ b’a’, nib’e’nkx junt maj ",
     "note": "Tqanil yol: Jtey t-PIN ilxax teja ti’j tu’ tokxay toj jtten tumalxax ti’ ttxola toj jtey ttz’ib’b’al toj xk’utz’ib’.",
     "checkboxdescription": "Uj tok tpeq’ana jtkulb’al lu, tey noktz tq’umana tjaq’ qa at tilay qama kub’ tz’aqay titzaxsa tok chu’ qaj kawb’al te chqil ex te jatzanax qa jaj xjal mo jaj mamb’aj/k’ojlal ti’j xjal ex, ju’tzuj, tziya tten tu’ tokxay toj jtz’ib’b’al che qaj b’aq tej xjal.",
-    "safe": "Qaj b’aq te tej tx’u’j yab’il te COVID-19 b’a’nqacheja twitz t-xob’lil, kotzqa ex chiwqa ex ja’la lutqa at che chqil qaj xjal nim toj ch-ab’q’ij twitz 5 ab’q’ij, q’o’nk tb’aqay .",
+    "safe": "Qaj b’aq te tej tx’u’j yab’il te COVID-19 b’a’nqacheja twitz t-xob’lil, kotzqa ex chiwqa ex ja’la lutqa at che chqil qaj xjal nim toj ch-ab’q’ij twitz 5 ab’q’ij, <1>q’o’nk tb’aqay</1>.",
     "vaccineproductname": "Ti tb’ij tey tb’aq k’okal mo ot tz’ok ",
     "subsubtitle": "Q’umb’aj tumal tej tne’l 1.a paq tej b’aq te tej tx’u’j yab’il te COVID-19",
     "fproductname": "Ti tb’ij tey k’okal mo ot tz’ok",
@@ -58,7 +58,7 @@
     "thankyou": "Chjontay.",
     "content1": "Jtey tqanb’al otz’oktz q’i’. Qa ja q’umb’aj tumal ma txi’ q’o’ joniy matz’ela tuya jq’umb’aj tumal toj jqeya qkloj, tey k’okalx ti’na jun enlace tu’ntza tokxay toj jtey ttz’ib’b’al te tu’ tokx tcheyana jtx’u’j yab’il te COVID-19.",
     "content2": "Qa mi ma tz’oktz ti’na jun enlace toj ja junt q’ij tuya jun qoniya mo toj 24 amb’il, nib’e’nkx junt maj ex k’okalxax tcheyana qa tej tey tb’i, tajlal q’ij titz’ay, tyolb’iliy mo correo electrónico joniy k’elal tuya jq’umb’aj tumal xi’ q’umat toj amb’il tej tey tb’aq taj tok.",
-    "content3": "Qa at tajay txi tqanay tib’aj jtey Ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19 toj xk’utz’ib’ , at qaj ttzaq’b’eb’ qeya qu’. Che’nkx jqeya qkloj te Tzaq’b’eb’ jakax (FAQ ch’ij qaj t-xe’ tb’i toj tyol me’x xjal) .",
+    "content3": "Qa at tajay txi tqanay tib’aj jtey <1>Ttz’ib’b’al te cheylakxta tej tx’u’j yab’il te COVID-19 toj xk’utz’ib’</1> , at qaj ttzaq’b’eb’ qeya qu’. Che’nkx jqeya qkloj te Tzaq’b’eb’ jakax (<3>FAQ ch’ij qaj t-xe’ tb’i toj tyol me’x xjal</3>) .",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
