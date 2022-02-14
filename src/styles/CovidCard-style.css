@@ -309,14 +309,6 @@ hr {
       border-bottom:none;
       padding-top:20px;
     }
-
-    .footerContainerRtl{
-      margin: 0 0;
-    }
-  
-    .footerLinksRtl {
-      padding-right:0px;
-    }
 }
 @media only screen and (max-width: 876px) {
   #dose-data-container {
@@ -456,15 +448,6 @@ hr {
   .dataDiv{
     width: 100%;
   }
-
-  .footerContainerRtl{
-    margin: 0 0;
-  }
-
-  .footerLinksRtl {
-    padding-right:0px;
-  }
-
 }
 
 @media only screen and (max-width: 425px) {
