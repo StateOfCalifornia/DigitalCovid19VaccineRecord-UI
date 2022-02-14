@@ -116,6 +116,15 @@ dl.faq button {
     background-color: #fffedb;
     text-align: left;
   }
+
+  .descRtl {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 110%;
+    display: none;
+    background-color: #fffedb;
+    text-align: right;
+  }
   
   dl.faq button:hover,
   dl.faq button:focus {

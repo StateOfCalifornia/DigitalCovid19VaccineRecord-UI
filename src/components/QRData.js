@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import ReactGA from 'react-ga';
 //import AppController from "../utils/AppController";
 import PrintIcon from '@material-ui/icons/Print';
@@ -13,7 +13,7 @@ import Canvas2Image from "../utils/canvas2image";
 
 
 const QRData = ({ user, qr, apple, google, isMobile }) => {
-
+  const { i18n } = useTranslation();
   useEffect(() => {
     const qrEl = document.getElementById("qr_img");
     qrEl.scrollIntoView();
@@ -90,6 +90,12 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
         color: '#ffffff'
       },
       marginLeft: '2%'
+    },
+    buttonRight: {
+      '&:hover': {
+        color: '#ffffff'
+      },
+      marginRight: '2%'
     }
   });
   const classes = useStyles();
@@ -104,7 +110,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
         </h1>
       </div>
       <div className={'qr-flex'} style={{ display: "flex", flexWrap: "wrap" }} id={'data-for-image'}>
-        <div className="qrDiv" id="qr_img">
+        <div className="qrDiv" id="qr_img" style={i18n.dir()=="rtl"?{margin:'0 0 0 20px'}:{}}>
           <div className="qrImg" >
             <img alt={"gov logo"} width="100px" src="/imgs/waverifylogo.png" />
               State of Washington
@@ -116,6 +122,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
             alt={"VaccineQrCode"}
             src={qr}
             id={'id-qr-img'}
+            style={i18n.dir()=="rtl"?{margin:'0 -14px 0 20px'}:{}}
           />
           <div className="smarthealthcard-container d-flex justify-content-between">
             <span style={{ fontWeight: "700", fontSize: "18px" }}>
@@ -187,8 +194,8 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           </h2> */}
           <p data-html2canvas-ignore="true" id={'mobile-save'} className={'mobile-save'}><Trans i18nKey="qrpage.howtosave">To Save</Trans><br /><Trans i18nKey="qrpage.takeascreenshot">Take a screenshot</Trans><br /><Trans i18nKey="qrpage.or">Or</Trans></p>
           <div className="save-buttons" data-html2canvas-ignore="true">
-            <Button id={'print-button'} variant="contained" startIcon={<PrintIcon />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
-            <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon />} color={"primary"} size={'large'} className={classes.buttonLeft} onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
+            <Button id={'print-button'} variant="contained" startIcon={<PrintIcon style={i18n.dir()=="rtl"?{margin:'0 -4px 0 8px'}:{}} />} color={"primary"} size={'large'} className={classes.button} onClick={handlePdfSave}><Trans i18nKey="qrpage.printrecord">Print Record</Trans></Button>
+            <Button id={'save-image-button'} variant="contained" startIcon={<SaveAltIcon style={i18n.dir()=="rtl"?{margin:'0 -4px 0 8px'}:{}} />} color={"primary"} size={'large'} className={i18n.dir() == "rtl" ? classes.buttonRight : classes.buttonLeft}  onClick={handleImageSave}><Trans i18nKey="qrpage.download">Download</Trans></Button>
           </div>
 
           {google === true && isMobile() === "G" ? (

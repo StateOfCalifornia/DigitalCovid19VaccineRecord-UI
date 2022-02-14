@@ -102,7 +102,7 @@ const Header = () => {
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', height: 70 }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
                 <div style={{ textAlign: 'middle' }}>
-                  <img style={{ alignSelf: "left", paddingRight: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
+                  {i18n.dir() == 'rtl' ? <img style={{ alignSelf: "left", paddingLeft: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" /> : <img style={{ alignSelf: "left", paddingRight: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" /> }
                 </div>
                 <div style={{ verticalAlign: "middle", textAlign: 'middle' }}>
                 <Trans i18nKey="header.dohlogotext">Washington State<br /> Department of Health</Trans>
@@ -110,7 +110,7 @@ const Header = () => {
               </div>
               {/* Temporarily disabled until we have all the Translations */}
               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
-                <ul className='translationList'>
+                <ul className='translationList' style={i18n.dir() == 'rtl' ? {paddingLeft: "1rem"}:{}}>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体字</li>
