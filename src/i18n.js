@@ -6,8 +6,8 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 
 const customFallbacks = {
-    'zh-MO': ['zh-tw'],
-    'zh-HK': ['zh-tw'],
+    'zh-MO': ['zh-TW'],
+    'zh-HK': ['zh-TW'],
 }
 
 /**
