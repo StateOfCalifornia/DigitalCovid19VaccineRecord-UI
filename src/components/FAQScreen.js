@@ -1,9 +1,10 @@
 import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import "../disclosureButton.js";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 const FAQScreen = () => {
+  const { i18n } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -26,7 +27,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq01_desc" class="desc">
+              <p id="faq01_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.01answer">
                   Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> is an electronic vaccination record drawn from the
                   data stored in the state immunization registry. The digital record shows the same
@@ -46,7 +47,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq02_desc" class="desc">
+              <p id="faq02_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.02answer">
                   When your verification record is found, you will receive a link delivered to the email or
                   mobile phone number associated with the vaccination record. After entering your four-digit
@@ -64,7 +65,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq03_desc" class="desc">
+              <p id="faq03_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.03answer">
                   You can save your Digital verification record to the Apple Health app with the iOS 15
                   operating system. You will need to use your Safari web browser to complete the process.
@@ -81,7 +82,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq04_desc" class="desc">
+              <p id="faq04_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.04answer">
                   Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
                   Android version 5 and Google Play Services version 21.18 or above.
@@ -99,7 +100,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq05_desc" class="desc">
+              <p id="faq05_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.05answer">
                   No. If you receive an additional dose or booster dose, it will not automatically reflect on
                   your digital verification record. You will need to start over in the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system to retrieve a new QR code.
@@ -116,7 +117,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq06_desc" class="desc">
+              <p id="faq06_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.06answer">
                   Clinics vary in the length of time it takes to submit dose information to the Immunization
                   Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your
@@ -133,7 +134,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq07_desc" class="desc">
+              <p id="faq07_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.07answer">
                   Your vaccine provider submits your vaccination record to the Immunization Registry, but they
                   may have provided information that's incomplete. So, it's likely we have your record, but
@@ -163,7 +164,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq08_desc" class="desc">
+              <p id="faq08_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.08answer">
                   If the information on your Digital vaccine record is incorrect or missing a dose, has wrong
                   dates or incorrect brand), you may need to correct or update your immunization record. You
@@ -181,7 +182,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq09_desc" class="desc">
+              <p id="faq09_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.09answer">
                   The <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system draws COVID-19 records from the state’s
                   immunization systems. Enter your name, date of birth, and an email or mobile phone number
@@ -201,7 +202,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq10_desc" class="desc">
+              <p id="faq10_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.10answer">
                   Yes. Filling out the form on the system does not provide instant access to your verification
                   record. The link to the verification record requires a PIN that you create and is sent only
@@ -222,7 +223,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq11_desc" class="desc">
+              <p id="faq11_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.11answer">
                   Yes. You have 24 hours from the time you receive the link to enter your four-digit PIN and
                   access your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. If you don't, the link to your digital
@@ -245,7 +246,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq12_desc" class="desc">
+              <p id="faq12_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.12answer">
                   Yes. It is one of
                   <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={"https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine"} target="CoronaVirus" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>
@@ -271,7 +272,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq13_desc" class="desc">
+              <p id="faq13_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.13answer">
                   The system provides a digital copy of your verification record. If you’ve lost your paper
                   verification record, you may print out your digital record and use it. If you lose your
@@ -288,7 +289,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq14_desc" class="desc">
+              <p id="faq14_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.14answer">
                   Your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> shows the same information as your paper CDC
                   vaccine card. You can ask organizations that will scan the QR code in your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19
@@ -307,7 +308,7 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq15_desc" class="desc">
+              <p id="faq15_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.15answer">
                   If you are a parent or guardian and have created multiple appointments with a single phone
                   number or email, enter the requests one at a time to receive separate links for each

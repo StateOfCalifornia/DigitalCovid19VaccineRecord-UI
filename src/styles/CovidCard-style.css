@@ -99,6 +99,18 @@
 .footerContainer {
   margin: 0 14vw;
 }
+.footerContainerRtl {
+  margin: 0 10vw;
+}
+.footerCopyright {
+  padding-left: 0; 
+  padding-top: 20px;
+}
+.footerCopyrightRtl {
+  padding-left: 0; 
+  padding-top: 20px;
+  margin: 0 3vw;
+}
 .bodyContainer{
   min-height: 70vh;
   /* bottom = footer height */
@@ -137,6 +149,14 @@
 
 .logo-container-mobile {
   display: none;
+}
+
+.doh_logo_doh-black{
+  margin-right: 15px;
+}
+
+.doh_logo_doh-black_rtl{
+  margin-left: 15px;
 }
 
 .covid-card-container {
@@ -194,6 +214,11 @@ hr {
 .actual-qr-img {
   display: "block";
   margin-left: -14px;
+}
+
+.actual-qr-img-rtl {
+  display: "block";
+  margin-right: -14px;
 }
 
 .smarthealthcard-container {
@@ -281,6 +306,9 @@ hr {
 @media only screen and (min-width: 552px) {
   .qrDiv{
     margin-right: 20px;
+  }
+  .qrDivRtl{
+    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 768px) {

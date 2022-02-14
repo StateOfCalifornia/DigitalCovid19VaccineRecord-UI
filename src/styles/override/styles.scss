@@ -40,6 +40,9 @@ button:hover{
     background-color: rgba(232, 232, 232, 0.411);
     color:#244c9cd3
 }
+.buttonIconsRtl{
+  margin: 0 -4px 0 8px;
+}
 .contact{
     color:black;
     background-color: white;
@@ -115,6 +118,15 @@ dl.faq button {
     display: none;
     background-color: #fffedb;
     text-align: left;
+  }
+
+  .descRtl {
+    margin: 0;
+    padding: 0.5em;
+    font-size: 110%;
+    display: none;
+    background-color: #fffedb;
+    text-align: right;
   }
   
   dl.faq button:hover,
