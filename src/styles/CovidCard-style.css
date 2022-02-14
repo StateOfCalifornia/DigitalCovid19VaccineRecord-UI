@@ -151,6 +151,14 @@
   display: none;
 }
 
+.doh_logo_doh-black{
+  margin-right: 15px;
+}
+
+.doh_logo_doh-black_rtl{
+  margin-left: 15px;
+}
+
 .covid-card-container {
   width: 52%;
 }

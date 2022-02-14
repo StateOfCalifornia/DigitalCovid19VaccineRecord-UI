@@ -102,7 +102,7 @@ const Header = () => {
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', height: 70 }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
                 <div style={{ textAlign: 'middle' }}>
-                  {i18n.dir() == 'rtl' ? <img style={{ alignSelf: "left", paddingLeft: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" /> : <img style={{ alignSelf: "left", paddingRight: 15 }} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" /> }
+                  <img className={i18n.dir() == "rtl"?"doh_logo_doh-black_rtl":"doh_logo_doh-black"} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
                 </div>
                 <div style={{ verticalAlign: "middle", textAlign: 'middle' }}>
                 <Trans i18nKey="header.dohlogotext">Washington State<br /> Department of Health</Trans>
