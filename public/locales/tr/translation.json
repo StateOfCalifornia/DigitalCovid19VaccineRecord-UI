@@ -14,7 +14,7 @@
     "content1": "Dijital COVID-19 Doğrulama Kaydı sistemine hoş geldiniz. Kare kodun bağlantısını ve COVID-19 doğrulama kaydınızın dijital kopyasını almak için aşağıya birkaç ayrıntı girin. Aşı kanıtını paylaşmak isterseniz sistemden alacağınız kaydın elektronik veya basılı halini kullanabilirsiniz.",
     "content2": "Bir ailedeki bireyler tek bir telefon numarası veya e-posta adresiyle ilişkili birden fazla doğrulama kaydına sahip olabilir, her dijital doğrulama kaydı talebini ayrıca girmeniz gerekir.",
     "content3": "Sistem, eyalet aşı kayıtlarının dijital bir kopyasını sağlar. Eğer aşılarınızı bir federal kurumdan (Department of Defense, Indian Health Services (Savunma Bakanlığı, Kızılderili Sağlık Hizmetleri) ya da Veterans Affairs (Gazi İşleri)) aldıysanız, yardım almak için bu kurumlarla iletişim kurmanız gerekecektir.",
-    "content4": "Dijital COVID-19 Doğrulama Kaydınız hakkında sorularınız varsa, Sıkça Sorulan Sorular sayfasını ziyaret edin (SSS) ."
+    "content4": "Dijital COVID-19 Doğrulama Kaydınız hakkında sorularınız varsa, Sıkça Sorulan Sorular sayfasını ziyaret edin (<1>SSS</1>) ."
   },
   "vaccineform": {
     "filloutheader": "Kare kodun bağlantısını/COVID-19 doğrulama kaydınızın dijital kopyasını almak için lütfen zorunlu alanları doldurun:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Geçersiz veri biçimi, lütfen tekrar deneyin",
     "note": "Not: Dijital kaydınıza güvenli bir şekilde erişmek için PIN kodunuz gereklidir.",
     "checkboxdescription": "Bu kutuyu işaretleyerek, Hasta veya Hastanın Ebeveyni/Vasisi olduğunuzu ve bu nedenle Hastanın aşı kaydına erişme yetkiniz olduğunu eyalet ve federal yasalar uyarınca yalan yere yemin etme cezası ile beyan etmiş olursunuz.",
-    "safe": "Güvenli, ücretsiz ve etkili COVID-19 aşıları artık 5 yaş ve üstü herkese sunuluyor, aşı olun .",
+    "safe": "Güvenli, ücretsiz ve etkili COVID-19 aşıları artık 5 yaş ve üstü herkese sunuluyor, <1>aşı olun</1>. ",
     "vaccineproductname": "Aşı Ürün Adı",
     "subsubtitle": "COVID-19 Aşısı 1. Doz bilgileri",
     "fproductname": "Ürün Adı",
@@ -58,7 +58,7 @@
     "thankyou": "Teşekkür ederiz.",
     "content1": "İsteğiniz alındı. Sağlanan bilgiler sistemimizdeki bilgilerle eşleşiyorsa, COVID-19 doğrulama kaydınıza erişmek için bir bağlantı alacaksınız.",
     "content2": "Bağlantıyı 24 saat içinde almadığınız takdirde lütfen tekrar deneyin ve adınızın, doğum tarihinizin, telefon numaranızın veya e-postanızın aşılama sırasında verilen bilgilerle aynı eşleştiğinden emin olun.",
-    "content3": "Dijital COVID-19 Doğrulama Kaydı  hakkında sorularınız varsa, cevapları bizde. Sıkça Sorulan Sorular bölümümüzü ziyaret edin (SSS) .",
+    "content3": "<1>Dijital COVID-19 Doğrulama Kaydı </1> hakkında sorularınız varsa, cevapları bizde. Sıkça Sorulan Sorular bölümümüzü ziyaret edin (<3>SSS</3>) .",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
