@@ -64,13 +64,13 @@
     "privacy2": ""
   },
   "footer": {
-    "anasayfa": "wa.doh.gov home",
-    "kullanımşartları": "Kullanım Şartları",
-    "gizlilikpolitikası": "Gizlilik Politikası",
-    "erişebilirlik": "Erişebilirlik",
-    "sss": "SSS",
-    "bizeulaşın": "Bize Ulaşın",
-    "telifhakkı": "Telif Hakkı"
+    "home": "wa.doh.gov home",
+    "conditionsofuse": "Kullanım Şartları",
+    "privacypolicy": "Gizlilik Politikası",
+    "accessibility": "Erişebilirlik",
+    "faq": "SSS",
+    "contactus": "Bize Ulaşın",
+    "copyright": "Telif Hakkı"
   },
   "faqpage": {
     "title": "SSS",
