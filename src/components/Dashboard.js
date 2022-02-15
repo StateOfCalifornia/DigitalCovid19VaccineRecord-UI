@@ -7,6 +7,7 @@ import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from "../utils/AppController";
 
 const Dashboard = () => {
+  alert(process.env.REACT_APP_DISABLE_SAFE_MESSAGE)
   return (
     <div>
       <div className="DashContainer bodyContainer">
