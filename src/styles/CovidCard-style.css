@@ -92,6 +92,11 @@
 .MuiFormControl-root {
   margin-bottom: 15px;
 }
+
+.checkBoxRtl {
+  margin-right: -11px !important;
+  margin-left: 16px !important;
+}
 .qrContainer{
   margin:0 12vw;
 }
