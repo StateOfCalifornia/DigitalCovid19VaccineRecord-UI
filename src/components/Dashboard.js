@@ -7,7 +7,6 @@ import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from "../utils/AppController";
 
 const Dashboard = () => {
-  alert(process.env.REACT_APP_DISABLE_SAFE_MESSAGE)
   return (
     <div>
       <div className="DashContainer bodyContainer">
@@ -61,7 +60,6 @@ const Dashboard = () => {
         style={{ marginBottom: "64px", marginTop: "10px", fontSize: "18px" }}
       >
         <article>
-          {process.env.REACT_APP_DISABLE_SAFE_MESSAGE == 0 ?
           <span>
             <Trans i18nKey="vaccineform.safe">
             Safe, free, and effective COVID-19 vaccines are now available to everyone age 5 and older,
@@ -80,7 +78,7 @@ const Dashboard = () => {
               </ReactGA.OutboundLink>
             </Trans> 
             {AppController.externalLink()} 
-          </span>: ""}
+          </span>
         </article>
       </section>
     </div>
