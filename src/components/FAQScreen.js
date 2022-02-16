@@ -233,11 +233,10 @@ const FAQScreen = () => {
                   If you can't remember your PIN, after 24 hours you can use the same process and create a new
                   PIN.
                   <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
-                    expire. </i>
+                    expire.</i>
                 </Trans>
               </p>
             </dd>
-
             <dt>
               <button aria-expanded="false" aria-controls="faq12_desc">
                 <Trans i18nKey="faqpage.12question">

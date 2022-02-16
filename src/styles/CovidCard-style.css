@@ -92,6 +92,11 @@
 .MuiFormControl-root {
   margin-bottom: 15px;
 }
+
+.checkBoxRtl {
+  margin-right: -11px !important;
+  margin-left: 16px !important;
+}
 .qrContainer{
   margin:0 12vw;
 }
@@ -309,14 +314,6 @@ hr {
       border-bottom:none;
       padding-top:20px;
     }
-
-    .footerContainerRtl{
-      margin: 0 0;
-    }
-  
-    .footerLinksRtl {
-      padding-right:0px;
-    }
 }
 @media only screen and (max-width: 876px) {
   #dose-data-container {
@@ -456,15 +453,6 @@ hr {
   .dataDiv{
     width: 100%;
   }
-
-  .footerContainerRtl{
-    margin: 0 0;
-  }
-
-  .footerLinksRtl {
-    padding-right:0px;
-  }
-
 }
 
 @media only screen and (max-width: 425px) {
