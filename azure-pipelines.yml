@@ -255,4 +255,7 @@ stages:
                 azureSubscription: 'doh-sub-vaccs-01 (c47773b2-99d9-4614-8b2c-737ab9ec3e73)-1813'
                 appType: 'webApp'
                 WebAppName: 'app-waverify-ui-prod'
+                deployToSlotOrASE: true
+                ResourceGroupName: 'rg-waverify-prod'
+                SlotName: 'staging'
                 packageForLinux: '$(System.ArtifactsDirectory)/**/*.zip'

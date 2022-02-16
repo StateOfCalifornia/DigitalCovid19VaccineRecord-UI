@@ -3,7 +3,10 @@
     "selectlanguage": "請選擇一種語言",
     "highcontrast": "高對比",
     "contactus": "與我們連絡",
-    "settings": "設定"
+    "settings": "設定",
+    "dohlogotext": "Washington State<1></1>Department of Health",
+    "waverifylogo": "waverifylogo.png",
+    "waverifylogoalt": "WA Verify Logo"
   },
   "vaccinepage": {
     "title": "驗證Quick Response (QR) 代碼",
@@ -114,7 +117,7 @@
     "10question": "我的資訊是否會被保密？ ",
     "10answer": "是的。在系統上填寫表格無法立即存取您的驗證記錄。驗證記錄的連結需要您建立的 PIN 碼，並且只會發送到與您的免疫記錄相關聯的手機或電子郵件。 <br />QR 代碼所對應的是一張 SMART Health Card（智慧健康卡），是您驗證記錄的安全副本。如欲瞭解更多資訊，請造訪 <1>https://smarthealth.cards</1>。為保護您的隱私，QR 代碼只能由符合 SMART Health Card 標準的裝置掃描和讀取。 ", 
     "11question": "我是否可以重置我的 PIN 碼？",
-    "11answer": "是的。從您收到連結起，您有 24 小時的時間輸入您的四位數 PIN 碼並存取您的<1>數位 COVID-19 驗證記錄</1>。如果您未進行存取操作，則可以前往您數位記錄的連結會過期，但您可以使用<3>數位 COVID-19 驗證記錄</3>系統重新開始並重置您的 PIN 碼。 如果您忘記了自己的 PIN 碼，24 小時後您可以使用相同的流程建立新的 PIN 碼。注：一旦您存取了您的數位記錄並儲存了您的 QR 代碼，則 PIN 碼不會過期。 ",
+    "11answer": "是的。從您收到連結起，您有 24 小時的時間輸入您的四位數 PIN 碼並存取您的<1>數位 COVID-19 驗證記錄</1>。如果您未進行存取操作，則可以前往您數位記錄的連結會過期，但您可以使用<3>數位 COVID-19 驗證記錄</3>系統重新開始並重置您的 PIN 碼。 如果您忘記了自己的 PIN 碼，24 小時後您可以使用相同的流程建立新的 PIN 碼。<br /><5>注：一旦您存取了您的數位記錄並儲存了您的 QR 代碼，則 PIN 碼不會過期。</5>",
     "12question": "是否會提供我的疫苗接種情況證明？",
     "12answer": "是的。<1>這是多種選擇</1>中可以為您提供<3>數位 COVID-19 驗證記錄</3>的方法之一，並且還可以以列印或以數位方式予以提供。您還可以出示 Centers for Disease Control and Prevention（CDC，疾病控制與預防中心）提供的 COVID-19 卡或您所在州的免疫記錄。 <br />您不需要獲得<5>數位 COVID-19 驗證記錄</5>。這是獲取您的 COVID-19 驗證資訊的可選方式，是您紙質驗證記錄的數位版本。這是出示疫苗接種證明的選擇之一。本州不會實施強制的通行證件制度。",  
     "13question": "如果我需要更換疫苗接種卡怎麼辦？ ",
