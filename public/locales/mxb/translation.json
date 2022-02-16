@@ -14,7 +14,7 @@
     "content1": "Ya’a kuu tutu nuu kaa ndichí siki tu’un nasa iyo ní jín kue’e COVID-19. Tee ní tu’un nuu ja ya’a de kenda in enlace nuu ní ja ndíso in código QR ji nuu kuu ni’in ní in copia siki tu’un nasa iyo ní jín kue’e COVID-19. Tú kúni ní kunimani ní in tutu siki vacuna ní, kuu tetiñu ní tutu ya’a nuu kaa ndchí axi tava ní in tutu.",
     "content2": "Nda ñayiví ini ve’e kuu kuneva’a ji ke’en tutu ja kachi siki nasa iyo ji jín in ni yokaa axi in ni correo electrónico, kakan siín ní nda tutu ya’a tú jiniñu’un ní.",
     "content3": "Kaa ya’a tava ji in tutu ja kuu kuatiñu ní ndíso ji nda tutu vacuna nii ñuu. Tú ni ni’in ní vacuana ní nuu in ve’e ja tatuni ñuu (Department of Defense, Indian Health Services, or Veterans Affairs (Vetiñu nda soldado, nda Ve’e satatan nda ñayiví savi axi Ve’e ja jito nda ñayiví ña’nu)), kanuu ka’an ní jín nda ve’e ya’a tágua chindeé ji ní.",
-    "content4": "Tú iyo ja nduu jaku’un ini ní siki nasa chi’in ní tu’un siki tu’un nasa iyo ní jín kue’e COVID-19 nuu nda kaa ndi chi ya’a, kunde’e ní nuu nda tu’un jikatu’na ka (FAQ)."
+    "content4": "Tú iyo ja nduu jaku’un ini ní siki nasa chi’in ní tu’un siki tu’un nasa iyo ní jín kue’e COVID-19 nuu nda kaa ndi chi ya’a, kunde’e ní nuu nda tu’un jikatu’na ka (<1>FAQ</1>). "
   },
   "vaccineform": {
     "filloutheader": "Sa’a chitú ni nuu jiniñu’un tágua ni’in ní in enlace nuu ndisi in código QR / copia tutu siki tu’un nasa iyo ní jín kue’e COVID-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Nda tu’un ja ni chi’in ní nduu iyo va’a, sa’a tuku ní",
     "note": "Nota: Kanuu PIN ní tágua kuu nani’in ní tutu ní ja iyo nuu kaa ndichí.",
     "checkboxdescription": "Ja sa’a ní marca nuu casilla ya’a, je’e ní tu’un kuu tanu ka’an nda ley in ñuu ja siki in ñayiví axi in tata/Ñayiví ja jito luli, siki ñukua kuu ja, kuu kivi kunde’e ji nda tutu siki tu’un nda vacuna ñayiví.",
-    "safe": "Nda vacuna COVID-19 va’a ji, nduu kuya’avi ji ji satiñu va’a de mita iyo ji ja kuu kuatiñu nda ñayiví ja iyo 5 kuiya ji vi’i ka, kani ní vacuna maa ní ().",
+    "safe": "Nda vacuna COVID-19 iyo va’a ji, nduu kuya’avi ji ji satiñu va’a de mita iyo ji ja kuu kuatiñu nda ñayiví ja iyo 5 kuiya, <1>kani ní vacuna maa ní</1>(). ",
     "vaccineproductname": "Sivi tatan vacuna",
     "subsubtitle": "Tu’un siki ja xinañu’un 1 jichi ja kani vacuna COVID-19",
     "fproductname": "Sivi tatan",
@@ -77,7 +77,7 @@
     "thankyou": "Kuta’vi sa.",
     "content1": "Ni kenda tu’un jikan ní nuu sa. Tú tu’un ja ni tetiñu ní kita’an jín tu’un ja neva’a sa, kuenda in enlace nuu ní tágua kuu kunde’e ní siki tu’un nasa iyo ní jín kue’e COVID-19.",
     "content2": "Tú nduu kenda in enlace nuu ní nuu 24 hora, sa’a tuku ní de kunde’e ní ja sivi ní, kivi ní kaku ní, número yokaa ní axi correo electrónico ní kani ta’an jín ja ni je’en ní ta ni kani vacuna ní.",
-    "content3": "Tú iyo tu’un ja nduu jaku’un ini ní siki Tutu nuu kaa ndichí siki tu’un nasa iyo ní jín kue’e COVID-19 (vachi ni nuu yu’u ínglés), kuu xndiko sa tu’un ní. Kunde’e ní nuu página nda tu’un jikatu’un ka (FAQ).",
+    "content3": "Tú iyo tu’un ja nduu jaku’un ini ní siki <1>Tutu nuu kaa ndichí siki tu’un nasa iyo ní jín kue’e COVID-19</1> (vachi ni nuu yu’u ínglés), kuu xndiko sa tu’un ní. Kunde’e ní nuu página nda tu’un jikatu’un ka (<3>FAQ</3>). ",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
@@ -87,7 +87,7 @@
     "conditionsofuse": "Nda tu’un siki nasa satiñu",
     "privacypolicy": "Tu’un tatuni nasa satiñu",
     "accessibility": "Ja nduu vijin kuatiñu",
-    "faq": "Frequently Asked Questions (FAQ, Nda tu’un jikatu’un ka)",
+    "faq": "Nda tu’un jikatu’un ka",
     "contactus": "Ka’an ní jín nda sa",
     "copyright": "Copyright"
   },

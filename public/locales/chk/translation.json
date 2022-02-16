@@ -14,7 +14,7 @@
     "content1": "Kinisou ren om nounou ei Digital COVID-19 Verification Record System. Makenong fitu tichikin poraus fan ren om kopwe angei ew QR code ren om kopwe feino ngeni om kopwe kuna pwaratan pwe mi wor noum COVID-19 on ei kamputer. Ika en mi mochen pwarano pwaratan om ka angei appos, en mi tongeni eaea ew chok me nein ekewe ruu ren epwe chok nom on kamputer ika fon ika printinau non taropwe ren om kopwe aanomu reom.",
     "content2": "Chochon non ew famini ir mi tongeni ani fitu verification records ika taropwen pwarata epwe riri ngeni ew chok nampan fon ika email address, makenong ew digital record ika ew kapin epwe chok nom on noum kamputer ika fon.",
     "content3": "Ew system e awora ew kapin om appos epwe nom on fon ika kamputer pwe nenien. Ika pwe ke angei om appos seni ew pekin ren muu-nap (Department of Defense, Indian Health Services (Ofesin Pekin Fiu, Angangen Aninisin Safean Indian)), ika Veteran Affairs (Tumunun Foforun Son Fiu)), iwe kopwe pwisin kokori ekewe pekin ren ar aninis.",
-    "content4": "Ika mi wor om kapas eis usun noum Digital COVID-19 Afatan Record mi nom on kamputer ika fon, tota won ewe Frequently Asked Questions (FAQ)."
+    "content4": "Ika mi wor om kapas eis usun noum Digital COVID-19 Afatan Record mi nom on kamputer ika fon, tota won ewe Frequently Asked Questions (<1>FAQ</1>). "
   },
   "vaccineform": {
     "filloutheader": "Kose mochen awesano met kei mi auchea epwe amasounong ren om kopwe angei ew QR code ngeni / kapin noum record ren COVID-19 online ika on fon me kamputer:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Ese pung sokkun nikinikin poraus, kose mochen sotuni sefani",
     "note": "Mi Auchea: Noun PIN mi auchea epwe kawor ren om kopwe tongeni kuna noum taropwen appos online ika on fon me kamputer.",
     "checkboxdescription": "Ren om cheki ei pwor, en ka pwarata pwe kopwe tipis ika ke mwaken fan annukun state me muu-nap pwe en emon chon safei ika Sam me Inn/Ewe a tutumunu ewe chon safei iwe ren ei wewe en ka angei mumutan om kopwe kuna an ewe chon safei taropwen appos.",
-    "safe": "Aninis eoch, ese kamo, me watte aninisin apposen COVID-19 a kawor pwan monota ngeni meinisin ier 5 ika nap seni, angei appos.",
+    "safe": "Aninis eoch, ese kamo, me watte aninisin apposen COVID-19 a kawor pwan monota ngeni meinisin ier 5 ika nap seni, <1>angei appos</1>.",
     "vaccineproductname": "Iten Ewe Appos",
     "subsubtitle": "Porausen 1st apposen COVID-19",
     "fproductname": "Iten ewe Appos",
@@ -77,7 +77,7 @@
     "thankyou": "Kinisou ngonuk",
     "content1": "Om tungor a tori kich. Ika pwe ekewe poraus ke awora e mes ngeni met poraus mi nom non ach system, iwe kopwe angei ew link ika anen kopwe feino ngeni om kopwe kuna noum taropwen apposun COVID-19.",
     "content2": "Ika pwe kese angei ew link me non 24 awa, kose mochen sotuni sefani me nengen fichi pwe itom, ranin uputuom, nampan fon me email epwe mes ngeni ewe poraus ke awora atun ewe fansoun ke angei om appos.",
-    "content3": "Ika mi wor om kapa seis usun ewe Digital COVID-19 Verification Record, mi wor penuan me rech. Ekewe sokun kapas eis ra chok soun eis (FAQ).",
+    "content3": "Ika mi wor om kapa seis usun ewe <1>Digital COVID-19 Verification Record</1>, mi wor penuan me rech. Ekewe sokun kapas eis ra chok soun eis (<3>FAQ</3>).",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""

@@ -14,7 +14,7 @@
     "content1": "Karuwanene nan ko Iaaṃ Jarom COVID-19 Jaak Jeje Kkar. Mọọna jet tipdik lol nan bok a link nan a QR kabro kab laam jarom ar in ami COVID-19 jaak jeje. Ne eok konaan nan ded tilmaak in wa, eok kuwat mooror or ko jarom ak a kōn eoonin ko jeje eok'wotomjej bok jan ko kkar.",
     "content2": "Armej tollok a nukwi Māe jeben bwijin jaak jeje doulul ippa a jalen teiñwa nōṃba or lōta jipij, moon kajjo laam jarom jaak jeje kajjitōk jepel.",
     "content3": "Ko kkar naloma a ḷaaṃ jarom ar in konnaan wa jeje. Ne eok bok ami wa jan a ṃweed wōpij (Department of Defense, Indian Health Services, or Veterans Affairs (Department in jalitak, ajejin keenki jakeiie, ak jerbal)), eok naaj aikuj nan kokkeitaak ran koṃbani bwe rejetak.",
-    "content4": "Ne eok jeban kajjitōk tarrin ami ḷaaṃ jarom COVID-19 jaak jeje ilomej ko mmakijkij kajjitōk kajjitok (FAQ)."
+    "content4": "Ne eok jeban kajjitōk tarrin ami ḷaaṃ jarom COVID-19 jaak jeje ilomej ko mmakijkij kajjitōk kajjitok (<1>FAQ</1>)."
   },
   "vaccineform": {
     "filloutheader": "Konaan tteiñ jake ko wadu kūraaṇto nan bok a kkejel nan a QR kabro/ laam jarom ar ak ami COVID-19 jaak jeje:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Utaṃwe ṃool jepa, konaan ekajet bar",
     "note": "Mejek: Ami PIN ane aikuj nan pojak ak ami laam jarom jeje.",
     "checkboxdescription": "Le jāāk eñeo bọọk, eok kuwat kōnnaan lọrun kaje in bōd under konnaan kab ṃweed kien ke eok kuwat ko meanwōd or jelpa/kalliṃur int ke meanwōd kab kuwat uweoṃaan kōmaroñto ak ko meanwōd pojak jeje.",
-    "safe": "Paan, ineemman, kab tokja COVID-19 wa kuwat kiio kkake nan wotomjejjuon epepen 5 kab rutto, tok wa .",
+    "safe": "Paan, ineemman, kab tokja COVID-19 wa kuwat kiio kkake nan wotomjejjuon epepen 5 kab rutto, <1>tok wa</1>. ",
     "waproductname": "Wa Waḷọk Atlep",
     "subsubtitle": "1st Dose COVID-19 wa meḷeḷe",
     "fproductname": "Walok Atlep",
@@ -77,7 +77,7 @@
     "thankyou": "Koṃṃool eok.",
     "content1": "Ami kajjitok mmo kwo bok. Ne ko melele naloma kkars ko melele for arro kkar, eok naaj bok a kkejel nan ak ami COVID-19 jaak jeje.",
     "content2": "Ne eok to jab bok a kkejel tollok 24 awa, konaan ekajet bar kab kau ṃool ami atlep, raan in ḷotak, teinwa ak lota mājet ko melele naloma ilo ko alen in ami wa.",
-    "content3": "Ne eok jeban kajjitōk tarrin ko Kaajai COVID-19 Wotom Jeje , jan jeban uwaak. Ilomej arro Mmakijkij Kajjitōk (FAQ) .",
+    "content3": "Ne eok jeban kajjitōk tarrin ko <1>Kaajai COVID-19 Wotom Jeje</1>, jan jeban uwaak. Ilomej arro Mmakijkij Kajjitōk (<3>FAQ</3>). ",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
@@ -86,9 +86,9 @@
     "home": "wa.doh.gov home",
     "conditionsofuse": "Kar in Mooror",
     "privacypolicy": "Piin Kien",
-    "metekibility": "Akā",
+    "accessibility": "Akā",
     "faq": "FAQ",
-    "kōkkeitaakus": "Kokkeitaak koj",
+    "contactus": "Kokkeitaak koj",
     "copyright": "Anokmool"
   },
   "faqpage": {
