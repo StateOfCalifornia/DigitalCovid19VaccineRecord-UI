@@ -28,6 +28,10 @@
   list-style-type: none;
 }
 
+.translationListRtl {
+  padding-left: 1rem;
+}
+
 .translationList li {
   display: inline-block;
   padding-right:10px;
@@ -88,6 +92,11 @@
 .MuiFormControl-root {
   margin-bottom: 15px;
 }
+
+.checkBoxRtl {
+  margin-right: -11px !important;
+  margin-left: 16px !important;
+}
 .qrContainer{
   margin:0 12vw;
 }
@@ -96,9 +105,16 @@
   display: flex;
   margin: 0 14vw;
 }
+
 .footerContainer {
-  margin: 0 14vw;
+  position: relative;
 }
+
+.footerCopyright {
+  padding-left: 0; 
+  padding-top: 20px;
+}
+
 .bodyContainer{
   min-height: 70vh;
   /* bottom = footer height */
@@ -139,22 +155,54 @@
   display: none;
 }
 
+.doh_logo_doh-black{
+  margin-right: 15px;
+}
+
+.doh_logo_doh-black_rtl{
+  margin-left: 15px;
+}
+
 .covid-card-container {
   width: 52%;
 }
 
 /* Footer */
 
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow:hidden;
+  padding: 20px 14vw; 
+  background-color: #F9F9F9;
+}
+
 .footerLinks ul {
   list-style-type: none;
   text-align:left;
+}
 
+.footerLinksDirRtl{
+  padding-right:0px;
+}
+
+.footerLinksDirLtr{
+  padding-left:0px;
 }
 
 .footerLinks li {
   display:inline-block;
-  margin-right: 20px;
   text-decoration: underline;
+}
+
+.footerLinksDirLtr li{
+  margin-right: 20px;
+}
+
+.footerLinksDirRtl li {
+  margin-left: 20px;
 }
 
 .footerLinks li:hover {
@@ -196,6 +244,11 @@ hr {
   margin-left: -14px;
 }
 
+.actual-qr-img-rtl {
+  display: "block";
+  margin-right: -14px;
+}
+
 .smarthealthcard-container {
   width: 290px;
 }
@@ -231,8 +284,8 @@ hr {
   .DashContainer {
     margin: 0 5vw;
   }
-  .footerContainer {
-    margin: 0 5vw;
+  .footer {
+    padding: 0 5vw;
   }
   .headerContainer {
     padding: 0px 5vw;
@@ -269,6 +322,7 @@ hr {
   #vaccine-data-container {
     flex-direction: column;
   }
+  
 }
 @media only screen and (max-width: 860px) {
   /* .MuiInputLabel-formControl, .MuiInput-input {
@@ -281,6 +335,9 @@ hr {
 @media only screen and (min-width: 552px) {
   .qrDiv{
     margin-right: 20px;
+  }
+  .qrDivRtl{
+    margin-left: 20px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -315,6 +372,11 @@ hr {
 
   .translationList {
     padding-left: 0px;
+  }
+
+  .translationListRtl {
+    padding-left: 1rem;
+    margin-right: -50px;
   }
 
   .translationList li {
@@ -391,7 +453,6 @@ hr {
   .dataDiv{
     width: 100%;
   }
-
 }
 
 @media only screen and (max-width: 425px) {

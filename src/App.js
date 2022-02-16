@@ -27,6 +27,7 @@ ReactGA.initialize(CREDENTIALS_GA_DEPARTMENT);
 function App() {
   // Do not remove line:24 as this will break translation
   const { i18n } = useTranslation();
+  document.body.dir = i18n.dir();
 
   return (
     <MuiPickersUtilsProvider utils={DayJsUtils}>

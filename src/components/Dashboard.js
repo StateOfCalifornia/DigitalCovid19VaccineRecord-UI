@@ -76,8 +76,8 @@ const Dashboard = () => {
               >
                 get vaccinated.
               </ReactGA.OutboundLink>
-            </Trans>
-            {AppController.externalLink()}
+            </Trans> 
+            {AppController.externalLink()} 
           </span>
         </article>
       </section>
