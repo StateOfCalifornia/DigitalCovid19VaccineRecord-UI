@@ -92,7 +92,7 @@ const Header = () => {
     'to': 'Tongan - Lea fakaTonga',
     'tr': 'Turkish - Türkçe',
     'uk': 'Ukrainian - Український',
-    'ur': 'Urdu - ُردُو',
+    'ur': 'Urdu - اُردُو',
     'vi': 'Vietnamese - Tiếng Việt'
   }
 
