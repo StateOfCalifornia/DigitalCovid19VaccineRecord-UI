@@ -10,10 +10,10 @@
     "subtitle": "Complete el formulario para generar un código de respuesta rápida"
   },
   "dashboardpage": {
-    "contentheader": "Registro digital de vacunación contra el COVID-19",
-    "content1": "Bienvenido al portal del Registro digital de vacunación contra el COVID-19. Solo debe ingresar algunos datos que figuran a continuación para obtener un enlace a un código QR y una copia digital de su registro de vacunación contra el COVID-19. Si desea compartir su comprobante de vacunación, puede usar tanto la versión electrónica que obtendrá a través del portal como la tarjeta que le entregaron al momento de la vacunación.",
+    "contentheader": "Bienvenido al portal del Registro digital de vacunación contra el COVID-19 (DCVR)",
+    "content1": "Obtenga una copia digital de su tarjeta de vacunación. Simplemente ingrese unos pocos detalles abajo y reciba un enlace a un código QR. Guárdelo en su teléfono y úselo como comprobante de vacunación en cualquier lugar al que vaya.",
     "content2": "Si usted es padre, madre o tutor y tiene varios registros de vacunación asociados a un número de teléfono móvil o dirección de correo electrónico único, ingrese cada solicitud de registro digital de vacunación por separado.",
-    "content3": "El portal brinda solo una copia digital de su registro de vacunación. Si recibió sus vacunas por parte de una agencia estatal (p. ej., el Departamento de Defensa, el de Asuntos de los Veteranos o Indian Health Service), deberá ponerse en contacto con esas agencias para que lo asistan con su registro de vacunación.",
+    "content3": "NOTA: Si recibió sus vacunas por parte de una agencia estatal (p. ej., el Departamento de Defensa, el de Asuntos de los Veteranos o Indian Health Service), deberá ponerse en contacto con esas agencias para que lo asistan con su registro de vacunación.",
     "content4": "Si tiene preguntas sobre su Registro digital de vacunación contra el COVID-19, <1>visite nuestra sección de preguntas frecuentes</1>."
   },
   "vaccineform": {

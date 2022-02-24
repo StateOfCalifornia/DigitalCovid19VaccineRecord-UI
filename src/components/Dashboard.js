@@ -19,38 +19,34 @@ const Dashboard = () => {
             }}
           >
             <Trans i18nKey="dashboardpage.contentheader">
-              Digital COVID-19 Vaccine Record
+              Welcome to the Digital COVID-19 Vaccine Record (DCVR) portal
             </Trans>
           </h1>
           <article>
             <p>
               <Trans i18nKey="dashboardpage.content1">
-                Welcome to the Digital COVID-19 Vaccine Record portal. Just
-                enter a few details below to get a link to a QR code and digital
-                copy of your COVID-19 vaccination record. If you want to share
-                your proof of vaccination, you can use the electronic version
-                you’ll get from the portal or the card you were given at time of
-                vaccination.
+                Get a digital copy of your vaccine card. Just
+                enter a few details below to get a link to a QR code. Save it on your phone and use it as proof
+                of vaccination wherever you go.
               </Trans>
             </p>
             <p>
               <Trans i18nKey="dashboardpage.content2">
                 If you are a parent or guardian and have multiple vaccine
-                records associated with a mobile phone number or email
+                records associated with a single mobile number or email
                 address, enter each digital vaccine record request separately.
               </Trans>
             </p>
             <p>
               <Trans i18nKey="dashboardpage.content3">
-                The portal provides only a digital copy of your vaccine record.
-                If you received your vaccinations from a federal agency (e.g.,
+                NOTE: If you received your vaccinations from a federal agency (e.g.,
                 Department of Defense, Indian Health Services, or Veterans
-                Affairs), you will need to reach out to those agencies for
+                Affairs), you will need to contact those agencies for
                 assistance with your vaccination record.
               </Trans>
             </p>
             <p>
-            <Trans i18nKey="dashboardpage.content4">
+              <Trans i18nKey="dashboardpage.content4">
                 If you have any more questions about your Digital COVID-19 Vaccine Record, <a target='_blank' rel="noreferrer" href={faqLinkLanguage()} style={{
                   color: "#0d6efd",
                   margin: "0",
@@ -74,7 +70,7 @@ const Dashboard = () => {
           <span>
             <Trans i18nKey="vaccineform.safe">
               Safe, free, and effective COVID-19 vaccines are now available to
-              everyone age 12 and up,
+              everyone ages 5 and up,
               <ReactGA.OutboundLink
                 eventLabel="myturn"
                 to={"https://myturn.ca.gov"}
