@@ -70,7 +70,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
     })
       .then((res) => {
         if (res.status === 404) {
-          setErrorMessage({ type: 'pinErrorMsg3', message: "The PIN entered is invalid. Please retry by clicking the link provided to you to re-enter your PIN." });
+          setErrorMessage({ type: 'pinErrorMsg3', message: "Error: The PIN entered is incorrect or you've passed the 24-hour limit to retrieve your DCVR. Please try again or start over at the DCVR portal." });
           setLoading(false);
         }
         else if (res.status === 429) {
@@ -78,7 +78,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
           setLoading(false);
         }
         else if (res.status === 422) {
-          setErrorMessage({ type: 'pinErrorMsg5', message: "Please contact CDPH for more info on your vaccine records." });
+          setErrorMessage({ type: 'pinErrorMsg5', message: "We are currently experiencing difficulties accessing your record. Please start over at the DCVR portal in 24 hours. If you still experience issues, please submit a remediation request through our " + <a href={'https://chat.myturn.ca.gov/?id=17'} style={{ display: "inline", color: "#0D6EFD", margin: "0 0", textDecoration: "underline" }}>Virtual Assitant</a> + "." });
           setLoading(false);
         }
         else if (res.status !== 200) {
@@ -190,7 +190,18 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             )}
           </CardActions>
         </Card>
-        <div style={{ color: 'red' }}>{errorMessage.message ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
+        <div style={{ color: 'red' }}>
+          {errorMessage.message ?
+            <Trans i18nKey={`vaccineform.${errorMessage.type}`}>
+              <a href={'https://myvaccinerecord.cdph.ca.gov/'} style={{ display: "inline", color: "#0D6EFD", margin: "0 0", textDecoration: "underline" }}>
+                {errorMessage.message}
+              </a>
+              <a href={'https://chat.myturn.ca.gov/?id=17'} style={{ display: "inline", color: "#0D6EFD", margin: "0 0", textDecoration: "underline" }}>
+                {errorMessage.message}
+              </a>
+            </Trans> :
+            ''}
+        </div>
       </form>
     </div>
   );

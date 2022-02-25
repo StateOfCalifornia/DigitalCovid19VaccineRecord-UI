@@ -120,7 +120,8 @@ Note: create file under config > config.local.js to use localhost API settings
 window.config = {
     CREDENTIALS_API_STATUS: 'http://localhost:xxxx',
     CREDENTIALS_API_QR: 'http://localhost:xxxx',
-    CREDENTIALS_GA_DEPARTMENT: '' 
+    CREDENTIALS_GA_DEPARTMENT: '',
+    CREDENTIALS_GA_CDPH: ''
 };
 ```
 

@@ -10,10 +10,10 @@
     "subtitle": "Please fill out the form to generate quick response code"
   },
   "dashboardpage": {
-    "contentheader": "Digital COVID-19 Vaccine Record",
-    "content1": "Welcome to the Digital COVID-19 Vaccine Record portal. Just enter a few details below to get a link to a QR code and digital copy of your COVID-19 vaccination record. If you want to share your proof of vaccination, you can use either the electronic version you’ll get from the portal or the card you were given at time of vaccination.",
-    "content2": "If you are a parent or guardian and have multiple vaccine records associated with a single mobile phone number or email address, enter each digital vaccine record request separately.",
-    "content3": "The portal provides only a digital copy of your vaccine record. If you received your vaccinations from a federal agency (e.g., Department of Defense, Indian Health Services, or Veterans Affairs), you will need to reach out to those agencies for assistance with your vaccination record.",
+    "contentheader": "Welcome to the Digital COVID-19 Vaccine Record (DCVR) portal",
+    "content1": "Get a digital copy of your vaccine card. Just enter a few details below to get a link to a QR code. Save it on your phone and use it as proof of vaccination wherever you go.",
+    "content2": "If you are a parent or guardian and have multiple vaccine records associated with a single mobile number or email address, enter each digital vaccine record request separately.",
+    "content3": "NOTE: If you received your vaccinations from a federal agency (e.g., Department of Defense, Indian Health Services, or Veterans Affairs), you will need to contact those agencies for assistance with your vaccination record.",
     "content4": "If you have questions about your Digital COVID-19 Vaccine Record, <1>visit our FAQ</1>."
   },
   "vaccineform": {
@@ -28,9 +28,9 @@
     "pincode": "Create a 4-digit PIN. You'll receive a link to enter the PIN and access your digital vaccine record. *",
     "pinErrorMsg1": "PIN cannot contain 4 consecutive numbers",
     "pinErrorMsg2": "PIN cannot contain 4 duplicate numbers",
-    "pinErrorMsg3": "The PIN entered is invalid. Please retry by clicking the link provided to you to re-enter your PIN. ",
+    "pinErrorMsg3": "Error: The PIN entered is incorrect or you've passed the 24-hour limit to retrieve your DCVR. Please try again or start over at the <0>DCVR portal</0>.",
     "pinErrorMsg4": "Please try your request again in 1 minute.",
-    "pinErrorMsg5": "Please contact CDPH for more info on your vaccine.",
+    "pinErrorMsg5": "We are currently experiencing difficulties accessing your record. Please start over at the <0>DCVR portal</0> in 24 hours. If you still experience issues, please submit a remediation request through our <1>Virtual Assistant</1>.",
     "pinErrorMsg6": "Could not complete your request, please try again.",
     "pinErrorMsg7": "Invalid data format, please try again",
     "note": "<0>Note:</0> Your PIN is needed to securely access your digital record.",

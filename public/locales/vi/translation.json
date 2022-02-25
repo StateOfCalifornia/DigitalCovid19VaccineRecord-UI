@@ -10,11 +10,11 @@
     "subtitle": "Vui lòng điền vào biểu mẫu để tạo mã phản hồi nhanh"
   },
   "dashboardpage": {
-    "contentheader": "Hồ sơ Vắc xin COVID-19 Kỹ thuật số",
-    "content1": "Chào mừng quý vị đến với cổng thông tin Hồ sơ Vắc xin COVID-19 Kỹ thuật số. Chỉ cần nhập một vài chi tiết bên dưới là quý vị sẽ nhận được đường liên kết đến mã QR và bản sao hồ sơ tiêm vắc xin COVID-19 kỹ thuật số của mình. Nếu muốn chia sẻ bằng chứng tiêm vắc xin của mình, quý vị có thể sử dụng phiên bản điện tử nhận được từ cổng thông tin này hoặc thẻ đã được cấp tại thời điểm tiêm vắc xin.",
+    "contentheader": "Chào mừng quý vị đến với cổng thông tin Hồ sơ Vắc xin COVID-19 Kỹ thuật số (DCVR)",
+    "content1": "Lấy bản sao thẻ vắc xin kỹ thuật số của quý vị. Chỉ cần nhập một vài chi tiết bên dưới để nhận đường liên kết đến mã QR. Lưu vào điện thoại của mình và sử dụng làm bằng chứng đã tiêm vắc xin ở bất kỳ nơi nào quý vị đến.",
     "content2": "Nếu là phụ huynh hoặc người giám hộ và có nhiều hồ sơ tiêm vắc xin được liên kết với một số điện thoại di động hoặc địa chỉ email thì hãy nhập riêng từng thông tin yêu cầu cho hồ sơ vắc xin kỹ thuật số.",
-    "content3": "Cổng thông tin này chỉ cung cấp một bản sao hồ sơ vắc xin kỹ thuật số của quý vị. Nếu đã tiêm vắc xin từ một cơ quan liên bang (ví dụ: Bộ Quốc phòng, Cơ quan Dịch vụ Sức khỏe cho Người da đỏ hoặc Bộ Cựu chiến binh) thì quý vị cần phải liên hệ với cơ quan đó để được hỗ trợ về hồ sơ tiêm vắc xin.",
-    "content4": "Nếu quý vị có thắc mắc về Hồ sơ Vắc xin COVID-19 Kỹ thuật số, thì hãy <1>truy cập vào phần Câu hỏi Thường gặp của chúng tôi</1>."
+    "content3": "LƯU Ý: Nếu đã tiêm vắc xin từ một cơ quan liên bang (ví dụ: Bộ Quốc phòng, Cơ quan Dịch vụ Sức khỏe cho Người da đỏ hoặc Bộ Cựu chiến binh), thì quý vị cần phải liên hệ với cơ quan đó để được hỗ trợ về hồ sơ tiêm vắc xin.",
+    "content4": "Nếu quý vị có thắc mắc về Hồ sơ Vắc xin COVID-19 Kỹ thuật số, thì hãy truy cập vào phần <1>Câu hỏi Thường gặp của chúng tôi</1>."
   },
   "vaccineform": {
     "filloutheader": "Vui lòng điền vào các trường bắt buộc để nhận đường liên kết đến mã QR và bản sao hồ sơ tiêm vắc xin COVID-19 kỹ thuật số của quý vị:",
