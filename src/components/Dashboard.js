@@ -57,7 +57,7 @@ const Dashboard = () => {
       </div>
       <section
         className="DashContainer"
-        style={{ marginBottom: "64px", marginTop: "10px", fontSize: "18px", display: none}}
+        style={{ marginBottom: "64px", marginTop: "10px", fontSize: "18px", display: "none"}}
       >
         <article>
           <span>
