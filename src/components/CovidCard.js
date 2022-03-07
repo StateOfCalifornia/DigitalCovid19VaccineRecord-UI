@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback  } from "react";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import CircularProgress from "@material-ui/core/CircularProgress";
 import TextField from "@material-ui/core/TextField";
 import FormControl from "@material-ui/core/FormControl";
-import { KeyboardDatePicker } from "@material-ui/pickers";
+import { KeyboardDatePicker, MuiPickersUtilsProvider  } from "@material-ui/pickers";
 import {Trans, useTranslation} from "react-i18next";
 import Radio from "@material-ui/core/Radio";
 import RadioGroup from "@material-ui/core/RadioGroup";
@@ -16,6 +16,52 @@ import Checkbox from "@material-ui/core/Checkbox";
 import PhoneMask from "./PhoneMask";
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
+import 'date-fns';
+import DateFnsUtils from "@date-io/date-fns";
+
+import amLocale from "date-fns/locale/am"; 
+import arLocale from "date-fns/locale/at";
+import chkLocale from "date-fns/locale/chk"; 
+import deLocale from "date-fns/locale/de";
+import enLocale from "date-fns/locale/en"; 
+import esLocale from "date-fns/locale/es"; 
+import faLocale from "date-fns/locale/fa"; 
+import fjLocale from "date-fns/locale/fj"; 
+import frLocale from "date-fns/locale/fr"; 
+import hiLocale from "date-fns/locale/hi"; 
+import hmnLocale from "date-fns/locale/hmn"; 
+import jaLocale from "date-fns/locale/ja"; 
+import karLocale from "date-fns/locale/kar"; 
+import kmLocale from "date-fns/locale/km"; 
+import koLocale from "date-fns/locale/ko"; 
+import loLocale from "date-fns/locale/lo"; 
+import mamLocale from "date-fns/locale/mam"; 
+import mhLocale from "date-fns/locale/mh"; 
+import mxbLocale from "date-fns/locale/mxb"; 
+import myLocale from "date-fns/locale/my"; 
+import neLocale from "date-fns/locale/ne"; 
+import omLocale from "date-fns/locale/om"; 
+import paLocale from "date-fns/locale/pa"; 
+import prsLocale from "date-fns/locale/prs"; 
+import psLocale from "date-fns/locale/ps"; 
+import ptLocale from "date-fns/locale/pt"; 
+import roLocale from "date-fns/locale/ro"; 
+import ruLocale from "date-fns/locale/ru"; 
+import smLocale from "date-fns/locale/sm"; 
+import soLocale from "date-fns/locale/so"; 
+import swLocale from "date-fns/locale/sw"; 
+import taLocale from "date-fns/locale/ta"; 
+import teLocale from "date-fns/locale/te"; 
+import thLocale from "date-fns/locale/th"; 
+import tiLocale from "date-fns/locale/ti"; 
+import tlLocale from "date-fns/locale/tl"; 
+import toLocale from "date-fns/locale/to"; 
+import trLocale from "date-fns/locale/tr"; 
+import ukLocale from "date-fns/locale/uk"; 
+import urLocale from "date-fns/locale/ur"; 
+import viLocale from "date-fns/locale/vi";  
+import zhLocale from "date-fns/locale/zh";  
+import zhtwLocale from "date-fns/locale/zh-tw";  
 
 const CovidCard = () => {
   const { i18n } = useTranslation();
@@ -256,6 +302,59 @@ const CovidCard = () => {
   });
   const classes = useStyles();
 
+  const localeMap = {
+    am: amLocale,
+    ar: arLocale,
+    chk: chkLocale,
+    de: deLocale,
+    en: enLocale,
+    es: esLocale,
+    fa: faLocale,
+    fj: fjLocale,
+    fr: frLocale,
+    hi: hiLocale,
+    hmn: hmnLocale,
+    ja: jaLocale,
+    kar: karLocale,
+    km: kmLocale,
+    ko: koLocale,
+    lo: loLocale,
+    mam: mamLocale,
+    mh: mhLocale,
+    mxb: mxbLocale,
+    my: myLocale,
+    ne: neLocale,
+    om: omLocale,
+    pa: paLocale,
+    prs: prsLocale,
+    ps: psLocale,
+    pt: ptLocale,
+    ro: roLocale,
+    ru: ruLocale,
+    sm: smLocale,
+    so: soLocale,
+    sw: swLocale,
+    ta: taLocale,
+    te: teLocale,
+    th: thLocale,
+    ti: tiLocale,
+    tl: tlLocale,
+    to: toLocale,
+    tr: trLocale,
+    uk: ukLocale,
+    ur: urLocale,
+    vi: viLocale,
+    zh: zhLocale,
+    zhtw: zhtwLocale
+  };
+//NOTE: add line for each available locale supported
+  
+  const [locale, setLocale] = useState("en");
+
+  const selectLocale = useCallback(locale => {
+    setLocale(locale.replace('-', ''));
+  }, []);
+
   return (
     <div className={"covid-card-container"}>
       <form
@@ -312,17 +411,17 @@ const CovidCard = () => {
 
             />
 
+            <MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
             <KeyboardDatePicker
+              disableToolbar
               name="DateOfBirth"
               id={"dob"}
               value={selectedBirthDate}
               onChange={handleDobChange}
               placeholder={"MM/DD/YYYY"}
-              format="MM/DD/YYYY"
+              format="MM/dd/yyyy"
               invalidDateMessage={"Required Format: MM/DD/YYYY"}
-              label={
-                <Trans i18nKey="vaccineform.dateofbirth">Date of birth</Trans>
-              }
+              label={<Trans i18nKey="vaccineform.dateofbirth">Date of birth</Trans>}
               className={"col-12"}
               autoOk
               disableFuture
@@ -330,8 +429,10 @@ const CovidCard = () => {
               error={error.Date || !isDobGood}
               aria-label='Date of birth'
               maxDate={new Date('2021-01-01')}
+              onClick={() => selectLocale(i18n.resolvedLanguage.toString())}
               onBlur={(e) => e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })}
             />
+            </MuiPickersUtilsProvider>
             {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
               <FormLabel component="legend">
