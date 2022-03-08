@@ -14,7 +14,7 @@ import LanguageIcon from '@material-ui/icons/Language';
 const Header = () => {
 
   const { t, i18n } = useTranslation();
-  
+
   // Language
   const changeLanguage = (language) => {
     //be sure the language code STOPs at the hyphen
@@ -24,12 +24,13 @@ const Header = () => {
     //}
 
     i18n.changeLanguage(language);
-    setLanguage(language)
+    setLanguage(language);
   };
 
   const [expand, setExpand] = useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [language, setLanguage] = useState(window.navigator.userLanguage || navigator.language.length > 3 ? navigator.language.substring(0, 3).toLowerCase() : navigator.language);
+  
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -59,6 +60,7 @@ const Header = () => {
     'zh-TW': 'Chinese (Traditional) - 繁體中文',
     'chk': 'Chuukese - Fosun Chuuk',
     'prs': 'Dari - دری',
+    'en' : 'English',
     'fa': 'Farsi - فارسی',
     'fr': 'French - Français',
     'fj': 'Fijian - Vosa vakaviti',
@@ -96,6 +98,18 @@ const Header = () => {
     'vi': 'Vietnamese - Tiếng Việt'
   }
 
+  
+  const searchByLanguage = (lng) => {
+    //const toSearch = language;
+    let required = undefined;
+    Object.entries(menuLanguages).forEach((key) => {
+       if(key.toString().substring(0,key.toString().indexOf(',')) === lng.toString().replace('-','')){
+        required = key.toString().substring(key.toString().indexOf(',')+1);
+       }
+    });
+    return required;
+  };
+
   return (
     <nav>
       <div className="headerContainer" style={{ backgroundColor: '#f9f9f9', borderBottom: '1px solid #ccc' }}>
@@ -112,13 +126,13 @@ const Header = () => {
               </div>
               {/* Temporarily disabled until we have all the Translations */}
               <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
-                <ul className={i18n.dir() == 'rtl'?'translationList translationListRtl':'translationList'}>
+                {/* <ul className={i18n.dir() == 'rtl'?'translationList translationListRtl':'translationList'}>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体中文</li>
-                </ul>
+                </ul> */}
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px', textTransform: 'none' }}>
-                  More <LanguageIcon /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon />}
+                  <LanguageIcon /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon /> } { searchByLanguage(language) }
                 </Button>
                 <Menu
                   id="simple-menu"
@@ -128,7 +142,7 @@ const Header = () => {
                   onClose={handleClose}
                 >
                   {Object.entries(menuLanguages).map(([key, value]) => {
-                    return <MenuItem id={key} onClick={() => { handleClose(); changeLanguage(key) }} style={{ textDecoration: 'underline' }}>{value}</MenuItem>
+                    return <MenuItem id={key} onClick={() => { handleClose(value); changeLanguage(key) }} style={{ textDecoration: 'underline' }}>{value}</MenuItem>
                   })
                   }
                 </Menu>
