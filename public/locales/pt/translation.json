@@ -14,7 +14,7 @@
     "content1": "Bem-vindo(a) ao sistema do Comprovante digital de vacinação contra a COVID-19. Insira algumas informações abaixo para obter um link com o código QR e a cópia digital do seu comprovante de vacinação contra a COVID-19. Se desejar compartilhar o comprovante de vacinação, é possível usar a versão eletrônica ou impressa do registro que você receberá do sistema.",
     "content2": "Pessoas da mesma família podem ter vários comprovantes associados a um único número de telefone ou endereço de e-mail. Por isso, insira cada solicitação de registro de comprovante digital separadamente.",
     "content3": "O sistema fornece uma cópia digital dos comprovantes estaduais de vacinação. Caso uma agência federal (Department of Defense [Departamento de Defesa], Indian Health Services [Serviços de Saúde à População Indígena] ou Veterans Affairs [Departamento dos Assuntos de Veteranos dos Estados Unidos]) tenha administrado suas vacinas, você precisará entrar em contato com essas agências para obter assistência.",
-    "content4": "Caso tenha dúvidas sobre o seu Comprovante digital de vacinação contra a COVID-19, acesse as Perguntas frequentes (FAQ) ."
+    "content4": "Caso tenha dúvidas sobre o seu Comprovante digital de vacinação contra a COVID-19, acesse as Perguntas frequentes (<1>FAQ</1>)."
   },
   "vaccineform": {
     "filloutheader": "Preencha os campos obrigatórios para receber um link com o código QR/cópia digital do seu Comprovante digital de vacinação contra a COVID-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Formato de dados inválido, tente novamente",
     "note": "<0>Observação:</0> É necessário inserir seu PIN para acessar o comprovante digital de forma segura.",
     "checkboxdescription": "Ao marcar esta opção, você declara sob as penas das leis estaduais e federais que você é o paciente ou pai/responsável legal do paciente e, portanto, está autorizado a acessar o registro de imunização dele.",
-    "safe": "As vacinas contra a COVID-19 são seguras, gratuitas e eficazes, e estão disponíveis agora para todos os indivíduos com idade igual ou superior a 5 anos. Tomar a vacina .",
+    "safe": "As vacinas contra a COVID-19 são seguras, gratuitas e eficazes, e estão disponíveis agora para todos os indivíduos com idade igual ou superior a 5 anos. <1>Tomar a vacina</1>.",
     "vaccineproductname": "Nome da vacina",
     "subsubtitle": "Informações sobre a 1ª dose da vacina contra a COVID-19",
     "fproductname": "Nome do produto",
@@ -77,7 +77,7 @@
     "thankyou": "Obrigado.",
     "content1": "Sua solicitação foi recebida. Se as informações fornecidas corresponderem às informações em nosso sistema, você receberá um link para acessar seu comprovante de vacinação contra a COVID-19.",
     "content2": "Caso você não receba um link em 24 horas, tente novamente e certifique-se de que seu nome, data de nascimento, telefone ou e-mail correspondem às informações fornecidas no momento da vacinação.",
-    "content3": "Caso tenha dúvidas sobre o Comprovante digital de vacinação contra a COVID-19 , nós temos as respostas. Acesse as Perguntas frequentes (FAQ) .",
+    "content3": "Caso tenha dúvidas sobre o <1>Comprovante digital de vacinação contra a COVID-19 </1>, nós temos as respostas. Acesse as Perguntas frequentes (<3>FAQ</3>) . ",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
