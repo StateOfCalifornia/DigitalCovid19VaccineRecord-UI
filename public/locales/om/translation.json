@@ -14,7 +14,7 @@
     "content1": "Gara Mirkaneessa Ragaa Dijitaalaa COVID-19 baga nagaan dhiftan Liinkii koodii QR fi mirkaneessa ragaa COVID-19 keessanitti geessu argachuuf odeeffannoo muraasa armaan gaditti galchaa. Talaallii fudhachuu ragaa mirkaneessu dhiyeessuu yoo feetan, ragaa sirnicha (system) irraa argattan bifa elektiroonkisii yookin piriintitiin fayyadamuu dandeessu.",
     "content2": "Namoonni maatii tokko keessa jiraatan ragaalee mirkaneessaa heddu kan lakkoofsa bilbilaa tokko yookin imeelii wajjin wal qabatu heddu qabaachuu malu, tokkoon tokkoo gaaffii ragaa mirkaneessa dijitaalaa (digital verification record request) qofa qofaatti galchaa.",
     "content3": "Malichi koppii dijitaalaa ragaalee talaallii naannoo dhiyeessa. Ejansii federaalaa (Muummee Humna Ittisaa, Tajaajila Fayyaa Indiyaa (Department of Defense, Indian Health Services,) yookin Biiroo Dhimma Loltoota Durii (Veterans Affairs)) irraa talaallii yoo fudhattan, deeggarsaaf ejansiiwwan sana qunnamuutu isin barbaachisa.",
-    "content4": "Waa’ee Mirkaneessa Ragaa Dijitaalaa COVID-19 gaaffii yoo qabaattan, fuula Gaaffilee Yeroo Heddu Gaafataman  (FAQ) (Ingiliffa qofa) ilaalaa."
+    "content4": "Waa’ee Mirkaneessa Ragaa Dijitaalaa COVID-19 gaaffii yoo qabaattan, fuula Gaaffilee Yeroo Heddu Gaafataman  (<1>FAQ</1>) (Ingiliffa qofa) ilaalaa. "
   },
   "vaccineform": {
     "filloutheader": "Liinkii koodii QR/koppii mirkaneessa ragaa COVID-19 keessanitti geessu fudhachuuf, bakkeewwan guutamuu qaban guutaa:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Bifa odeeffannoo (data format) sirrii hin taane, irra deebin yaalaa",
     "note": "<0>Yaadachiisa:</0> Ragaa dijitaalaa keessan rakkoo nageenyaa tokko malee argachuuf PIN keessan barbaachisaadha.",
     "checkboxdescription": "Sanduuqa kanatti mallattoo yommuu gootu, akka seera adabbii soba dubbachuu kan naannoo fi federaalaa jalatti tumameen isin Dhukkubsataa yookin Maatii/Guddisee Dhukkubsataa ta’uu keessan ibsaa jirtu; kanaaf ragaa talaallii Dhukkbsatichaa akka ilaaltaniif siif eeyyamameera jechuudha.",
-    "safe": "Talaallin COVID-19 rakkoo hin geessifne, bilisaan kennamuu fi bu’a qabeessa ta’e namoota waggaa 5 fi isaa oliitif amma jira, talaalamaa (Ingiliffa qofa).",
+    "safe": "Talaallin COVID-19 rakkoo hin geessifne, bilisaan kennamuu fi bu’a qabeessa ta’e namoota waggaa 5 fi isaa oliitif amma jira, <1>talaalamaa</1> (Ingiliffa qofa).",
     "vaccineproductname": "Maqaa Omisha Talaallii",
     "subsubtitle": "Odeeffannoo Talaallii COVID-19 Doozii 1ffaa",
     "fproductname": "Maqaa Omishaa",
@@ -77,7 +77,7 @@
     "thankyou": "Galatoomaa.",
     "content1": "Gaaffin kee fudhatameera. Odeeffannoon isin laattan kan siistama keenya keessa jiru wajjin yoo wal sime, mirkaneessa ragaa COVID-19 keessan argachuuf liinkiin isin qaqqaba.",
     "content2": "Sa’aatii 24 keessatti liinkii hin arganne yoo ta’e, irra deebin yaalun maqaa, guyyaa dhalootaa, bilbilli yookin imeelin odeeffannoo yeroo talaallii kenname wajjin wal simuu isaa mirkaneeffadhu.",
-    "content3": "Waa’ee Mirkaneessa Ragaa Dijitaalaa COVID-19 (Ingiliffa qofa) gaaffii yoo qabaatte, deebii qabna. Gaaffilee Yeroo Heddu Gaafataman (FAQ) (Ingiliffa qofa) ilaalaa.",
+    "content3": "Waa’ee <1>Mirkaneessa Ragaa Dijitaalaa COVID-19</1> (Ingiliffa qofa) gaaffii yoo qabaatte, deebii qabna. Gaaffilee Yeroo Heddu Gaafataman (<3>FAQ</3>) (Ingiliffa qofa) ilaalaa. ",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
