@@ -14,7 +14,7 @@
     "content1": "Karibu kwenye mfumo wa Rekodi ya Kidijitali ya Uthibitishaji wa COVID-19 Ingiza maelezo machache hapo chini ili kupata kiungo cha msimbo wa QR na nakala ya kidijitali ya rekodi yako ya uthibitishaji wa COVID-19. Ikiwa unataka kushiriki ithibati ya chanjo, unaweza kutumia ama toleo la kielektroniki au lililochapishwa la rekodi utakayopata kwenye mfumo.",
     "content2": "Watu ndani ya familia wanaweza kuwa na rekodi anuwai za uthibitishaji zinazohusika na nambari moja ya simu au anwani ya barua pepe, ingiza ombi la rekodi ya uthibitishaji wa kidijitali kandokando.",
     "content3": "Mfumo unatoa nakala ya kidijitali ya rekodi za chanjo za jimbo. Iwapo ulipokea chanjo zako kutoka kwa shirika la muungano (Department of Defense, Indian Health Services, or Veterans Affairs [Idara ya Ulinzi, Huduma za Kiafya za India, au Masuala ya Wakongwe]), utahitaji kuwasiliana na mashirika hayo ili kupata usaidizi.",
-    "content4": "Ukiwa na maswali kuhusu Rekodi yako ya Kidijitali ya Uthibitishaji wa COVID-19, tembelea Maswali Yanayoulizwa Mara kwa Mara (FAQ) ."
+    "content4": "Ukiwa na maswali kuhusu Rekodi yako ya Kidijitali ya Uthibitishaji wa COVID-19, tembelea Maswali Yanayoulizwa Mara kwa Mara (<1>FAQ</1>)."
   },
   "vaccineform": {
     "filloutheader": "Tafadhali jaza sehemu zinazohitajika ili kupokea kiungo cha msimbo wa QR / nakala ya kidijitali ya Rekodi yako ya Uthibitishaji wa COVID-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Umbizo la data ni batili, tafadhali jaribu tena",
     "note": "Kumbuka: PIN yako inahitajika ili kufikia rekodi yako ya kidijitali kwa njia salama.",
     "checkboxdescription": "Kwa kuweka alama kwenye kisanduku hiki, unatangaza chini ya faini ya kuapa kwa uwongo chini ya sheria za jimbo na serikali ya muungano kuwa wewe ndiye Mgonjwa au Mzazi/Mlezi wa Mgonjwa na kwa hivyo umeidhinishwa kufikia rekodi ya chanjo ya Mgonjwa.",
-    "safe": "Chanjo za COVID-19 ambazo ni salama, bila malipo, na faafu sasa zinapatikana kwa kila mtu aliye na umri wa miaka 5 au zaidi, pata chanjo .",
+    "safe": "Chanjo za COVID-19 ambazo ni salama, bila malipo, na faafu sasa zinapatikana kwa kila mtu aliye na umri wa miaka 5 au zaidi, <1>pata chanjo</1>.",
     "vaccineproductname": "Jina la Bidhaa ya Chanjo",
     "subsubtitle": "Taarifa ya Dozi ya 1 ya Chanjo ya COVID-19",
     "fproductname": "Jina la Bidhaa",
@@ -77,7 +77,7 @@
     "thankyou": "Asante.",
     "content1": "Ombi lako limepokelewa. Ikiwa maelezo yaliyotolewa yanalingana na maelezo yaliyopo kwenye mfumo wetu, utapokea kiungo cha kufikia rekodi yako ya uthibitishaji wa chanjo ya COVID-19.",
     "content2": "Usipopokea kiungo ndani ya saa 24, tafadhali jaribu tena na kuhakikisha jina lako, tarehe ya kuzaliwa, simu au barua pepe inalingana na maelezo yaliyotolewa wakati wa chanjo yako.",
-    "content3": "Ukiwa na maswali kuhusu Rekodi ya Kidijitali ya Uthibitishaji wa COVID-19 , tuna majibu. Tembelea Maswali yetu Yanayoulizwa Mara kwa Mara (FAQ) .",
+    "content3": "Ukiwa na maswali kuhusu <1>Rekodi ya Kidijitali ya Uthibitishaji wa COVID-19</1>, tuna majibu. Tembelea Maswali yetu Yanayoulizwa Mara kwa Mara (<3>FAQ</3>).",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
