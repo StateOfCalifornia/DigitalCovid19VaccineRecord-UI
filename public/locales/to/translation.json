@@ -14,7 +14,7 @@
     "content1": "Talitali lelie koe ki he Polokalama ‘Initaneti ki hono ma’u atu ‘a e Lēkooti Fakamo’oni ‘o e Huhu Malu’i COVID-19. Tuku mai ha ngaahi fakaikiiki ‘i lalo ke ma’u atu ‘a e link ki he QR code mo e tatau ‘o e lēkooti fakamo’oni ki ho’o huhu malu’i COVID-19. Kapau te ke fiema’u ke fakahā ‘a e fakamo’oni ho’o huhu malu’í, te ke lava ‘o ngaue’aki ‘a e tatau faka’ilekitulōnika pe ko ha tatau kuo paaki meí ho’o lēkootí.",
     "content2": "Ko ha fo’i fāmili ‘e taha ‘e ‘i ai ‘enau ngaahi lēkooti ‘e fehokotaki mo e fika telefoni mo e tu’asila ‘imeili pe ‘e taha, fakahū ‘a e lēkooti fakamo’oni kotoa pē ke ma’u kehekehe mai.",
     "content3": "‘Oku tuku atu ‘e he polokalamá ni ‘a e tatau ‘o e lēkooti fakamo’oni huhu malu’í. Kapau na’a ke ma’u ho’o huhu malu’í Mei ha kautaha fetalolo (Department of Defense (Potungāue Va’a Fakakautaú), Indian Health Services (Sēvesi Mo’ui ma’ae Kāinga ‘Initia), pe Veterans Affairs (Potungāue ma’ae kau Sōtia Mālōlō)), ‘e fiema’u ke ke fetu’utaki ki he ngaahi kautahá ni ke nau tokoni atu.",
-    "content4": "Kapau ‘oku ‘I ai ha’o fehu’i fekau’aki mo ho’o Lēkooti Fakamo’oni Huhu Malu’i COVID-19, vakai ki he Ngaahi Fehu’i Angamahení (Ngaahi Fehu’i ‘oku fa’a ‘Eke Mai) ."
+    "content4": "Kapau ‘oku ‘i ha’o fehu’i fekau’aki mo ho’o Lēkooti Fakamo’oni Huhu Malu’i COVID-19, vakai ki he Ngaahi Fehu’i Angamahení  (<1> Ngaahi Fehu’i ‘oku fa’a ‘Eke Mai</1>)."
   },
   "vaccineform": {
     "filloutheader": "Kātaki ‘o fakafonu ‘a e ngaahi fakamatala ‘oku fiema’ú ke ke ma’u ‘a e link ki he QR code/ tatau faka’ilekitulōnika ki ho’o Lēkooti Fakamo’oni Huhu Malu’i COVID-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "‘Oku hala ‘a e fakamatala ‘oku ke ‘omí, kātaki ‘o toe feinga pē",
     "note": "Fakatokanga: ‘Oku fiema’u ho’o PIN ke malu ai ho’o ma’u atu ho’o lēkooti huhu malu’í.",
     "checkboxdescription": "‘I ho’o faka’ilonga’i ‘a e puhá ni, ‘oku ke fakapapau ‘i he mahino kiate koe ko e faihala ‘i he ngaahi lao fakafeitu’u mo fakafetalolo ko koe ‘a e Mahaki pe ko e Mātu’a/Tauhi Fānau ‘o e Mahakí pea ‘I ai ho’o ngofua ke ke ma’u atu ‘a e lēkooti huhu malu’i ‘a e mahakí.",
-    "safe": "Malu, ta’etotongi, pea pau ‘a e ngaahi huhu malu’i COVID-19 ‘oku ma’u atu ma’a kinautolu ta’u 5 mo lahiange, ’alu ‘o huhu malu’i .",
+    "safe": "Malu, ta’etotongi, pea pau ‘a e ngaahi huhu malu’i COVID-19 ‘oku ma’u atu ma’a kinautolu ta’u 5 mo lahiange, <1>’alu ‘o huhu malu’i</1>.",
     "vaccineproductname": "Hingoa ‘o e Huhu Malu’í",
     "subsubtitle": "Fakamatala ki he ‘Uluaki Huhu COVID-19",
     "fproductname": "Hingoa ‘o e Koloá",
