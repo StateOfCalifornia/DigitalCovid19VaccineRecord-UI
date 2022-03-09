@@ -14,7 +14,7 @@
     "content1": "E faafeiloa’i atu le polokalame o Faamaumauga Faamaonia KOVITI-19. Tuu i totonu ni faamatalaga ina ia maua ai se sootaga mo se Faamaoniga vave QR code ina ia tuuina atu ai lea ose kopi o ou Faamaumauga Faamaonia KOVITI-19. A e fia faasoa maia se faamaoniga o lou tui puipui, e mafai ona faaogaina se kopi ua lolomiina pe o le faamaoniga faatekonolosi.",
     "content2": "Afai o se aiga toatele e eseese uma Faamaumauga Faamaonia ae na o le tasi le numra o le telefoni na faaogaina pe tasi foi se tuatusi o le imeli, ia taito’atasi ona talosagaina faamaumauga a se tagata se toatasi.",
     "content3": "O lenei pokokalame e mafai ona maua ai Faamaumauga o tuipuii a le settee. Afai ua e mauaina ou tui puipui mai le Department of Defense, Indian Health Services, or Veterans Affairs (Matagaluega o Puipuiga, Soifua Maloloina Initia poo Mataupu mo latou sa o i le Taua), ua tatau ona e faafesootaiina na ofisa mo se fesoasoani.",
-    "content4": "Afai e iai ni au fesili e faatatau i ou Faamaumauga Faamaonia KOVITI-19, faafesootai Fesili Masani (FAQ) ."
+    "content4": "Afai e iai ni au fesili e faatatau i ou Faamaumauga Faamaonia KOVITI-19, faafesootai Fesili Masani (<1>FAQ</1>)."
   },
   "vaccineform": {
     "filloutheader": "Faamolemole faatumu vaega manaomia e maua ai se fesootaiga i se QR code / kopi numera o lau Faamaumauga Faamaonia o le KOVITI-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "E le’o sao faasologa o faamatalaga, faamolemole toe taumafai mai",
     "note": "<0>Faasilasilaga:</0> E manaomia lau numera PIN e fesootai ai ma puipuia ou faamaumauga.",
     "checkboxdescription": "I le siakiina o lenei pusa, o le a e tautino atu i lalo o faasalaga o le pepelo i lalo o Tulafono a le settee ma le feterale, o o’e o le Ma’i poo Matuai/Tausi Ma’i o le Ma’i, o loo i ai le faatagana e mauaina ai faamaumauga o tui puipui a le ma’i.",
-    "safe": "E saogalemu, leai se totogi ma aoga le tui puipui KOVITI-19 ua avanoa nei mo tagata uma e ta’i 5 tausaga ma matutua atu fai lau tuipuipui .",
+    "safe": "E saogalemu, leai se totogi ma aoga le tui puipui KOVITI-19 ua avanoa nei mo tagata uma e ta’i 5 tausaga ma matutua atu <1>fai lau tuipuipui</1>.",
     "vaccineproductname": "Igoa o Tui Puipui",
     "subsubtitle": "Faamatalaga mo Tuiga muamua KOVITI-19",
     "fproductname": "Igoa o Tui",
@@ -77,7 +77,7 @@
     "thankyou": "Faafetai lava.",
     "content1": "Ua mauaina nei lau talosaga. Afai o faamatalaga ua e tuuina mai e tutusa ma faamatalaga i totonu o le matou polokalama o lea e mauaina se sootaga e maua ai ou faamaumauga faamaonia o le KOVITI-19.",
     "content2": "Afai e te le maua se sootaga totonu o le 24 itula, faamolemole toe taumafai, ma ia mautinoa o lou igoa, aso fanau, telefoni poo imeli e tutusa ma faamatalaga na tuuina atu i le taimi o lou tui.",
-    "content3": "Afai e iai ni au fesili e uiga i ni Faamaumauga Neionapo o le KOVITI-19 , e maua ia matou le tali. Silasila ane i Fesili Masani ona fesiligia (FAQ) .",
+    "content3": "Afai e iai ni au fesili e uiga i ni <1>Faamaumauga Neionapo o le KOVITI-19</1>, e maua ia matou le tali. Silasila ane i Fesili Masani ona fesiligia (<3>FAQ</3>) .",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
