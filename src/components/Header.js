@@ -99,13 +99,15 @@ const Header = () => {
   }
 
   
-  const searchByLanguage = (lng) => {
+  const searchByLanguage = () => {
     //const toSearch = language;
     let required = undefined;
     Object.entries(menuLanguages).forEach((key) => {
-       if(key.toString().substring(0,key.toString().indexOf(',')) === lng.toString().replace('-','')){
+      if(i18n.resolvedLanguage != null){
+       if(key.toString().substring(0,key.toString().indexOf(',')) === i18n.resolvedLanguage.toString().replace(/-$/,'')){
         required = key.toString().substring(key.toString().indexOf(',')+1);
        }
+      }
     });
     return required;
   };
@@ -132,7 +134,7 @@ const Header = () => {
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体中文</li>
                 </ul> */}
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px', textTransform: 'none' }}>
-                  <LanguageIcon /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon /> } { searchByLanguage(language) }
+                  <LanguageIcon /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon /> } { searchByLanguage() }
                 </Button>
                 <Menu
                   id="simple-menu"
