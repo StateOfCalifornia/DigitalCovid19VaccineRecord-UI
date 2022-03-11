@@ -265,7 +265,7 @@ const CovidCard = () => {
   const handleDobChange = (date) => {
     setError({ ...error, Date: false });
     setSelectedBirthDate(date)
-    if (date && date.$y && date.$y >= 1900 && date.$y <= 2020) {
+    if (date && date.getFullYear() && date.getFullYear() >= 1900 && date.getFullYear() <= 2020) {
       setIsDobGood(true);
     } else {
       setIsDobGood(false);
