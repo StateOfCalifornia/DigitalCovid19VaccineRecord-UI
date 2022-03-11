@@ -35,7 +35,7 @@
     "pinErrorMsg5": "Pentru informații suplimentare sau asistență, contactați-ne sau luați legătura cu furnizorul serviciilor medicale.",
     "pinErrorMsg6": "Nu am reușit să finalizăm solicitarea dvs., încercați din nou.",
     "pinErrorMsg7": "Format de date nevalid, încercați din nou.",
-    "note": "Notă: codul PIN este necesar pentru a accesa în siguranță fișa dvs. digitală.",
+    "note": "<0>Notă:</0> codul PIN este necesar pentru a accesa în siguranță fișa dvs. digitală.",
     "checkboxdescription": "Dacă bifați această casetă, declarați sub incidența legii de stat și federale privind sperjurul că sunteți Pacientul sau Părintele/Tutorele legal al Pacientului și că, prin urmare, sunteți autorizat să accesați fișa de vaccinare a Pacientului.",
     "safe": "În prezent există vaccinuri anti-COVID-19 sigure, gratuite și eficiente pentru toate persoanele începând cu vârsta de 5 ani; <1>vaccinați-vă</1>. ",
     "vaccineproductname": "Denumire vaccin",

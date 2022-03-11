@@ -35,7 +35,7 @@
     "pinErrorMsg5": "Veuillez nous contacter ou contacter votre professionnel de santé pour en savoir plus ou pour obtenir de l'aide.",
     "pinErrorMsg6": "Nous n'avons pas pu répondre à votre demande, veuillez réessayer.",
     "pinErrorMsg7": "Format de données non valide, veuillez réessayer",
-    "note": "Remarque : Votre code PIN est nécessaire pour accéder en toute sécurité à votre attestation numérique.",
+    "note": "<0>Remarque:</0> Votre code PIN est nécessaire pour accéder en toute sécurité à votre attestation numérique.",
     "checkboxdescription": "En cochant cette case, vous déclarez, sous peine de parjure en vertu des lois de l'État et des lois fédérales, que vous êtes le patient ou le parent/tuteur du patient et que vous êtes donc autorisé à accéder à l'attestation de vaccination du patient.",
     "safe": "Des vaccins COVID-19 sûrs, gratuits et efficaces sont désormais disponibles pour toutes les personnes âgées de 5 ans et plus, <1>faites-vous vacciner</1> .",
     "vaccineproductname": "Nom du vaccin",

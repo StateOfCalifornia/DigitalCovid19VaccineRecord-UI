@@ -248,7 +248,6 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               </p>
             </div>
           ) : null}
-          {showMessage ? <p style={{ fontSize: "0.75rem" }}>Use Safari web browser to save</p> : null}
 
           <div data-html2canvas-ignore="true">
             <h2
