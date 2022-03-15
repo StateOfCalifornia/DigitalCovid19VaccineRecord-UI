@@ -345,7 +345,7 @@ const CovidCard = () => {
     ur: urLocale,
     vi: viLocale,
     zh: zhLocale,
-    zhtw: zhtwLocale
+    zhTW: zhtwLocale
   };
 //NOTE: add line for each available locale supported
   
