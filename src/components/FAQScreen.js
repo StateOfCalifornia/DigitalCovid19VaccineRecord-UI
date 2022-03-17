@@ -184,11 +184,11 @@ const FAQScreen = () => {
             <dd>
               <p id="faq09_desc" class={i18n.dir()=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.09answer">
-                  The <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system draws COVID-19 records from the state’s
+                  The <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system draws COVID-19 records from the state’s
                   immunization systems. Enter your name, date of birth, and an email or mobile phone number
                   associated with your vaccination record, then create a four-digit PIN number. If the
                   information you submitted matches the official record, you will receive a text or email with
-                  a link to your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. Enter the PIN you created to view the
+                  a link to your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. Enter the PIN you created to view the
                   record.
                 </Trans>
               </p>
@@ -251,11 +251,11 @@ const FAQScreen = () => {
                   <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={"https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine"} target="CoronaVirus" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>
                     several options
                   </ReactGA.OutboundLink>
-                  for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>
+                  for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>
                   and can be printed or shown digitally. You may also show your CDC provided COVID-19 card or
                   your state immunization record.
 
-                  You are not required to obtain a <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. It is an optional
+                  You are not required to obtain a <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. It is an optional
                   means to obtain your COVID-19 verification information, and is the digital version of your
                   paper verification record. It is one of the options to show proof of vaccination. The state
                   will not be implementing a mandatory passport system.
