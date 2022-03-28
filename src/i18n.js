@@ -33,7 +33,7 @@ i18n
       load: "currentOnly",
       fallbackLng: (code) => {
           appInsights.trackTrace({message: 'Requested Language Code: ' + code, severity: applicationInsights.Contracts.SeverityLevel.Information});
-
+          //test
           // Set English as default
           if (!code || code === 'en') return ['en'];
 
