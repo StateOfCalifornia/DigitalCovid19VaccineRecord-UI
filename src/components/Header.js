@@ -9,6 +9,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import LanguageIcon from '@material-ui/icons/Language';
+import { appInsights } from "../AppInsights";
 
 
 const Header = () => {
@@ -30,7 +31,7 @@ const Header = () => {
   const [expand, setExpand] = useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [language, setLanguage] = useState(window.navigator.userLanguage || navigator.language.length > 3 ? navigator.language.substring(0, 3).toLowerCase() : navigator.language);
-  
+  appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language});
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -120,7 +121,7 @@ const Header = () => {
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', height: 70 }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
                 <div style={{ textAlign: 'middle' }}>
-                  <img className={i18n.dir() == "rtl"?"doh_logo_doh-black_rtl":"doh_logo_doh-black"} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
+                  <img className={i18n.dir(i18n.language) == "rtl"?"doh_logo_doh-black_rtl":"doh_logo_doh-black"} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
                 </div>
                 <div style={{ verticalAlign: "middle", textAlign: 'middle' }}>
                 <Trans i18nKey="header.dohlogotext">Washington State<br /> Department of Health</Trans>
