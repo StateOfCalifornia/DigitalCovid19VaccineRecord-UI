@@ -9,7 +9,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import LanguageIcon from '@material-ui/icons/Language';
-import { appInsights } from "../AppInsights";
+import withAITracking  from '../AppInsights';
+import { appInsights } from '../AppInsights';
 
 
 const Header = () => {
@@ -169,4 +170,4 @@ const Header = () => {
 
 };
 
-export default Header;
+export default withAITracking(Header);
