@@ -4,6 +4,7 @@ import Backend from "i18next-http-backend";
 // This module will detect the language for us.
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
+//import "./ApplicationInsights";
 import { appInsights } from 'appInsights';
 
 const customFallbacks = {
@@ -28,7 +29,7 @@ i18n
       load: "currentOnly",
       fallbackLng: (code) => {
           appInsights.trackTrace({message: 'Requested Language Code: ' + code, severity: applicationInsights.Contracts.SeverityLevel.Information});
-          
+
           // Set English as default
           if (!code || code === 'en') return ['en'];
 
