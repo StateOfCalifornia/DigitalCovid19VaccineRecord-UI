@@ -34,6 +34,7 @@ i18n
       // See: https://www.i18next.com/principles/fallback#fallback-to-different-languages
       load: "currentOnly",
       fallbackLng: (code) => {
+
           appInsights.trackTrace({message: 'Requested Language Code: ' + code});
           //test
           // Set English as default
