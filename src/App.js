@@ -18,14 +18,13 @@ import "./styles/CovidCard-style.css";
 import "./styles/ButtonStyles.min.css";
 import "./styles/override/styles.scss";
 import { useTranslation } from "react-i18next";
-import withAITracking  from './AppInsights';
 
 const { CREDENTIALS_GA_DEPARTMENT } = window.config;
 
 ReactGA.initialize(CREDENTIALS_GA_DEPARTMENT);
 
 
-function App(){
+function App() {
   // Do not remove line:24 as this will break translation
   const { i18n } = useTranslation();
   document.body.dir = i18n.dir(i18n.language);
@@ -55,4 +54,4 @@ function App(){
   );
 }
 
-export default withAITracking(App);
+export default App;

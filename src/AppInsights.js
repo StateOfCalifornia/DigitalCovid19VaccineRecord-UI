@@ -6,7 +6,7 @@ const {APPLICATION_INSIGHTS_INSTRUMENTATION_KEY} = window.config;
 const reactPlugin = new ReactPlugin();
 const ai = new ApplicationInsights({
     config: {
-        instrumentationKey: '0a94977e-279d-4407-8f57-864d08dd878e',
+        instrumentationKey: {APPLICATION_INSIGHTS_INSTRUMENTATION_KEY},
         extensions: [reactPlugin],
         extensionConfig: {
             [reactPlugin.identifier]: { history: globalHistory }
@@ -16,4 +16,4 @@ const ai = new ApplicationInsights({
 ai.loadAppInsights()
 
 export default (Component) => withAITracking(reactPlugin, Component)
-export const appInsights = ai.appInsights 
+export const appInsights = ai.appInsights
