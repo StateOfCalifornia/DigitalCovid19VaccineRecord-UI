@@ -13,6 +13,12 @@ const appInsights = new ApplicationInsights({ config: {
   instrumentationKey: { APPLICATION_INSIGHTS_INSTRUMENTATION_KEY }
   /* ...Other Configuration Options... */
 } });
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
+=======
+>>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
+=======
 >>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
 
 const customFallbacks = {
@@ -37,7 +43,13 @@ i18n
       load: "currentOnly",
       fallbackLng: (code) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
+=======
+>>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
           appInsights.trackTrace({message: 'Requested Language Code: ' + code});
           //test
 >>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
