@@ -9,9 +9,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import LanguageIcon from '@material-ui/icons/Language';
-import withAITracking  from '../AppInsights';
+import withAITracking  from '../AppInsights'
 import { appInsights } from '../AppInsights';
-import { SeverityLevel } from '@microsoft/applicationinsights-web';
 
 
 const Header = () => {
@@ -33,7 +32,7 @@ const Header = () => {
   const [expand, setExpand] = useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [language, setLanguage] = useState(window.navigator.userLanguage || navigator.language.length > 3 ? navigator.language.substring(0, 3).toLowerCase() : navigator.language);
-  appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
+  appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language});
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
