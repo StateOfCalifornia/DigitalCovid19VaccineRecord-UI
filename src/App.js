@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 
@@ -18,6 +18,9 @@ import "./styles/CovidCard-style.css";
 import "./styles/ButtonStyles.min.css";
 import "./styles/override/styles.scss";
 import { useTranslation } from "react-i18next";
+import withAITracking  from './AppInsights';
+import { appInsights } from './AppInsights';
+import { SeverityLevel } from '@microsoft/applicationinsights-web';
 
 const { CREDENTIALS_GA_DEPARTMENT } = window.config;
 
@@ -28,6 +31,15 @@ function App() {
   // Do not remove line:24 as this will break translation
   const { i18n } = useTranslation();
   document.body.dir = i18n.dir();
+
+  // Application Insight Log entry to track requested language code.
+  useEffect(() => {
+  if(i18n.language !== undefined)
+    {
+     appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
+   }
+  },
+  i18n.language);
 
   return (
     <MuiPickersUtilsProvider utils={DayJsUtils}>
@@ -54,4 +66,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAITracking(App);

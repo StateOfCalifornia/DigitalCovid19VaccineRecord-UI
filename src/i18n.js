@@ -4,14 +4,6 @@ import Backend from "i18next-http-backend";
 // This module will detect the language for us.
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
-import { ApplicationInsights } from '@microsoft/applicationinsights-web'
-
-const {APPLICATION_INSIGHTS_INSTRUMENTATION_KEY} = window.config;
-const appInsights = new ApplicationInsights({ config: {
-  instrumentationKey: { APPLICATION_INSIGHTS_INSTRUMENTATION_KEY }
-} });
-
-
 
 const customFallbacks = {
     'zh-MO': ['zh-TW'],
@@ -34,9 +26,6 @@ i18n
       // See: https://www.i18next.com/principles/fallback#fallback-to-different-languages
       load: "currentOnly",
       fallbackLng: (code) => {
-          appInsights.loadAppInsights();
-          appInsights.trackTrace({message: 'Requested Language Code: ' + code});
-          //test
           // Set English as default
           if (!code || code === 'en') return ['en'];
 
