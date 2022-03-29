@@ -40,7 +40,7 @@ function App() {
     appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
    }
   },
-  i18n.language);
+  [i18n.language]);
 
   return (
     <MuiPickersUtilsProvider utils={DayJsUtils}>
