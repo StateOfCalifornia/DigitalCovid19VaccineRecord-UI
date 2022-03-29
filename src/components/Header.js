@@ -33,7 +33,7 @@ const Header = () => {
   const [expand, setExpand] = useState(false);
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [language, setLanguage] = useState(window.navigator.userLanguage || navigator.language.length > 3 ? navigator.language.substring(0, 3).toLowerCase() : navigator.language);
-  //appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
+  appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -104,7 +104,6 @@ const Header = () => {
   
   const searchByLanguage = () => {
     //const toSearch = language;
-    appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
     let required = undefined;
     Object.entries(menuLanguages).forEach((key) => {
       if(i18n.resolvedLanguage != null){
