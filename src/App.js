@@ -24,19 +24,20 @@ import { SeverityLevel } from '@microsoft/applicationinsights-web';
 
 const { CREDENTIALS_GA_DEPARTMENT } = window.config;
 
+
 ReactGA.initialize(CREDENTIALS_GA_DEPARTMENT);
 
 
 function App() {
   // Do not remove line:24 as this will break translation
   const { i18n } = useTranslation();
-  document.body.dir = i18n.dir();
+  document.body.dir = i18n.dir(i18n.language);
 
   // Application Insight Log entry to track requested language code.
   useEffect(() => {
   if(i18n.language !== undefined)
-    {
-     appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
+  {
+    appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
    }
   },
   i18n.language);
