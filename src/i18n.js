@@ -4,22 +4,6 @@ import Backend from "i18next-http-backend";
 // This module will detect the language for us.
 import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
-<<<<<<< HEAD
-=======
-import { ApplicationInsights } from '@microsoft/applicationinsights-web'
-
-const {APPLICATION_INSIGHTS_INSTRUMENTATION_KEY} = window.config;
-const appInsights = new ApplicationInsights({ config: {
-  instrumentationKey: { APPLICATION_INSIGHTS_INSTRUMENTATION_KEY }
-  /* ...Other Configuration Options... */
-} });
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
-=======
->>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
-=======
->>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
 
 const customFallbacks = {
     'zh-MO': ['zh-TW'],
@@ -42,17 +26,6 @@ i18n
       // See: https://www.i18next.com/principles/fallback#fallback-to-different-languages
       load: "currentOnly",
       fallbackLng: (code) => {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
-=======
->>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
-          appInsights.trackTrace({message: 'Requested Language Code: ' + code});
-          //test
->>>>>>> parent of f84a2b5... Merge pull request #77 from DOH-HTS-ADS/JAN1303_Sprint_9
           // Set English as default
           if (!code || code === 'en') return ['en'];
 
