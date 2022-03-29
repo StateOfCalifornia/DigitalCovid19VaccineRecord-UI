@@ -572,7 +572,7 @@ const CovidCard = () => {
                     id='submitcheckbox'
                   />
                 }
-                className={i18n.dir(i18n.language) == "rtl" ? "checkBoxRtl" : ""}
+                className={i18n.dir() == "rtl" ? "checkBoxRtl" : ""}
               />
               <div>
                 <Trans i18nKey="vaccineform.checkboxdescription">
