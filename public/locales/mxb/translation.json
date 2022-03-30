@@ -70,7 +70,8 @@
     "printrecord": "Tava tutu", 
     "download": "Xnuu", 
     "needhelp": "A jiniñu’un ní ja chindeé ji ní", 
-    "incorrect": "Tú tu’un siki nasa iyo vacuna ní nduu iyo ndaa axi kumani ja kani ka tatan ní, ma sú kivi ja ni kani kuu axi inka marca kuu, sanaa jiniñu’un ja nachizó va’a ní tu’un siki vacuna ní. Kuu ka’an ní jín ñayiví ja ni taji tatan nuu ní tágua nachizó va’a ní tu’un ya’a axi <1>ka’an ní nuu sa</1>. Tetiñu sa in tu’un nuu ní siki tu’un ja ni nani’in sa ji siki nasa nasa’a va’a tu’un ya’a ñati nuu 2-3 semana."
+    "incorrect": "Tú tu’un siki nasa iyo vacuna ní nduu iyo ndaa axi kumani ja kani ka tatan ní, ma sú kivi ja ni kani kuu axi inka marca kuu, sanaa jiniñu’un ja nachizó va’a ní tu’un siki vacuna ní. Kuu ka’an ní jín ñayiví ja ni taji tatan nuu ní tágua nachizó va’a ní tu’un ya’a axi <1>ka’an ní nuu sa</1>. Tetiñu sa in tu’un nuu ní siki tu’un ja ni nani’in sa ji siki nasa nasa’a va’a tu’un ya’a ñati nuu 2-3 semana.",
+    "flotnumber": "Número lote"
   },
   "receivedpage": {
     "title": "Tutu siki tu’un nasa iyo ní jín kue’e COVID-19 ja ni jikan ní nuu kaa ndichí",
