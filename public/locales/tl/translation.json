@@ -71,7 +71,8 @@
     "printrecord": "I-print ang Talaan",
     "download": "I-download",
     "needhelp": "Kailangan Pa ng Tulong?",
-    "incorrect": "Kung ang impormasyong nasa iyong digital na talaan ng bakuna ay hindi wasto o kulang ng dosis, may maling petsa o ibang brand, maaaring kailanganin mong iwasto o i-update ang iyong talaan ng pagpapabakuna. Maaari kang makipag-ugnayan sa iyong provider (tagapagbigay ng bakuna) upang i-update ang talaan mo o <1>makipag-ugnayan sa amin</1>. Aabisuhan ka tungkol sa aming mga matutuklasan at gagawing pagwawasto sa loob ng 2-3 linggo."
+    "incorrect": "Kung ang impormasyong nasa iyong digital na talaan ng bakuna ay hindi wasto o kulang ng dosis, may maling petsa o ibang brand, maaaring kailanganin mong iwasto o i-update ang iyong talaan ng pagpapabakuna. Maaari kang makipag-ugnayan sa iyong provider (tagapagbigay ng bakuna) upang i-update ang talaan mo o <1>makipag-ugnayan sa amin</1>. Aabisuhan ka tungkol sa aming mga matutuklasan at gagawing pagwawasto sa loob ng 2-3 linggo.",
+    "flotnumber": "Numero ng Lot"
   },
   "receivedpage": {
     "title": "Pagtanggap sa Digital na Rekord sa Pagberipika ng Pagpapabakuna sa COVID-19",
