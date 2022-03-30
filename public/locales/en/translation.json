@@ -76,7 +76,8 @@
     "printrecord": "Print Record",
     "download": "Download",
     "needhelp": "Need More Help?",
-    "incorrect": "If the information on your digital vaccine record is incorrect or missing a dose, has wrong dates or incorrect brand, you may need to correct or update your immunization record. You can contact your provider to update your record or <1>contact us</1>. You will be notified of our findings and remediation actions within 2-3 weeks."
+    "incorrect": "If the information on your digital vaccine record is incorrect or missing a dose, has wrong dates or incorrect brand, you may need to correct or update your immunization record. You can contact your provider to update your record or <1>contact us</1>. You will be notified of our findings and remediation actions within 2-3 weeks.",
+    "flotnumber": "Lot Number"
   },
   "receivedpage": {
     "title": "Digital COVID-19 Verification Record Request Receipt ",
