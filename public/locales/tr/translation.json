@@ -70,7 +70,8 @@
     "printrecord": "Kaydı Yazdır", 
     "download": "İndir", 
     "needhelp": "Daha Fazla Yardıma Mı İhtiyacınız Var?", 
-    "incorrect": "Dijital aşı kaydınızdaki bilgiler yanlışsa veya bir doz eksikse, yanlış tarihlere veya yanlış markaya sahipse, aşı kaydınızı düzeltmeniz veya güncellemeniz gerekebilir. Kaydınızı güncellemek için tedarikçinizle iletişime geçebilir veya <1>bize ulaşabilirsiniz</1>. Bulgularımız ve tedavi işlemlerimiz hakkında 2-3 hafta içinde bilgilendirileceksiniz."
+    "incorrect": "Dijital aşı kaydınızdaki bilgiler yanlışsa veya bir doz eksikse, yanlış tarihlere veya yanlış markaya sahipse, aşı kaydınızı düzeltmeniz veya güncellemeniz gerekebilir. Kaydınızı güncellemek için tedarikçinizle iletişime geçebilir veya <1>bize ulaşabilirsiniz</1>. Bulgularımız ve tedavi işlemlerimiz hakkında 2-3 hafta içinde bilgilendirileceksiniz.",
+    "flotnumber": "Lot Numarası"
 }, 
   "receivedpage": {
     "title": "Dijital COVID-19 Doğrulama Kaydı İstek Fişi",
