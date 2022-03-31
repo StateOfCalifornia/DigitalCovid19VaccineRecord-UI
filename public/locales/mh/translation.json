@@ -70,7 +70,8 @@
     "printrecord": "Print Rekoot", 
     "download": "Download", 
     "needhelp": "Kwoj ke Bar Aikuj Jiban?", 
-    "incorrect": "Ne ebōd melele eo ilo rekoot in wa eo am ilo kein jerbal kapeel eo ak ejab walok juon wa kwar boke, ebōd raan ko ak etan wa eo, kwomaron aikuj kokkaal rekoot in wa eo am. <1>Kwōmaron kebaak takto eo am nan kokkaal rekoot eo am ne ejab kebaak tok kim</1>. Kim naj kebaak kwe kin ta melele ko emoj amim loi im komadmod ko kim naj kommani iloan 2-3 wiik."
+    "incorrect": "Ne ebōd melele eo ilo rekoot in wa eo am ilo kein jerbal kapeel eo ak ejab walok juon wa kwar boke, ebōd raan ko ak etan wa eo, kwomaron aikuj kokkaal rekoot in wa eo am. <1>Kwōmaron kebaak takto eo am nan kokkaal rekoot eo am ne ejab kebaak tok kim</1>. Kim naj kebaak kwe kin ta melele ko emoj amim loi im komadmod ko kim naj kommani iloan 2-3 wiik.",
+    "flotnumber": "Lōñ nomba: "
   }, 
   "receivedpage": {
     "title": "Iaam jarom COVID-19 jaak jeje kajjitōk rijjiit",

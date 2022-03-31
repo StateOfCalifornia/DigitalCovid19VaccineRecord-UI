@@ -177,6 +177,13 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 </b>
                 {dose.type}
               </p>
+              <p className="qrDataItem">
+                <b>
+                  <Trans i18nKey="qrpage.dose">Dose </Trans>
+                  <Trans i18nKey="qrpage.flotnumber">Lot Number: </Trans>
+                </b>
+                {dose.lotNumber}
+              </p>
               <hr />
             </div>
           ))}

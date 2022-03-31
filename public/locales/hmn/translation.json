@@ -70,7 +70,8 @@
         "printrecord": "Luam Tawm Cov Ntaub Ntawv Sau Tseg", 
         "download": "Daus Lauj", 
         "needhelp": "Puas xav tau kev pab?", 
-        "incorrect": "Yog tias cov ntaub ntawv nyob rau hauv koj cov ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob ua dis cis tauj tsis raug los sis koob tshuaj muaj tsis txhij, cov hnub tim yuam kev los sis lub npe hom tshuaj tsis raug, tej zaum koj yuav tsum tau kho los sis hloov kho dua tshiab koj cov ntaub ntawv sau tseg txog kev txhaj tshuaj tiv thaiv kab mob. Koj tuaj yeem txuas lus tau rau koj tus kws pab kho mob txhawm rau hloov kho dua tshiab koj cov ntaub ntawv sau tseg los sis <1>txuas lus rau peb</1>. Koj yuav tau txais kev ceeb toom qhia txog peb cov kev nrhiav pom thiab cov kev nqis tes hloov kho nyob rau hauv 2-3 vij."
+        "incorrect": "Yog tias cov ntaub ntawv nyob rau hauv koj cov ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob ua dis cis tauj tsis raug los sis koob tshuaj muaj tsis txhij, cov hnub tim yuam kev los sis lub npe hom tshuaj tsis raug, tej zaum koj yuav tsum tau kho los sis hloov kho dua tshiab koj cov ntaub ntawv sau tseg txog kev txhaj tshuaj tiv thaiv kab mob. Koj tuaj yeem txuas lus tau rau koj tus kws pab kho mob txhawm rau hloov kho dua tshiab koj cov ntaub ntawv sau tseg los sis <1>txuas lus rau peb</1>. Koj yuav tau txais kev ceeb toom qhia txog peb cov kev nrhiav pom thiab cov kev nqis tes hloov kho nyob rau hauv 2-3 vij.",
+        "flotnumber": "Lot Number (Tus Zauv Npawb Tshuaj): "
     },
     "receivedpage": {
         "title": "Daim Ntawv Tau Txais Kev Txheeb Xyuas Ntaub Ntawv Sau Tseg Txog Kab Mob COVID-19 Ua Dis Cis Tauj", 

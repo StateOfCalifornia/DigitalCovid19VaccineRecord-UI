@@ -70,7 +70,8 @@
     "printrecord": "Paaki ho’o Lēkootí", 
     "download": "Tauhi", 
     "needhelp": "Toe fiema’u ha tokoni?", 
-    "incorrect": "Kapau ‘oku hala pe ‘ikai kakato ‘a e fakamatala huhu malu’i ‘i ho’o lēkooti huhu malu’í, hala ‘a e ‘aho pe hingoa ‘o e huhu malu’í, ‘e fiema’u ke ke fakatonutonu mo fakafo’ou ho’o lēkooti huhu malu’í. Fetu’utaki ki ho’o toketá ke fakafo’ou ho’o lēkootí pe <1>fetu’utaki mai</1>. ‘E fakahoko atu ‘a e ola ‘o <br />‘emau ngāue ‘i loto ‘i he uike ‘e 2-3."
+    "incorrect": "Kapau ‘oku hala pe ‘ikai kakato ‘a e fakamatala huhu malu’i ‘i ho’o lēkooti huhu malu’í, hala ‘a e ‘aho pe hingoa ‘o e huhu malu’í, ‘e fiema’u ke ke fakatonutonu mo fakafo’ou ho’o lēkooti huhu malu’í. Fetu’utaki ki ho’o toketá ke fakafo’ou ho’o lēkootí pe <1>fetu’utaki mai</1>. ‘E fakahoko atu ‘a e ola ‘o <br />‘emau ngāue ‘i loto ‘i he uike ‘e 2-3.",
+    "flotnumber": "Lot Number (Fika Fakalahi): "
   },
   "receivedpage": {
     "title": "La’i Talitotongi ki hono ma’u ho’o Lēkooti Huhu Malu’i COVID-19",

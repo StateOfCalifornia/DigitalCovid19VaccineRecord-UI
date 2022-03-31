@@ -70,7 +70,8 @@
     "printrecord": "Rekort ren print", 
     "download": "Download", 
     "needhelp": "Mi pwal mochen ekoch aninis?", 
-    "incorrect": "Ika ewe porous won omw ewe digital rekorten apwos ese pwung ika kese angei ew apwos, ese pwung iten ika ekewe ranin apwos ke awora, mi ouchea kopwe apwungu ekei porous non omw ewe rekorten immunizason. En mi tongeni kori noumw ewe kangof epwe apwungu <1>ika kokori kich</1>. Sipwe esinei ngonuk ren met sia kuna me met ekewe angangen apwung ika fofor murin 2-3 week."
+    "incorrect": "Ika ewe porous won omw ewe digital rekorten apwos ese pwung ika kese angei ew apwos, ese pwung iten ika ekewe ranin apwos ke awora, mi ouchea kopwe apwungu ekei porous non omw ewe rekorten immunizason. En mi tongeni kori noumw ewe kangof epwe apwungu <1>ika kokori kich</1>. Sipwe esinei ngonuk ren met sia kuna me met ekewe angangen apwung ika fofor murin 2-3 week.",
+    "flotnumber": "Nampan ewe Lot: "
   }, 
   "receivedpage": {
     "title": "Risiten taropwen om tungor ren om katton noum taropwen apposen COVID-19 online ika on fon me kamputer.",
