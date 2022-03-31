@@ -37,8 +37,12 @@ function App() {
   useEffect(() => {
   if(i18n.language !== undefined)
   {
-    alert("Testing");
+    try{
     appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
+    }
+    catch(e){
+      alert(e.message);
+    }
    }
   },
   [i18n.language]);
