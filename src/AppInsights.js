@@ -1,7 +1,6 @@
 import { ApplicationInsights } from '@microsoft/applicationinsights-web';
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js';
 import { globalHistory } from "@reach/router";
-import configData from "../public/config";
 
 const { config } = window.config;
 const reactPlugin = new ReactPlugin();
