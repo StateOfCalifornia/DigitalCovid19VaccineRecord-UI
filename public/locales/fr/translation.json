@@ -72,7 +72,7 @@
     "download": "Télécharger",
     "needhelp": "Vous avez besoin d'aide?",
     "incorrect": "Si les informations figurant dans votre attestation de vaccination numérique sont incorrectes ou s'il manque une dose, si les dates sont erronées ou si la marque du vaccin administré est incorrecte, vous devrez peut-être corriger ou mettre à jour votre attestation de vaccination. Vous pouvez contacter votre professionnel de santé pour mettre à jour votre attestation ou <1>nous contacter</1>. Vous serez informé de nos conclusions et des mesures correctives dans un délai de 2 à 3 semaines.",
-    "flotnumber": "Numéro de lot"
+    "flotnumber": "Numéro de lot: "
   },
   "receivedpage": {
     "title": "Récépissé numérique de demande d'attestation de vaccination COVID-19",

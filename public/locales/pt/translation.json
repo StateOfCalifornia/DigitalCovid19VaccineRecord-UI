@@ -71,7 +71,7 @@
     "download": "Baixar", 
     "needhelp": "Precisa de mais alguma ajuda?", 
     "incorrect": "Se estiver faltando uma dose ou houver informações incorretas no seu comprovante digital de vacinação, como datas ou marca da vacina erradas, você deve corrigir ou atualizar o seu comprovante de imunização. Entre em contato com o provedor responsável pela vacinação para atualizar seu comprovante ou <1>entre em contato conosco</1>. No prazo de duas a três semanas, você será notificado sobre nosso parecer e ações de reparação.",
-    "flotnumber": "Número do lote"
+    "flotnumber": "Número do lote: "
 },
   "receivedpage": {
     "title": "Recibo da solicitação do Comprovante digital de vacinação contra a COVID-19",

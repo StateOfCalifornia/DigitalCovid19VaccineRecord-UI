@@ -71,7 +71,7 @@
 	  "download": "Tải về",
     "needhelp": "Bạn cần trợ giúp thêm?",
     "incorrect": "Nếu thông tin trong hồ sơ vắc-xin kỹ thuật số của bạn không chính xác hoặc thiếu liều tiêm, có ngày sai hoặc nhãn thuốc không chính xác, bạn có thể cần chỉnh sửa hoặc cập nhật hồ sơ tiêm chủng của mình. Bạn có thể liên hệ với nhà cung cấp của bạn để cập nhật hồ sơ của mình hoặc <1>liên hệ với chúng tôi</1>. Bạn sẽ được thông báo về kết quả và các biện pháp khắc phục của chúng tôi trong vòng 2-3 tuần.",
-    "flotnumber": "Số lô"
+    "flotnumber": "Số lô: "
   },
   "receivedpage": {
     "title": "Xác nhận đã gửi thông tin cho Hồ sơ Vắc xin COVID-19 Kỹ thuật số",

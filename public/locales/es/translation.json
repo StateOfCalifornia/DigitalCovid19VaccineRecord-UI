@@ -74,7 +74,7 @@
     "download": "Descargar",
     "needhelp": "¿Necesita ayuda?",
     "incorrect": "Si la información de su registro de vacunación digital es incorrecta, falta registrar información sobre alguna dosis, tiene fechas erróneas o una marca incorrecta, es posible que deba corregir o actualizar el registro de vacunación. Para actualizar sus registros, puede comunicarse con su proveedor o <1>con nosotros</1>. Se le notificará sobre nuestros hallazgos y medidas correctivas en unas 2 a 3 semanas.",
-    "flotnumber": "Número de lote"
+    "flotnumber": "Número de lote: "
   },
   "receivedpage": {
     "title": "Recepción de la solicitud para acceder al registro digital de verificación de la COVID-19",
