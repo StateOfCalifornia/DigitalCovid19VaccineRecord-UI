@@ -1,12 +1,13 @@
 import { ApplicationInsights } from '@microsoft/applicationinsights-web';
 import { ReactPlugin, withAITracking } from '@microsoft/applicationinsights-react-js';
 import { globalHistory } from "@reach/router";
+import configData from "../public/config";
 
-const {APPLICATION_INSIGHTS_INSTRUMENTATION_KEY} = window.config;
+const { config } = window.config;
 const reactPlugin = new ReactPlugin();
 const ai = new ApplicationInsights({
     config: {
-        instrumentationKey: {APPLICATION_INSIGHTS_INSTRUMENTATION_KEY},
+        instrumentationKey: { config }.APPLICATION_INSIGHTS_INSTRUMENTATION_KEY,
         extensions: [reactPlugin],
         extensionConfig: {
             [reactPlugin.identifier]: { history: globalHistory }
