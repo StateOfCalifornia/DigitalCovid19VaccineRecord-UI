@@ -14,7 +14,7 @@
     "content1": "Kidavaki ena iVolatukutuku Vakalivaliva ni iVakadinadina ni cula ena iCula ni COVID-19. Vola eso na ka e toka e ra me rawa ni dua kina nomu isema ena QR code ni ivolatukutuku vakalivaliva e vakadeitaka ni o sa cula ena icula ni COVID-19. Ke o vinakata mo vakaraitaka e dua na ivakadinadina ni nomu cula, e rawa ni o vakayagataka na ilavelave vakalivalia se na ilavelave tabaki ni veika e vakarautaki yani ena misini.",
     "content2": "O ira na vakavuvale era na rairai vakalewena na ivolatukutuku ni lewe ni nodra vuvale ra qai vakayagataka ga e dua na naba se imeli. Ena vinakati gona mo na vakalewena yadua na yacadra ni o vakayagataka na nomu naba se talevoni.",
     "content3": "Na misini ena vakarautaka na ilavelave vakalivaliva ena ivolatukutuku ni ituvaki ni icula ni dua na vanua. Ke o cula mai na dua na tabana ni veiqaravi (Department of Defense, Indian Health Services, or Veterans Affairs (Tabana ni iTataqomaki, Tabana ni Bula ni Idia, se Taba ni Veiqaravi ni Sotia Luvaisulu)), ena vinakati mo na veitaratara kei na taba ni veiqaravi qori.",
-    "content4": "Ke dua na taro o via taroga me baleta na iVakadinadina Vakalivaliva ni COVID-19, rai ena Taro e Tarogi Wasoma (FAQ) ."
+    "content4": "Ke dua na taro o via taroga me baleta na <1>iVakadinadina Vakalivaliva ni COVID-19</1>, rai ena Taro e Tarogi Wasoma (<3>FAQ</3>) ."
   },
   "vaccineform": {
     "filloutheader": "Yalovinaka mo vakalewena na veitikina eso a vinakati me dua kina nomu isema ni QR code / ilavelave vakalivaliva ni iVolatukutuku Vakalivaliva ni Veivakadeitaka ni o sa cula ena iCula ni COVID-19:",
@@ -37,7 +37,7 @@
     "pinErrorMsg7": "Sega ni donu na ka o vola, tovolea tale mada",
     "note": "<0>Nanuma:</0> Ena vinakati nomu PIN mo qai raica rawa kina na kemu itukutuku vakalivaliva.",
     "checkboxdescription": "Ke o toqa na kato qo, o sa bubuluitaka ni o na totogitaki ena ruku ni lawa ni matanitu ena vuku ni itukutuku lasu ke o dua e mai Cula se iTubutubu/Dauniveisusu nei koya a cula, sa tu vei iko na dodonu mo raica na ivolatukutuku kece nei koya e Cula.",
-    "safe": "Sa vakarautaki vei ira na kece na yabaki 5 lako cake na icula ni wainimate e tarova na COVID-19 e vinaka, sega ni saumi, qai veivakabulai, lai cula .",
+    "safe": "Sa vakarautaki vei ira na kece na yabaki 5 lako cake na icula ni wainimate e tarova na COVID-19 e vinaka, sega ni saumi, qai veivakabulai, <1>lai cula</1>.",
     "vaccineproductname": "Yaca ni iCula ni Wainimate",
     "subsubtitle": "iTukutuku ni iMatai ni Cula ni Wainimate e Tarova na COVID-19",
     "fproductname": "Yaca ni iCula ni Wainimate",
@@ -77,7 +77,7 @@
     "thankyou": "Vinaka vakalevu.",
     "content1": "Sa ciqomi na nomu kerekere. Ke tautauvata na itukutuku o vakarautaka kei na kena e tiko vei keitou, ena vakau yani e dua na isema mo raica na kina na ivolatukutuku ni ivakadinadina ni veika e vauca na COVID-19.",
     "content2": "Ke sega ni vakau yani ena loma ni 24 na aua na isema, yalovinaka mo tovolea tale qai vakadeitaka ni tautauvata na itukutuku o vakarautaka ena gauna ni nomu cula, qori na yacamu, tikinisiga ni nomu sucu, talevoni se na imeli.",
-    "content3": "Ke dua nomu taro me baleta na iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19 , sa tiko na kedra isau. Taro e Tarogi Wasoma (FAQ) .",
+    "content3": "Ke dua nomu taro me baleta na iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19 , sa tiko na kedra isau. Taro e Tarogi Wasoma (<1>FAQ</1>) .",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
