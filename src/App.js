@@ -35,15 +35,18 @@ function App() {
 
   // Application Insight Log entry to track requested language code.
   useEffect(() => {
-  if(i18n.language !== undefined)
-  {
-    try{
-    appInsights.trackTrace({message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information});
+    if(i18n.language !== undefined)
+    {
+      appInsights.trackTrace({
+          message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information,
+          properties:{
+            'LogLevel': 'Information',
+            'Category': 'DigitalCovid19VaccineRecord-UI',
+            'File': 'App.js',
+            'Function': App.name,
+            'User Agent': window.navigator.userAgent
+      }});
     }
-    catch(e){
-      alert(e.message);
-    }
-   }
   },
   [i18n.language]);
 
