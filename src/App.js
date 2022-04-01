@@ -43,7 +43,7 @@ function App() {
             'LogLevel': 'Information',
             'Category': 'DigitalCovid19VaccineRecord-UI',
             'File': 'App.js',
-            'Function': App.name,
+            'Function': 'App()',
             'User Agent': window.navigator.userAgent
       }});
     }
