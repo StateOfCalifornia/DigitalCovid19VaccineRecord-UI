@@ -24,6 +24,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
     const dataItem = document.querySelectorAll(".qrDataItem");
     let printWindow = window.open('', '', 'height=400', 'width=500');
+    
 
     window.setTimeout(function () {
       printWindow.addEventListener("afterprint", function () {
@@ -47,6 +48,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     });
 
     printWindow.document.write('</body></html>');
+    printWindow.document.body.dir = i18n.dir(i18n.language);
     printWindow.document.close();
     printWindow.print();
   }
