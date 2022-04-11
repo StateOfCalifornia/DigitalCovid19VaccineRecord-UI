@@ -34,21 +34,22 @@ function App() {
   document.body.dir = i18n.dir(i18n.language);
 
   // Application Insight Log entry to track requested language code.
-  useEffect(() => {
-    if(i18n.language !== undefined)
+  if(i18n.language !== undefined)
+  {
+    if((sessionStorage.getItem("requestedLanguageCode") === null) || (sessionStorage.getItem("requestedLanguageCode") !== null && sessionStorage.getItem("requestedLanguageCode") !== i18n.language))
     {
+      sessionStorage.setItem("requestedLanguageCode", i18n.language);
       appInsights.trackTrace({
-          message: 'Requested Language Code: ' + i18n.language, severityLevel: SeverityLevel.Information,
-          properties:{
-            'LogLevel': 'Information',
-            'Category': 'DigitalCovid19VaccineRecord-UI',
-            'File': 'App.js',
-            'Function': 'App()',
-            'User Agent': window.navigator.userAgent
+        message: 'Requested Language Code: ' + sessionStorage.getItem("requestedLanguageCode"), severityLevel: SeverityLevel.Information,
+        properties:{
+          'LogLevel': 'Information',
+          'Category': 'DigitalCovid19VaccineRecord-UI',
+          'File': 'App.js',
+          'Function': 'App()',
+          'User Agent': window.navigator.userAgent
       }});
     }
-  },
-  [i18n.language]);
+  }
 
   return (
     <MuiPickersUtilsProvider utils={DayJsUtils}>
