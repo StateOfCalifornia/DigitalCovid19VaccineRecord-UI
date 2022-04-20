@@ -318,11 +318,11 @@ const FAQScreen = () => {
           </dl>
         </div>
         <div class="col-sm-4">
-          <h3 id="NeedMoreHelp">
+          <h2 id="NeedMoreHelp">
             <Trans i18nKey="faqpage.needhelptitle">
               Need more help?
             </Trans>
-          </h3>
+          </h2>
           <Trans i18nKey="faqpage.needhelpcontent01">
             For questions and other assistance, contact:
           </Trans>

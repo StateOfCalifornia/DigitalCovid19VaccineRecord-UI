@@ -138,7 +138,7 @@ const CovidCard = () => {
     }
     if (document.getElementById('partitioned').value.length < 4) {
       tempErrorObj.Pin = true;
-      document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #f44336 0, #f44336 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+      document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
     }
     if (document.getElementById('dob') ? document.getElementById('dob').value.length < 1 : '') {
       tempErrorObj.Date = true;
@@ -392,6 +392,7 @@ const CovidCard = () => {
               onClick={(e) => handleClickBorder(e)}
               onChange={(e) => isValidInput(e) ? setError({ ...error, FirstName: false }) : setError({ ...error, FirstName: true })}
               error={error.FirstName}
+              errorStyle={{color: "#b30000"}}
               onBlur={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
             />
             <TextField
@@ -515,7 +516,7 @@ const CovidCard = () => {
                 }}
               />
             )}
-            <FormLabel component="legend" style={{ color: error.Pin ? '#f44336' : 'dimgrey', marginTop: "50px" }}>
+            <FormLabel component="legend" style={{ color: error.Pin ? '#b30000' : 'dimgrey', marginTop: "50px" }}>
               <Trans i18nKey="vaccineform.pincode">
                 Create a 4-digit PIN number. You'll receive a link to enter the PIN number and access your digital vaccine record. *
               </Trans>
@@ -532,7 +533,7 @@ const CovidCard = () => {
                     maxLength: 4,
                     minLength: 4,
                     required: true,
-                    onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #f44336 0, #f44336 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })]
+                    onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })]
                   }}
                   InputProps={{
                     className: classes.underline
@@ -542,7 +543,7 @@ const CovidCard = () => {
 
               </div>
             </div>
-            <label htmlFor='partitioned' style={{ color: 'red' }}>{errorMessage.type ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</label>
+            {errorMessage.type ? <label htmlFor='partitioned' style={{ color: 'red' }}><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
             <div style={{ marginBottom: "50px", marginTop: "20px" }}>
               <Trans i18nKey="vaccineform.note">
                 <span
@@ -562,6 +563,7 @@ const CovidCard = () => {
               <FormControlLabel
                 htmlFor='submitcheckbox'
                 aria-label='Policy Agree Checkbox'
+                label='Policy Agree Checkbox'
                 control={
                   <Checkbox
                     style={{ alignSelf: 'start', marginTop: '-5px' }}

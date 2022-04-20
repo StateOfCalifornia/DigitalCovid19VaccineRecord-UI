@@ -141,14 +141,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
         </div>
 
         <div className="dataDiv" id="data-div">
-          <h2
-            style={{
-              color: "#22489c",
-              margin: "20px 0 10px 0",
-              fontSize: "130%",
-            }}
-          >
-          </h2>
+          
           <p className="qrDataItem">
             <b>
               <Trans i18nKey="qrpage.name">Name: </Trans>
