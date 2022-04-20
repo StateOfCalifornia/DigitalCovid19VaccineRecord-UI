@@ -54,14 +54,14 @@
     "enterPin": "Geben Sie bitte die PIN-Nummer ein, die Sie erstellt haben, um Zugang zu Ihrem Impfpass zu bekommen."
   },
   "qrpage": {
-    "title": "Personenbezogenes COVID-19-Digitalzertifikat ", 
+    "title": "Personenbezogenes COVID-19-Digitalzertifikat", 
     "pincode": "PIN-Nummer:", 
-    "vacinfo": "Impfdaten ", 
-    "name": "Name: ", 
-    "dateofbirth": "Geburtsdatum: ", 
+    "vacinfo": "Impfdaten", 
+    "name": "Name", 
+    "dateofbirth": "Geburtsdatum", 
     "dose": "Dosis ", 
-    "date": "Datum: ", 
-    "type": "Typ/Hersteller: ", 
+    "date": "Datum", 
+    "type": "Typ/Hersteller", 
     "howtosave": "Zum Speichern", 
     "takeascreenshot": "Screenshot anfertigen", 
     "or": "Oder", 
@@ -71,7 +71,7 @@
     "download": "Herunterladen", 
     "needhelp": "Sie benötigen weitere Hilfe?", 
     "incorrect": "Wenn die Informationen in Ihrem digitalen Impfpass falsch sind oder eine Dosis fehlt, ein falsches Datum oder eine falsche Marke angegeben ist, müssen Sie möglicherweise Ihren Impfpass korrigieren oder aktualisieren lassen. Sie können sich an Ihren Impfarzt wenden, um Ihre Daten aktualisieren zu lassen, oder Sie nehmen <1>Kontakt</1> zu uns auf. Sie werden innerhalb von 2–3 Wochen über unsere Ergebnisse und Korrekturmaßnahmen informiert.",
-    "flotnumber": "Losnummer: "
+    "flotnumber": "Losnummer"
 },  
   "receivedpage": {
     "title": "Eingang der Anforderung eines COVID-19-Digitalzertifikats",

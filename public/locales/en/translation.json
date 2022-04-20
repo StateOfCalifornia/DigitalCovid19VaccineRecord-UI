@@ -62,12 +62,12 @@
     "language": "en",
     "title": "Personal Digital COVID-19 Verification Record",
     "pincode": "PIN Number:",
-    "vacinfo": "Vaccination Information: ",
-    "name": "Name: ",
-    "dateofbirth": "DOB: ",
+    "vacinfo": "Vaccination Information",
+    "name": "Name",
+    "dateofbirth": "DOB",
     "dose": "Dose ",
-    "date": "Date: ",
-    "type": "Type/Mfr.: ",
+    "date": "Date",
+    "type": "Type/Mfr.",
     "howtosave": "To Save",
     "takeascreenshot": "Take a screenshot",
     "or": "Or",
@@ -77,7 +77,7 @@
     "download": "Download",
     "needhelp": "Need More Help?",
     "incorrect": "If the information on your digital vaccine record is incorrect or missing a dose, has wrong dates or incorrect brand, you may need to correct or update your immunization record. You can contact your provider to update your record or <1>contact us</1>. You will be notified of our findings and remediation actions within 2-3 weeks.",
-    "flotnumber": "Lot Number: "
+    "flotnumber": "Lot Number"
   },
   "receivedpage": {
     "title": "Digital COVID-19 Verification Record Request Receipt ",

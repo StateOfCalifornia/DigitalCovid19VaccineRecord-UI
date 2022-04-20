@@ -14,6 +14,12 @@ import Canvas2Image from "../utils/canvas2image";
 
 const QRData = ({ user, qr, apple, google, isMobile }) => {
   const { i18n } = useTranslation();
+  const english_i18n = i18n.createInstance({
+    supportedLngs: ['en-US']
+  }, (err, t) => {
+    if (err) return console.log('something went wrong loading', err);
+    t('key');
+  });
   useEffect(() => {
     const qrEl = document.getElementById("qr_img");
     qrEl.scrollIntoView();
@@ -106,7 +112,16 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     <div className={'center-w-margin'}>
       <div>
         <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "20px", overflowWrap: "break-word" }}>
+        {i18n.language != "en" ? (
+          <>
           <Trans i18nKey="qrpage.title">
+            Personal Digital COVID-19 Vaccine Record
+          </Trans>
+          &nbsp;/&nbsp;
+          </>
+          ) : null}
+
+          <Trans i18nKey="qrpage.title" i18n={english_i18n}>
             Personal Digital COVID-19 Vaccine Record
           </Trans>
         </h1>
@@ -143,15 +158,29 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
         <div className="dataDiv" id="data-div">
           
           <p className="qrDataItem">
-            <b>
-              <Trans i18nKey="qrpage.name">Name: </Trans>
-            </b>
+            <bdi>
+              {i18n.language != "en" ? (
+                <>
+                <Trans i18nKey="qrpage.name">Name: </Trans>
+                &nbsp;/&nbsp;
+                </>
+              ) : null}
+
+              <Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans>:&nbsp;
+            </bdi>
             {`${user.firstName} ${user.lastName}`}
           </p>
           <p className="qrDataItem">
-            <b>
-              <Trans i18nKey="qrpage.dateofbirth">DOB: </Trans>
-            </b>
+            <bdi>
+              {i18n.language != "en" ? (
+                <>
+                <Trans i18nKey="qrpage.dateofbirth">DOB: </Trans>
+                &nbsp;/&nbsp;
+                </>
+              ) : null}
+
+              <Trans i18nKey="qrpage.dateofbirth" i18n={english_i18n}>DOB</Trans>:&nbsp;
+            </bdi>
             {user.dob}
           </p>
           <hr />
@@ -159,24 +188,42 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           {user.doses.map((dose, idx) => (
             <div key={`dose${idx}`}>
               <p className="qrDataItem">
-                <b>
-                  <Trans i18nKey="qrpage.dose">Dose </Trans>
-                  <Trans i18nKey="qrpage.date">Date: </Trans>
-                </b>
+                <bdi>
+                  {i18n.language != "en" ? (
+                    <>
+                    <Trans i18nKey="qrpage.date">Date: </Trans>
+                    &nbsp;/&nbsp;
+                    </>
+                  ) : null}
+
+                  <Trans i18nKey="qrpage.date" i18n={english_i18n}>Date</Trans>:&nbsp;
+                </bdi>
                 {dose.doa}
               </p>
               <p className="qrDataItem">
-                <b>
-                  <Trans i18nKey="qrpage.dose">Dose </Trans>
-                  <Trans i18nKey="qrpage.type">Type/Mfr: </Trans>
-                </b>
+                <bdi>
+                  {i18n.language != "en" ? (
+                    <>
+                    <Trans i18nKey="qrpage.type">Type/Mfr: </Trans>
+                    &nbsp;/&nbsp;
+                    </>
+                  ) : null}
+
+                  <Trans i18nKey="qrpage.type" i18n={english_i18n}>Type/Mfr</Trans>:&nbsp;
+                </bdi>
                 {dose.type}
               </p>
               <p className="qrDataItem">
-                <b>
-                  <Trans i18nKey="qrpage.dose">Dose </Trans>
-                  <Trans i18nKey="qrpage.flotnumber">Lot Number: </Trans>
-                </b>
+                <bdi>
+                  {i18n.language != "en" ? (
+                    <>
+                    <Trans i18nKey="qrpage.flotnumber">Lot Number: </Trans>
+                    &nbsp;/&nbsp;
+                    </>
+                  ) : null}
+
+                  <Trans i18nKey="qrpage.flotnumber" i18n={english_i18n}>Lot Number</Trans>:&nbsp;
+                </bdi>
                 {dose.lotNumber}
               </p>
               <hr />
