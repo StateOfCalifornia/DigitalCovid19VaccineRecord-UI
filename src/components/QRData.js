@@ -168,7 +168,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
               <Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans>:&nbsp;
             </bdi>
-            {`${user.firstName} ${user.lastName}`}
+            {user.suffix == null ? `${user.firstName} ${user.lastName}` : `${user.firstName} ${user.lastName} ${user.suffix}`}
           </p>
           <p className="qrDataItem">
             <bdi>
