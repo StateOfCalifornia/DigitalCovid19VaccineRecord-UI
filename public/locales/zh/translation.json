@@ -58,13 +58,13 @@
   "qrpage": {
     "language": "汉语普通话",
     "title": "COVID-19 个人电子验证记录",
-    "pincode": "PIN 号码：",
-    "vacinfo": "接种信息： ",
-    "name": "姓名： ",
-    "dateofbirth": "出生日期： ",
+    "pincode": "PIN 号码",
+    "vacinfo": "接种信息",
+    "name": "姓名",
+    "dateofbirth": "出生日期",
     "dose": "针剂 ",
-    "date": "日期： ",
-    "type": "类型/制造商： ",
+    "date": "日期",
+    "type": "类型/制造商",
     "howtosave": "保存",
     "takeascreenshot": "截屏",
     "or": "或",
@@ -74,7 +74,7 @@
     "download": "下载",
     "needhelp": "需要更多帮助？",
     "incorrect": "如果您的电子疫苗接种记录信息存在错误或者缺失针剂、日期或者品牌错误，你可以更正或更新您的免疫记录。您可以联系您的医疗保健提供者以更新您的记录，或<1>联系我们</1>。我们会在 2-3 周内向您发送我们的调查结果和补救措施的通知。",
-    "flotnumber": "批号： "
+    "flotnumber": "批号"
   },
   "receivedpage": {
     "title": "数字 COVID-19 验证记录请求凭证",

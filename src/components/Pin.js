@@ -159,7 +159,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               maxLength: 4,
               minLength: 4,
               required: true,
-              onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #f44336 0, #f44336 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })]
+              onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })]
             }}
             InputProps={{
               className: classes.underline

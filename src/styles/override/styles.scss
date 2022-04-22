@@ -154,3 +154,22 @@ dl.faq button {
   .MuiInputLabel-formControl{
     left:auto !important;
   }
+
+  .MuiInput-underline.Mui-error:after {
+    border-bottom-color: #b30000 !important;
+  }
+
+  .MuiFormLabel-root.Mui-error{
+    color: #b30000 !important;
+  }
+
+  .MuiFormLabel-asterisk.Mui-error {
+    color: #b30000 !important;
+  }
+
+  label[for="submitcheckbox"]>.MuiFormControlLabel-label{
+    display: none;
+  }
+  bdi{
+    font-weight: bold;
+  }
