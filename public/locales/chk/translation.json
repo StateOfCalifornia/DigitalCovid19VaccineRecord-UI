@@ -54,14 +54,14 @@
     "enterPin": "Kose mochen makenong nampan noum PIN ewe ke fori ika ke mochen kuna noum taropwen appos online."
   },
   "qrpage": {
-    "title": "Pusin omw digital COVID-19 Rekort ren verifikason", 
+    "title": "Pusin omw digital COVID-19 Afatan Record", 
     "pincode": "Namban PIN:", 
     "vacinfo": "Porousen omw Apwos", 
     "name": "Itomw", 
     "dateofbirth": "Ranin uputiw", 
     "dose": "Tetenin apwos ", 
     "date": "Pwinin ran", 
-    "type": "Meni Sokun/Mfr", 
+    "type": "Meni Sokun/Mfr.", 
     "howtosave": "Kopwe safini", 
     "takeascreenshot": "Angei eche screenshot", 
     "or": "Ika", 
