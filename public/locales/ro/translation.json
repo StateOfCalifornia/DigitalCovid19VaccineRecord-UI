@@ -54,7 +54,7 @@
     "enterPin": "Introduceți codul PIN pe care l-ați creat pentru a solicita accesul la fișa dvs. de vaccinare."
   },
   "qrpage": {
-    "title": "Fișă personală digitală privind vaccinarea COVID-19", 
+    "title": "Certificat digital COVID-19 personal", 
     "pincode": "Cod PIN", 
     "vacinfo": "Informații despre vaccin", 
     "name": "Nume", 
