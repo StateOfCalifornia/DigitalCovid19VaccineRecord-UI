@@ -121,9 +121,9 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           </>
           ) : null}
 
-          <Trans i18nKey="qrpage.title" i18n={english_i18n}>
+          <span dir="ltr"><Trans i18nKey="qrpage.title" i18n={english_i18n}>
             Personal Digital COVID-19 Vaccine Record
-          </Trans>
+          </Trans></span>
         </h1>
       </div>
       <div className={'qr-flex'} style={{ display: "flex", flexWrap: "wrap" }} id={'data-for-image'}>
