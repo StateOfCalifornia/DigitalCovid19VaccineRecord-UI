@@ -211,7 +211,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
 
                   <span dir="ltr"><Trans i18nKey="qrpage.type" i18n={english_i18n}>Type/Mfr.</Trans></span>:&nbsp;
                 </bdi>
-                {dose.type}
+                <span dir="ltr">{dose.type}</span>
               </p>
               <p className="qrDataItem">
                 <bdi>
