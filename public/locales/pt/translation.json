@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Informações sobre a dose de reforço da vacina contra a COVID-19",
     "submitbutton": "Enviar",
-    "enterPin": "Insira o número PIN que você criou para solicitar acesso ao seu comprovante de vacinas."
+    "enterPin": "Insira o número PIN que você criou para solicitar acesso ao seu comprovante de vacinas.",
+    "ok": "OK",
+    "cancel": "Cancelar"
   },
   "qrpage": {
     "title": "Comprovante digital de vacinação contra a COVID-19", 
