@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Taarifa ya Dozi ya Kuongeza Nguvu Chanjo ya COVID-19",
     "submitbutton": "Wasilisha",
-    "enterPin": "Tafadhali ingiza nambari ya PIN uliyounda ili kuomba ufikiaji wa rekodi yako ya chanjo."
+    "enterPin": "Tafadhali ingiza nambari ya PIN uliyounda ili kuomba ufikiaji wa rekodi yako ya chanjo.",
+    "ok": "Sawa",
+    "cancel": "Katisha"
   },
   "qrpage": {
     "title": "Rekodi ya Kibinafsi ya Kidijitali ya Uthibitishaji wa COVID-19", 
