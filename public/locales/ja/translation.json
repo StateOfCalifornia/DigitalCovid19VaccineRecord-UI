@@ -50,7 +50,9 @@
       "sfirstvaccinationdate": "", 
       "shealthcareprofessional": "", 
       "submitbutton": "送信", 
-      "enterPin": "ワクチン接種記録へのアクセスを依頼するには、ご自身で作成したPIN番号を入力してください。"
+      "enterPin": "ワクチン接種記録へのアクセスを依頼するには、ご自身で作成したPIN番号を入力してください。",
+      "ok": "OK",
+      "cancel": "キャンセル"
   }, 
   "qrpage": {
       "title": "個人用COVID-19ワクチン接種電子記録", 
