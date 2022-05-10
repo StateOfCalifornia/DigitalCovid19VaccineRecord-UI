@@ -50,7 +50,9 @@
     "sproductname": "اسم المنتج",
     "slotnumber": "عدد الكثير",
     "sfirstvaccinationdate": "تاريخ التطعيم الثاني",
-    "shealthcareprofessional": "أخصائي الرعاية الصحية أو موقع العيادة"
+    "shealthcareprofessional": "أخصائي الرعاية الصحية أو موقع العيادة",
+    "ok": "موافق",
+    "cancel": "إلغاء"
   },
   "qrpage": {
     "language": "العَرَبِيةُ",
