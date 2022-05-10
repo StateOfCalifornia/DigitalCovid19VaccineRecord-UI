@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Fa’amatalaga mo Tui puipuia faaopopo o le tui KOVITI-19",
     "submitbutton": "Tuuina atu",
-    "enterPin": "Faamolemole tuu i totonu le numera PIN e mafaia ai ona maua faamaumauga o ou tui."
+    "enterPin": "Faamolemole tuu i totonu le numera PIN e mafaia ai ona maua faamaumauga o ou tui.",
+    "ok": "lelei",
+    "cancel": "Fa'aleaogaina"
   },
   "qrpage": {
     "title": "Fa’amaumauga Fa’amaonia o le KOVITI-19 i luga o Upega Tafa’ilagi mo le Tagata e To’atasi", 
