@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Informationen zur Auffrischungsdosis des COVID-19-Impfstoffs",
     "submitbutton": "Senden",
-    "enterPin": "Geben Sie bitte die PIN-Nummer ein, die Sie erstellt haben, um Zugang zu Ihrem Impfpass zu bekommen."
+    "enterPin": "Geben Sie bitte die PIN-Nummer ein, die Sie erstellt haben, um Zugang zu Ihrem Impfpass zu bekommen.",
+    "ok": "OK",
+    "cancel": "Abbrechen"
   },
   "qrpage": {
     "title": "Personenbezogenes COVID-19-Digitalzertifikat", 
