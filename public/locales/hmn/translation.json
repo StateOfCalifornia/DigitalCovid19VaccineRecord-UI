@@ -51,7 +51,9 @@
         "shealthcareprofessional": "", 
         "Subsubsubtitle": "Ntaub ntawv kev paub txog Tshuaj Tiv Thaiv Kab Mob COVID-19 koob tshuaj pab txhawb ntxiv", 
         "submitbutton": "Xa", 
-        "enterPin": "Thov ntaus nkag tus zauv PIN uas koj tau tsim los thov nkag mus rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob."
+        "enterPin": "Thov ntaus nkag tus zauv PIN uas koj tau tsim los thov nkag mus rau koj li ntaub ntawv sau tseg txog tshuaj tiv thaiv kab mob.",
+        "ok": "Siv Tau",
+        "cancel": "Tua Tawm"
     }, 
     "qrpage": {
         "title": "Kev Txheeb Xyuas Ntaub Ntawv Sau Tseg Txog Kab Mob COVID-19 Ua Dis Cis Tauj Ntiag Tug", 
