@@ -56,7 +56,9 @@
     "sfirstvaccinationdate": "",
     "shealthcareprofessional": "",
     "submitbutton": "Submit",
-    "enterPin": "Please enter the PIN code you created to request access to your vaccine record."
+    "enterPin": "Please enter the PIN code you created to request access to your vaccine record.",
+    "ok": "Ok",
+    "cancel": "Cancel"
   },
   "qrpage": {
     "language": "en",

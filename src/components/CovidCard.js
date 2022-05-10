@@ -432,6 +432,8 @@ const CovidCard = () => {
               maxDate={new Date('2021-01-01')}
               onClick={() => selectLocale(i18n.resolvedLanguage.toString())}
               onBlur={(e) => e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })}
+              okLabel={<Trans i18nKey="vaccineform.ok">Ok</Trans>}
+              cancelLabel={<Trans i18nKey="vaccineform.cancel">Cancel</Trans>}
             />
             </MuiPickersUtilsProvider>
             {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
