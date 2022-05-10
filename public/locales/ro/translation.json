@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Informații privind doza booster a vaccinului anti-COVID-19",
     "submitbutton": "Trimiteți",
-    "enterPin": "Introduceți codul PIN pe care l-ați creat pentru a solicita accesul la fișa dvs. de vaccinare."
+    "enterPin": "Introduceți codul PIN pe care l-ați creat pentru a solicita accesul la fișa dvs. de vaccinare.",
+    "ok": "OK",
+    "cancel": "Anulare"
   },
   "qrpage": {
     "title": "Certificat digital COVID-19 personal", 
