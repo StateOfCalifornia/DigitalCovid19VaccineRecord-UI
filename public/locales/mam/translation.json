@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Q’umb’aj tumal tej paq b’aq te q’olak tipomal te tej tx’u’j yab’il te COVID-19",
     "submitbutton": "Smanx ",
-    "enterPin": "Tz’ib’ak’ax j-PIN tey xjaw tb’incha’ tu’ tokx tqanay te tu’ tokxay toj jatuma tz’ib’waxay ti’j b’aq."
+    "enterPin": "Tz’ib’ak’ax j-PIN tey xjaw tb’incha’ tu’ tokx tqanay te tu’ tokxay toj jatuma tz’ib’waxay ti’j b’aq.",
+    "ok": "Matxe",
+    "cancel": "Tu'n Tnaj"
   },
   "qrpage": {
     "title": "U’j tu’n tku’x Ke’yit Tqanil toj Yolb’il tun Tjyet COVID-19", 
