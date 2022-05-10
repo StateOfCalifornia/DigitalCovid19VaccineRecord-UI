@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Tu’un siki ja kani tuku vacuna COVID-19",
     "submitbutton": "Tetiñu",
-    "enterPin": "Chi’in ní número PIN ja ni kaji ní kuu kivi ní kunde’e ní tutu siki tu’un nasa iyo vacuna ní."
+    "enterPin": "Chi’in ní número PIN ja ni kaji ní kuu kivi ní kunde’e ní tutu siki tu’un nasa iyo vacuna ní.",
+    "ok": "Iyo va'a",
+    "cancel": "Ma sa'a"
   },
   "qrpage": {
     "title": "Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19", 
