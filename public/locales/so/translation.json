@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Macluumaadka Tallaalka COVID-19 ee Qiyaasta/Dooska Xoojinta ah",
     "submitbutton": "Dir",
-    "enterPin": "Fadlan gali Lambar Sireedka Aqoonsiga Shakhsiga aad sameysatay si aad u codsato isticmaalka diiwaankaaga tallaalka."
+    "enterPin": "Fadlan gali Lambar Sireedka Aqoonsiga Shakhsiga aad sameysatay si aad u codsato isticmaalka diiwaankaaga tallaalka.",
+    "ok": "Hagaag ",
+    "cancel": "Kansal gareey"
   },
   "qrpage": {
     "title": "Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka ah ee Shaqsiga ah", 
