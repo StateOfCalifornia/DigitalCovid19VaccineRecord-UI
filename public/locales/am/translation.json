@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "የማጠናከርያ ዶዝ የ COVID-19 ክትባት መረጃ",
     "submitbutton": "ያስገቡ",
-    "enterPin": "እባክዎ የክትባት መዝገብዎን ለማግኘት የፈጠሩትን የ PIN ቁጥር ያስገቡ።"
+    "enterPin": "እባክዎ የክትባት መዝገብዎን ለማግኘት የፈጠሩትን የ PIN ቁጥር ያስገቡ።",
+    "ok": "እሺ",
+    "cancel": "ሰርዝ"
   },
   "qrpage": {
     "title": "የግል ዲጂታል የ COVID-19 ማረጋገጫ መዝገብ", 
