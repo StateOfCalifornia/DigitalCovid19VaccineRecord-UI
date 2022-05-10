@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Informations sur la dose de rappel de vaccin COVID-19",
     "submitbutton": "Envoyer",
-    "enterPin": "Veuillez saisir le code PIN que vous avez créé pour demander l'accès à votre attestation de vaccination."
+    "enterPin": "Veuillez saisir le code PIN que vous avez créé pour demander l'accès à votre attestation de vaccination.",
+    "ok": "OK",
+    "cancel": "Annuler"
   },
   "qrpage": {
     "language": "Français",
