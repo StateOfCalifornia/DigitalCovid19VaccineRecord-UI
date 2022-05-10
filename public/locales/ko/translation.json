@@ -50,7 +50,9 @@
     "sfirstvaccinationdate": "2 차 예방 접종 일",
     "shealthcareprofessional": "의료 전문가 또는 클리닉 사이트",
     "submitbutton": "제출",
-    "enterPin": "귀하의 백신 기록 확인을 요청하기 위해 생성하신 PIN 번호를 입력해 주십시오."
+    "enterPin": "귀하의 백신 기록 확인을 요청하기 위해 생성하신 PIN 번호를 입력해 주십시오.",
+    "ok": "확인",
+    "cancel": "취소"
   },
   "qrpage": {
     "language": "한국어",
