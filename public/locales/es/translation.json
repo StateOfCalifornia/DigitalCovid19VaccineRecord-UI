@@ -53,7 +53,9 @@
     "sfirstvaccinationdate": "",
     "shealthcareprofessional": "",
     "submitbutton": "Enviar",
-    "enterPin": "Ingrese el PIN que creó para solicitar el acceso al registro de vacunación."
+    "enterPin": "Ingrese el PIN que creó para solicitar el acceso al registro de vacunación.",
+    "ok": "Aceptar",
+    "cancel": "Cancelar"
   },
   "qrpage": {
     "language": "Español",
