@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Odeeffannoo Talaallii COVID-19 Doozii Dandeettii Dhibee Ittisuu Dabalu",
     "submitbutton": "Galchi",
-    "enterPin": "Ragaa talaallii kee argachuuf lakkoofsa PIN uumte sana galchaa."
+    "enterPin": "Ragaa talaallii kee argachuuf lakkoofsa PIN uumte sana galchaa.",
+    "ok": "Tole",
+    "cancel": "Haqi"
   },
   "qrpage": {
     "title": "Galmee Mirkaneessa Ragaa COVID-19 Dijitaalaa kan Dhuunfa", 
