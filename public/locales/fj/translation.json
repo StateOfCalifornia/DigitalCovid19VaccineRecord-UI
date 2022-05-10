@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "iTukutuku ni iCula ni Veivakaukauataki ni Wainimate e Tarova na COVID-19",
     "submitbutton": "Vakauta",
-    "enterPin": "Yalovinaka mo tabaka na naba ni PIN o bulia mo rawa ni raica kina na itukutuku ni nomu cula."
+    "enterPin": "Yalovinaka mo tabaka na naba ni PIN o bulia mo rawa ni raica kina na itukutuku ni nomu cula.",
+    "ok": "Donu",
+    "cancel": "Boko"
   },
   "qrpage": {
     "title": "iVolatukutuku Vakalivaliva ni iVakadinadina ni veika e Vauca na COVID-19", 
