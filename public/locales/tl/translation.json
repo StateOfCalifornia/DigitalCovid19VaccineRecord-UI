@@ -51,7 +51,9 @@
     "shealthcareprofessional": "Propesyonal sa Pangangalaga ng Kalusugan o Site ng Clinic",
     "submitbutton": "Isumite",
     "enterPin": "Mangyaring ilagay ang numero ng PIN na ginawa mo para i-access ang iyong rekord ng bakuna.",
-    "PinCode": "PIN CODE"
+    "PinCode": "PIN CODE",
+    "ok": "OK",
+    "cancel": "Kanselahin"
   },
   "qrpage": {
     "language": "Tagalog",
