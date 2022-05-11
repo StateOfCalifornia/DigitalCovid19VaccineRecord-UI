@@ -53,7 +53,9 @@
     "sfirstvaccinationdate": "",
     "shealthcareprofessional": "",
     "submitbutton": "提交",
-    "enterPin": "請輸入您建立的 PIN 碼以請求存取您的疫苗記錄。"
+    "enterPin": "請輸入您建立的 PIN 碼以請求存取您的疫苗記錄。",
+    "ok": "確認",
+    "cancel": "取消"
   },
   "qrpage": {
     "language": "漢語廣東話",
