@@ -50,7 +50,9 @@
     "sfirstvaccinationdate": "Ngày tiêm chủng lần 2",
     "shealthcareprofessional": "Chuyên gia chăm sóc sức khỏe hoặc trang web phòng khám",
     "submitbutton": "Gửi",
-    "enterPin": "Vui lòng nhập số PIN mà bạn đã tạo để yêu cầu truy cập hồ sơ vắc-xin của bạn."
+    "enterPin": "Vui lòng nhập số PIN mà bạn đã tạo để yêu cầu truy cập hồ sơ vắc-xin của bạn.",
+    "ok": "OK",
+    "cancel": "Hủy"
   },
   "qrpage": {
     "language": "en",
