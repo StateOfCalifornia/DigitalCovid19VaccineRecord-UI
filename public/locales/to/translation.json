@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Fakamatala ki he Booster (Huhu Tānaki) COVID-19",
     "submitbutton": "Fakahū",
-    "enterPin": "Kātaki ‘o fakahū ho’o fika PIN na’a ke fa’ú ke ma’u tau ‘aki ho’o lēkooti huhu malu’í."
+    "enterPin": "Kātaki ‘o fakahū ho’o fika PIN na’a ke fa’ú ke ma’u tau ‘aki ho’o lēkooti huhu malu’í.",
+    "ok": "Ok",
+    "cancel": "Kaniseli"
   },
   "qrpage": {
     "title": "Fakafo’ituitui Lēkooti Fakamo’oni Huhu Malu'i COVID-19", 
