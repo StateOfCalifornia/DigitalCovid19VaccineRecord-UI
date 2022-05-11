@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "COVID-19 Aşısı Hatırlatma Dozu bilgileri",
     "submitbutton": "Gönder",
-    "enterPin": "Lütfen aşı kaydınıza erişim istemek için oluşturduğunuz PIN kodunu girin."
+    "enterPin": "Lütfen aşı kaydınıza erişim istemek için oluşturduğunuz PIN kodunu girin.",
+    "ok": "Tamam",
+    "cancel": "İptal"
   },
   "qrpage": {
     "title": "Kişisel Dijital COVID-19 Doğrulama Kaydı", 
