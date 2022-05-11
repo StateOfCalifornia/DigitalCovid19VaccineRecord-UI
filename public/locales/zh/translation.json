@@ -53,7 +53,9 @@
     "sfirstvaccinationdate": "第一次接种日期",
     "shealthcareprofessional": "医疗保健专业人员或诊所站点",
     "submitbutton": "提交",
-    "enterPin": "请输入您创建的 PIN 码以请求访问您的疫苗记录。"
+    "enterPin": "请输入您创建的 PIN 码以请求访问您的疫苗记录。",
+    "ok": "确认",
+    "cancel": "取消"
   },
   "qrpage": {
     "language": "汉语普通话",
