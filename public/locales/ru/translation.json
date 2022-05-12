@@ -133,6 +133,7 @@
     "needhelpcontent03": "Понедельник: с 06:00 до 22:00",
     "needhelpcontent04": "Вторник-воскресенье: с 06:00 до 18:00",
     "needhelpcontent05": "В дни государственных праздников звонки не принимаются",
-    "needhelpcontent06": "<0>ПРИМЕЧАНИЕ.</0> Мы не можем обновить вашу цифровую запись о вакцинации от COVID-19 по телефону."
+    "needhelpcontent06": "<0>ПРИМЕЧАНИЕ.</0> Мы не можем обновить вашу цифровую запись о вакцинации от COVID-19 по телефону.",
+    "vaccineVerificationLink": "https://doh.wa.gov/ru/illyustrirovannoe-rukovodstvo-dlya-shtata-vashington-podtverzhdenie-vakcinacii-ot-covid-19"
   }
 }
