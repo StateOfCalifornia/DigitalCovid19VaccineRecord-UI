@@ -132,6 +132,7 @@
     "needhelpcontent03": "Segunda-feira, das 6h às 22h",
     "needhelpcontent04": "De terça-feira a domingo, das 6h às 18h",
     "needhelpcontent05": "Fechado em feriados estaduais",
-    "needhelpcontent06": "<0>OBSERVAÇÃO:</0> Não é possível atualizar o seu Comprovante digital de vacinação contra a COVID-19 pelo telefone."
+    "needhelpcontent06": "<0>OBSERVAÇÃO:</0> Não é possível atualizar o seu Comprovante digital de vacinação contra a COVID-19 pelo telefone.",
+    "vaccineVerificationLink": "https://doh.wa.gov/pt-br/guia-visual-do-comprovante-verificado-de-vacinacao-contra-covid-19-do-estado-de-washington"
   }
 }
