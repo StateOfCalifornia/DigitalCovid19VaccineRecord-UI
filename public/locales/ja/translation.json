@@ -128,6 +128,7 @@
       "needhelpcontent03": "月曜日：午前6時～午後10時", 
       "needhelpcontent04": "火曜日～日曜日：午前6時～午後6時", 
       "needhelpcontent05": "州の祭日は休業日となります", 
-      "needhelpcontent06": "<0>注意：</0>お電話でのコロナワクチン接種電子記録の更新手続きは受け付けておりません"
+      "needhelpcontent06": "<0>注意：</0>お電話でのコロナワクチン接種電子記録の更新手続きは受け付けておりません",
+      "vaccineVerificationLink": "https://doh.wa.gov/ja/washintonzhougongshicovid-19-wakuchinjiezhongzhengmingniguansuruhishiyuarukaito"
   }
 }
