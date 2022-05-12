@@ -132,6 +132,7 @@
     "needhelpcontent03": "Montag 6:00 Uhr – 22:00 Uhr",
     "needhelpcontent04": "Dienstag – Sonntag 6:00 Uhr – 18:00 Uhr",
     "needhelpcontent05": "An bundesstaatlichen Feiertagen geschlossen",
-    "needhelpcontent06": "<0>HINWEIS:</0> Wir können Ihr COVID-19-Digitalzertifikat nicht telefonisch aktualisieren."
+    "needhelpcontent06": "<0>HINWEIS:</0> Wir können Ihr COVID-19-Digitalzertifikat nicht telefonisch aktualisieren.",
+    "vaccineVerificationLink": "https://doh.wa.gov/de/visueller-leitfaden-zum-offiziellen-nachweis-der-covid-19-impfung-des-staates-washington"
   }
 }
