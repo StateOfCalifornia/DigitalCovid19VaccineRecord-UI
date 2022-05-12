@@ -133,6 +133,7 @@
     "needhelpcontent03": "Lundi 6h-22h", 
     "needhelpcontent04": "Mardi-dimanche 6h-18h", 
     "needhelpcontent05": "Fermé les jours fériés", 
-    "needhelpcontent06": "<0>REMARQUE:</0> Nous ne sommes pas en mesure de mettre à jour votre Attestation numérique de vaccination COVID-19 par téléphone"
+    "needhelpcontent06": "<0>REMARQUE:</0> Nous ne sommes pas en mesure de mettre à jour votre Attestation numérique de vaccination COVID-19 par téléphone",
+    "vaccineVerificationLink": "https://doh.wa.gov/fr/guide-visuel-des-justificatifs-de-vaccination-covid-19-officiels-de-letat-de-washington"
   }
 }
