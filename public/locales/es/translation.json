@@ -135,6 +135,7 @@
     "needhelpcontent03": "Los lunes de 6 a. m. a 10 p. m.",
     "needhelpcontent04": "De martes a domingo de 6 a. m. a 6 p. m.",
     "needhelpcontent05": "Cerrado los días festivos estatales",
-    "needhelpcontent06": "<0>NOTA</0>: No podemos actualizar su Registro digital de verificación de COVID-19 por teléfono"                
+    "needhelpcontent06": "<0>NOTA</0>: No podemos actualizar su Registro digital de verificación de COVID-19 por teléfono",
+    "vaccineVerificationLink": "https://doh.wa.gov/es/emergencies-covid-19-vaccine-information/certificado-de-vacunacion"
   }
 }
