@@ -51,7 +51,9 @@
         "shealthcareprofessional": "", 
         "Subsubsubtitle": "பூஸ்டர் டோஸ் Covid-19 தடுப்பூசி தகவல்", 
         "submitbutton": "சமர்ப்பிக்கவும்", 
-        "enterPin": "உங்கள் தடுப்பூசி பதிவிற்கான அணுகலைக் கோர நீங்கள் உருவாக்கிய PIN எண்ணை உள்ளிடவும்."
+        "enterPin": "உங்கள் தடுப்பூசி பதிவிற்கான அணுகலைக் கோர நீங்கள் உருவாக்கிய PIN எண்ணை உள்ளிடவும்.",
+        "ok": "சரி",
+        "cancel": "ரத்துசெய"
     }, 
     "qrpage": {
         "title": "தனிப்பட்ட மின்னணு கொவிட்-19 சரிபார்ப்புப் பதிவு", 
@@ -84,7 +86,7 @@
         "privacy2": ""
     }, 
     "footer": {
-        "home": "wa.doh.gov home", 
+        "home": "doh.wa.gov", 
         "conditionsofuse": "பயன்பாட்டு நிபந்தனைகள்", 
         "privacypolicy": "தனியுரிமைக் கொள்கை", 
         "accessibility": "அணுகல்", 
@@ -130,6 +132,7 @@
         "needhelpcontent03": "திங்கட்கிழமை காலை 6 முதல் இரவு -10 வரை ", 
         "needhelpcontent04": "செவ்வாய்-ஞாயிறு 6AM-6PM", 
         "needhelpcontent05": "அரசு விடுமுறை நாட்கள்", 
-        "needhelpcontent06": "<0>குறிப்பு:</0> உங்கள் மின்னணு Covid-19 சரிபார்ப்புப் பதிவை ஃபோன் மூலம் எங்களால் புதுப்பிக்க இயலவில்லை."
+        "needhelpcontent06": "<0>குறிப்பு:</0> உங்கள் மின்னணு Covid-19 சரிபார்ப்புப் பதிவை ஃபோன் மூலம் எங்களால் புதுப்பிக்க இயலவில்லை.",
+        "vaccineVerificationLink": "https://doh.wa.gov/ta/ataikaarapapaurava-vaasainatana-maanailatatairakaana-kaatacai-valaikaatatai-kaovaita-19"
     }
 }

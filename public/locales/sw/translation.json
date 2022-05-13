@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Taarifa ya Dozi ya Kuongeza Nguvu Chanjo ya COVID-19",
     "submitbutton": "Wasilisha",
-    "enterPin": "Tafadhali ingiza nambari ya PIN uliyounda ili kuomba ufikiaji wa rekodi yako ya chanjo."
+    "enterPin": "Tafadhali ingiza nambari ya PIN uliyounda ili kuomba ufikiaji wa rekodi yako ya chanjo.",
+    "ok": "Sawa",
+    "cancel": "Katisha"
   },
   "qrpage": {
     "title": "Rekodi ya Kibinafsi ya Kidijitali ya Uthibitishaji wa COVID-19", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "Vikwazo vya Matumizi",
     "privacypolicy": "Sera ya Faragha",
     "accessibility": "Ufikiaji",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "Jumatatu saa 12 asubuhi hadi saa 4 usiku",
     "needhelpcontent04": "Jumanne hadi Jumapili saa 12 asubuhi hadi saa 12 jioni",
     "needhelpcontent05": "Imefungwa sikukuu",
-    "needhelpcontent06": "<0>KUMBUKA:</0> Hatuwezi kusasisha Rekodi yako ya Kidijitali ya Uthibitishaji wa COVID-19 kwenye simu."
+    "needhelpcontent06": "<0>KUMBUKA:</0> Hatuwezi kusasisha Rekodi yako ya Kidijitali ya Uthibitishaji wa COVID-19 kwenye simu.",
+    "vaccineVerificationLink": "https://doh.wa.gov/sw/mwongozo-wa-uthibitisho-rasmi-wa-chanjo-ya-covid-19-katika-jimbo-la-washington"
   }
 }

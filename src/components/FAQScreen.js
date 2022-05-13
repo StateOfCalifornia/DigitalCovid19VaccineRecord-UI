@@ -4,7 +4,7 @@ import "../disclosureButton.js";
 import { Trans, useTranslation } from "react-i18next";
 
 const FAQScreen = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -248,7 +248,7 @@ const FAQScreen = () => {
               <p id="faq12_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.12answer">
                   Yes. It is one of
-                  <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={"https://coronavirus.wa.gov/information-for/you-and-your-family/life-after-vaccine"} target="CoronaVirus" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>
+                  <ReactGA.OutboundLink eventLabel="CoronaVirusLink" to={t("faqpage.vaccineVerificationLink")} target="CoronaVirus" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>
                     several options
                   </ReactGA.OutboundLink>
                   for providing your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>

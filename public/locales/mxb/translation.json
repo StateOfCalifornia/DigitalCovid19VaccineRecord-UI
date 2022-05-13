@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Tu’un siki ja kani tuku vacuna COVID-19",
     "submitbutton": "Tetiñu",
-    "enterPin": "Chi’in ní número PIN ja ni kaji ní kuu kivi ní kunde’e ní tutu siki tu’un nasa iyo vacuna ní."
+    "enterPin": "Chi’in ní número PIN ja ni kaji ní kuu kivi ní kunde’e ní tutu siki tu’un nasa iyo vacuna ní.",
+    "ok": "Iyo va'a",
+    "cancel": "Ma sa'a"
   },
   "qrpage": {
     "title": "Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "Nda tu’un siki nasa satiñu",
     "privacypolicy": "Tu’un tatuni nasa satiñu",
     "accessibility": "Ja nduu vijin kuatiñu",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "Lunes 6AM-10PM",
     "needhelpcontent04": "Martes-sábado 6AM-6PM",
     "needhelpcontent05": "Nda kivi ja nduu satiñu",
-    "needhelpcontent06": "<0>NOTA:</0> Ma kuu ja nasa’a jáá sa Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 jín in yokaa."
+    "needhelpcontent06": "<0>NOTA:</0> Ma kuu ja nasa’a jáá sa Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 jín in yokaa.",
+    "vaccineVerificationLink": "https://doh.wa.gov/xtu/tutu-ja-ni-tava-nuu-washinton-siki-nasa-iyo-vacuna-covid-19-nda-nayivi"
   }
 }

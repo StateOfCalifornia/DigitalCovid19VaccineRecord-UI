@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "د COVID-19 واکسین د بوسټر یا پیاوړی کونکی ډوز معلومات",
     "submitbutton": "وسپارئ",
-    "enterPin": "لطفاً د PIN شمیره دننه کړئ چې تاسو د خپل واکسین ثبت ته د لاسرسي غوښتنه کولو لپاره جوړه کړی وه."
+    "enterPin": "لطفاً د PIN شمیره دننه کړئ چې تاسو د خپل واکسین ثبت ته د لاسرسي غوښتنه کولو لپاره جوړه کړی وه.",
+    "ok": "سمه ده",
+    "cancel": "لغوه کول"
   },
   "qrpage": {
     "title": "د شخصي ډیجیټل COVID-19 تایید ریکارډ",
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "د کارولو شرایط",
     "privacypolicy": "د محرميت تګلاره",
     "accessibility": "رسوړتيا",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "دوشنبه سهار 6 څخه تر ماښام 10 بجو پورې",
     "needhelpcontent04": "سه شنبې څخه تر یکشنبې د سهار 6 څخه تر ماذیګر 6 بجو پورې",
     "needhelpcontent05": "په دولتي رخصتیو تړل شوی وي",
-    "needhelpcontent06": "<0>یادونه:</0> موږ نشو کولی ستاسو د ډیجیټل COVID-19 تائید ثبت په تلیفون باندې تازه کړو."
+    "needhelpcontent06": "<0>یادونه:</0> موږ نشو کولی ستاسو د ډیجیټل COVID-19 تائید ثبت په تلیفون باندې تازه کړو.",
+    "vaccineVerificationLink": "https://doh.wa.gov/ps/pashto-6"
   }
 }

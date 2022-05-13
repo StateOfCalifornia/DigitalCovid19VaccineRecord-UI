@@ -53,7 +53,9 @@
     "sfirstvaccinationdate": "第一次接种日期",
     "shealthcareprofessional": "医疗保健专业人员或诊所站点",
     "submitbutton": "提交",
-    "enterPin": "请输入您创建的 PIN 码以请求访问您的疫苗记录。"
+    "enterPin": "请输入您创建的 PIN 码以请求访问您的疫苗记录。",
+    "ok": "确认",
+    "cancel": "取消"
   },
   "qrpage": {
     "language": "汉语普通话",
@@ -87,7 +89,7 @@
     "privacy2": "您有权审核 WADOH 所保留的关于您的记录。根据请求，WADOH 将会告知您的记录的位置以及使用这些记录中的信息的人员类别。如需更多信息，请联系加州公共卫生部免疫处处长，地址：850 Marina Bay Pkwy, Bldg. P, Richmond, CA 94804，电话：(800) 578-7889。"
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "使用条件",
     "privacypolicy": "隐私政策",
     "accessibility": "无障碍设施",
@@ -133,6 +135,7 @@
     "needhelpcontent03": "星期一，早上 6 点至晚上 10 点",
     "needhelpcontent04": "星期二至星期日，早上 6 点至晚上 6 点",
     "needhelpcontent05": "法定假日关闭",
-    "needhelpcontent06": "<0>注</0>: 我们无法通过电话方式更新您的数字 COVID-19 验证记录"                
+    "needhelpcontent06": "<0>注</0>: 我们无法通过电话方式更新您的数字 COVID-19 验证记录",
+    "vaccineVerificationLink": "https://doh.wa.gov/zh-hans/huashengdunzhouguanfang-covid-19-yimiaojiezhongzhengming-shijuezhinan"
   }
 }

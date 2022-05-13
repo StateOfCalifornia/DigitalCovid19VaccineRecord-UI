@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Macluumaadka Tallaalka COVID-19 ee Qiyaasta/Dooska Xoojinta ah",
     "submitbutton": "Dir",
-    "enterPin": "Fadlan gali Lambar Sireedka Aqoonsiga Shakhsiga aad sameysatay si aad u codsato isticmaalka diiwaankaaga tallaalka."
+    "enterPin": "Fadlan gali Lambar Sireedka Aqoonsiga Shakhsiga aad sameysatay si aad u codsato isticmaalka diiwaankaaga tallaalka.",
+    "ok": "Hagaag ",
+    "cancel": "Kansal gareey"
   },
   "qrpage": {
     "title": "Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka ah ee Shaqsiga ah", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "Shuruudaha Isticmaalka",
     "privacypolicy": "Xeerka Asturnaanta Xogta",
     "accessibility": "Helitaanka/gaaritaanka goobta",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "Isniinta 6AM-10PM",
     "needhelpcontent04": "Talaadada-Axadda 6AM-6PM",
     "needhelpcontent05": "Xiran xilliyada fasaxyada/ciidaha gobolka",
-    "needhelpcontent06": "<0>OGSOONOOW:</0> Ma awoodno inaan taleefanka ku cusbooneysiino Diiwaankaada Xaqiijinta Tallaalka COVID-19 Dhijitaalka Ah."
+    "needhelpcontent06": "<0>OGSOONOOW:</0> Ma awoodno inaan taleefanka ku cusbooneysiino Diiwaankaada Xaqiijinta Tallaalka COVID-19 Dhijitaalka Ah.",
+    "vaccineVerificationLink": "https://doh.wa.gov/so/tusmada-muuqata-ee-saraakiisha-gobalka-washington-caddaynta-talaalka-covid-19"
   }
 }

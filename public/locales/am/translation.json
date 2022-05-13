@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "የማጠናከርያ ዶዝ የ COVID-19 ክትባት መረጃ",
     "submitbutton": "ያስገቡ",
-    "enterPin": "እባክዎ የክትባት መዝገብዎን ለማግኘት የፈጠሩትን የ PIN ቁጥር ያስገቡ።"
+    "enterPin": "እባክዎ የክትባት መዝገብዎን ለማግኘት የፈጠሩትን የ PIN ቁጥር ያስገቡ።",
+    "ok": "እሺ",
+    "cancel": "ሰርዝ"
   },
   "qrpage": {
     "title": "የግል ዲጂታል የ COVID-19 ማረጋገጫ መዝገብ", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "የአጠቃቀም ሁኔታዎች",
     "privacypolicy": "የግላዊነት ፖሊሲ",
     "accessibility": "ተደራሽነት",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "ሰኞ ከ 6AM-10PM",
     "needhelpcontent04": "ከማክሰኞ እስከ እሁድ ከ 6AM-6PM",
     "needhelpcontent05": "ዝግ የግዛት በዓላት",
-    "needhelpcontent06": "<0>ማስታወሻ፡</0>- የእርስዎን ዲጂታል የ COVID-19 ማረጋገጫ መዝገብ በስልክ ማዘመን አልቻልንም።"
+    "needhelpcontent06": "<0>ማስታወሻ፡</0>- የእርስዎን ዲጂታል የ COVID-19 ማረጋገጫ መዝገብ በስልክ ማዘመን አልቻልንም።",
+    "vaccineVerificationLink": "https://doh.wa.gov/am/yayefaawi-ya-washington-gezaate-yaeyetaa-mamariyaa-ya-covid-19-ketebaate-maaragaagachaa"
   }
 }

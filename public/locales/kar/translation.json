@@ -51,7 +51,9 @@
         "shealthcareprofessional": "", 
         "Subsubsubtitle": "တၢ်ဆဲးအါထီၣ် COVID-19 ကသံၣ်ဒီသဒၢအဂံၢ်တၢ်ဂ့ၢ်တၢ်ကျိၤ", 
         "submitbutton": "ဆှၢထီၣ်", 
-        "enterPin": "ဝံသးစူၤထၢနုာ်လီၤ PIN နီၣ်ဂံၢ်လၢနဒုးအိၣ်ထီၣ်အီၤလၢ ကဃ့ထီၣ်တၢ်နုာ်လီၤဆူ နကသံၣ်ဒီသဒၢတၢ်မၤနီၣ်မၤဃါတက့ၢ်."
+        "enterPin": "ဝံသးစူၤထၢနုာ်လီၤ PIN နီၣ်ဂံၢ်လၢနဒုးအိၣ်ထီၣ်အီၤလၢ ကဃ့ထီၣ်တၢ်နုာ်လီၤဆူ နကသံၣ်ဒီသဒၢတၢ်မၤနီၣ်မၤဃါတက့ၢ်.",
+        "ok": "ဂ့ၤလံ",
+        "cancel": "ထူးသံကွံာ်"
     }, 
     "qrpage": {
         "title": "နီၢ်ကစၢ်ဒံးကၠံၣ်တၢၣ်(လ) COVID-19 တၢ်အုၣ်သးတၢ်မၤနီၣ်မၤဃါ", 
@@ -84,7 +86,7 @@
         "privacy2": ""
     }, 
     "footer": {
-        "home": "wa.doh.gov home", 
+        "home": "doh.wa.gov", 
         "conditionsofuse": "တၢ်စူးကါအတၢ်သိၣ်တၢ်သီတၢ်ဘျၢ", 
         "privacypolicy": "ပှၤနီၢ်တဂၤဖီလစံၣ်တဖၣ်", 
         "accessibility": "တၢ်နုာ်လီၤမၤန့ၢ်ခွဲးယာ်", 
@@ -130,6 +132,7 @@
         "needhelpcontent03": "မုၢ်တနံၤ ဂီၤခီ 6- ဟါခီ 10 နၣ်ရံၣ်", 
         "needhelpcontent04": "မုၢ်ခံနံၤ-မုၢ်အိၣ်ဘှံးနံၤ ဂီၤခီ 6- ဟါခီ 6 နၣ်ရံၣ်", 
         "needhelpcontent05": "ကးတံာ်ဖဲကီၢ်စဲၣ်နံၤသဘျ့တဖၣ်", 
-        "needhelpcontent06": "<0>(တိၢ်နီၣ်-</0> ပမၤသီထီၣ် နဒံးကၠံၣ်တၢၣ်(လ) COVID-19 တၢ်အုၣ်သးတၢ်မၤနီၣ်မၤဃါ ခီဖျိလီတဲစိတသ့ဘၣ်."
+        "needhelpcontent06": "<0>(တိၢ်နီၣ်-</0> ပမၤသီထီၣ် နဒံးကၠံၣ်တၢၣ်(လ) COVID-19 တၢ်အုၣ်သးတၢ်မၤနီၣ်မၤဃါ ခီဖျိလီတဲစိတသ့ဘၣ်.",
+        "vaccineVerificationLink": "https://doh.wa.gov/kar/ttnaikailtthliiaiilathnaiaphiikhi-chuu-washington-kiicai-phisaic-ttchai-covid-19-ksndiisd-ttaus"
     }
 }

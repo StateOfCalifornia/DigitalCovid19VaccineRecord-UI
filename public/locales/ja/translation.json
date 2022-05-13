@@ -50,7 +50,9 @@
       "sfirstvaccinationdate": "", 
       "shealthcareprofessional": "", 
       "submitbutton": "送信", 
-      "enterPin": "ワクチン接種記録へのアクセスを依頼するには、ご自身で作成したPIN番号を入力してください。"
+      "enterPin": "ワクチン接種記録へのアクセスを依頼するには、ご自身で作成したPIN番号を入力してください。",
+      "ok": "OK",
+      "cancel": "キャンセル"
   }, 
   "qrpage": {
       "title": "個人用COVID-19ワクチン接種電子記録", 
@@ -80,7 +82,7 @@
       "content3": "<1>コロナワクチン接種電子記録</1>についてご不明な点がある場合は、お問い合わせください。<3>よくある質問（FAQ</3>もご覧ください。"
   }, 
   "footer": {
-      "home": "wa.doh.gov", 
+      "home": "doh.wa.gov", 
       "conditionsofuse": "利用規約", 
       "privacypolicy": "個人情報保護方針", 
       "accessibility": "アクセシビリティ", 
@@ -126,6 +128,7 @@
       "needhelpcontent03": "月曜日：午前6時～午後10時", 
       "needhelpcontent04": "火曜日～日曜日：午前6時～午後6時", 
       "needhelpcontent05": "州の祭日は休業日となります", 
-      "needhelpcontent06": "<0>注意：</0>お電話でのコロナワクチン接種電子記録の更新手続きは受け付けておりません"
+      "needhelpcontent06": "<0>注意：</0>お電話でのコロナワクチン接種電子記録の更新手続きは受け付けておりません",
+      "vaccineVerificationLink": "https://doh.wa.gov/ja/washintonzhougongshicovid-19-wakuchinjiezhongzhengmingniguansuruhishiyuarukaito"
   }
 }

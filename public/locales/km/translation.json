@@ -51,7 +51,9 @@
         "shealthcareprofessional": "", 
         "Subsubsubtitle": "ព័ត៌មានអំពីវ៉ាក់សាំងជំងឺ COVID-19 ដូស​ជំរុញ​", 
         "submitbutton": "ប្រគល់​​​", 
-        "enterPin": "សូមបញ្ចូល​លេខ PIN ដែលអ្នកបាន​បង្កើត​ដើម្បីស្នើសុំចូល​ទៅកាន់កំណត់ត្រា​វ៉ាក់សាំង​របស់អ្នក​។"
+        "enterPin": "សូមបញ្ចូល​លេខ PIN ដែលអ្នកបាន​បង្កើត​ដើម្បីស្នើសុំចូល​ទៅកាន់កំណត់ត្រា​វ៉ាក់សាំង​របស់អ្នក​។",
+        "ok": "យល់ព្រម",
+        "cancel": "បោះបង់"
     }, 
     "qrpage": {
         "title": "កំណត់ត្រា​ផ្ទៀងផ្ទាត់​ជំងឺ COVID-19 ជាទម្រង់​​ឌីជីថលផ្ទាល់ខ្លួន​", 
@@ -84,7 +86,7 @@
         "privacy2": ""
     }, 
     "footer": {
-        "home": "wa.doh.gov home", 
+        "home": "doh.wa.gov", 
         "conditionsofuse": "លក្ខខណ្ឌនៃ​ការ​ប្រើប្រាស់។", 
         "privacypolicy": "គោលនយោបាយ​ឯកជនភាព​", 
         "accessibility": "លទ្ធភាព​អាច​ចេញចូលបាន", 
@@ -130,6 +132,7 @@
         "needhelpcontent03": "ថ្ងៃចន្ទ​ ម៉ោង​ 6 ព្រឹក​ - 10 យប់​", 
         "needhelpcontent04": "ថ្ងៃ​អង្គារ​-ថ្ងៃ​អាទិត្យ​ ម៉ោង 6 ព្រឹក​ - 6 ល្ងាច​", 
         "needhelpcontent05": "បិទផ្អាកដំណើរការនៅថ្ងៃ​ឈប់សម្រាក​របស់រដ្ឋ​​", 
-        "needhelpcontent06": "<0>សម្គាល់៖</0> យើង​មិនអាច​ធ្វើបច្ចុប្បន្នភាព​កំណត់ត្រា​ផ្ទៀងផ្ទាត់​ជំងឹ​ COVID-19 ជាទម្រង់​ឌីជីថលនៅលើទូរសព្ទបានទេ​។​"
+        "needhelpcontent06": "<0>សម្គាល់៖</0> យើង​មិនអាច​ធ្វើបច្ចុប្បន្នភាព​កំណត់ត្រា​ផ្ទៀងផ្ទាត់​ជំងឹ​ COVID-19 ជាទម្រង់​ឌីជីថលនៅលើទូរសព្ទបានទេ​។​",
+        "vaccineVerificationLink": "https://doh.wa.gov/km/ruupbhaabpnghaanykaarnnaenaamdaukaanbhstutaangphluuvkaar-naikaarcaakvaaksaamngjmngyy-covid-19"
     }
 }

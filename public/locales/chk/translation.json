@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Porausen pwan ew appos ren appechekunen ewe apposen COVID-19",
     "submitbutton": "Tinanong",
-    "enterPin": "Kose mochen makenong nampan noum PIN ewe ke fori ika ke mochen kuna noum taropwen appos online."
+    "enterPin": "Kose mochen makenong nampan noum PIN ewe ke fori ika ke mochen kuna noum taropwen appos online.",
+    "ok": "iwe ina",
+    "cancel": "oukano"
   },
   "qrpage": {
     "title": "Pusin omw digital COVID-19 Afatan Record", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "Nongonongen ika Ko[we Eaea",
     "privacypolicy": "Annukun Monomononan Poraus",
     "accessibility": "Tongeni Kuna ika Feino Ngeni",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "Serin Fan 6AM-10PM",
     "needhelpcontent04": "Aruu-Ranin Fen 6AM-6PM",
     "needhelpcontent05": "Kesip atun state holiday",
-    "needhelpcontent06": "<0>MI AUCHEA:</0> Sise tongeni ach sipwe siwini noum Digital COVID-19 Afatan Record on fon."
+    "needhelpcontent06": "<0>MI AUCHEA:</0> Sise tongeni ach sipwe siwini noum Digital COVID-19 Afatan Record on fon.",
+    "vaccineVerificationLink": "https://doh.wa.gov/chk/awenewen-kopwe-kuna-ren-ofes-napen-washington-state-pwaratan-apposun-covid-19"
   }
 }

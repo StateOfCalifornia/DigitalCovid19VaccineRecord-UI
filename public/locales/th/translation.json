@@ -51,7 +51,9 @@
         "shealthcareprofessional": "", 
         "Subsubsubtitle": "ข้อมูลของวัคซีนป้องกันโควิด-19 เข็มกระตุ้น", 
         "submitbutton": "ส่ง", 
-        "enterPin": "โปรดป้อนหมายเลข PIN ที่คุณได้สร้างขึ้นเพื่อขอเข้าถึงบันทึกวัคซีนของคุณ"
+        "enterPin": "โปรดป้อนหมายเลข PIN ที่คุณได้สร้างขึ้นเพื่อขอเข้าถึงบันทึกวัคซีนของคุณ",
+        "ok": "ตกลง",
+        "cancel": "ยกเลิก"
     }, 
     "qrpage": {
         "title": "บันทึกการยืนยันเกี่ยวกับโควิด-19 แบบดิจิทัลส่วนบุคคล", 
@@ -84,7 +86,7 @@
         "privacy2": ""
     }, 
     "footer": {
-        "home": "wa.doh.gov home", 
+        "home": "doh.wa.gov", 
         "conditionsofuse": "เงื่อนไขการใช้งาน", 
         "privacypolicy": "นโยบายความเป็นส่วนตัว", 
         "accessibility": "การจัดบริการให้ทั่วถึง", 
@@ -130,6 +132,7 @@
         "needhelpcontent03": "วันจันทร์ 6:00 - 22:00 น.", 
         "needhelpcontent04": "วันอังคาร - วันอาทิตย์ 6:00 - 18:00 น.", 
         "needhelpcontent05": "ปิดให้บริการวันหยุดนักขัตฤกษ์", 
-        "needhelpcontent06": "<0>หมายเหตุ:</0> เราไม่สามารถอัปเดตบันทึกการยืนยันเกี่ยวกับโควิด-19 แบบดิจิทัลของคุณทางโทรศัพท์ได้"
+        "needhelpcontent06": "<0>หมายเหตุ:</0> เราไม่สามารถอัปเดตบันทึกการยืนยันเกี่ยวกับโควิด-19 แบบดิจิทัลของคุณทางโทรศัพท์ได้",
+        "vaccineVerificationLink": "https://doh.wa.gov/th/khuumuuexphaphkhxngrathwxchingtanxyangepnthangkar-hlakthankarchiidwakhsiinokhwid-19"
     }
 }

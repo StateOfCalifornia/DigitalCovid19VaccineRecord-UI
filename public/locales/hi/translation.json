@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "बूस्टर खुराक COVID-19 वैक्सीन की जानकारी",
     "submitbutton": "सबमिट करें",
-    "enterPin": "कृपया अपने वैक्सीन रिकॉर्ड एक्सेस करने का अनुरोध करने के लिए आपके द्वारा बनाया गया पिन नंबर दर्ज करें।"
+    "enterPin": "कृपया अपने वैक्सीन रिकॉर्ड एक्सेस करने का अनुरोध करने के लिए आपके द्वारा बनाया गया पिन नंबर दर्ज करें।",
+    "ok": "पुष्टि करें",
+    "cancel": "रद्द करें"
   },
   "qrpage": {
     "title": "निजी डिजिटल COVID-19 वेरिफिकेशन रिकॉर्ड", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "उपयोग की शर्तें",
     "privacypolicy": "गोपनीयता नीति",
     "accessibility": "सुलभता",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "सोमवार सुबह 6 बजे- रात 10 बजे",
     "needhelpcontent04": "मंगलवार-रविवार सुबह 6 बजे- शाम 6 बजे",
     "needhelpcontent05": "बंद राजकीय अवकाश",
-    "needhelpcontent06": "<0>ध्यान दें:</0> हम फ़ोन पर आपके डिजिटल COVID-19 सत्यापन रिकॉर्ड को अपडेट करने में असमर्थ हैं।"
+    "needhelpcontent06": "<0>ध्यान दें:</0> हम फ़ोन पर आपके डिजिटल COVID-19 सत्यापन रिकॉर्ड को अपडेट करने में असमर्थ हैं।",
+    "vaccineVerificationLink": "https://doh.wa.gov/hi/adhaikaaraika-vaasaingatana-raajaya-kae-laie-vaijauala-gaaida-covid-19-taikaakarana-kaa-paramaana"
   }
 }

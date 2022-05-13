@@ -56,7 +56,9 @@
     "sfirstvaccinationdate": "",
     "shealthcareprofessional": "",
     "submitbutton": "Submit",
-    "enterPin": "Please enter the PIN code you created to request access to your vaccine record."
+    "enterPin": "Please enter the PIN code you created to request access to your vaccine record.",
+    "ok": "Ok",
+    "cancel": "Cancel"
   },
   "qrpage": {
     "language": "en",
@@ -90,7 +92,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "doh.wa.gov home ",
+    "home": "doh.wa.gov",
     "conditionsofuse": "Conditions of Use",
     "privacypolicy": "Privacy Policy",
     "accessibility": "Accessibility",
@@ -136,6 +138,7 @@
     "needhelpcontent03": "Monday 6AM-10PM",
     "needhelpcontent04": "Tuesday-Sunday 6AM-6PM",
     "needhelpcontent05": "Closed state holidays",
-    "needhelpcontent06": "<0>NOTE</0>: We're unable to update your <2>Digital COVID-19 Verification Record</2> over the phone."                
+    "needhelpcontent06": "<0>NOTE</0>: We're unable to update your <2>Digital COVID-19 Verification Record</2> over the phone.",
+    "vaccineVerificationLink": "https://doh.wa.gov/emergencies/covid-19/vaccine-information/vaccination-verification"
   }
 }

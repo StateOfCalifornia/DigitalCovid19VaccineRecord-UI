@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Q’umb’aj tumal tej paq b’aq te q’olak tipomal te tej tx’u’j yab’il te COVID-19",
     "submitbutton": "Smanx ",
-    "enterPin": "Tz’ib’ak’ax j-PIN tey xjaw tb’incha’ tu’ tokx tqanay te tu’ tokxay toj jatuma tz’ib’waxay ti’j b’aq."
+    "enterPin": "Tz’ib’ak’ax j-PIN tey xjaw tb’incha’ tu’ tokx tqanay te tu’ tokxay toj jatuma tz’ib’waxay ti’j b’aq.",
+    "ok": "Matxe",
+    "cancel": "Tu'n Tnaj"
   },
   "qrpage": {
     "title": "U’j tu’n tku’x Ke’yit Tqanil toj Yolb’il tun Tjyet COVID-19", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "Tten tu’ tajb’en ",
     "privacypolicy": "Jntema tu’ mi tz’aqb’ij",
     "accessibility": "Tu’ tokx ",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "Lunes te 6:00 qlax mo prim ma’x 10:00 te qala",
     "needhelpcontent04": "Martes ma’x domingo te 6:00 qlax mo prim ma’x 6 te qala",
     "needhelpcontent05": "Lamo’ tten choj qaj q’ij uj at ninq’ij ",
-    "needhelpcontent06": "<0>TQANIL YOL:</0> Mlay b’in jaw b’inchet junt maj jtey Ttz’ib’b’al te cheyb’aj tej tx’u’j yab’il te COVID-19 toj k’uxb’al te tyolb’alay."
+    "needhelpcontent06": "<0>TQANIL YOL:</0> Mlay b’in jaw b’inchet junt maj jtey Ttz’ib’b’al te cheyb’aj tej tx’u’j yab’il te COVID-19 toj k’uxb’al te tyolb’alay.",
+    "vaccineVerificationLink": "https://doh.wa.gov/mam/uj-tu-t-xi-lapey-chikaj-te-chqil-tej-tnom-te-washington-uj-jatuma-tzibakax-qa-otzok-tbaqay-tij-txuj"
   }
 }

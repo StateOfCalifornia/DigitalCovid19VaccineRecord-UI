@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "ሓበሬታ ሓይሊ ወሃቢ ዶዝ ክታበት ኮቪድ-19",
     "submitbutton": "የእትዎ",
-    "enterPin": "ናብ ናይ ክታበት መዝገብኩም ንምእታው ክትሓቱ፡ ብኽብረትኩም ነታ ዝገበርክሙዋ ቁጽሪ ፒን ኣእቱዉዋ"
+    "enterPin": "ናብ ናይ ክታበት መዝገብኩም ንምእታው ክትሓቱ፡ ብኽብረትኩም ነታ ዝገበርክሙዋ ቁጽሪ ፒን ኣእቱዉዋ",
+    "ok": "ሕራይ",
+    "cancel": "ሰርዝ"
   },
   "qrpage": {
     "title": "ናይ ብሕቲ ኤለክትሮኒካዊ መረጋገጺ ጸብጻብ COVID-19", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "ኩነተ ኣጠቓቕማ",
     "privacypolicy": "ፖሊሲ ብሕታውነት",
     "accessibility": "ተወካሳይነት",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "ሶኒ 6 ቅ/ቀ-10 ድ/ቀ",
     "needhelpcontent04": "ሶሉስ-ሰንበት 6ቅ/ቀ-6 ድ/ቀ",
     "needhelpcontent05": "በዓላት መዕጸዊ መንግስቲ",
-    "needhelpcontent06": "<0>መዘኻኸሪ፥</0> ንሕና ብቴለፎን ናትኩም ዲጂታላዊ ናይ ኮቪድ-19 መረጋገጺ መዝገብ ከነማሓይሾ ኣይከኣልናን።"
+    "needhelpcontent06": "<0>መዘኻኸሪ፥</0> ንሕና ብቴለፎን ናትኩም ዲጂታላዊ ናይ ኮቪድ-19 መረጋገጺ መዝገብ ከነማሓይሾ ኣይከኣልናን።",
+    "vaccineVerificationLink": "https://doh.wa.gov/ti/beaayeni-zerea-mamerehhi-newageaawi-gezeaate-waashenegetane-maragaagatsi-ketaabate-kovide-19"
   }
 }

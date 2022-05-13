@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "اطلاعات دوز تقویه کننده واکسین کووید-19",
     "submitbutton": "تسلیم دهی",
-    "enterPin": "لطفاً PIN نمبری را که ساخته اید برای درخواست دسترسی به سابقه واکسن خود وارد کنید."
+    "enterPin": "لطفاً PIN نمبری را که ساخته اید برای درخواست دسترسی به سابقه واکسن خود وارد کنید.",
+    "ok": "درست است",
+    "cancel": "لغو"
   },
   "qrpage": {
     "title": "سابقه دیجیتل تصدیق کووید-19 شخصی",
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "شرایط استفاده",
     "privacypolicy": "پالیسی محرمیت",
     "accessibility": "قابلیت دسترسی",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "دوشنبه از 6 صبح الی 10 شب",
     "needhelpcontent04": "سه شنبه-یکشنبه از 6 صبح- الی 6 بعد از ظهر",
     "needhelpcontent05": "رخصتی های دولتی تعطیل می باشد",
-    "needhelpcontent06": "<0>یادداشت:</0> ما نمی توانیم سابقه دیجیتل تصدیق کووید-19 شما را از طریق تلفون آپدیت کنیم."
+    "needhelpcontent06": "<0>یادداشت:</0> ما نمی توانیم سابقه دیجیتل تصدیق کووید-19 شما را از طریق تلفون آپدیت کنیم.",
+    "vaccineVerificationLink": "https://doh.wa.gov/prs/dari-4"
   }
 }

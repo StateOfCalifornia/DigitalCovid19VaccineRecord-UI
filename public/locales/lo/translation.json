@@ -51,7 +51,9 @@
         "shealthcareprofessional": "", 
         "Subsubsubtitle": "ຂໍ້ມູນວັກຊີນປ້ອງກັນ ພະຍາດ ໂຄວິດ-19 ເຂັມເສີມ", 
         "submitbutton": "ສົ່ງ", 
-        "enterPin": "ກະລຸນາປ້ອນໝາຍເລກ PIN ທີ່ທ່ານສ້າງຂຶ້ນເພື່ອຮ້ອງຂໍການເຂົ້າເຖິງ ບັນທຶກວັກຊີນຂອງທ່ານ."
+        "enterPin": "ກະລຸນາປ້ອນໝາຍເລກ PIN ທີ່ທ່ານສ້າງຂຶ້ນເພື່ອຮ້ອງຂໍການເຂົ້າເຖິງ ບັນທຶກວັກຊີນຂອງທ່ານ.",
+        "ok": "ນຳໃຊ້ເລີຍ",
+        "cancel": "ຍົກເລີກ"
     }, 
     "qrpage": {
         "title": "ບັນທຶກການຢັ້ງຢືນ ພະຍາດ ໂຄວິດ-19 ແບບດີຈີຕອນສ່ວນຕົວ", 
@@ -84,7 +86,7 @@
         "privacy2": ""
     }, 
     "footer": {
-        "home": "wa.doh.gov home", 
+        "home": "doh.wa.gov", 
         "conditionsofuse": "ເງື່ອນ​ໄຂ​ການ​ນໍາ​ໃຊ້​", 
         "privacypolicy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ", 
         "accessibility": "ການເຂົ້າເຖິງໄດ້", 
@@ -130,6 +132,7 @@
         "needhelpcontent03": "ວັນຈັນ 6ໂມງເຊົ້າ-10ໂມງແລງ", 
         "needhelpcontent04": "ວັນອັງຄານ-ວັນອາທິດ 6ໂມງເຊົ້າ-6ໂມງແລງ", 
         "needhelpcontent05": "ໄດ້ປິດວັນພັກຂອງລັດ", 
-        "needhelpcontent06": "<0>ໝາຍເຫດ:</0> ພວກເຮົາບໍ່ສາມາດອັບເດດບັນທຶກການຢັ້ງຢືນ ພະຍາດ ໂຄວິດ-19 ແບບດີຈີຕອນ ທາງໂທລະສັບໄດ້."
+        "needhelpcontent06": "<0>ໝາຍເຫດ:</0> ພວກເຮົາບໍ່ສາມາດອັບເດດບັນທຶກການຢັ້ງຢືນ ພະຍາດ ໂຄວິດ-19 ແບບດີຈີຕອນ ທາງໂທລະສັບໄດ້.",
+        "vaccineVerificationLink": "https://doh.wa.gov/lo/khameinanamepnuubphaab-aysyaangepnthaangkaanaynld-washington-hlkthaankaanskyaawksiinpngknphanyaad"
     }
 }

@@ -50,7 +50,9 @@
     "sfirstvaccinationdate": "Ngày tiêm chủng lần 2",
     "shealthcareprofessional": "Chuyên gia chăm sóc sức khỏe hoặc trang web phòng khám",
     "submitbutton": "Gửi",
-    "enterPin": "Vui lòng nhập số PIN mà bạn đã tạo để yêu cầu truy cập hồ sơ vắc-xin của bạn."
+    "enterPin": "Vui lòng nhập số PIN mà bạn đã tạo để yêu cầu truy cập hồ sơ vắc-xin của bạn.",
+    "ok": "OK",
+    "cancel": "Hủy"
   },
   "qrpage": {
     "language": "en",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "Thứ Hai 6 giờ sáng - 10 giờ tối",
     "needhelpcontent04": "Thứ Ba - Chủ Nhật, 6 giờ sáng - 6 giờ tối ",
     "needhelpcontent05": "Ngày lễ tiểu bang đóng cửa ",
-    "needhelpcontent06": "<0>LƯU Ý</0>: Chúng tôi không thể cập nhật Hồ sơ Xác nhận COVID-19 kỹ thuật số của bạn qua điện thoại."                
+    "needhelpcontent06": "<0>LƯU Ý</0>: Chúng tôi không thể cập nhật Hồ sơ Xác nhận COVID-19 kỹ thuật số của bạn qua điện thoại.",
+    "vaccineVerificationLink": "https://doh.wa.gov/vi/huong-dan-truc-quan-ve-bang-chung-tiem-vac-xin-covid-19-chinh-thuc-cua-tieu-bang-washington"
   }
 }

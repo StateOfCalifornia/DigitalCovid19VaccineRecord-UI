@@ -51,7 +51,9 @@
     "shealthcareprofessional": "",
     "Subsubsubtitle": "Fakamatala ki he Booster (Huhu Tānaki) COVID-19",
     "submitbutton": "Fakahū",
-    "enterPin": "Kātaki ‘o fakahū ho’o fika PIN na’a ke fa’ú ke ma’u tau ‘aki ho’o lēkooti huhu malu’í."
+    "enterPin": "Kātaki ‘o fakahū ho’o fika PIN na’a ke fa’ú ke ma’u tau ‘aki ho’o lēkooti huhu malu’í.",
+    "ok": "Ok",
+    "cancel": "Kaniseli"
   },
   "qrpage": {
     "title": "Fakafo’ituitui Lēkooti Fakamo’oni Huhu Malu'i COVID-19", 
@@ -84,7 +86,7 @@
     "privacy2": ""
   },
   "footer": {
-    "home": "wa.doh.gov home",
+    "home": "doh.wa.gov",
     "conditionsofuse": "Ngaahi Makatu’unga ‘o e Ngaue’aki",
     "privacypolicy": "Tu’utu’uni Ngāue ki he Malu’i Fakamatala",
     "accessibility": "Accessibility (Ma’ungofua)",
@@ -130,6 +132,7 @@
     "needhelpcontent03": "Mōnite 6 pongipongi-10 po’uli", 
     "needhelpcontent04": "Tūsite-Sāpate 6 pongipongi-6 efiafi", 
     "needhelpcontent05": "Tāpuni ‘i he ngaahi ‘aho mālōlō fakapule’angá", 
-    "needhelpcontent06": "<0>FAKATOKANGA:</0> ‘Oku ‘ikai te mau lava ‘o toe tānaki ha fakamatala ki ho’o Lēkooti Fakamo’oni Huhu Malu’i COVID-19 ‘i he telefoní."
+    "needhelpcontent06": "<0>FAKATOKANGA:</0> ‘Oku ‘ikai te mau lava ‘o toe tānaki ha fakamatala ki ho’o Lēkooti Fakamo’oni Huhu Malu’i COVID-19 ‘i he telefoní.",
+    "vaccineVerificationLink": "https://doh.wa.gov/to/huhu-malui-covid-19"
   }
 }
