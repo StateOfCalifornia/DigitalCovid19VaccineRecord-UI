@@ -20,7 +20,7 @@
     "content4": "Si tiene preguntas sobre su registro digital de verificación de la COVID-19, visite la sección de <1>preguntas frecuentes</1>."
   },
   "vaccineform": {
-    "filloutheader": "Complete los siguientes campos obligatorios para recibir un enlace a un código QR o una copia digital de su registro de verificación de la COVID-19:",
+    "filloutheader": "Complete los siguientes campos obligatorios para recibir un enlace a un código QR o una copia digital de su Registro de verificación de COVID-19:",
     "title": "Información del paciente",
     "subtitle": "Los campos marcados con un asterisco (*) son obligatorios.",
     "lastname": "Apellido",
@@ -37,7 +37,7 @@
     "pinErrorMsg6": "No pudimos completar su solicitud. Inténtelo de nuevo.",
     "pinErrorMsg7": "El formato de los datos no es válido. Inténtelo de nuevo.",
     "note": "<0>Nota:</0> El PIN es obligatorio para acceder de manera segura a su registro digital.",
-    "checkboxdescription": "Al marcar esta casilla, declara bajo pena de perjurio conforme las leyes estatales y federales que es el paciente o el padre, la madre o el tutor del paciente y, por lo tanto, está autorizado a acceder a los registros de vacunación del paciente.",
+    "checkboxdescription": "Al marcar esta casilla, declara bajo pena de perjurio conforme con las leyes estatales y federales que es el paciente o el padre, la madre o el tutor del paciente y, por lo tanto, está autorizado a acceder a los registros de vacunación del paciente.",
     "safe": "Las vacunas contra la COVID-19 son seguras, gratuitas y efectivas. Además, están disponibles para todas las personas mayores de 5 años <1>Vacúnese</1>.",
     "Phone": "Número de teléfono celular",
     "Email": "Dirección de correo electrónico",
