@@ -79,11 +79,11 @@
     "flotnumber": "Número de lote"
   },
   "receivedpage": {
-    "title": "Recepción de la solicitud para acceder al registro digital de verificación de la COVID-19",
+    "title": "Recepción de la solicitud para acceder al Registro digital de verificación de COVID-19",
     "thankyou": "Gracias.",
-    "content1": "Recibimos su solicitud. Si la información provista coincide con la información en nuestro sistema, recibirá un enlace para acceder al registro de verificación de la COVID-19.",
+    "content1": "Recibimos su solicitud. Si la información provista coincide con la información en nuestro sistema, recibirá un enlace para acceder al registro de verificación de COVID-19.",
     "content2": "Si no recibe el enlace en 24 horas, inténtelo de nuevo y asegúrese de que su nombre, fecha de nacimiento, número de teléfono o dirección de correo electrónico coincidan con la información provista al momento de su vacunación.",
-    "content3": "Si tiene preguntas sobre su <1>registro digital de verificación de la COVID-19</1> (solo en inglés), tenemos las respuestas. Visite nuestra sección de <3>preguntas frecuentes</3> (solo en inglés).",
+    "content3": "Si tiene preguntas sobre su <1>Registro digital de verificación de COVID-19</1>, tenemos las respuestas. Visite nuestra sección de <3>preguntas frecuentes</3>.",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
