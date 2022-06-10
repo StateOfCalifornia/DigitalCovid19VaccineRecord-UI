@@ -335,6 +335,8 @@ const FAQScreen = () => {
           <p style={{ paddingTop: 40 }}>
             <Trans i18nKey="faqpage.needhelpcontent06">
               <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
+              
+              <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Click here if your COVID-19 vaccination record is missing or incorrect</a>
             </Trans>
           </p>
         </div>
