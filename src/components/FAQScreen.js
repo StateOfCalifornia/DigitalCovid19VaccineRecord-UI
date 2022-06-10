@@ -146,7 +146,7 @@ const FAQScreen = () => {
 
                   To find your record, try re-entering your information with a different email or mobile number.
                   If your record still isn’t found, contact your provider to update your vaccination record or
-                  <a href="#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a> to request a review of your record. You'll be notified of our findings and
+                  <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a> to request a review of your record. You'll be notified of our findings and
                   remediation actions within 2-3 weeks.
 
                   If you received your vaccination from a federal agency (like the Department of Defense, Indian
@@ -168,7 +168,7 @@ const FAQScreen = () => {
                 <Trans i18nKey="faqpage.08answer">
                   If the information on your Digital vaccine record is incorrect or missing a dose, has wrong
                   dates or incorrect brand), you may need to correct or update your immunization record. You
-                  can contact your provider to update your record or <a href="#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our
+                  can contact your provider to update your record or <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our
                   findings and remediation actions within 2-3 weeks.
                 </Trans>
               </p>
@@ -335,6 +335,8 @@ const FAQScreen = () => {
           <p style={{ paddingTop: 40 }}>
             <Trans i18nKey="faqpage.needhelpcontent06">
               <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
+              
+              <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Click here if your COVID-19 vaccination record is missing or incorrect</a>
             </Trans>
           </p>
         </div>
