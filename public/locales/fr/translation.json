@@ -11,7 +11,7 @@
   },
   "dashboardpage": {
     "contentheader": "Attestation numérique de vaccination COVID-19",
-    "content1": "Bienvenue dans le système numérique d'attestation de vaccination COVID-19. Renseignez quelques informations ci-dessous pour obtenir un lien vers un code QR et une copie numérique de votre attestation de vaccination COVID-19. Si vous souhaitez partager un justificatif de vaccination, vous pouvez utiliser la version électronique ou imprimée de l'attestation qui vous sera délivrée par le système.",
+    "content1": "Bienvenue dans le système d'Attestation numérique de vaccination COVID-19. Renseignez quelques informations ci-dessous pour obtenir un lien vers un code QR et une copie numérique de votre attestation de vaccination COVID-19. Si vous souhaitez partager un justificatif de vaccination, vous pouvez utiliser la version électronique ou imprimée de l'attestation qui vous sera délivrée par le système.",
     "content2": "Les membres d'une même famille peuvent avoir plusieurs attestations de vaccination associées à un même numéro de téléphone ou à une même adresse e-mail. Saisissez chaque demande d'attestation numérique de vaccination séparément.",
     "content3": "Le système fournit une copie numérique des attestations de vaccination de l'État. Si vous avez reçu vos vaccins auprès d'une agence fédérale (Department of Defense (ministère de la Défense), Indian Health Services (services de santé indiens) ou Veterans Affairs (ministère des Anciens Combattants)), vous devez contacter ces agences pour obtenir de l'aide.",
     "content4": "Si vous avez des questions à propos de votre attestation numérique de vaccination COVID-19, consultez la Foire aux questions (<1>FAQ</1>) ."
