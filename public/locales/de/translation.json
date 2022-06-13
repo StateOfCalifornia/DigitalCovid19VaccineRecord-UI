@@ -57,7 +57,7 @@
   },
   "qrpage": {
     "title": "Personenbezogenes COVID-19-Digitalzertifikat", 
-    "pincode": "PIN-Nummer:", 
+    "pincode": "PIN-Nummer", 
     "vacinfo": "Impfdaten", 
     "name": "Name", 
     "dateofbirth": "Geburtsdatum", 
