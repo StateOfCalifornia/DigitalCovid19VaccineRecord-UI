@@ -77,7 +77,7 @@
     "flotnumber": "Numéro de lot"
   },
   "receivedpage": {
-    "title": "Récépissé numérique de demande d'attestation de vaccination COVID-19",
+    "title": "Récépissé de demande d'Attestation numérique de vaccination COVID-19",
     "thankyou": "Merci.",
     "content1": "Votre demande a été reçue. Si les informations fournies correspondent aux informations enregistrées dans notre système, vous recevrez un lien pour accéder à votre attestation de vaccination COVID-19.",
     "content2": "Si vous ne recevez pas de lien dans les 24 heures, veuillez réessayer en vérifiant que votre nom, votre date de naissance, votre numéro de téléphone mobile ou votre adresse e-mail correspondent aux informations fournies lors de votre vaccination.",
