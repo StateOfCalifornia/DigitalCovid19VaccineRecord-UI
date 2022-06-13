@@ -56,7 +56,7 @@
   }, 
   "qrpage": {
       "title": "個人用COVID-19ワクチン接種電子記録", 
-      "pincode": "PIN番号:", 
+      "pincode": "PIN番号", 
       "vacinfo": "ワクチン情報", 
       "name": "氏名", 
       "dateofbirth": "生年月日", 
