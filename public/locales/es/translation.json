@@ -60,7 +60,7 @@
   "qrpage": {
     "language": "Español",
     "title": "Registro digital de verificación de COVID-19 personal",
-    "pincode": "Número de identificación personal (PIN):",
+    "pincode": "Número de identificación personal (PIN)",
     "vacinfo": "Información sobre la vacunación",
     "name": "Nombre",
     "dateofbirth": "Fecha de nacimiento",
