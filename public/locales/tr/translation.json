@@ -11,10 +11,10 @@
   },
   "dashboardpage": {
     "contentheader": "Dijital COVID-19 Doğrulama Kaydı",
-    "content1": "Dijital COVID-19 Doğrulama Kaydı sistemine hoş geldiniz. Kare kodun bağlantısını ve COVID-19 doğrulama kaydınızın dijital kopyasını almak için aşağıya birkaç ayrıntı girin. Aşı kanıtını paylaşmak isterseniz sistemden alacağınız kaydın elektronik veya basılı halini kullanabilirsiniz.",
+    "content1": "Dijital COVID-19 Doğrulama Kaydı sistemine hoş geldiniz. Kare kodun bağlantısını ve COVID-19 Doğrulama Kaydı’nızın dijital kopyasını almak için aşağıya birkaç ayrıntı girin. Aşı kanıtını paylaşmak isterseniz sistemden alacağınız kaydın elektronik veya basılı halini kullanabilirsiniz.",
     "content2": "Bir ailedeki bireyler tek bir telefon numarası veya e-posta adresiyle ilişkili birden fazla doğrulama kaydına sahip olabilir, her dijital doğrulama kaydı talebini ayrıca girmeniz gerekir.",
     "content3": "Sistem, eyalet aşı kayıtlarının dijital bir kopyasını sağlar. Eğer aşılarınızı bir federal kurumdan (Department of Defense, Indian Health Services (Savunma Bakanlığı, Kızılderili Sağlık Hizmetleri) ya da Veterans Affairs (Gazi İşleri)) aldıysanız, yardım almak için bu kurumlarla iletişim kurmanız gerekecektir.",
-    "content4": "Dijital COVID-19 Doğrulama Kaydınız hakkında sorularınız varsa, Sıkça Sorulan Sorular sayfasını ziyaret edin (<1>SSS</1>) ."
+    "content4": "Dijital COVID-19 Doğrulama Kaydınız hakkında sorularınız varsa, Sıkça Sorulan Sorular sayfasını ziyaret edin (<1>SSS</1>)."
   },
   "vaccineform": {
     "filloutheader": "Kare kodun bağlantısını/COVID-19 Doğrulama Kaydı’nızın dijital kopyasını almak için lütfen zorunlu alanları doldurun:",
