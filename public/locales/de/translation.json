@@ -95,7 +95,7 @@
     "copyright": "Copyright"
   },
   "faqpage": {
-    "title": "FAQ",
+    "title": "WA Verify FAQ",
     "01question": "Was ist ein COVID-19-Digitalzertifikat?",
     "01answer": "Ihr <1>COVID-19-Digitalzertifikat</1> ist ein elektronischer Impfpass, der anhand der im bundesstaatlichen Impfregister gespeicherten Daten erstellt wird. Das Digitalzertifikat enthält die gleichen Informationen wie Ihr COVID-19-Impfausweis des Centers for Disease Control and Prevention (CDC, Zentrum für Seuchenkontrolle und -prävention) in Papierform: Ihren Namen, Ihr Geburtsdatum, die Impfdaten und den Impfstofftyp, den Sie erhalten haben. Das Digitalzertifikat enthält auch einen QR-Code, der beim Scannen mit einem Lesegerät für die SMART Health Card (SMART-Gesundheitspass) Ihren Namen, Ihr Geburtsdatum, die Impfdaten und den Impftyp anzeigt. Außerdem bestätigt der QR-Code den Impfpass als offiziellen Nachweis Ihres Bundesstaates.",
     "02question": "Auf welchem Wege erhalte ich mein Impfzertifikat?",
