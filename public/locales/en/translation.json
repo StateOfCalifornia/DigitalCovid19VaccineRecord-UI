@@ -138,7 +138,7 @@
     "needhelpcontent03": "Monday 6AM-10PM",
     "needhelpcontent04": "Tuesday-Sunday 6AM-6PM",
     "needhelpcontent05": "Closed state holidays",
-    "needhelpcontent06": "<0>NOTE</0>: We're unable to update your <2>Digital COVID-19 Verification Record</2> over the phone. <br/><br/><4>Click here if your COVID-19 vaccination record is missing or incorrect</4>",
+    "needhelpcontent06": "<0>NOTE</0>: We're unable to update your <2>Digital COVID-19 Verification Record</2> over the phone.",
     "vaccineVerificationLink": "https://doh.wa.gov/emergencies/covid-19/vaccine-information/vaccination-verification"
   }
 }
