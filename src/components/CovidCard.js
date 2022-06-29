@@ -18,6 +18,7 @@ import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import 'date-fns';
 import DateFnsUtils from "@date-io/date-fns";
+import addMonths from "date-fns/addMonths";
 
 import amLocale from "../locale/am"; 
 import arLocale from "date-fns/locale/ar";
@@ -62,6 +63,8 @@ import urLocale from "date-fns/locale/en-US";
 import viLocale from "date-fns/locale/vi";  
 import zhLocale from "date-fns/locale/zh-CN";  
 import zhtwLocale from "date-fns/locale/zh-TW";  
+import moment from "moment";
+import { FiberNewSharp } from "@material-ui/icons";
 
 const CovidCard = () => {
   const { i18n } = useTranslation();
@@ -262,10 +265,11 @@ const CovidCard = () => {
     });
   };
 
+  const today = new Date();
   const handleDobChange = (date) => {
     setError({ ...error, Date: false });
     setSelectedBirthDate(date)
-    if (date && date.getFullYear() && date.getFullYear() >= 1900 && date.getFullYear() <= 2020) {
+    if (date && date.getFullYear() && date.getFullYear() >= 1900 && date <= addMonths(today, -6)) {
       setIsDobGood(true);
     } else {
       setIsDobGood(false);
@@ -302,6 +306,7 @@ const CovidCard = () => {
   });
   const classes = useStyles();
 
+  
   const localeMap = {
     am: amLocale,
     ar: arLocale,
@@ -429,7 +434,7 @@ const CovidCard = () => {
               required
               error={error.Date || !isDobGood}
               aria-label='Date of birth'
-              maxDate={new Date('2021-01-01')}
+              maxDate={ addMonths(today, -6) }
               onClick={() => selectLocale(i18n.resolvedLanguage.toString())}
               onBlur={(e) => e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })}
               okLabel={<Trans i18nKey="vaccineform.ok">Ok</Trans>}
