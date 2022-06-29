@@ -63,7 +63,7 @@
   "qrpage": {
     "language": "en",
     "title": "Personal Digital COVID-19 Verification Record",
-    "pincode": "PIN Number:",
+    "pincode": "PIN Number",
     "vacinfo": "Vaccination Information",
     "name": "Name",
     "dateofbirth": "DOB",
