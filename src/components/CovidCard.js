@@ -63,7 +63,6 @@ import urLocale from "date-fns/locale/en-US";
 import viLocale from "date-fns/locale/vi";  
 import zhLocale from "date-fns/locale/zh-CN";  
 import zhtwLocale from "date-fns/locale/zh-TW";  
-import moment from "moment";
 import { FiberNewSharp } from "@material-ui/icons";
 
 const CovidCard = () => {
