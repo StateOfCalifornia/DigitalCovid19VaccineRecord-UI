@@ -137,7 +137,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
 
           <label htmlFor={'partitioned'} style={{ display: 'block' }}>
             <h1
-              style={{ color: "#F06724", fontSize: "24px", marginBottom: "25px" }}
+              style={{ color: "#F06724", fontSize: "24px", marginBottom: "25px", lineHeight: "1.38" }}
             >
               <Trans i18nKey="qrpage.pincode">PIN CODE:</Trans>
             </h1>
