@@ -69,7 +69,7 @@ const Header = () => {
     'hmn': "Hmong - Hmoob",
     'ja': 'Japanese - 日本語',
     'kar': "Karen - ကညီၤ",
-    'km': "Khmer - ភាសាខ្មែរ",
+    'km': "Khmer (Cambodian) - ភាសាខ្មែរ",
     'ko': 'Korean - 한국어',
     'lo': 'Lao - ພາ​ສາ​ລາວ',
     'mam': 'Mam - Qyol Mam',
