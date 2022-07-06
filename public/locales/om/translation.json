@@ -57,14 +57,14 @@
   },
   "qrpage": {
     "title": "Galmee Mirkaneessa Ragaa COVID-19 Dijitaalaa kan Dhuunfa", 
-    "pincode": "koodii PIN", 
+    "pincode": "koodii PIN", 
     "vacinfo": "Odeeffannoo Talaallii", 
     "name": "Maqaa", 
-    "dateofbirth": "Guyyaa dhaloota", 
+    "dateofbirth": "Guyyaa dhaloota", 
     "dose": "Doozii ", 
     "date": "Guyyaa", 
     "type": "Gosa", 
-    "howtosave": "Akkaataa olkaa’uu", 
+    "howtosave": "Akkaataa olkaa’uu", 
     "takeascreenshot": "Argii fuula battalaa kaasaa", 
     "or": "Yookiin", 
     "minrequirementsandroid": "Ulaagawwan xiqqaa: Hojmaatee Android 5 fi hojmaatee Google Play Services 21.18 & sanaa ol.", 
@@ -72,7 +72,7 @@
     "printrecord": "Galmee Maxxansi", 
     "download": "Buusi", 
     "needhelp": "Deeggarsa Dabalataa Barbaaddaa?", 
-    "incorrect": "Odeeffannoon galmee talaallii dijitaalaa keessan irra jiru sirrii yoo hin taane ykn hammi qorichaa dogoggora yoo ta’e, guyyota ykn omisha dogoggoraa yoo qabaate, galmee talaallii keessan sirreessu yookin haaromsuu isin barbaachisa. Galmee keessaan haaressuuf dhiyeessaa keessan qunnamuu yookan <1>nu qunnamuu</1> ni dandeessa. Qorannoo fi gochoota araaraa keenyaa torbanoota 2-3 keessatti akka beeksifamtu ni taata.",
+    "incorrect": "Odeeffannoon galmee talaallii dijitaalaa keessan irra jiru sirrii yoo hin taane ykn hammi qorichaa dogoggora yoo ta’e, guyyota ykn omisha dogoggoraa yoo qabaate, galmee talaallii keessan sirreessu yookin haaromsuu isin barbaachisa. Galmee keessaan haaressuuf dhiyeessaa keessan qunnamuu yookan <1>nu qunnamuu</1> ni dandeessa. Qorannoo fi gochoota araaraa keenyaa torbanoota 2-3 keessatti akka beeksifamtu ni taata.",
     "flotnumber": "Lakkoofsa Omishaa Omisha Irratti Maxxanfamu"
   }, 
   "receivedpage": {
