@@ -56,7 +56,7 @@
         "cancel": "ยกเลิก"
     }, 
     "qrpage": {
-        "title": "บันทึกการยืนยันเกี่ยวกับโควิด-19 แบบดิจิทัลส่วนบุคคล", 
+        "title": "บันทึกการยืนยันเกี่ยวกับโควิด-19 แบบดิจิทัลส่วนบุคคล", 
         "pincode": "หมายเลข PIN", 
         "vacinfo": "ข้อมูลการฉีดวัคซีน", 
         "name": "ชื่อ", 
@@ -67,8 +67,8 @@
         "howtosave": "วิธีบันทึก", 
         "takeascreenshot": "จับภาพหน้าจอ", 
         "or": "หรือ", 
-        "minrequirementsandroid": "ข้อกำหนดขั้นต่ำ: Android เวอร์ชัน 5 และ Google Play Services เวอร์ชัน 21.18 ขึ้นไป", 
-        "minrequirementsios": "ข้อกำหนดขั้นต่ำ: บนอุปกรณ์ iOS ให้ใช้เว็บเบราว์เซอร์ Safari", 
+        "minrequirementsandroid": "ข้อกำหนดขั้นต่ำ: Android เวอร์ชัน 5 และ Google Play Services เวอร์ชัน 21.18 ขึ้นไป", 
+        "minrequirementsios": "ข้อกำหนดขั้นต่ำ: บนอุปกรณ์ iOS ให้ใช้เว็บเบราว์เซอร์ Safari", 
         "printrecord": "พิมพ์บันทึก", 
         "download": "ดาวน์โหลด", 
         "needhelp": "ต้องการความช่วยเหลือเพิ่มเติมหรือไม่", 

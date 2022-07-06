@@ -11,7 +11,7 @@
   },
   "dashboardpage": {
     "contentheader": "Mirkaneessa Ragaa Dijitaalaa COVID-19",
-    "content1": "Gara Mirkaneessa Ragaa Dijitaalaa COVID-19 baga nagaan dhiftan Liinkii koodii QR fi mirkaneessa ragaa COVID-19 keessanitti geessu argachuuf odeeffannoo muraasa armaan gaditti galchaa. Talaallii fudhachuu ragaa mirkaneessu dhiyeessuu yoo feetan, ragaa sirnicha (system) irraa argattan bifa elektiroonkisii yookin piriintitiin fayyadamuu dandeessu.",
+    "content1": "Gara Mirkaneessa Ragaa Dijitaalaa COVID-19 baga nagaan dhiftan Liinkii koodii QR fi mirkaneessa ragaa COVID-19 keessanitti geessu argachuuf odeeffannoo muraasa armaan gaditti galchaa. Talaallii fudhachuu ragaa mirkaneessu dhiyeessuu yoo feetan, ragaa sirnicha (system) irraa argattan bifa elektiroonkisii yookinmaxansaatiin fayyadamuu dandeessu.",
     "content2": "Namoonni maatii tokko keessa jiraatan ragaalee mirkaneessaa heddu kan lakkoofsa bilbilaa tokko yookin imeelii wajjin wal qabatu heddu qabaachuu malu, tokkoon tokkoo gaaffii ragaa mirkaneessa dijitaalaa (digital verification record request) qofa qofaatti galchaa.",
     "content3": "Malichi koppii dijitaalaa ragaalee talaallii naannoo dhiyeessa. Ejansii federaalaa (Muummee Humna Ittisaa, Tajaajila Fayyaa Indiyaa (Department of Defense, Indian Health Services,) yookin Biiroo Dhimma Loltoota Durii (Veterans Affairs)) irraa talaallii yoo fudhattan, deeggarsaaf ejansiiwwan sana qunnamuutu isin barbaachisa.",
     "content4": "Waa’ee Mirkaneessa Ragaa Dijitaalaa COVID-19 gaaffii yoo qabaattan, fuula Gaaffilee Yeroo Heddu Gaafataman  (<1>FAQ</1>) (Ingiliffa qofa) ilaalaa. "
@@ -57,14 +57,14 @@
   },
   "qrpage": {
     "title": "Galmee Mirkaneessa Ragaa COVID-19 Dijitaalaa kan Dhuunfa", 
-    "pincode": "koodii PIN", 
+    "pincode": "koodii PIN", 
     "vacinfo": "Odeeffannoo Talaallii", 
     "name": "Maqaa", 
-    "dateofbirth": "Guyyaa dhaloota", 
+    "dateofbirth": "Guyyaa dhaloota", 
     "dose": "Doozii ", 
     "date": "Guyyaa", 
     "type": "Gosa", 
-    "howtosave": "Akkaataa olkaa’uu", 
+    "howtosave": "Akkaataa olkaa’uu", 
     "takeascreenshot": "Argii fuula battalaa kaasaa", 
     "or": "Yookiin", 
     "minrequirementsandroid": "Ulaagawwan xiqqaa: Hojmaatee Android 5 fi hojmaatee Google Play Services 21.18 & sanaa ol.", 
@@ -72,7 +72,7 @@
     "printrecord": "Galmee Maxxansi", 
     "download": "Buusi", 
     "needhelp": "Deeggarsa Dabalataa Barbaaddaa?", 
-    "incorrect": "Odeeffannoon galmee talaallii dijitaalaa keessan irra jiru sirrii yoo hin taane ykn hammi qorichaa dogoggora yoo ta’e, guyyota ykn omisha dogoggoraa yoo qabaate, galmee talaallii keessan sirreessu yookin haaromsuu isin barbaachisa. Galmee keessaan haaressuuf dhiyeessaa keessan qunnamuu yookan <1>nu qunnamuu</1> ni dandeessa. Qorannoo fi gochoota araaraa keenyaa torbanoota 2-3 keessatti akka beeksifamtu ni taata.",
+    "incorrect": "Odeeffannoon galmee talaallii dijitaalaa keessan irra jiru sirrii yoo hin taane ykn hammi qorichaa dogoggora yoo ta’e, guyyota ykn omisha dogoggoraa yoo qabaate, galmee talaallii keessan sirreessu yookin haaromsuu isin barbaachisa. Galmee keessaan haaressuuf dhiyeessaa keessan qunnamuu yookan <1>nu qunnamuu</1> ni dandeessa. Qorannoo fi gochoota araaraa keenyaa torbanoota 2-3 keessatti akka beeksifamtu ni taata.",
     "flotnumber": "Lakkoofsa Omishaa Omisha Irratti Maxxanfamu"
   }, 
   "receivedpage": {

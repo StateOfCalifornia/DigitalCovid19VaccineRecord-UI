@@ -57,7 +57,7 @@
   },
   "qrpage": {
     "title": "Diiwaanka Xaqiijinta Tallaalka COVID-19 ee Dhijitaalka ah ee Shaqsiga ah", 
-    "pincode": "Lambarka Gaarka ah ee Shaqsiga:", 
+    "pincode": "Lambarka Gaarka ah ee Shaqsiga", 
     "vacinfo": "Macluumaadka Tallaalka", 
     "name": "Magaca", 
     "dateofbirth": "Taariikhda Dhalashada", 
@@ -68,11 +68,11 @@
     "takeascreenshot": "Ka qaad sawir", 
     "or": "Ama", 
     "minrequirementsandroid": "Shuruudaha ugu yar: Taleefoon Android ah nooca 5 aad iyo Adeegyada Google Play nooca 21.18 & wixii ka sareeya.", 
-    "minrequirementsios": "Shuruudaha ugu yar: Marka aad haysato qalab iOS ah, adeegso mareegta Safari boroowsarka webka.", 
+    "minrequirementsios": "Shuruudaha ugu yar: Marka aad haysato qalab iOS ah, adeegso mareegta Safari boroowsarka webka.", 
     "printrecord": "Daabac Diiwaanka", 
     "download": "Soo dagso", 
     "needhelp": "Ma u baahantahay caawimaad dheeraad ah?", 
-    "incorrect": "Haddii macluumaadka kujira diiwaankaaga tallaalka dhijitaalka ah uu khaldan yahay ama doos tallaal ka maqan yahay, taariikho khaldan uu leeyahay ama nooca tallaalka uu khaldan yahay, waxaa laga yaabaa inaad u baahato inaad soo saxdo ama soo cusbooneysiiso diiwaankaaga tallaalka. Waxaad la xariiri kartaa bixiyahaaga tallaalka si uu u cusbooneysiiyo diiwaankaaga ama <1>nala soo xariir</1>. Waxaa lagugu ogeysiin doonaa natiijooyinkeena iyo tallaabooyinka xalka u ah 2-3 toddobaad gudahood.",
+    "incorrect": "Haddii macluumaadka kujira diiwaankaaga tallaalka dhijitaalka ah uu khaldan yahay ama doos tallaal ka maqan yahay, taariikho khaldan uu leeyahay ama nooca tallaalka uu khaldan yahay, waxaa laga yaabaa inaad u baahato inaad soo saxdo ama soo cusbooneysiiso diiwaankaaga tallaalka. Waxaad la xariiri kartaa bixiyahaaga tallaalka si uu u cusbooneysiiyo diiwaankaaga ama <1>nala soo xariir</1>. Waxaa lagugu ogeysiin doonaa natiijooyinkeena iyo tallaabooyinka xalka u ah 2-3 toddobaad gudahood.",
     "flotnumber": "Lambarka Lootka"
   }, 
   "receivedpage": {
