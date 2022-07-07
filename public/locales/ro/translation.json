@@ -76,11 +76,11 @@
     "flotnumber": "Număr lot"
   }, 
   "receivedpage": {
-    "title": "Recipisă de solicitare a certificatului digital COVID-19",
+    "title": "Recipisă de solicitare pentru un Certificat digital COVID-19",
     "thankyou": "Vă mulțumim.",
     "content1": "Solicitarea dvs. a fost primită. Dacă informațiile furnizate corespund informațiilor din sistemul nostru, veți primi un link pentru a accesa certificatul dvs. COVID-19.",
     "content2": "Dacă nu primiți un link în interval de 24 de ore, încercați din nou și verificați dacă numele, data nașterii, numărul de telefon și adresa de e-mail corespund cu informațiile furnizate în momentul vaccinării.",
-    "content3": "Dacă aveți întrebări referitoare la <1>Certificatul digital COVID-19</1>, noi vă răspundem. Accesați pagina Întrebări frecvente (<3>Întrebări frecvente</3>) . ",
+    "content3": "Dacă aveți întrebări referitoare la un <1>Certificat digital COVID-19</1>, noi vă răspundem. Accesați pagina Întrebări frecvente (<3>Întrebări frecvente</3>).",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
