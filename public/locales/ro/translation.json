@@ -10,11 +10,11 @@
     "subtitle": "Completați formularul pentru a crea codul cu răspuns rapid (QR)"
   },
   "dashboardpage": {
-    "contentheader": "Certificatul digital COVID-19",
-    "content1": "Bun venit în sistemul de generare a certificatelor digitale COVID-19. Introduceți câteva detalii mai jos pentru a obține un link către un cod QR și copia digitală a certificatului dvs. COVID-19. Dacă doriți să prezentați dovada vaccinării, puteți utiliza fie versiunea electronică, fie versiunea tipărită a certificatului generat de sistem.",
+    "contentheader": "Certificat digital COVID-19",
+    "content1": "Bun venit în sistemul de generare pentru Certificat digital COVID-19. Introduceți câteva detalii mai jos pentru a obține un link către un cod QR și copia digitală a certificatului dvs. COVID-19. Dacă doriți să prezentați dovada vaccinării, puteți utiliza fie versiunea electronică, fie versiunea tipărită a certificatului generat de sistem.",
     "content2": "În cazul persoanelor din cadrul unei familii pot să existe mai multe certificate asociate cu un singur număr de telefon sau cu o singură adresă de e-mail, de aceea, trebuie să introduceți separat fiecare solicitare pentru certificatul digital.",
     "content3": "Sistemul generează o copie digitală a certificatului de vaccinare emis de stat. Dacă ați primit dozele de vaccin de la o agenție federală (Department of Defense (Departamentul de Apărare), Indian Health Services (Serviciile de Sănătate Indiene) sau Veterans Affairs (Ministerul Veteranilor de război)), va trebui să contactați agențiile respective pentru asistență.",
-    "content4": "Dacă aveți întrebări referitoare la certificatul digital COVID-19, accesați pagina Întrebări frecvente (<1>Întrebări frecvente</1>) . "
+    "content4": "Dacă aveți întrebări referitoare la un Certificat digital COVID-19, accesați pagina Întrebări frecvente (<1>Întrebări frecvente</1>) . "
   },
   "vaccineform": {
     "filloutheader": "Completați câmpurile obligatorii pentru a obține un link către un cod QR/copia digitală a certificatului dvs. COVID-19:",
@@ -76,11 +76,11 @@
     "flotnumber": "Număr lot"
   }, 
   "receivedpage": {
-    "title": "Recipisă de solicitare a certificatului digital COVID-19",
+    "title": "Recipisă de solicitare pentru un Certificat digital COVID-19",
     "thankyou": "Vă mulțumim.",
     "content1": "Solicitarea dvs. a fost primită. Dacă informațiile furnizate corespund informațiilor din sistemul nostru, veți primi un link pentru a accesa certificatul dvs. COVID-19.",
     "content2": "Dacă nu primiți un link în interval de 24 de ore, încercați din nou și verificați dacă numele, data nașterii, numărul de telefon și adresa de e-mail corespund cu informațiile furnizate în momentul vaccinării.",
-    "content3": "Dacă aveți întrebări referitoare la <1>Certificatul digital COVID-19</1>, noi vă răspundem. Accesați pagina Întrebări frecvente (<3>Întrebări frecvente</3>) . ",
+    "content3": "Dacă aveți întrebări referitoare la un <1>Certificat digital COVID-19</1>, noi vă răspundem. Accesați pagina Întrebări frecvente (<3>Întrebări frecvente</3>).",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
@@ -96,16 +96,16 @@
   },
   "faqpage": {
     "title": "ÎNTREBĂRI FRECVENTE",
-    "01question": "Ce este certificatul digital COVID-19?",
-    "01answer": "<1>Certificatul digital COVID-19</1> este o fișă electronică de vaccinare, extrasă din datele stocate în registrul de vaccinare de stat. Pe certificatul digital apar aceleași informații precum cele de pe cardul de vaccinare COVID-19 în format tipărit, emis de Centers for Disease Control and Prevention (CDC, Centrul pentru controlul și prevenirea bolilor): numele, data nașterii, datele vaccinărilor și tipul de vaccin primit. De asemenea, pe certificatul digital apare un cod QR care, dacă este scanat cu un cititor de SMART Health Card (card de sănătate inteligent), va afișa numele, data nașterii, datele vaccinărilor și tipul de vaccin. Codul QR confirmă, de asemenea, faptul că fișa de vaccinare este un document oficial emis de statul dvs.",
+    "01question": "Ce este un Certificat digital COVID-19?",
+    "01answer": "Un <1>Certificat digital COVID-19</1> este o fișă electronică de vaccinare, extrasă din datele stocate în registrul de vaccinare de stat. Pe certificatul digital apar aceleași informații precum cele de pe cardul de vaccinare COVID-19 în format tipărit, emis de Centers for Disease Control and Prevention (CDC, Centrul pentru controlul și prevenirea bolilor): numele, data nașterii, datele vaccinărilor și tipul de vaccin primit. De asemenea, pe certificatul digital apare un cod QR care, dacă este scanat cu un cititor de SMART Health Card (card de sănătate inteligent), va afișa numele, data nașterii, datele vaccinărilor și tipul de vaccin. Codul QR confirmă, de asemenea, faptul că fișa de vaccinare este un document oficial emis de statul dvs.",
     "02question": "Cum se va trimite certificatul meu?",
     "02answer": "După identificarea certificatului dvs., veți primi un link pe adresa de e-mail sau la numărul de telefon asociat cu fișa de vaccinare. Introduceți codul PIN din patru cifre pentru a vizualiza datele dvs. de verificare COVID-19, inclusiv numele, data nașterii, datele vaccinărilor și producătorul vaccinului. De asemenea, veți primi un cod QR scanabil, care confirmă autenticitatea certificatului dvs.",
     "03question": "Pot să-mi salvez certificatul digital într-un iPhone?",
-    "03answer": "Puteți să salvați certificatul digital în aplicația Apple Health folosind sistemul de operare iOS 15. Pentru a finaliza procedura va trebui să utilizați browserul web Safari. <br />Sau puteți să realizați o captură de ecran cu <1>certificatul digital COVID-19</1> pe care să o salvați în galeria foto. ",
+    "03answer": "Puteți să salvați certificatul digital în aplicația Apple Health folosind sistemul de operare iOS 15. Pentru a finaliza procedura va trebui să utilizați browserul web Safari. <br />Sau puteți să realizați o captură de ecran cu un <1>Certificat digital COVID-19</1> pe care să o salvați în galeria foto.",
     "04question": "Pot să-mi salvez certificatul digital într-un dispozitiv cu Android?",
-    "04answer": "Da. Puteți să salvați <1>certificatul digital COVID-19</1> în Google Play dacă aveți un dispozitiv cu Android versiunea 5 și Google Play Services versiunea 21.18 sau ulterioară. <br />De asemenea, puteți să realizați o captură de ecran cu <3>certificatul digital COVID-19</3> pe care să o salvați în galeria foto. ",
+    "04answer": "Da. Puteți să salvați un <1>Certificat digital COVID-19</1> în Google Play dacă aveți un dispozitiv cu Android versiunea 5 și Google Play Services versiunea 21.18 sau ulterioară. <br />De asemenea, puteți să realizați o captură de ecran cu un <3>Certificat digital COVID-19</3> pe care să o salvați în galeria foto.",
     "05question": "Dacă primesc doze suplimentare, vor apărea acestea pe certificatul meu digital?",
-    "05answer": "Nu. Dacă primiți o doză suplimentară sau o doză booster, aceasta nu se va regăsi automat pe certificatul dvs. digital. Trebuie să reporniți sistemul de <1>certificate digitale COVID-19</1> pentru a prelua un nou cod QR. <br />Vă recomandăm să așteptați între 3 și 7 zile pentru ca doza nouă să apară în Registrul de vaccinare.",
+    "05answer": "Nu. Dacă primiți o doză suplimentară sau o doză booster, aceasta nu se va regăsi automat pe certificatul dvs. digital. Trebuie să reporniți sistemul pentru <1>Certificat digital COVID-19</1> pentru a prelua un nou cod QR.<br />Vă recomandăm să așteptați între 3 și 7 zile pentru ca doza nouă să apară în Registrul de vaccinare.",
     "06question": "Când va apărea doza de vaccin pe certificatul meu digital?",
     "06answer": "Intervalul de timp necesar pentru trimiterea informațiilor privind doza de vaccin către Registrul de vaccinare variază de la o clinică la alta. Vă recomandăm să așteptați între 3 și 7 zile pentru ca doza să apară în sistem. Dacă înregistrarea tot nu apare, puteți să ne <1>contactați</1>. ",
     "07question": "Ce se întâmplă dacă fișa mea nu este găsită?",
@@ -113,17 +113,17 @@
     "08question": "Ce se întâmplă dacă certificatul meu digital este incorect?",
     "08answer": "Dacă datele din fișa de vaccinare digitală sunt incorecte, dacă lipsește una dintre doze sau dacă o doză este înregistrată cu date de administrare incorecte sau cu marca incorectă, vă recomandăm să corectați sau să actualizați fișa de vaccinare. Contactați furnizorul solicitându-i să vă actualizeze fișa de vaccinare sau <1>contactați-ne</1>. În 2 – 3 săptămâni veți primi o notificare cu constatările noastre și măsurile de remediere. ",
     "09question": "Cum funcționează sistemul de certificate digitale COVID-19?",
-    "09answer": "Sistemul de <1>certificate digitale COVID-19</1>  preia fișele de vaccinare COVID-19 din sistemele de vaccinare de stat. Introduceți numele, data nașterii și adresa de e-mail sau numărul de telefon mobil asociat cu fișa dvs. de vaccinare, apoi creați un cod PIN din patru cifre. Dacă informațiile furnizate corespund cu datele din fișa oficială, veți primi un mesaj text sau un e-mail cu un link către <3>certificatul digital COVID-19</3>. Introduceți codul PIN creat pentru a vizualiza certificatul. ",
+    "09answer": "Sistemul pentru <1>Certificat digital COVID-19</1> preia fișele de vaccinare COVID-19 din sistemele de vaccinare de stat. Introduceți numele, data nașterii și adresa de e-mail sau numărul de telefon mobil asociat cu fișa dvs. de vaccinare, apoi creați un cod PIN din patru cifre. Dacă informațiile furnizate corespund cu datele din fișa oficială, veți primi un mesaj text sau un e-mail cu un link către un <3>Certificat digital COVID-19</3>. Introduceți codul PIN creat pentru a vizualiza certificatul.",
     "10question": "Datele mele vor rămâne confidențiale?",
     "10answer": "Da. Prin completarea formularului în sistem nu obțineți acces instant la certificatul dvs. Linkul către certificat vă solicită codul PIN creat de dvs. și este trimis doar pe telefonul mobil sau la adresa de e-mail asociată cu fișa dvs. de vaccinare. <br />Codul QR este un SMART Health Card (card de sănătate inteligent), o copie sigură a certificatului dvs. Găsiți mai multe informații accesând <1>https://smarthealth.cards</1>. Pentru protejarea confidențialității, codul QR poate fi scanat și citit doar de un aparat compatibil cu SMART Health Card. ",
     "11question": "Pot să resetez codul PIN?",
-    "11answer": "Da. Din momentul în care primiți linkul aveți la dispoziție 24 de ore pentru a introduce codul PIN din patru cifre și pentru a accesa <1>Certificatul digital COVID-19</1>. Dacă nu faceți acest lucru, linkul către certificatul digital va expira, însă aveți posibilitatea de a relua procedura si de a reseta codul PIN cu ajutorul sistemului de <3>certificate digitale COVID-19</3>. <br />Dacă nu vă amintiți codul PIN, puteți urma aceeași procedură după 24 de ore pentru a crea un nou cod PIN. <br /><5>NOTĂ: după ce ați accesat certificatul digital și ați salvat codul QR, acesta nu va expira.</5> ",
+    "11answer": "Da. Din momentul în care primiți linkul aveți la dispoziție 24 de ore pentru a introduce codul PIN din patru cifre și pentru a accesa un <1>Certificat digital COVID-19</1>. Dacă nu faceți acest lucru, linkul către certificatul digital va expira, însă aveți posibilitatea de a relua procedura si de a reseta codul PIN cu ajutorul sistemului pentru <3>Certificat digital COVID-19</3>.<br />Dacă nu vă amintiți codul PIN, puteți urma aceeași procedură după 24 de ore pentru a crea un nou cod PIN. <br /><5>NOTĂ: după ce ați accesat certificatul digital și ați salvat codul QR, acesta nu va expira.</5> ",
     "12question": "Acest document va constitui dovada stării mele de vaccinare?",
-    "12answer": "Da. Este una dintre <1>mai multe opțiuni</1>  de furnizare a <3>certificatului digital COVID-19</3>, acesta poate fi tipărit sau prezentat în format digital. De asemenea, puteți prezenta cardul de vaccinare COVID-19 emis de Centers for Disease Control and Prevention (CDC, Centrul pentru controlul și prevenirea bolilor) sau fișa de vaccinare de stat. <br />Nu sunteți obligat să obțineți un <5>certificat digital COVID-19</5>. Acesta reprezintă o metodă opțională prin care puteți obține datele de verificare COVID-19, fiind versiunea digitală a certificatului tipărit. Este una dintre opțiunile prin care puteți prezenta dovada vaccinării. Statul nu va implementa un sistem de pașapoarte obligatorii. ",
+    "12answer": "Da. Este una dintre <1>mai multe opțiuni</1> de furnizare a unui <3>Certificat digital COVID-19</3>, acesta poate fi tipărit sau prezentat în format digital. De asemenea, puteți prezenta cardul de vaccinare COVID-19 emis de Centers for Disease Control and Prevention (CDC, Centrul pentru controlul și prevenirea bolilor) sau fișa de vaccinare de stat.<br />Nu sunteți obligat să obțineți un <5>Certificat digital COVID-19</5>. Acesta reprezintă o metodă opțională prin care puteți obține datele de verificare COVID-19, fiind versiunea digitală a certificatului tipărit. Este una dintre opțiunile prin care puteți prezenta dovada vaccinării. Statul nu va implementa un sistem de pașapoarte obligatorii.",
     "13question": "Ce fac dacă trebuie să înlocuiesc cardul de vaccinare?",
-    "13answer": "Sistemul generează o copie digitală a certificatului dvs. de vaccinare. Dacă ați pierdut certificatul tipărit, puteți să imprimați certificatul digital pentru a-l utiliza. Dacă pierdeți <1>certificatul digital COVID-19</1>, puteți relua procedura în sistem. ",
+    "13answer": "Sistemul generează o copie digitală a certificatului dvs. de vaccinare. Dacă ați pierdut certificatul tipărit, puteți să imprimați certificatul digital pentru a-l utiliza. Dacă pierdeți un <1>Certificat digital COVID-19</1>, puteți relua procedura în sistem.",
     "14question": "Ce se întâmplă cu datele mele după ce sunt înregistrate?",
-    "14answer": "Pe <1>certificatul digital COVID-19</1> apar aceleași informații precum cele de pe cardul de vaccinare în format tipărit, emis de Centers for Disease Control and Prevention (CDC, Centrul pentru controlul și prevenirea bolilor). Întrebați organizațiile care scanează codul QR de pe <3>certificatul digital COVID-19</3> despre modul în care vor utiliza datele dvs. și dacă le vor păstra. Doar dvs. decideți cum și unde folosiți certificatul. ",
+    "14answer": "Pe fiecare <1>Certificat digital COVID-19</1> apar aceleași informații precum cele de pe cardul de vaccinare în format tipărit, emis de Centers for Disease Control and Prevention (CDC, Centrul pentru controlul și prevenirea bolilor). Întrebați organizațiile care scanează codul QR de pe fiecare <3>Certificat digital COVID-19</3> despre modul în care vor utiliza datele dvs. și dacă le vor păstra. Doar dvs. decideți cum și unde folosiți certificatul.",
     "15question": "Ce se întâmplă dacă am efectuat mai multe programări la vaccinare pentru mai multe persoane folosind același număr de telefon?",
     "15answer": "Dacă sunteți părinte sau tutore legal și ați creat mai multe programări folosind același număr de telefon sau aceeași adresă de e-mail, introduceți solicitările pe rând pentru a primi linkuri separate pentru fiecare certificat.",
     "needhelptitle": "Aveți nevoie de mai mult ajutor?",
@@ -132,7 +132,7 @@
     "needhelpcontent03": "Luni 06:00 – 22:00",
     "needhelpcontent04": "Marți-Duminică 06:00 – 18:00",
     "needhelpcontent05": "Închis în zilele de sărbători legale.",
-    "needhelpcontent06": "<0>NOTĂ:</0> nu putem actualiza certificatul digital COVID-19 la telefon.",
+    "needhelpcontent06": "<0>NOTĂ:</0> nu putem actualiza niciun Certificat digital COVID-19 la telefon.",
     "vaccineVerificationLink": "https://doh.wa.gov/ro/ghid-vizual-privind-dovada-oficiala-de-vaccinare-anti-covid-19-statul-washington"
   }
 }
