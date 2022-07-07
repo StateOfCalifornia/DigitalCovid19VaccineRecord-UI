@@ -10,11 +10,11 @@
     "subtitle": "Completați formularul pentru a crea codul cu răspuns rapid (QR)"
   },
   "dashboardpage": {
-    "contentheader": "Certificatul digital COVID-19",
-    "content1": "Bun venit în sistemul de generare a certificatelor digitale COVID-19. Introduceți câteva detalii mai jos pentru a obține un link către un cod QR și copia digitală a certificatului dvs. COVID-19. Dacă doriți să prezentați dovada vaccinării, puteți utiliza fie versiunea electronică, fie versiunea tipărită a certificatului generat de sistem.",
+    "contentheader": "Certificat digital COVID-19",
+    "content1": "Bun venit în sistemul de generare pentru Certificat digital COVID-19. Introduceți câteva detalii mai jos pentru a obține un link către un cod QR și copia digitală a certificatului dvs. COVID-19. Dacă doriți să prezentați dovada vaccinării, puteți utiliza fie versiunea electronică, fie versiunea tipărită a certificatului generat de sistem.",
     "content2": "În cazul persoanelor din cadrul unei familii pot să existe mai multe certificate asociate cu un singur număr de telefon sau cu o singură adresă de e-mail, de aceea, trebuie să introduceți separat fiecare solicitare pentru certificatul digital.",
     "content3": "Sistemul generează o copie digitală a certificatului de vaccinare emis de stat. Dacă ați primit dozele de vaccin de la o agenție federală (Department of Defense (Departamentul de Apărare), Indian Health Services (Serviciile de Sănătate Indiene) sau Veterans Affairs (Ministerul Veteranilor de război)), va trebui să contactați agențiile respective pentru asistență.",
-    "content4": "Dacă aveți întrebări referitoare la certificatul digital COVID-19, accesați pagina Întrebări frecvente (<1>Întrebări frecvente</1>) . "
+    "content4": "Dacă aveți întrebări referitoare la un Certificat digital COVID-19, accesați pagina Întrebări frecvente (<1>Întrebări frecvente</1>) . "
   },
   "vaccineform": {
     "filloutheader": "Completați câmpurile obligatorii pentru a obține un link către un cod QR/copia digitală a certificatului dvs. COVID-19:",
