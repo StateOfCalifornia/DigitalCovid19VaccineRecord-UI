@@ -10,14 +10,14 @@
     "subtitle": "Sa’a chitú ni tutu ya’a tágua tetiñu ñama in código (QR) siki nasa iyo"
   },
   "dashboardpage": {
-    "contentheader": "Tutu nuu kaa ndichí siki tu’un nasa iyo ní jín kue’e COVID-19",
-    "content1": "Ya’a kuu tutu nuu kaa ndichí siki tu’un nasa iyo ní jín kue’e COVID-19. Tee ní tu’un nuu ja ya’a de kenda in enlace nuu ní ja ndíso in código QR ji nuu kuu ni’in ní in copia siki tu’un nasa iyo ní jín kue’e COVID-19. Tú kúni ní kunimani ní in tutu siki vacuna ní, kuu tetiñu ní tutu ya’a nuu kaa ndchí axi tava ní in tutu.",
+    "contentheader": "Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19",
+    "content1": "Ya’a kuu Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19. Tee ní tu’un nuu ja ya’a de kenda in enlace nuu ní ja ndíso in código QR ji nuu kuu ni’in ní in copia siki tu’un nasa iyo ní jín kue’e COVID-19. Tú kúni ní kunimani ní in tutu siki vacuna ní, kuu tetiñu ní tutu ya’a nuu kaa ndchí axi tava ní in tutu.",
     "content2": "Nda ñayiví ini ve’e kuu kuneva’a ji ke’en tutu ja kachi siki nasa iyo ji jín in ni yokaa axi in ni correo electrónico, kakan siín ní nda tutu ya’a tú jiniñu’un ní.",
     "content3": "Kaa ya’a tava ji in tutu ja kuu kuatiñu ní ndíso ji nda tutu vacuna nii ñuu. Tú ni ni’in ní vacuana ní nuu in ve’e ja tatuni ñuu (Department of Defense, Indian Health Services, or Veterans Affairs (Vetiñu nda soldado, nda Ve’e satatan nda ñayiví savi axi Ve’e ja jito nda ñayiví ña’nu)), kanuu ka’an ní jín nda ve’e ya’a tágua chindeé ji ní.",
-    "content4": "Tú iyo ja nduu jaku’un ini ní siki nasa chi’in ní tu’un siki tu’un nasa iyo ní jín kue’e COVID-19 nuu nda kaa ndi chi ya’a, kunde’e ní nuu nda tu’un jikatu’na ka (<1>FAQ</1>). "
+    "content4": "Tú iyo ja nduu jaku’un ini ní siki nasa chi’in ní tu’un nuu Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19 nuu nda kaa ndi chi ya’a, kunde’e ní nuu nda tu’un jikatu’na ka (<1>FAQ</1>)."
   },
   "vaccineform": {
-    "filloutheader": "Sa’a chitú ni nuu jiniñu’un tágua ni’in ní in enlace nuu ndisi in código QR / copia tutu siki tu’un nasa iyo ní jín kue’e COVID-19:",
+    "filloutheader": "Sa’a chitú ni nuu jiniñu’un tágua ni’in ní in enlace nuu ndiso in código QR / copia tutu siki tu’un nasa iyo ní jín kue’e COVID-19",
     "title": "Tu’un siki ñayiví",
     "subtitle": "Nuu jiniñu’un tee ní ni tu’un ndee in *",
     "lastname": "Apellido",
@@ -57,7 +57,7 @@
   },
   "qrpage": {
     "title": "Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19", 
-    "pincode": "Número PIN:", 
+    "pincode": "Número PIN", 
     "vacinfo": "Tu’un siki vacuna ní", 
     "name": "Sivi ní", 
     "dateofbirth": "Kivi ja ni kaku ní", 
@@ -76,11 +76,11 @@
     "flotnumber": "Número lote"
   },
   "receivedpage": {
-    "title": "Tutu siki tu’un nasa iyo ní jín kue’e COVID-19 ja ni jikan ní nuu kaa ndichí",
+    "title": "Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19 ja ni jikan ní nuu kaa ndichí",
     "thankyou": "Kuta’vi sa.",
     "content1": "Ni kenda tu’un jikan ní nuu sa. Tú tu’un ja ni tetiñu ní kita’an jín tu’un ja neva’a sa, kuenda in enlace nuu ní tágua kuu kunde’e ní siki tu’un nasa iyo ní jín kue’e COVID-19.",
     "content2": "Tú nduu kenda in enlace nuu ní nuu 24 hora, sa’a tuku ní de kunde’e ní ja sivi ní, kivi ní kaku ní, número yokaa ní axi correo electrónico ní kani ta’an jín ja ni je’en ní ta ni kani vacuna ní.",
-    "content3": "Tú iyo tu’un ja nduu jaku’un ini ní siki <1>Tutu nuu kaa ndichí siki tu’un nasa iyo ní jín kue’e COVID-19</1> (vachi ni nuu yu’u ínglés), kuu xndiko sa tu’un ní. Kunde’e ní nuu página nda tu’un jikatu’un ka (<3>FAQ</3>). ",
+    "content3": "Tú iyo tu’un ja nduu jaku’un ini ní siki <1>Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19</1> (vachi ni nuu yu’u ínglés), kuu xndiko sa tu’un ní. Kunde’e ní nuu página nda tu’un jikatu’un ka (<3>FAQ</3>).",
     "privacyheader": "",
     "privacy1": "",
     "privacy2": ""
@@ -119,11 +119,11 @@
     "11question": "A kuu nasa’a jee sa PIN sa",
     "11answer": "Saa. Iyo 24 hora nde kivi kenda enlace nuu ni tágua chi’in ní PIN ní ja kuu kumi número de sukua kivi ní nuu <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> (vachi nuu yu’u Inglés). Tú ma sa’a ní, enlace ja kivi ní nuu iyo tutu ní naa, vese saa kuu ndije’e tuku ní de nasa jee ní PIN ní de kuatiñu ní <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> (vachi nuu yu’u Inglés). <br />Tú nduu na’an ní PIN ní, nuu 24 kuu ndije’e tuku ní de sa’a n+i in PIN jee. <br /><5>NOTA: Tú ja ni kivi ní de ni nani’in ní tutu ní de ni tava’a ní código QR ní, nduka naa ji.</5>",
     "12question": "A stuu tutu ya’a siki nasa iyo nda vacuna sa",
-    "12answer": "Saa. Ku in nuu <1>síin síin kaa</1> tágua chu’un ní your <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> de kuu tava ní axi ste’en ní nuu in kaa ndichí. Suni kuu ste’en ní tarjeta COVID-19 ja ni taji Centers for Disease Control and Prevention (CDC, Ve’e nuu jito ji jekani nda kue’e) nuu ní axi tutu siki tatan ní ja iyo nuu ñuu. <br />Nduu jiniñu’un ja kuneva’a ní in <5>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 </5>. Kuu in ja kuu ni’in ní tú kúni ní tu’un siki nasa iyo ni nuu COVID-19 de kuu in tutu ja iyo nuu kaa ndichí. Kuu in ja kuu kuetiñu ní tágua ste’en ní ja ni kani vacuna ní. Ñuu ma tava ji in pasaporte ja ndíso tu’un siki ja ya’a",
+    "12answer": "Saa. Ku in nuu <1>síin síin kaa</1> tágua chu’un ní your <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> de kuu tava ní axi ste’en ní nuu in kaa ndichí. Suni kuu ste’en ní tarjeta COVID-19 ja ni taji Centers for Disease Control and Prevention (CDC, Ve’e nuu jito ji jekani nda kue’e) nuu ní axi tutu siki tatan ní ja iyo nuu ñuu. <br />Nduu jiniñu’un ja kuneva’a ní in <5>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19 </5>. Kuu in ja kuu ni’in ní tú kúni ní tu’un siki nasa iyo ni nuu COVID-19 de kuu in tutu ja iyo nuu kaa ndichí. Kuu in ja kuu kuetiñu ní tágua ste’en ní ja ni kani vacuna ní. Ñuu ma tava ji in pasaporte ja ndíso tu’un siki ja ya’a.",
     "13question": "Naguá kuu tú jiniñu’un ja nasa’a jee sa tutu vacuna sa",
     "13answer": "Kaa ndichí ya’a taji ji in copia tutu siki nasa iyo vacuna ní. Tú ni skuita ní tutu ní kuu tava ní ja iyo nuu kaa ndichí de kuu kuetiñu ní. Tú ni skuita ní <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1>, kuu natava ní nuu ka ndichí.",
     "14question": "Nagua kuu jín tu’un sa tú ja ni jitenuu",
-    "14answer": "<1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> ndiso ji tu’un ja yoso nuu tarjeta vacuna ní ja taji Centers for Disease Control and Prevention (CDC, Ve’e nuu jito ji jekani nda kue’e). Kuu katu’un ní nuu ñayiví ja je’e ní código QR ní <3>Tutu nuu kaa ndichí siki nuu tu’un nasa iyo ní jín kue’e COVID-19</3> nasa kuatiñi ji axi nú tava’a ji. Maa ní kuu ja kachi nasa kuu ja kuatiñu ní nda tu’un ya’a. ",
+    "14answer": "<1>Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19</1> ndiso ji tu’un ja yoso nuu tarjeta vacuna ní ja taji Centers for Disease Control and Prevention (CDC, Ve’e nuu jito ji jekani nda kue’e). Kuu katu’un ní nuu ñayiví ja je’e ní código QR ní <3>Tutu nuu Kaa ndichí siki Tu’un Nasa iyo ní jín kue’e COVID-19</3> nasa kuatiñi ji axi nú tava’a ji. Maa ní kuu ja kachi nasa kuu ja kuatiñu ní nda tu’un ya’a.",
     "15question": "Naguá kuu tú tava ní cita ke’en ñayiví jín in ni número yokaa",
     "15answer": "Tú kuu ní tatá axi jito ní in luli de ni tava ni ke’en cita jín in ni número yokaa axi in ni correo electrónico, kanuu ja síin síin kakan ní nda tutu ya’a tágua sukua kenda nda enlave ja jiniñu’un ní tágua ni’in ní tutu ní.",
     "needhelptitle": "A jiniñu’un ka ní ja chindeé nuu ní",
