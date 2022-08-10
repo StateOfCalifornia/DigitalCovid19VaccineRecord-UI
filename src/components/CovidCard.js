@@ -17,6 +17,7 @@ import PhoneMask from "./PhoneMask";
 import { useHistory } from "react-router-dom";
 import { makeStyles } from '@material-ui/core/styles';
 import 'date-fns';
+import {format} from 'date-fns';
 import DateFnsUtils from "@date-io/date-fns";
 import addMonths from "date-fns/addMonths";
 
@@ -66,7 +67,7 @@ import zhtwLocale from "date-fns/locale/zh-TW";
 import { FiberNewSharp } from "@material-ui/icons";
 
 const CovidCard = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [loading, setLoading] = useState(false);
   const [selectedBirthDate, setSelectedBirthDate] = useState(null);
   const [contactType, setContactType] = useState("Phone");
@@ -84,7 +85,80 @@ const CovidCard = () => {
     Phone_Email: false,
     Pin: false,
     Date: false
-  })
+  });
+  const [monthOfBirth, setMonthOfBirth] = useState();
+  const [dayOfBirth, setDayOfBirth] = useState();
+  const [yearOfBirth, setYearOfBirth] = useState();
+
+  const [formErrors, setFormErrors] = useState([
+    {
+      "id": "FirstName",
+      "type": "required",
+      "isInvalid": false,
+      "message": "vaccineform.firstNameErrorMsg_ADA"
+    },
+    {
+      "id": "LastName",
+      "type": "required",
+      "isInvalid": false,
+      "message": "vaccineform.lastNameErrorMsg_ADA"
+    },
+    {
+      "id": "Date",
+      "type": "required",
+      "isInvalid": false,
+      "message": "vaccineform.dateOfBirthErrorMsg_ADA"
+    },
+    {
+      "id": "Date",
+      "type": "dob_format",
+      "isInvalid": false,
+      "message": "vaccineform.maxDateErrorMsg_ADA"
+    },
+    {
+      "id": "Phone_Email",
+      "type": "required",
+      "isInvalid": false,
+      "message": "vaccineform.mobileEmailErrorMsg_ADA"
+    },
+    {
+      "id": "Phone_Email",
+      "type": "phone_format",
+      "isInvalid": false,
+      "message": "vaccineform.mobileFormatErrorMsg_ADA"
+    },
+    {
+      "id": "Phone_Email",
+      "type": "email_format",
+      "isInvalid": false,
+      "message": "vaccineform.emailFormatErrorMsg_ADA"
+    },
+    {
+      "id": "Pin",
+      "isInvalid": false,
+      "type": "required",
+      "message": "vaccineform.pinErrorMsg_ADA"
+    },
+    {
+      "id": "Pin",
+      "isInvalid": false,
+      "type": "dup_format",
+      "message": "vaccineform.pinErrorMsg2"
+    },
+    {
+      "id": "Pin",
+      "isInvalid": false,
+      "type": "con_format",
+      "message": "vaccineform.pinErrorMsg1"
+    },
+    {
+      "id": "submitcheckbox",
+      "isInvalid": false,
+      "type": "required",
+      "message": "vaccineform.consentErrorMsg_ADA"
+    }
+  ]
+  )
 
   const history = useHistory();
   const { CREDENTIALS_API_STATUS } = window.config;
@@ -119,6 +193,11 @@ const CovidCard = () => {
   const handleChange = (e) => {
     finalCheck();
     setChecked(!checked);
+    if(checked){
+      document.getElementById('submitcheckbox').setAttribute("aria-invalid", "false")
+    }else{
+      document.getElementById('submitcheckbox').setAttribute("aria-invalid", "true")
+    }
   };
 
   const finalCheck = () => {
@@ -148,51 +227,201 @@ const CovidCard = () => {
 
     setError(tempErrorObj);
   }
-  const submitForm = (e) => {
+  const submitForm = async (e) => {
     e.preventDefault();
-    const { LastName, FirstName, DateOfBirth, textmask, contactType, PIN } =
-      e.target.elements;
-    const userData = {
-      LastName: LastName.value.trim(),
-      FirstName: FirstName.value.trim(),
-      DateOfBirth: DateOfBirth.value,
-      PhoneNumber: textmask ? normalize(textmask.value) : "",
-      EmailAddress: contactType ? contactType.value : "",
-      Pin: PIN.value,
-      Language: i18n.resolvedLanguage.toString()
-    };
+    let errorCheck = await formSubmitHandler();
+    let valueOfElement = (id) => document.getElementsByName(id)[0];
+    if (errorCheck) {
+      const userData = {
+        LastName: valueOfElement("LastName")?.value.trim(),
+        FirstName: valueOfElement("FirstName")?.value.trim(),
+        DateOfBirth: selectedBirthDate,
+        PhoneNumber: valueOfElement("textmask") ? normalize(valueOfElement("textmask")?.value) : "",
+        EmailAddress: valueOfElement("contactType") ? valueOfElement("contactType")?.value : "",
+        Pin: valueOfElement("PIN").value,
+        Language: i18n.resolvedLanguage
+      };
 
-    setLoading(true);
-    fetch(
-      `${CREDENTIALS_API_STATUS}/vaccineCredentialStatus`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(userData),
-    })
-      .then((response) => {
-        if (response.status === 200) {
-          history.push("/received");
-        }
-        else if (response.status === 422) {
-          setLoading(false);
-          setResponseMessage({ type: 'pinErrorMsg7', message: "Invalid data format, please try again." });
-        }
-        else if (response.status === 429) {
-          setLoading(false);
-          setResponseMessage({ type: 'pinErrorMsg4', message: "Please try your request again in 1 minute." });
-        }
-        else if (response.status !== 200) {
-          setLoading(false);
-          setResponseMessage({ type: 'pinErrorMsg6', message: "Could not complete your request, please try again." });
-        }
+      setLoading(true);
+      fetch(
+        `${CREDENTIALS_API_STATUS}/vaccineCredentialStatus`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(userData),
       })
-      .catch((error) => {
-        setLoading(false);
-        setResponseMessage({ type: 'pinErrorMsg6', message: "Could not complete your request, please try again." });
-      });
+        .then((response) => {
+          if (response.status === 200) {
+            history.push("/received");
+          }
+          else if (response.status === 422) {
+            setLoading(false);
+            setResponseMessage({ type: 'pinErrorMsg7', message: t("vaccineform.pinErrorMsg7") });
+          }
+          else if (response.status === 429) {
+            setLoading(false);
+            setResponseMessage({ type: 'pinErrorMsg4', message: t("vaccineform.pinErrorMsg4") });
+          }
+          else if (response.status !== 200) {
+            setLoading(false);
+            setResponseMessage({ type: 'pinErrorMsg6', message: t("vaccineform.pinErrorMsg6") });
+          }
+          document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
+      document.querySelector('[aria-invalid="true"]')?.focus();
+        })
+        .catch((error) => {
+          setLoading(false);
+          setResponseMessage({ type: 'pinErrorMsg6', message: t("vaccineform.pinErrorMsg6") });
+          document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
+      document.querySelector('[aria-invalid="true"]')?.focus();
+        });
+    }
+    else {
+      document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
+      document.querySelector('[aria-invalid="true"]')?.focus();
+    }
   };
+
+  const formSubmitHandler = async () => {
+    const isEmpty = (id) => document.getElementById(id)?.value?.trim()?.length < 1;
+    const isPinEmpty = (id) => document.getElementById(id)?.value?.trim()?.length < 4
+
+    document.getElementById("FirstName-label").style.color = "#000000"
+    document.getElementById("LastName-label").style.color = "#000000"
+    if (contactType === 'Phone') {
+      document.getElementById("contactPhone-label").style.color = "#000000"
+    }
+    else {
+      document.getElementById("contactEmail-label").style.color = "#000000"
+    }
+    document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+    document.getElementsByClassName("MuiCheckbox-root")[0].style.color = "#3f51b5"
+    //document.getElementById("pinlabel").style.color = "#000000"
+
+    const tempFormErrors = formErrors.map(ele => {
+      if (ele.type === 'required') {
+        if (ele.id === 'FirstName' && isEmpty(ele.id)) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          document.getElementById("FirstName-label").style.color = "#ec0000";
+          return { ...ele, isInvalid };
+        }
+        if (ele.id === 'LastName' && isEmpty(ele.id)) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          document.getElementById("LastName-label").style.color = "#ec0000";
+          return { ...ele, isInvalid };
+        }
+        if (ele.id === 'Date' && !(selectedBirthDate)) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          //document.getElementById('Select_Month').style.borderBottomColor = '#ec0000';
+          //document.getElementById('Select_Day').style.borderBottomColor = '#ec0000';
+          //document.getElementById('Select_Year').style.borderBottomColor = '#ec0000';
+          document.getElementById('dob-label').style.color = '#ec0000';
+          return { ...ele, isInvalid };
+        }
+        if (ele.id === 'Phone_Email' && isEmpty(contactType)) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          if (contactType === "Phone") {
+            document.getElementById("contactPhone-label").style.color = "#ec0000"
+          }
+          else {
+            document.getElementById("contactEmail-label").style.color = "#ec0000"
+          }
+          return { ...ele, isInvalid };
+        }
+        if (ele.id === 'Pin' && isPinEmpty('Pin')) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          //document.getElementById("pinlabel").style.color = "#ec0000"
+          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #ec0000 0, #ec0000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          return { ...ele, isInvalid };
+        }
+        if (ele.id === 'submitcheckbox' & !checked) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          document.getElementsByClassName("MuiCheckbox-root")[0].style.color = "#ec0000"
+          return { ...ele, isInvalid };
+        }
+        let isInvalid = ele.isInvalid;
+        isInvalid = false;
+        return { ...ele, isInvalid };
+      }
+
+      else if (ele.type === 'dob_format') {
+        if (selectedBirthDate) {
+
+          if (!isDobGood) {
+            let isInvalid = ele.isInvalid;
+            isInvalid = true;
+            //document.getElementById('Select_Month').style.borderBottomColor = '#ec0000';
+            //document.getElementById('Select_Day').style.borderBottomColor = '#ec0000';
+            //document.getElementById('Select_Year').style.borderBottomColor = '#ec0000';
+            document.getElementById('dob-label').style.color = '#ec0000';
+            return { ...ele, isInvalid };
+          }
+          else {
+            let isInvalid = ele.isInvalid;
+            isInvalid = false;
+            document.getElementById('dob-label').style.color = 'black';
+            //document.getElementById('Select_Month').style.borderBottomColor = '#727272';
+            //document.getElementById('Select_Day').style.borderBottomColor = '#727272';
+            //document.getElementById('Select_Year').style.borderBottomColor = '#727272';
+            return { ...ele, isInvalid };
+          }
+        }
+      }
+      else if (ele.type === 'phone_format') {
+        if (contactType === 'Phone' ? !isEmpty('Phone') && document.getElementById('Phone')?.value.replace(/[^0-9]/g, "").length < 10 : false) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          document.getElementById("contactPhone-label").style.color = "#ec0000"
+          return { ...ele, isInvalid };
+        }
+      }
+      else if (ele.type === 'email_format') {
+        if (contactType === 'Email' && !isEmpty('Email') ? (!(emailRegex.test(document.getElementById('Email')?.value)) 
+        || !noWhiteSpaceRegex.test(document.getElementById('Email')?.value) 
+        || (document.getElementById('Email')?.value.split('@').length>2) 
+        || (document.getElementById('Email')?.value.indexOf(',') > -1)
+        || (document.getElementById('Email')?.value.lastIndexOf('.', 0) === 0)
+        || (document.getElementById('Email')?.value.substr(-1) === '.')) : false) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          document.getElementById("contactEmail-label").style.color = "#ec0000"
+          return { ...ele, isInvalid };
+        }
+      }
+      else if (ele.type === 'dup_format') {
+        if (!isPinEmpty('Pin') && containsDuplicateChar(document.getElementById('partitioned').value)) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          //document.getElementById("pinlabel").style.color = "#ec0000"
+          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #ec0000 0, #ec0000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          return { ...ele, isInvalid }
+        }
+      }
+      else if (ele.type === 'con_format') {
+        if (!isPinEmpty('Pin') & containsAscending(document.getElementById('partitioned').value)) {
+          let isInvalid = ele.isInvalid;
+          isInvalid = true;
+          //document.getElementById("pinlabel").style.color = "#ec0000"
+          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #ec0000 0, #ec0000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          return { ...ele, isInvalid }
+        }
+      }
+      let isInvalid = ele.isInvalid;
+      isInvalid = false;
+      return { ...ele, isInvalid };
+    })
+    setResponseMessage({})
+    setFormErrors(tempFormErrors)
+    let isFormValid = tempFormErrors.filter(ele => ele.isInvalid).length === 0;
+    return isFormValid;
+  }
 
   const numbersOnly = (e) => {
     if (e.target.value.length === 4) {
@@ -201,11 +430,14 @@ const CovidCard = () => {
     }
     if (containsDuplicateChar(e.target.value)) {
       setErrorMessage({ type: 'pinErrorMsg2', message: 'PIN cannot contain 4 duplicate numbers.' });
+      e.target.setAttribute("aria-invalid", "true");
     }
     else if (containsAscending(e.target.value)) {
       setErrorMessage({ type: 'pinErrorMsg1', message: 'PIN cannot contain 4 consecutive numbers.' });
+      e.target.setAttribute("aria-invalid", "true");
     } else {
       setErrorMessage({});
+      e.target.setAttribute("aria-invalid", "false");
     }
     const numsOnly = e.target.value.replace(/[^0-9]/g, "");
     setPin(numsOnly);
@@ -358,6 +590,8 @@ const CovidCard = () => {
   const selectLocale = useCallback(locale => {
     setLocale(locale.replace('-', ''));
   }, []);
+
+  
 
   return (
     <div className={"covid-card-container"}>
@@ -599,8 +833,8 @@ const CovidCard = () => {
                   borderRadius: "20px",
                   paddingLeft: "20px",
                   paddingRight: "20px",
-                  backgroundColor:
-                    checked && !errorMessage.type && document.getElementById("partitioned").value.length === 4 && isDobGood && !checkFormErrors() ? "rgba(0, 0, 139, 0.85)" : "#bdbdbd",
+								  
+                  backgroundColor: "rgba(0, 0, 139, 0.85)",
                   color: "white",
                   margin: "0px",
                   display: "block",
@@ -608,9 +842,10 @@ const CovidCard = () => {
                 }}
                 type="submit"
                 size="small"
-                aria-label='submit'
+                aria-label={t("vaccineform.submitbutton")}
+                onClick={submitForm}
 
-                disabled={!checked || errorMessage.type || document.getElementById("partitioned").value.length !== 4 || !isDobGood || checkFormErrors()}
+                
               >
                 <Trans i18nKey="vaccineform.submitbutton">Submit</Trans>
               </button>
