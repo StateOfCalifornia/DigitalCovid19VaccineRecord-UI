@@ -1,10 +1,23 @@
 import React, { useEffect } from "react";
 import { Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import faqLinkLanguage from "../utils/faqLinkLanguage";
 
 const ReceivedScreen = () => {
+  const { t, i18n } = useTranslation();
   useEffect(() => {
     window.scrollTo(0, 0);
+  }, []);
+  useEffect(() => {   
+    document.title = t("receivedpage.title");      
+ 
+  }); 
+  useEffect(() => {
+    const qrEl = document.getElementsByTagName("h1")[0];
+    qrEl.setAttribute("tabindex","0")
+    qrEl?.scrollIntoView();
+    qrEl.focus();
+
   }, []);
 
   return (

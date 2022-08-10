@@ -1,12 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactGA from "react-ga";
 import { Link } from "react-router-dom";
 import CovidCard from "./CovidCard";
-import { Trans } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import faqLinkLanguage from "../utils/faqLinkLanguage";
 import AppController from "../utils/AppController";
 
 const Dashboard = () => {
+  const { t, i18n } = useTranslation();
+  useEffect(() => {
+    document.title = t("dashboardpage.contentheader");
+  });
   return (
     <div>
       <div className="DashContainer bodyContainer">

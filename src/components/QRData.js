@@ -13,7 +13,7 @@ import Canvas2Image from "../utils/canvas2image";
 
 
 const QRData = ({ user, qr, apple, google, isMobile }) => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const english_i18n = i18n.createInstance({
     supportedLngs: ['en-US']
   }, (err, t) => {
@@ -107,7 +107,17 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     }
   });
   const classes = useStyles();
+  useEffect(() => {
+    const qrEl = document.getElementsByTagName("h1")[0];
+    qrEl.setAttribute("tabindex", "0")
+    qrEl?.scrollIntoView();
+    qrEl.focus();
 
+  }, []);
+  useEffect(() => {
+    document.title = t("qrpage.title");
+
+  });
   return (
     <div className={'center-w-margin'}>
       <div>

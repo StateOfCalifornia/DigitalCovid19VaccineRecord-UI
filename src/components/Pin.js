@@ -10,8 +10,19 @@ import { Trans, useTranslation } from "react-i18next";
 
 const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode }) => {
   const [loading, setLoading] = useState(false);
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [errorMessage, setErrorMessage] = useState({});
+
+  useEffect(() => {
+    const qrEl = document.getElementsByTagName("h1")[0];
+    qrEl.setAttribute("tabindex","0")
+    qrEl?.scrollIntoView();
+    qrEl.focus();
+  }, []);
+
+  useEffect(() => {
+    document.title = t("pinpage.title");
+  });
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);

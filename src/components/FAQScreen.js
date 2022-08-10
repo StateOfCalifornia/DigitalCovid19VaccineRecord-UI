@@ -9,6 +9,17 @@ const FAQScreen = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  useEffect(() => {
+    document.title = t("faqpage.title");
+  });
+  useEffect(() => {
+    const qrEl = document.getElementsByTagName("h1")[0];
+    qrEl.setAttribute("tabindex", "0")
+    qrEl?.scrollIntoView();
+    qrEl.focus();
+
+  }, []);
+
   return (
     <div className={"container"}>
       <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>
