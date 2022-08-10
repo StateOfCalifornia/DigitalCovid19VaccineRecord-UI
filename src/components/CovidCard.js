@@ -802,7 +802,7 @@ const CovidCard = () => {
             <div style={{ display: "flex" }}>
               <FormControlLabel
                 htmlFor='submitcheckbox'
-                aria-label='Policy Agree Checkbox'
+                aria-label={t("vaccineform.checkboxdescription")}
                 label='Policy Agree Checkbox'
                 control={
                   <Checkbox
