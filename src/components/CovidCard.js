@@ -770,7 +770,7 @@ const CovidCard = () => {
                 }}
               />
             )}
-            <FormLabel component="legend" style={{ color: error.Pin ? '#b30000' : 'dimgrey', marginTop: "50px" }}>
+            <FormLabel component="label" style={{ color: error.Pin ? '#b30000' : 'dimgrey', marginTop: "50px" }}>
               <Trans i18nKey="vaccineform.pincode">
                 Create a 4-digit PIN number. You'll receive a link to enter the PIN number and access your digital vaccine record. *
               </Trans>
