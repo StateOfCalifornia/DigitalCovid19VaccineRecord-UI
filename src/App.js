@@ -32,6 +32,7 @@ function App() {
   // Do not remove line:24 as this will break translation
   const { i18n } = useTranslation();
   document.body.dir = i18n.dir(i18n.language);
+  document.documentElement.lang = i18n.language;
 
   // Application Insight Log entry to track requested language code.
   if(i18n.language !== undefined)

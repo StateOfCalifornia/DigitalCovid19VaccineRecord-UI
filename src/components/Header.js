@@ -25,6 +25,7 @@ const Header = () => {
 
     i18n.changeLanguage(language);
     setLanguage(language);
+    document.documentElement.lang = language;
   };
 
   const [expand, setExpand] = useState(false);
