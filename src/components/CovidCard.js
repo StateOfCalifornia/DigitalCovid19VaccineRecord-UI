@@ -787,17 +787,19 @@ const CovidCard = () => {
                     maxLength: 4,
                     minLength: 4,
                     required: true,
-                    onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })]
+                    onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })],
+                    "aria-describedby": errorMessage.type ? "pinError" : null
                   }}
                   InputProps={{
                     className: classes.underline
                   }}
                   id="partitioned"
+                  
                 />
 
               </div>
             </div>
-            {errorMessage.type ? <label htmlFor='partitioned' style={{ color: 'red' }}><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
+            {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: 'red' }}><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
             <div style={{ marginBottom: "50px", marginTop: "20px" }}>
               <Trans i18nKey="vaccineform.note">
                 <span
