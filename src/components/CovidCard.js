@@ -484,6 +484,17 @@ const CovidCard = () => {
     setContactType(event.target.value);
   };
 
+  const contactTypeKeyDown = (event) => {
+    if(event.key == "ArrowLeft" || event.key == "ArrowRight")
+    if(contactType == "Email"){
+      setContactType("Phone")
+    }
+    if(contactType == "Phone"){
+      setContactType("Email")
+    }
+  };
+  
+
   const handlePhoneChange = (event) => {
     if (event.target.value.replace(/[^0-9]/g, "").length === 10) {
       setError({ ...error, Phone_Email: false });
@@ -686,6 +697,7 @@ const CovidCard = () => {
                 name="contactTypeRadio"
                 value={contactType}
                 onChange={handleContactTypeChange}
+                onKeyDown={contactTypeKeyDown}
                 row
               >
                 <FormControlLabel
@@ -694,6 +706,7 @@ const CovidCard = () => {
                   control={<Radio aria-checked={contactType === "Phone" ? 'true' : 'false'} role={"radio"} inputProps={{ 'aria-label': 'Phone' }} color={"primary"} />}
                   label={<Trans i18nKey={"vaccineform.Phone"}>Mobile Phone</Trans>}
                   aria-label={'Mobile Phone Selector'}
+                  onKeyDown={contactTypeKeyDown}
                 />
                 <FormControlLabel
                   value="Email"
@@ -701,6 +714,7 @@ const CovidCard = () => {
                   control={<Radio aria-checked={contactType === "Email" ? 'true' : 'false'} role={"radio"} inputProps={{ 'aria-label': 'Email' }} color={"primary"} />}
                   label={<Trans i18nKey={"vaccineform.Email"}>Email</Trans>}
                   aria-label={'Email Selector'}
+                  onKeyDown={contactTypeKeyDown}
                 />
               </RadioGroup>
             </FormControl>
