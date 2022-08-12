@@ -13,7 +13,7 @@ import Canvas2Image from "../utils/canvas2image";
 
 
 const QRData = ({ user, qr, apple, google, isMobile }) => {
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const english_i18n = i18n.createInstance({
     supportedLngs: ['en-US']
   }, (err, t) => {
@@ -107,7 +107,17 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
     }
   });
   const classes = useStyles();
+  useEffect(() => {
+    const qrEl = document.getElementsByTagName("h1")[0];
+    qrEl.setAttribute("tabindex", "0")
+    qrEl?.scrollIntoView();
+    qrEl.focus();
 
+  }, []);
+  useEffect(() => {
+    document.title = t("qrpage.title");
+
+  });
   return (
     <div className={'center-w-margin'}>
       <div>
@@ -262,6 +272,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                   width={"300px"}
                   src={"/imgs/google-pay-black.svg"}
                   alt={"Save to Google Pay"}
+                  aria-role={"button"}
                 />
               </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>
@@ -282,12 +293,13 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               <ReactGA.OutboundLink
                 eventLabel="apple_button"
                 to={`${user.walletContent}`}
-                style={{ margin: '5px 0px 0px 0px' }}
+                style={{ margin: '5px 0px 0px 0px' }}                
               >
                 <img
                   id={"apple-health-button"}
                   src={"/imgs/add-to-apple-wallet-and-health.svg"}
                   alt={"Works with Apple Health and Apple Wallet"}
+                  aria-role={"button"}
                 />
               </ReactGA.OutboundLink>
               <p className={"pt-2"} style={{ fontSize: "0.75rem" }}>

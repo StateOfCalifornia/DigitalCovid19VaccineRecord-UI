@@ -10,8 +10,19 @@ import { Trans, useTranslation } from "react-i18next";
 
 const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode }) => {
   const [loading, setLoading] = useState(false);
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [errorMessage, setErrorMessage] = useState({});
+
+  useEffect(() => {
+    const qrEl = document.getElementsByTagName("h1")[0];
+    qrEl.setAttribute("tabindex","0")
+    qrEl?.scrollIntoView();
+    qrEl.focus();
+  }, []);
+
+  useEffect(() => {
+    document.title = t("qrpage.pincode");
+  });
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
@@ -135,18 +146,17 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
           style={{ border: "none", boxShadow: "none" }}
         >
 
-          <label htmlFor={'partitioned'} style={{ display: 'block' }}>
             <h1
               style={{ color: "#F06724", fontSize: "24px", marginBottom: "25px", lineHeight: "1.38" }}
             >
               <Trans i18nKey="qrpage.pincode">PIN CODE:</Trans>
             </h1>
-          </label>
+
           <div>
-            <p style={{ marginLeft: "0" }}>
+            <label style={{ marginLeft: "0" }} htmlFor={'partitioned'}>
               <Trans i18nKey="vaccineform.enterPin">Please enter the PIN code you created to request access to your
                 vaccine record.</Trans>
-            </p>
+            </label>
           </div>
 
           <TextField
@@ -159,7 +169,8 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               maxLength: 4,
               minLength: 4,
               required: true,
-              onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })]
+              onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })],
+              "aria-describedby": errorMessage.type ? "pinError" : null
             }}
             InputProps={{
               className: classes.underline
@@ -186,14 +197,14 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
                 }}
                 type="submit"
                 size="small"
-                disabled={!pin}
+                
               >
                 <Trans i18nKey="vaccineform.submitbutton">Submit</Trans>
               </button>
             )}
           </CardActions>
         </Card>
-        <div style={{ color: 'red' }}>{errorMessage.message ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
+        <div style={{ color: '#b30000' }} id="pinError">{errorMessage.message ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
       </form>
     </div>
   );
