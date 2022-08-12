@@ -644,6 +644,7 @@ const CovidCard = () => {
               errorStyle={{color: "#b30000"}}
               onBlur={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
             />
+            {error.FirstName ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }}>Please enter your First Name</label> : ''}
             <TextField
               name="LastName"
               label={<Trans i18nKey="vaccineform.lastname">Last name</Trans>}
@@ -660,6 +661,7 @@ const CovidCard = () => {
               onBlur={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
 
             />
+            {error.LastName ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }}>Please enter your Last Name</label> : ''}
 
             <MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
             <KeyboardDatePicker
@@ -684,6 +686,7 @@ const CovidCard = () => {
               okLabel={<Trans i18nKey="vaccineform.ok">Ok</Trans>}
               cancelLabel={<Trans i18nKey="vaccineform.cancel">Cancel</Trans>}
             />
+            {error.Date && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }}>Date of Birth field cannot be blank</label> : ''}
             </MuiPickersUtilsProvider>
             {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
@@ -740,8 +743,10 @@ const CovidCard = () => {
                     e.target.value.replace(/[^0-9]/g, "").length < 10 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false });
                   }}
                 />
+                {error.Phone_Email ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }}>Please enter Mobile Phone in valid format</label> : ''}
               </FormControl>
             ) : (
+              <FormControl className={"col-12"}>
               <TextField
                 name="contactType"
                 label={
@@ -769,6 +774,8 @@ const CovidCard = () => {
                   emailRegex.test(e.target.value) && noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
                 }}
               />
+              {error.Phone_Email ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }}>Enter a valid email address</label> : ''}
+              </FormControl>
             )}
             <FormLabel component="label" style={{ color: error.Pin ? '#b30000' : 'dimgrey', marginTop: "50px" }}>
               <Trans i18nKey="vaccineform.pincode">
@@ -794,12 +801,13 @@ const CovidCard = () => {
                     className: classes.underline
                   }}
                   id="partitioned"
-                  
+                  error={error.Pin}
                 />
 
               </div>
             </div>
             {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: 'red' }}><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
+            {error.Pin   ? <label id='pinError' htmlFor='partitioned' style={{ color: 'red' }}>PIN Number must be 4 characters</label> : ''}
             <div style={{ marginBottom: "50px", marginTop: "20px" }}>
               <Trans i18nKey="vaccineform.note">
                 <span
@@ -837,6 +845,7 @@ const CovidCard = () => {
                 By checking this box, you are declaring under penalty of perjury under state and federal laws that you are the Patient or Parent/Guardian of the Patient and are therefore authorized to access the Patient’s immunization record.
                 </Trans>
               </div>
+              {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }}>Policy Agreement checkbox must be selected</label> : ''}
             </div>
           </CardContent>
           <CardActions style={{ marginBottom: "30px", padding: "8px 0px" }}>
@@ -869,7 +878,7 @@ const CovidCard = () => {
             )}
           </CardActions>
         </Card>
-        <div style={{ color: 'red' }}>{responseMessage.message}</div>
+        <div style={{ color: '#b30000' }}>{responseMessage.message}</div>
 
       </form>
 

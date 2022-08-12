@@ -204,7 +204,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             )}
           </CardActions>
         </Card>
-        <div style={{ color: 'red' }} id="pinError">{errorMessage.message ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
+        <div style={{ color: '#b30000' }} id="pinError">{errorMessage.message ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
       </form>
     </div>
   );
