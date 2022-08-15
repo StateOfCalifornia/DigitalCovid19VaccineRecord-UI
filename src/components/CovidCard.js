@@ -194,9 +194,9 @@ const CovidCard = () => {
     finalCheck();
     setChecked(!checked);
     if(checked){
-      document.getElementById('submitcheckbox').setAttribute("aria-invalid", "false")
-    }else{
       document.getElementById('submitcheckbox').setAttribute("aria-invalid", "true")
+    }else{
+      document.getElementById('submitcheckbox').setAttribute("aria-invalid", "false")
     }
   };
 
@@ -375,7 +375,7 @@ const CovidCard = () => {
         }
       }
       else if (ele.type === 'phone_format') {
-        if (contactType === 'Phone' ? !isEmpty('Phone') && document.getElementById('Phone')?.value.replace(/[^0-9]/g, "").length < 10 : false) {
+        if (contactType === 'Phone' ? !isEmpty('contactPhone') && document.getElementById('contactPhone')?.value.replace(/[^0-9]/g, "").length < 10 : false) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
           document.getElementById("contactPhone-label").style.color = "#ec0000"
@@ -383,12 +383,13 @@ const CovidCard = () => {
         }
       }
       else if (ele.type === 'email_format') {
-        if (contactType === 'Email' && !isEmpty('Email') ? (!(emailRegex.test(document.getElementById('Email')?.value)) 
-        || !noWhiteSpaceRegex.test(document.getElementById('Email')?.value) 
-        || (document.getElementById('Email')?.value.split('@').length>2) 
-        || (document.getElementById('Email')?.value.indexOf(',') > -1)
-        || (document.getElementById('Email')?.value.lastIndexOf('.', 0) === 0)
-        || (document.getElementById('Email')?.value.substr(-1) === '.')) : false) {
+        if (contactType === 'Email' && !isEmpty('contactEmail') ? 
+        (!(emailRegex.test(document.getElementById('contactEmail')?.value)) 
+        || !noWhiteSpaceRegex.test(document.getElementById('contactEmail')?.value) 
+        || (document.getElementById('contactEmail')?.value.split('@').length>2) 
+        || (document.getElementById('contactEmail')?.value.indexOf(',') > -1)
+        || (document.getElementById('contactEmail')?.value.lastIndexOf('.', 0) === 0)
+        || (document.getElementById('contactEmail')?.value.substr(-1) === '.')) : false) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
           document.getElementById("contactEmail-label").style.color = "#ec0000"
