@@ -237,7 +237,7 @@ const CovidCard = () => {
         FirstName: valueOfElement("FirstName")?.value.trim(),
         DateOfBirth: selectedBirthDate,
         PhoneNumber: valueOfElement("textmask") ? normalize(valueOfElement("textmask")?.value) : "",
-        EmailAddress: valueOfElement("contactType") ? valueOfElement("contactType")?.value : "",
+        EmailAddress: document.getElementById('contactEmail').value ? document.getElementById('contactEmail').value?.value : "",
         Pin: valueOfElement("PIN").value,
         Language: i18n.resolvedLanguage
       };
