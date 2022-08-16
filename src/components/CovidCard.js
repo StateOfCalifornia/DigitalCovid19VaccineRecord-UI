@@ -268,7 +268,7 @@ const CovidCard = () => {
             setResponseMessage({ type: 'pinErrorMsg6', message: t("vaccineform.pinErrorMsg6") });
           }
           document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
-      document.querySelector('[aria-invalid="true"]')?.focus();
+          document.querySelector('[aria-invalid="true"]')?.focus();
         })
         .catch((error) => {
           setLoading(false);
@@ -304,46 +304,67 @@ const CovidCard = () => {
         if (ele.id === 'FirstName' && isEmpty(ele.id)) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          document.getElementById("FirstName-label").style.color = "#ec0000";
+          //document.getElementById("FirstName-label").style.color = "#b30000";
+          
+          setError({...error, FirstName: true});
+          document.getElementById('FirstName').setAttribute("aria-invalid", "true");
           return { ...ele, isInvalid };
         }
         if (ele.id === 'LastName' && isEmpty(ele.id)) {
-          let isInvalid = ele.isInvalid;
+          let isInvalid = ele.true;
           isInvalid = true;
-          document.getElementById("LastName-label").style.color = "#ec0000";
+          //document.getElementById("LastName-label").style.color = "#b30000";
+          setError({...error, LastName: true});
+          document.getElementById('LastName').setAttribute("aria-invalid", "true");
           return { ...ele, isInvalid };
         }
         if (ele.id === 'Date' && !(selectedBirthDate)) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          //document.getElementById('Select_Month').style.borderBottomColor = '#ec0000';
-          //document.getElementById('Select_Day').style.borderBottomColor = '#ec0000';
-          //document.getElementById('Select_Year').style.borderBottomColor = '#ec0000';
-          document.getElementById('dob-label').style.color = '#ec0000';
+          //document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
+          //document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
+          //document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
+          //document.getElementById('dob-label').style.color = '#b30000';
+          setError({...error, Date: true});
+          document.getElementById('dob').setAttribute("aria-invalid", "true");
           return { ...ele, isInvalid };
         }
-        if (ele.id === 'Phone_Email' && isEmpty(contactType)) {
-          let isInvalid = ele.isInvalid;
-          isInvalid = true;
-          if (contactType === "Phone") {
-            document.getElementById("contactPhone-label").style.color = "#ec0000"
+        if (ele.id === 'Phone_Email') {
+          
+          if (contactType === "Phone" && document.getElementById('contactPhone').value.trim().length < 1) {
+            //document.getElementById("contactPhone-label").style.color = "#b30000"
+            let isInvalid = ele.isInvalid;
+            isInvalid = true;
+            document.getElementById('contactPhone').setAttribute("aria-invalid", "true");
+            setError({...error, Phone_Email: true});
+            return { ...ele, isInvalid };
           }
-          else {
-            document.getElementById("contactEmail-label").style.color = "#ec0000"
+          else if (contactType === "Email" && document.getElementById('contactEmail').value.trim().length < 1){
+            //document.getElementById("contactEmail-label").style.color = "#b30000"
+            let isInvalid = ele.isInvalid;
+            isInvalid = true;
+            document.getElementById('contactEmail').setAttribute("aria-invalid", "true");
+            setError({...error, Phone_Email: true});
+            return { ...ele, isInvalid };
           }
-          return { ...ele, isInvalid };
+          
+          
+          
         }
-        if (ele.id === 'Pin' && isPinEmpty('Pin')) {
+        if (ele.id === 'Pin' && isPinEmpty('partitioned')) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          //document.getElementById("pinlabel").style.color = "#ec0000"
-          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #ec0000 0, #ec0000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          //document.getElementById("pinlabel").style.color = "#b30000"
+          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          document.getElementById('partitioned').setAttribute("aria-invalid", "true");
+          setError({...error, Pin: true});
           return { ...ele, isInvalid };
         }
         if (ele.id === 'submitcheckbox' & !checked) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          document.getElementsByClassName("MuiCheckbox-root")[0].style.color = "#ec0000"
+          //document.getElementsByClassName("MuiCheckbox-root")[0].style.color = "#b30000"
+          document.getElementById('submitcheckbox').setAttribute("aria-invalid", "true");
           return { ...ele, isInvalid };
         }
         let isInvalid = ele.isInvalid;
@@ -357,10 +378,12 @@ const CovidCard = () => {
           if (!isDobGood) {
             let isInvalid = ele.isInvalid;
             isInvalid = true;
-            //document.getElementById('Select_Month').style.borderBottomColor = '#ec0000';
-            //document.getElementById('Select_Day').style.borderBottomColor = '#ec0000';
-            //document.getElementById('Select_Year').style.borderBottomColor = '#ec0000';
-            document.getElementById('dob-label').style.color = '#ec0000';
+            //document.getElementById('Select_Month').style.borderBottomColor = '#b30000';
+            //document.getElementById('Select_Day').style.borderBottomColor = '#b30000';
+            //document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
+            //document.getElementById('dob-label').style.color = '#b30000';
+            setError({...error, Date: true});
+            document.getElementById('dob').setAttribute("aria-invalid", "true");
             return { ...ele, isInvalid };
           }
           else {
@@ -370,6 +393,8 @@ const CovidCard = () => {
             //document.getElementById('Select_Month').style.borderBottomColor = '#727272';
             //document.getElementById('Select_Day').style.borderBottomColor = '#727272';
             //document.getElementById('Select_Year').style.borderBottomColor = '#727272';
+            setError({...error, Date: true});
+            document.getElementById('dob').setAttribute("aria-invalid", "true");
             return { ...ele, isInvalid };
           }
         }
@@ -378,7 +403,9 @@ const CovidCard = () => {
         if (contactType === 'Phone' ? !isEmpty('contactPhone') && document.getElementById('contactPhone')?.value.replace(/[^0-9]/g, "").length < 10 : false) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          document.getElementById("contactPhone-label").style.color = "#ec0000"
+          //document.getElementById("contactPhone-label").style.color = "#b30000"
+          document.getElementById('contactPhone').setAttribute("aria-invalid", "true");
+          setError({...error, Phone_Email: true});
           return { ...ele, isInvalid };
         }
       }
@@ -392,7 +419,9 @@ const CovidCard = () => {
         || (document.getElementById('contactEmail')?.value.substr(-1) === '.')) : false) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          document.getElementById("contactEmail-label").style.color = "#ec0000"
+          //document.getElementById("contactEmail-label").style.color = "#b30000"
+          document.getElementById('contactEmail').setAttribute("aria-invalid", "true");
+          setError({...error, Phone_Email: true});
           return { ...ele, isInvalid };
         }
       }
@@ -400,8 +429,10 @@ const CovidCard = () => {
         if (!isPinEmpty('Pin') && containsDuplicateChar(document.getElementById('partitioned').value)) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          //document.getElementById("pinlabel").style.color = "#ec0000"
-          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #ec0000 0, #ec0000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          //document.getElementById("pinlabel").style.color = "#b30000"
+          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          document.getElementById('partitioned').setAttribute("aria-invalid", "true");
+          setError({...error, Pin: true});
           return { ...ele, isInvalid }
         }
       }
@@ -409,8 +440,9 @@ const CovidCard = () => {
         if (!isPinEmpty('Pin') & containsAscending(document.getElementById('partitioned').value)) {
           let isInvalid = ele.isInvalid;
           isInvalid = true;
-          //document.getElementById("pinlabel").style.color = "#ec0000"
-          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #ec0000 0, #ec0000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          //document.getElementById("pinlabel").style.color = "#b30000"
+          document.getElementById("partitioned").style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat"
+          setError({...error, Pin: true});
           return { ...ele, isInvalid }
         }
       }
@@ -483,24 +515,15 @@ const CovidCard = () => {
     setError({ ...error, Phone_Email: true });
     setFieldMasks({ ...fieldMasks, textmask: '' });
     setContactType(event.target.value);
-  };
-
-  const contactTypeKeyDown = (event) => {
-    if(event.key == "ArrowLeft" || event.key == "ArrowRight")
-    if(contactType == "Email"){
-      setContactType("Phone")
-    }
-    if(contactType == "Phone"){
-      setContactType("Email")
-    }
-  };
-  
+  };  
 
   const handlePhoneChange = (event) => {
     if (event.target.value.replace(/[^0-9]/g, "").length === 10) {
       setError({ ...error, Phone_Email: false });
+      document.getElementById('contactPhone').setAttribute("aria-invalid", "false");
     } else {
       setError({ ...error, Phone_Email: true });
+      document.getElementById('contactPhone').setAttribute("aria-invalid", "true");
     }
     setFieldMasks({
       ...fieldMasks,
@@ -524,14 +547,8 @@ const CovidCard = () => {
   }
 
   const isValidInput = (e) => {
-
-    if (e.type === 'change') {
-      return e.target.value.trim().length > 0;
-    }
-
-    if (e.type === 'blur') {
-      return e.target.value.trim().length < 1;
-    }
+    e.target.setAttribute("aria-invalid", e.target.value.trim().length < 1)
+    return e.target.value.trim().length < 1;
   }
 
   const useStyles = makeStyles({
@@ -640,12 +657,11 @@ const CovidCard = () => {
               aria-label='First Name'
               id="FirstName"
               onClick={(e) => handleClickBorder(e)}
-              onChange={(e) => isValidInput(e) ? setError({ ...error, FirstName: false }) : setError({ ...error, FirstName: true })}
-              error={error.FirstName}
-              errorStyle={{color: "#b30000"}}
+              onChange={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
+              error={error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true"}
               onBlur={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
             />
-            {error.FirstName ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }}>Please enter your First Name</label> : ''}
+            {error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true" ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }}>Please enter your First Name</label> : ''}
             <TextField
               name="LastName"
               label={<Trans i18nKey="vaccineform.lastname">Last name</Trans>}
@@ -657,12 +673,12 @@ const CovidCard = () => {
               required
               aria-label='Last name'
               id="LastName"
-              onChange={(e) => isValidInput(e) ? setError({ ...error, LastName: false }) : setError({ ...error, LastName: true })}
-              error={error.LastName}
+              onChange={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
+              error={error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true"}
               onBlur={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
 
             />
-            {error.LastName ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }}>Please enter your Last Name</label> : ''}
+            {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }}>Please enter your Last Name</label> : ''}
 
             <MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
             <KeyboardDatePicker
@@ -679,7 +695,7 @@ const CovidCard = () => {
               autoOk
               disableFuture
               required
-              error={error.Date || !isDobGood}
+              error={error.Date || !isDobGood || document.getElementById('dob')?.getAttribute("aria-invalid") == "true"}
               aria-label='Date of birth'
               maxDate={ addMonths(today, -6) }
               onClick={() => selectLocale(i18n.resolvedLanguage.toString())}
@@ -687,7 +703,7 @@ const CovidCard = () => {
               okLabel={<Trans i18nKey="vaccineform.ok">Ok</Trans>}
               cancelLabel={<Trans i18nKey="vaccineform.cancel">Cancel</Trans>}
             />
-            {error.Date && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }}>Date of Birth field cannot be blank</label> : ''}
+            {(error.Date || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true") && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }}>Date of Birth field cannot be blank</label> : ''}
             </MuiPickersUtilsProvider>
             {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
@@ -701,24 +717,24 @@ const CovidCard = () => {
                 name="contactTypeRadio"
                 value={contactType}
                 onChange={handleContactTypeChange}
-                onKeyDown={contactTypeKeyDown}
+                
                 row
               >
                 <FormControlLabel
                   value="Phone"
-                  name="Phone"
+                  name="contactType"
                   control={<Radio aria-checked={contactType === "Phone" ? 'true' : 'false'} role={"radio"} inputProps={{ 'aria-label': 'Phone' }} color={"primary"} />}
                   label={<Trans i18nKey={"vaccineform.Phone"}>Mobile Phone</Trans>}
                   aria-label={'Mobile Phone Selector'}
-                  onKeyDown={contactTypeKeyDown}
+                  
                 />
                 <FormControlLabel
                   value="Email"
-                  name="Email"
+                  name="contactType"
                   control={<Radio aria-checked={contactType === "Email" ? 'true' : 'false'} role={"radio"} inputProps={{ 'aria-label': 'Email' }} color={"primary"} />}
                   label={<Trans i18nKey={"vaccineform.Email"}>Email</Trans>}
                   aria-label={'Email Selector'}
-                  onKeyDown={contactTypeKeyDown}
+                  
                 />
               </RadioGroup>
             </FormControl>
@@ -739,12 +755,12 @@ const CovidCard = () => {
                   onChange={handlePhoneChange}
                   name="textmask"
                   id="contactPhone"
-                  error={error.Phone_Email}
+                  error={error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true"}
                   onBlur={(e) => {
                     e.target.value.replace(/[^0-9]/g, "").length < 10 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false });
                   }}
                 />
-                {error.Phone_Email ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }}>Please enter Mobile Phone in valid format</label> : ''}
+                {error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true" ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }}>Please enter Mobile Phone in valid format</label> : ''}
               </FormControl>
             ) : (
               <FormControl className={"col-12"}>
@@ -768,14 +784,16 @@ const CovidCard = () => {
                 onChange={(e) => {
                   e.target.value.length > 0 ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
                   emailRegex.test(e.target.value) && noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
+                  document.getElementById('contactEmail').setAttribute("aria-invalid", error.Phone_Email);
                 }}
-                error={error.Phone_Email}
+                error={error.Phone_Email  || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true"}
                 onBlur={(e) => {
                   e.target.value.length < 1 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false })
                   emailRegex.test(e.target.value) && noWhiteSpaceRegex.test(e.target.value) ? setError({ ...error, Phone_Email: false }) : setError({ ...error, Phone_Email: true })
+                  document.getElementById('contactEmail').setAttribute("aria-invalid", error.Phone_Email);
                 }}
               />
-              {error.Phone_Email ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }}>Enter a valid email address</label> : ''}
+              {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }}>Enter a valid email address</label> : ''}
               </FormControl>
             )}
             <FormLabel component="label" style={{ color: error.Pin ? '#b30000' : 'dimgrey', marginTop: "50px" }}>
@@ -802,13 +820,13 @@ const CovidCard = () => {
                     className: classes.underline
                   }}
                   id="partitioned"
-                  error={error.Pin}
+                  error={error.Pin || document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"}
                 />
 
               </div>
             </div>
-            {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: 'red' }}><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
-            {error.Pin   ? <label id='pinError' htmlFor='partitioned' style={{ color: 'red' }}>PIN Number must be 4 characters</label> : ''}
+            {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }}><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
+            {error.Pin || document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true" ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }}>PIN Number must be 4 characters</label> : ''}
             <div style={{ marginBottom: "50px", marginTop: "20px" }}>
               <Trans i18nKey="vaccineform.note">
                 <span
@@ -827,8 +845,6 @@ const CovidCard = () => {
             <div style={{ display: "flex" }}>
               <FormControlLabel
                 htmlFor='submitcheckbox'
-                aria-label={t("vaccineform.checkboxdescription")}
-                label='Policy Agree Checkbox'
                 control={
                   <Checkbox
                     style={{ alignSelf: 'start', marginTop: '-5px' }}
@@ -837,6 +853,11 @@ const CovidCard = () => {
                     name="submitChecked"
                     color={"primary"}
                     id='submitcheckbox'
+                    error = {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true"}
+                    inputProps={{
+                      "aria-required": true,
+                      "aria-label": t("vaccineform.checkboxdescription")
+                    }}
                   />
                 }
                 className={i18n.dir(i18n.language) == "rtl" ? "checkBoxRtl" : ""}
@@ -846,6 +867,7 @@ const CovidCard = () => {
                 By checking this box, you are declaring under penalty of perjury under state and federal laws that you are the Patient or Parent/Guardian of the Patient and are therefore authorized to access the Patient’s immunization record.
                 </Trans>
               </div>
+              <br />
               {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }}>Policy Agreement checkbox must be selected</label> : ''}
             </div>
           </CardContent>
