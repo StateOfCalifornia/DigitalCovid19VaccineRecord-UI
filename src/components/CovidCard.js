@@ -625,24 +625,6 @@ const CovidCard = () => {
     setLocale(locale.replace('-', ''));
   }, []);
 
-  useEffect(() => {
-    try{
-      var o = observer;
-      observer.disconnect();
-    }
-    catch(e){};
-  const targetNode = document.getElementById('dob');
-  const config = { attributes: true, childList: true, subtree: true };
-  var observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-      if (mutation.type === "attributes") {
-        console.log("attributes changed")
-      }
-    });
-  });
-  observer.observe(targetNode, config);
-})
-
   return (
     <div className={"covid-card-container"}>
       <form
@@ -726,6 +708,16 @@ const CovidCard = () => {
               inputProps={{
                 "aria-invalid": error.Date
               }}
+              onFocus={
+                (e) => {
+                  e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })
+                document.getElementById("dob").setAttribute("aria-invalid", (e.target.value.length < 1 || !isDobGood))
+                if(document.getElementById("dob").getAttribute("aria-invalid") == "false"){
+                  document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
+                  document.querySelector('[aria-invalid="true"]')?.focus();
+                }
+                }
+              }
             />
             {(error.Date || !isDobGood) && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }}>Date of Birth field cannot be blank</label> : ''}
             </MuiPickersUtilsProvider>
