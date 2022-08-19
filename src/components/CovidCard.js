@@ -169,7 +169,7 @@ const CovidCard = () => {
   useEffect(() => {
     document.querySelectorAll(".MuiButtonBase-root")[1].setAttribute("aria-label", "Date of birth")
     document.getElementById("submitcheckbox").setAttribute("aria-label", "Acknowledge Button")
-    document.getElementById("partitioned").setAttribute("aria-label", "Set 4 Digit Pin")
+    document.getElementById("partitioned").setAttribute("aria-label", t('vaccineform.pincode'))
   }, []);
 
 
@@ -290,7 +290,7 @@ const CovidCard = () => {
 
     document.getElementById("FirstName").setAttribute("aria-invalid", "false");
     document.getElementById("LastName").setAttribute("aria-invalid", "false");
-    document.getElementById('dob').setAttribute("aria-invalid", "false");
+   
     if (contactType === 'Phone') {
       document.getElementById("contactPhone").setAttribute("aria-invalid", "false");
     }
@@ -329,7 +329,7 @@ const CovidCard = () => {
           //document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
           //document.getElementById('dob-label').style.color = '#b30000';
           setError({...error, Date: true});
-          document.getElementById('dob').setAttribute("aria-invalid", "true");
+          
           setIsDobGood(false);
           return { ...ele, isInvalid };
         }
@@ -387,7 +387,7 @@ const CovidCard = () => {
             //document.getElementById('Select_Year').style.borderBottomColor = '#b30000';
             //document.getElementById('dob-label').style.color = '#b30000';
             setError({...error, Date: true});
-            document.getElementById('dob').setAttribute("aria-invalid", "true");
+            
             return { ...ele, isInvalid };
           }
           else {
@@ -398,7 +398,7 @@ const CovidCard = () => {
             //document.getElementById('Select_Day').style.borderBottomColor = '#727272';
             //document.getElementById('Select_Year').style.borderBottomColor = '#727272';
             setError({...error, Date: true});
-            document.getElementById('dob').setAttribute("aria-invalid", "false");
+            
             return { ...ele, isInvalid };
           }
         }
@@ -540,7 +540,7 @@ const CovidCard = () => {
     setError({ ...error, Date: false });
     setSelectedBirthDate(date)
     if (date && date.getFullYear() && date.getFullYear() >= 1900 && date <= addMonths(today, -6)) {
-      document.getElementById('dob').setAttribute("aria-invalid", "false")
+     
       setIsDobGood(true);
     } else {
       setIsDobGood(false);
@@ -625,7 +625,23 @@ const CovidCard = () => {
     setLocale(locale.replace('-', ''));
   }, []);
 
-  
+  useEffect(() => {
+    try{
+      var o = observer;
+      observer.disconnect();
+    }
+    catch(e){};
+  const targetNode = document.getElementById('dob');
+  const config = { attributes: true, childList: true, subtree: true };
+  var observer = new MutationObserver(function(mutations) {
+    mutations.forEach(function(mutation) {
+      if (mutation.type === "attributes") {
+        console.log("attributes changed")
+      }
+    });
+  });
+  observer.observe(targetNode, config);
+})
 
   return (
     <div className={"covid-card-container"}>
@@ -700,15 +716,18 @@ const CovidCard = () => {
               autoOk
               disableFuture
               required
-              error={error.Date || !isDobGood || document.getElementById('dob')?.getAttribute("aria-invalid") == "true"}
+              error={error.Date || !isDobGood}
               aria-label='Date of birth'
               maxDate={ addMonths(today, -6) }
               onClick={() => selectLocale(i18n.resolvedLanguage.toString())}
               onBlur={(e) => e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })}
               okLabel={<Trans i18nKey="vaccineform.ok">Ok</Trans>}
-              cancelLabel={<Trans i18nKey="vaccineform.cancel">Cancel</Trans>}
+              cancelLabel={<Trans i18nKey="vaccineform.cancel">Cancel</Trans>}              
+              inputProps={{
+                "aria-invalid": error.Date
+              }}
             />
-            {(error.Date || !isDobGood || document.getElementById('dob')?.getAttribute("aria-invalid") == "true") && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }}>Date of Birth field cannot be blank</label> : ''}
+            {(error.Date || !isDobGood) && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }}>Date of Birth field cannot be blank</label> : ''}
             </MuiPickersUtilsProvider>
             {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
@@ -819,7 +838,7 @@ const CovidCard = () => {
                     minLength: 4,
                     required: true,
                     onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })],
-                    "aria-describedby": errorMessage.type ? "pinError" : null
+                    "aria-describedby": "pinError"
                   }}
                   InputProps={{
                     className: classes.underline
@@ -830,8 +849,8 @@ const CovidCard = () => {
 
               </div>
             </div>
-            {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }}><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
-            {!errorMessage.type && document.getElementById('partitioned')?.value.length < 4 && document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }}>PIN Number must be 4 characters</label> : ''}
+            {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite"><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
+            {!errorMessage.type && document.getElementById('partitioned')?.value.length < 4 && document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite">PIN Number must be 4 characters</label> : ''}
             <div style={{ marginBottom: "50px", marginTop: "20px" }}>
               <Trans i18nKey="vaccineform.note">
                 <span

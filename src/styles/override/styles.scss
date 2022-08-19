@@ -1,9 +1,9 @@
 *{
     font-family: 'Public Sans', sans-serif;
 }
-*:focus-visible {
+/**:focus-visible {
     border: 2px solid #22489C;
-}
+}*/
 input,select{
     border:none;
     border-bottom:1px solid rgb(114, 114, 114)
@@ -176,4 +176,8 @@ dl.faq button {
   }
   bdi{
     font-weight: bold;
+  }
+
+  h1:focus{
+    outline: none;
   }
