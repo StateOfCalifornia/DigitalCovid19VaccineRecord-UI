@@ -125,14 +125,14 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
         {i18n.language != "en" ? (
           <>
           <Trans i18nKey="qrpage.title">
-            Personal Digital COVID-19 Vaccine Record
+            Personal Digital COVID-19 Verification Record
           </Trans>
           &nbsp;/&nbsp;
           </>
           ) : null}
 
           <span dir="ltr"><Trans i18nKey="qrpage.title" i18n={english_i18n}>
-            Personal Digital COVID-19 Vaccine Record
+            Personal Digital COVID-19 Verification Record
           </Trans></span>
         </h1>
       </div>
