@@ -710,12 +710,13 @@ const CovidCard = () => {
               }}
               onFocus={
                 (e) => {
+                  var prevValue = document.getElementById("dob").getAttribute("aria-invalid");
                   e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })
-                document.getElementById("dob").setAttribute("aria-invalid", (e.target.value.length < 1 || !isDobGood))
-                if(document.getElementById("dob").getAttribute("aria-invalid") == "false"){
-                  document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
-                  document.querySelector('[aria-invalid="true"]')?.focus();
-                }
+                  document.getElementById("dob").setAttribute("aria-invalid", (e.target.value.length < 1 || !isDobGood))
+                  if(document.getElementById("dob").getAttribute("aria-invalid") == "false" && document.getElementById("dob").getAttribute("aria-invalid") != prevValue){
+                    document.querySelector('[aria-invalid="true"]')?.scrollIntoView();
+                    document.querySelector('[aria-invalid="true"]')?.focus();
+                  }
                 }
               }
             />
