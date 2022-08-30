@@ -121,7 +121,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
   return (
     <div className={'center-w-margin'}>
       <div>
-        <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "20px", overflowWrap: "break-word" }}>
+        <h1 style={{ color: "#C84C0E", fontSize: "38px", marginTop: "20px", overflowWrap: "break-word" }}>
         {i18n.language != "en" ? (
           <>
           <Trans i18nKey="qrpage.title">

@@ -195,7 +195,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
         >
 
             <h1
-              style={{ color: "#F06724", fontSize: "24px", marginBottom: "25px", lineHeight: "1.38" }}
+              style={{ color: "#C84C0E", fontSize: "24px", marginBottom: "25px", lineHeight: "1.38" }}
             >
               <Trans i18nKey="qrpage.pincode">PIN CODE:</Trans>
             </h1>

@@ -22,7 +22,7 @@ const FAQScreen = () => {
 
   return (
     <div className={"container"}>
-      <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>
+      <h1 style={{ color: "#C84C0E", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>
         <Trans i18nKey="faqpage.title">
           WA Verify FAQ
         </Trans>
