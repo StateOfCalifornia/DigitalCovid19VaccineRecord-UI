@@ -9,6 +9,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import LanguageIcon from '@material-ui/icons/Language';
+import parse from 'html-react-parser';
 
 
 const Header = () => {
@@ -54,49 +55,49 @@ const Header = () => {
   }
 
   const menuLanguages = {
-    'am': 'Amharic - አማርኛ',
-    'ar': 'Arabic - العَرَبِيةُ',
-    'my': "Burmese - မြန်မာ",
-    'zh': 'Chinese (Simplified) - 简体中文',
-    'zh-TW': 'Chinese (Traditional) - 繁體中文',
-    'chk': 'Chuukese - Fosun Chuuk',
-    'prs': 'Dari - دری',
-    'en' : 'English',
-    'fa': 'Farsi - فارسی',
-    'fr': 'French - Français',
-    'fj': 'Fijian - Vosa vakaviti',
-    'de': 'German - Deutsch',
-    'hi': 'Hindi - हिन्दी',
-    'hmn': "Hmong - Hmoob",
-    'ja': 'Japanese - 日本語',
-    'kar': "Karen - ကညီၤ",
-    'km': "Khmer (Cambodian) - ភាសាខ្មែរ",
-    'ko': 'Korean - 한국어',
-    'lo': 'Lao - ພາ​ສາ​ລາວ',
-    'mam': 'Mam - Qyol Mam',
-    'mh': 'Marshallese - Kajin Ṃajeḷ',
-    'mxb': 'Mixteco Bajo - Ñuu savi',
-    'ne': 'Nepali - नेपाली',
-    'om': 'Oromo - Oromiffa',
-    'ps': 'Pashto - پښتو',
-    'pt': 'Portuguese - Português (Brasil)',
-    'pa': 'Punjabi - ਪੰਜਾਬੀ',
-    'ro': 'Romanian - Română',
-    'ru': 'Russian - Русский',
-    'sm': 'Samoan - Faa-Samoa',
-    'so': 'Somali - Af Soomaali',
-    'es': 'Spanish - Español',
-    'sw': 'Swahili - Kiswahili',
-    'ta': 'Tamil - தமிழ்',
-    'tl': 'Tagalog - Tagalog',
-    'te': 'Telugu - తెలుగు',
-    "th": 'Thai - ภาษาไทย',
-    'ti': 'Tigrinya - ትግርኛ',
-    'to': 'Tongan - Lea fakaTonga',
-    'tr': 'Turkish - Türkçe',
-    'uk': 'Ukrainian - Український',
-    'ur': 'Urdu - اُردُو',
-    'vi': 'Vietnamese - Tiếng Việt'
+    'am': '<span lang="en">Amharic</span>&nbsp;-&nbsp;<span lang="am">አማርኛ</span>',
+    'ar': '<span lang="en">Arabic</span>&nbsp;-&nbsp;<span lang="ar">العَرَبِيةُ</span>',
+    'my': '<span lang="en">Burmese</span>&nbsp;-&nbsp;<span lang="my">မြန်မာ</span>',
+    'zh': '<span lang="en">Chinese (Simplified)</span>&nbsp;-&nbsp;<span lang="zh">简体中文</span>',
+    'zh-TW': '<span lang="en">Chinese (Traditional)</span>&nbsp;-&nbsp;<span lang="zh-TW">繁體中文</span>',
+    'chk': '<span lang="en">Chuukese</span>&nbsp;-&nbsp;<span lang="chk">Fosun Chuuk</span>',
+    'prs': '<span lang="en">Dari</span>&nbsp;-&nbsp;<span lang="prs">دری</span>',
+    'en' : '<span lang="en">English</span>',
+    'fa': '<span lang="en">Farsi</span>&nbsp;-&nbsp;<span lang="fa">فارسی</span>',
+    'fr': '<span lang="en">French</span>&nbsp;-&nbsp;<span lang="fr">Français</span>',
+    'fj': '<span lang="en">Fijian</span>&nbsp;-&nbsp;<span lang="fj">Vosa vakaviti</span>',
+    'de': '<span lang="en">German</span>&nbsp;-&nbsp;<span lang="de">Deutsch</span>',
+    'hi': '<span lang="en">Hindi</span>&nbsp;-&nbsp;<span lang="hi">हिन्दी</span>',
+    'hmn': '<span lang="en">Hmong</span>&nbsp;-&nbsp;<span lang="hmn">Hmoob</span>',
+    'ja': '<span lang="en">Japanese</span>&nbsp;-&nbsp;<span lang="ja">日本語</span>',
+    'kar': '<span lang="en">Karen</span>&nbsp;-&nbsp;<span lang="kar">ကညီၤ</span>',
+    'km': '<span lang="en">Khmer (Cambodian)</span>&nbsp;-&nbsp;<span lang="km">ភាសាខ្មែរ</span>',
+    'ko': '<span lang="en">Korean</span>&nbsp;-&nbsp;<span lang="ko">한국어</span>',
+    'lo': '<span lang="en">Lao</span>&nbsp;-&nbsp;<span lang="lo">ພາ​ສາ​ລາວ</span>',
+    'mam': '<span lang="en">Mam</span>&nbsp;-&nbsp;<span lang="mam">Qyol Mam</span>',
+    'mh': '<span lang="en">Marshallese</span>&nbsp;-&nbsp;<span lang="mh">Kajin Ṃajeḷ</span>',
+    'mxb': '<span lang="en">Mixteco Bajo</span>&nbsp;-&nbsp;<span lang="mxb">Ñuu savi</span>',
+    'ne': '<span lang="en">Nepali</span>&nbsp;-&nbsp;<span lang="ne">नेपाली</span>',
+    'om': '<span lang="en">Oromo</span>&nbsp;-&nbsp;<span lang="om">Oromiffa</span>',
+    'ps': '<span lang="en">Pashto</span>&nbsp;-&nbsp;<span lang="ps">پښتو</span>',
+    'pt': '<span lang="en">Portuguese</span>&nbsp;-&nbsp;<span lang="pt">Português (Brasil)</span>',
+    'pa': '<span lang="en">Punjabi</span>&nbsp;-&nbsp;<span lang="pa">ਪੰਜਾਬੀ</span>',
+    'ro': '<span lang="en">Romanian</span>&nbsp;-&nbsp;<span lang="ro">Română</span>',
+    'ru': '<span lang="en">Russian</span>&nbsp;-&nbsp;<span lang="ru">Русский</span>',
+    'sm': '<span lang="en">Samoan</span>&nbsp;-&nbsp;<span lang="sm">Faa-Samoa</span>',
+    'so': '<span lang="en">Somali</span>&nbsp;-&nbsp;<span lang="so">Af Soomaali</span>',
+    'es': '<span lang="en">Spanish</span>&nbsp;-&nbsp;<span lang="es">Español</span>',
+    'sw': '<span lang="en">Swahili</span>&nbsp;-&nbsp;<span lang="sw">Kiswahili</span>',
+    'ta': '<span lang="en">Tamil</span>&nbsp;-&nbsp;<span lang="ta">தமிழ்</span>',
+    'tl': '<span lang="en">Tagalog</span>&nbsp;-&nbsp;<span lang="tl">Tagalog</span>',
+    'te': '<span lang="en">Telugu</span>&nbsp;-&nbsp;<span lang="te">తెలుగు</span>',
+    "th": '<span lang="en">Thai</span>&nbsp;-&nbsp;<span lang="th">ภาษาไทย</span>',
+    'ti': '<span lang="en">Tigrinya</span>&nbsp;-&nbsp;<span lang="ti">ትግርኛ</span>',
+    'to': '<span lang="en">Tongan</span>&nbsp;-&nbsp;<span lang="to">Lea fakaTonga</span>',
+    'tr': '<span lang="en">Turkish</span>&nbsp;-&nbsp;<span lang="tr">Türkçe</span>',
+    'uk': '<span lang="en">Ukrainian</span>&nbsp;-&nbsp;<span lang="uk">Український</span>',
+    'ur': '<span lang="en">Urdu</span>&nbsp;-&nbsp;<span lang="ur">اُردُو</span>',
+    'vi': '<span lang="en">Vietnamese</span>&nbsp;-&nbsp;<span lang="vi">Tiếng Việt</span>'
   }
 
   
@@ -136,7 +137,7 @@ const Header = () => {
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体中文</li>
                 </ul> */}
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px', textTransform: 'none' }}>
-                  <LanguageIcon id="langIcon" /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon /> } { searchByLanguage() }
+                  <LanguageIcon id="langIcon" /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon /> } { parse(searchByLanguage()) }
                 </Button>
                 <Menu
                   id="simple-menu"
@@ -146,7 +147,7 @@ const Header = () => {
                   onClose={handleClose}
                 >
                   {Object.entries(menuLanguages).map(([key, value]) => {
-                    return <MenuItem id={key} onClick={() => { handleClose(value); changeLanguage(key) }} style={{ textDecoration: 'underline' }}>{value}</MenuItem>
+                    return <MenuItem id={key} onClick={() => { handleClose(value); changeLanguage(key) }} style={{ textDecoration: 'underline' }}>{parse(value)}</MenuItem>
                   })
                   }
                 </Menu>
