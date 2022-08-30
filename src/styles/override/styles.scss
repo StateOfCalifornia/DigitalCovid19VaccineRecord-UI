@@ -166,10 +166,17 @@ dl.faq button {
 
   .MuiFormLabel-root.Mui-error{
     color: #b30000 !important;
+    
   }
 
   .MuiFormLabel-asterisk.Mui-error {
     color: #b30000 !important;
+  }
+
+  .MuiFormHelperText-root.Mui-error{
+    color: #b30000 !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
   }
 
   label[for="submitcheckbox"]>.MuiFormControlLabel-label{
