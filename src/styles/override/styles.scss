@@ -179,6 +179,10 @@ dl.faq button {
     font-size: 1rem !important;
   }
 
+  .MuiInputLabel-shrink {
+    transform: translate(0, 1.5px) !important;
+  }
+
   label[for="submitcheckbox"]>.MuiFormControlLabel-label{
     display: none;
   }
