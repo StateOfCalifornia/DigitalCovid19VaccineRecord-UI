@@ -57,9 +57,44 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
 
     return URL.createObjectURL(blob);
   };
+  const containsAscending = (str) => {
+    const strArr = str.split("");
+    let ascendingFlag = false;
+    for (let i = 0; i < str.length - 2; i++) {
+      if (
+        parseInt(strArr[i]) + 1 === parseInt(strArr[i + 1]) &&
+        parseInt(strArr[i]) + 2 === parseInt(strArr[i + 2]) &&
+        parseInt(strArr[i]) + 3 === parseInt(strArr[i + 3])
+      ) {
+        ascendingFlag = true;
+      }
+    }
+    if (ascendingFlag) {
+      return true;
+    } else {
+      return false;
+    }
+  };
+
+  const containsDuplicateChar = (str) => {
+    let counts = {};
+    let duplicateFlag = false;
+    if (str.length > 0) {
+      let charArr = str.split("");
+      charArr.forEach((n) => {
+        counts[n] = counts[n] || 0;
+        counts[n]++;
+        if (counts[n] === 4) {
+          duplicateFlag = true;
+        }
+      });
+    }
+    if (duplicateFlag) return true;
+    else return false;
+  };
 
   const submitPin = (e) => {
-
+    e.preventDefault();
     const credentialData = walletCode !== null ? {
       Id: id,
       Pin: pin,
@@ -69,7 +104,20 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
       Pin: pin,
     }
 
-    e.preventDefault();
+    if (pin.length != 4) {
+      setErrorMessage({ type: 'pinErrorMsg3', message: 'Please enter a valid PIN' });
+      return;
+    }
+    if (containsDuplicateChar(pin)) {
+      setErrorMessage({ type: 'pinErrorMsg2', message: 'PIN cannot contain 4 duplicate numbers.' });
+      return;
+    }
+    if (containsAscending(pin)) {
+      setErrorMessage({ type: 'pinErrorMsg1', message: 'PIN cannot contain 4 consecutive numbers.' });
+      return;
+    } 
+    
+    
     let status = 0;
     setLoading(true);
     fetch(`${CREDENTIALS_API_QR}/vaccineCredential`, {
@@ -140,7 +188,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
     <div className="pin-container" style={{ margin: "30px" }}>
 
 
-      <form onSubmit={submitPin} id={"main"}>
+      <form onSubmit={submitPin} id={"main"} noValidate>
         <Card
           className="MuiRootCard"
           style={{ border: "none", boxShadow: "none" }}
