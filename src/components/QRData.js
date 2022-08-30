@@ -158,7 +158,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               <img
                 src="/imgs/smart-logo.svg"
                 alt="Smart Health Card"
-                style={{ alignSelf: "baseline", width: "60px" }}
+                style={{ alignSelf: "baseline", width: "60px", minHeight: "48px" }}
               />
             </a>
           </div>
