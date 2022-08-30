@@ -114,6 +114,7 @@ const Header = () => {
   };
 
   return (
+    <header>
     <nav>
       <div className="headerContainer" style={{ backgroundColor: '#f9f9f9', borderBottom: '1px solid #ccc' }}>
         <div className="fluid-container">
@@ -165,6 +166,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
+    </header>
   );
 
 };
