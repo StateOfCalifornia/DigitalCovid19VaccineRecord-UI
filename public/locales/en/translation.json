@@ -31,7 +31,7 @@
     "pincode": "Create a 4-digit PIN number. You'll receive a link to enter the PIN number and access your digital vaccine record. *",
     "pinErrorMsg1": "PIN cannot contain 4 consecutive numbers",
     "pinErrorMsg2": "PIN cannot contain 4 duplicate numbers",
-    "pinErrorMsg3": "The PIN entered is invalid. Please retry by clicking the link provided to you to re-enter your PIN.",
+    "pinErrorMsg3": "Your PIN is not correct. Please try again.",
     "pinErrorMsg4": "Please try your request again in 1 minute.",
     "pinErrorMsg5": "Please contact us or your healthcare provider for more information or support.",
     "pinErrorMsg6": "We could not complete your request, please try again.",
