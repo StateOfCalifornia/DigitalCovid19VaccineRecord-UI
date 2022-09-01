@@ -137,7 +137,7 @@ const Header = () => {
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'zh')} onClick={() => changeLanguage('zh')}>简体中文</li>
                 </ul> */}
                 <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} style={{ fontWeight: '400', padding: '2px 0px 0px 0px', textTransform: 'none' }}>
-                  <LanguageIcon id="langIcon" /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon /> } { parse(searchByLanguage()) }
+                  <LanguageIcon id="langIcon" /> {expand === false ? <ExpandMoreIcon /> : <ExpandLessIcon /> } { parse(searchByLanguage() ? searchByLanguage() : "") }
                 </Button>
                 <Menu
                   id="simple-menu"
