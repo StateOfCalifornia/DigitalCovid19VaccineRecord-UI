@@ -24,7 +24,7 @@ const ReceivedScreen = () => {
     <div className={"received-screen-container bodyContainer"}>
       <section>
         <div>
-          <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px" }}>
+          <h1 style={{ color: "#C84C0E", fontSize: "38px", marginTop: "25px" }}>
             <Trans i18nKey="receivedpage.title">
               Digital COVID-19 Vaccine Record Submission Receipt
             </Trans>

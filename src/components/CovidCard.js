@@ -664,7 +664,7 @@ const CovidCard = () => {
               error={error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true"}
               onBlur={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
             />
-            {error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true" ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }}>Please enter your First Name</label> : ''}
+            {error.FirstName || document.getElementById('FirstName')?.getAttribute("aria-invalid") == "true" ? <label id='firstNameError' htmlFor='FirstName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Please enter your First Name</label> : ''}
             <TextField
               name="LastName"
               label={<Trans i18nKey="vaccineform.lastname">Last name</Trans>}
@@ -681,7 +681,7 @@ const CovidCard = () => {
               onBlur={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
 
             />
-            {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }}>Please enter your Last Name</label> : ''}
+            {error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true" ? <label id='lastNameError' htmlFor='LastName' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Please enter your Last Name</label> : ''}
 
             <MuiPickersUtilsProvider utils={DateFnsUtils} locale={localeMap[locale]}>
             <KeyboardDatePicker
@@ -720,7 +720,7 @@ const CovidCard = () => {
                 }
               }
             />
-            {(error.Date || !isDobGood) && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }}>Date of Birth field cannot be blank</label> : ''}
+            {(error.Date || !isDobGood) && !selectedBirthDate ? <label id='dobError' htmlFor='dob' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Date of Birth field cannot be blank</label> : ''}
             </MuiPickersUtilsProvider>
             {/* <Trans i18nKey="vaccineform.phoneemailinfo">Provide the phone or email that was used when you received your COVID-19 vaccine.</Trans></p> */}
             <FormControl component="fieldset" style={{ marginTop: "50px" }}>
@@ -777,7 +777,7 @@ const CovidCard = () => {
                     e.target.value.replace(/[^0-9]/g, "").length < 10 ? setError({ ...error, Phone_Email: true }) : setError({ ...error, Phone_Email: false });
                   }}
                 />
-                {error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true" ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }}>Please enter Mobile Phone in valid format</label> : ''}
+                {error.Phone_Email || document.getElementById('contactPhone')?.getAttribute("aria-invalid") == "true" ? <label id='phoneError' htmlFor='contactPhone' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Please enter Mobile Phone in valid format</label> : ''}
               </FormControl>
             ) : (
               <FormControl className={"col-12"}>
@@ -810,7 +810,7 @@ const CovidCard = () => {
                   document.getElementById('contactEmail').setAttribute("aria-invalid", error.Phone_Email);
                 }}
               />
-              {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }}>Enter a valid email address</label> : ''}
+              {error.Phone_Email || document.getElementById('contactEmail')?.getAttribute("aria-invalid") == "true" ? <label id='emailError' htmlFor='contactEmail' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Enter a valid email address</label> : ''}
               </FormControl>
             )}
             <FormLabel component="label" style={{ color: error.Pin ? '#b30000' : 'dimgrey', marginTop: "50px" }}>
@@ -842,8 +842,8 @@ const CovidCard = () => {
 
               </div>
             </div>
-            {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite"><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
-            {!errorMessage.type && document.getElementById('partitioned')?.value.length < 4 && document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite">PIN Number must be 4 characters</label> : ''}
+            {errorMessage.type ? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite" class="MuiFormHelperText-root Mui-error"><Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans></label> : ''}
+            {!errorMessage.type && document.getElementById('partitioned')?.value.length < 4 && document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"? <label id='pinError' htmlFor='partitioned' style={{ color: '#b30000' }} aria-live="polite" class="MuiFormHelperText-root Mui-error">PIN Number must be 4 characters</label> : ''}
             <div style={{ marginBottom: "50px", marginTop: "20px" }}>
               <Trans i18nKey="vaccineform.note">
                 <span
@@ -885,7 +885,7 @@ const CovidCard = () => {
                 </Trans>
               </div>
               <br />
-              {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }}>Policy Agreement checkbox must be selected</label> : ''}
+              {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Policy Agreement checkbox must be selected</label> : ''}
             </div>
           </CardContent>
           <CardActions style={{ marginBottom: "30px", padding: "8px 0px" }}>

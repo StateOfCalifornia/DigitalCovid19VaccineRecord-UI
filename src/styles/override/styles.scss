@@ -109,7 +109,7 @@ dl.faq button {
     padding: 0.5em;
     font-size: 110%;
     display: none;
-    background-color: #fffedb;
+    //background-color: #fffedb;
     text-align: left;
   }
 
@@ -118,7 +118,7 @@ dl.faq button {
     padding: 0.5em;
     font-size: 110%;
     display: none;
-    background-color: #fffedb;
+    //background-color: #fffedb;
     text-align: right;
   }
   
@@ -161,14 +161,26 @@ dl.faq button {
 
   .MuiFormLabel-root {
     line-height: 1.5 !important;
+    color: #212529 !important;
   }
 
   .MuiFormLabel-root.Mui-error{
     color: #b30000 !important;
+    
   }
 
   .MuiFormLabel-asterisk.Mui-error {
     color: #b30000 !important;
+  }
+
+  .MuiFormHelperText-root.Mui-error{
+    color: #b30000 !important;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+  }
+
+  .MuiInputLabel-shrink {
+    transform: translate(0, 1.5px) !important;
   }
 
   label[for="submitcheckbox"]>.MuiFormControlLabel-label{
@@ -180,4 +192,9 @@ dl.faq button {
 
   h1:focus{
     outline: none;
+  }
+
+  #langIcon {
+    min-width: 48px;
+    min-height: 48px;
   }

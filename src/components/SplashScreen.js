@@ -21,7 +21,7 @@ const SplashScreen = () => {
   return (
     <div className={"ebor-page-wrapper received-screen-container bodyContainer"}>
       <div>
-        <h1 style={{ color: "#F06724", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>
+        <h1 style={{ color: "#C84C0E", fontSize: "38px", marginTop: "25px", textAlign: "center" }}>
           <Trans i18nKey="SplashScreenpage.title">
             Welcome to WA Verify!
           </Trans>

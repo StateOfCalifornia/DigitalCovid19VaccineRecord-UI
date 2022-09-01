@@ -12,7 +12,7 @@ const Maintenance = () => {
               style={{
                 fontSize: "38px",
                 fontWeight: "700",
-                color: "#F06724",
+                color: "#C84C0E",
                 margin: "50px 0",
               }}
             >
