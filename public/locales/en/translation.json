@@ -36,6 +36,7 @@
     "pinErrorMsg5": "Please contact us or your healthcare provider for more information or support.",
     "pinErrorMsg6": "We could not complete your request, please try again.",
     "pinErrorMsg7": "Invalid data format, please try again",
+    "pinErrorMsg8": "PIN Number must be 4 characters",
     "note": "<0>Note:</0> Your PIN is needed to securely access your digital record.",
     "not": "not",
     "besent": "be sent to you, so please ensure you write it down for future use.",

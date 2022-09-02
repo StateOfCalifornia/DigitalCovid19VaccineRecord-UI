@@ -105,15 +105,18 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
     }
 
     if (pin.length != 4) {
-      setErrorMessage({ type: 'pinErrorMsg3', message: 'Please enter a valid PIN' });
+      setErrorMessage({ type: 'pinErrorMsg8', message: 'PIN Number must be 4 characters' });
+      setError({ ...error, Pin: true })
       return;
     }
     if (containsDuplicateChar(pin)) {
       setErrorMessage({ type: 'pinErrorMsg2', message: 'PIN cannot contain 4 duplicate numbers.' });
+      setError({ ...error, Pin: true })
       return;
     }
     if (containsAscending(pin)) {
       setErrorMessage({ type: 'pinErrorMsg1', message: 'PIN cannot contain 4 consecutive numbers.' });
+      setError({ ...error, Pin: true })
       return;
     } 
     
@@ -224,6 +227,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               className: classes.underline
             }}
             id="partitioned"
+            error={error.Pin || document.getElementById('partitioned')?.getAttribute("aria-invalid") == "true"}
           />
 
           <CardActions style={{ padding: "8px 0px" }}>
@@ -236,7 +240,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
                   paddingLeft: "20px",
                   paddingRight: "20px",
                   textAlign: "center",
-                  backgroundColor: pin ? "#22489C" : "gray",
+                  backgroundColor: "#22489C",
                   color: "white",
                   margin: "0px",
                   marginTop: "30px",

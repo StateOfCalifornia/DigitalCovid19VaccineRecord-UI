@@ -35,6 +35,7 @@
     "pinErrorMsg5": "Vui lòng liên hệ với chúng tôi hoặc nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn để biết thêm thông tin hoặc để được hỗ trợ.",
     "pinErrorMsg6": "Chúng tôi không thể hoàn thành yêu cầu của bạn, vui lòng thử lại.",
     "pinErrorMsg7": "Định dạng dữ liệu không hợp lệ, vui lòng thử lại",
+    "pinErrorMsg8": "PIN Number must be 4 characters",
     "note": "<0>Lưu ý:</0> Cần có số PIN của bạn để truy cập an toàn vào hồ sơ kỹ thuật số của bạn.",
     "checkboxdescription": "Khi nhấp vào ô này, bạn tuyên bố theo điều luật của hình phạt khai man theo luật pháp của tiểu bang và liên bang mà bạn là Bệnnh nhân hoặc cha/mẹ/người giám hộ của bệnh nhân và vì vậy được phép truy cập vào hồ sơ tiêm chủng của Bệnh nhân.",
     "safe": "Các loại vắc-xin COVID-19 an toàn, miễn phí và hiệu quả hiện đã có dành cho mọi người từ 5 tuổi trở lên, <1>tiêm vắc-xin</1>.",

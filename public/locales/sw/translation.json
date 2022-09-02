@@ -35,6 +35,7 @@
     "pinErrorMsg5": "Tafadhali wasiliana nasi au na mhudumu wako wa afya ili kupata maelezo zaidi au msaada.",
     "pinErrorMsg6": "Hatukuweza kukamilisha ombi lako, tafadhali jaribu tena.",
     "pinErrorMsg7": "Umbizo la data ni batili, tafadhali jaribu tena",
+    "pinErrorMsg8": "PIN Number must be 4 characters",
     "note": "<0>Kumbuka:</0> PIN yako inahitajika ili kufikia rekodi yako ya kidijitali kwa njia salama.",
     "checkboxdescription": "Kwa kuweka alama kwenye kisanduku hiki, unatangaza chini ya faini ya kuapa kwa uwongo chini ya sheria za jimbo na serikali ya muungano kuwa wewe ndiye Mgonjwa au Mzazi/Mlezi wa Mgonjwa na kwa hivyo umeidhinishwa kufikia rekodi ya chanjo ya Mgonjwa.",
     "safe": "Chanjo za COVID-19 ambazo ni salama, bila malipo, na faafu sasa zinapatikana kwa kila mtu aliye na umri wa miaka 5 au zaidi, <1>pata chanjo</1>.",
