@@ -35,6 +35,7 @@
     "pinErrorMsg5": "Wenn Sie weitere Informationen oder Unterstützung benötigen, setzen Sie sich bitte mit uns oder mit Ihrem Gesundheitsversorger in Verbindung.",
     "pinErrorMsg6": "Wir konnten Ihre Anfrage nicht ausführen. Versuchen Sie es bitte noch einmal.",
     "pinErrorMsg7": "Datumsformat ungültig, bitte erneut versuchen",
+    "pinErrorMsg8": "PIN Number must be 4 characters",
     "note": "<0>Hinweis:</0> Um sicher auf Ihren digitalen Datensatz zuzugreifen, wird Ihre PIN benötigt.",
     "checkboxdescription": "Indem Sie dieses Kästchen ankreuzen, erklären Sie unter Strafandrohung für Eidbruch nach bundesstaatlichen und US-Bundesgesetzen, dass Sie der/die Patient(in) bzw. ein Elternteil / Erziehungsberechtigte(r) der Patientin / des Patienten sind und daher berechtigt sind, auf den Impfpass des Patienten zuzugreifen.",
     "safe": "Sichere und wirksame COVID-19-Impfstoffe sind jetzt kostenlos für alle Personen ab 5 Jahren verfügbar, <1>lassen Sie sich impfen </1>. ",

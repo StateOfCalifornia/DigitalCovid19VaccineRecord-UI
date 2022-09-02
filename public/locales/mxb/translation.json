@@ -35,6 +35,7 @@
     "pinErrorMsg5": "Ka’an ní jín nda sa axi jín in ñayiví ja satatan tágua no¿in ní tu’un axi tágua chindeé ji ní.",
     "pinErrorMsg6": "Nduu ni kuu sa’a sa ja jikan ní, sa’a tuku ní.",
     "pinErrorMsg7": "Nda tu’un ja ni chi’in ní nduu iyo va’a, sa’a tuku ní",
+    "pinErrorMsg8": "PIN Number must be 4 characters",
     "note": "<0>Nota:</0> Kanuu PIN ní tágua kuu nani’in ní tutu ní ja iyo nuu kaa ndichí.",
     "checkboxdescription": "Ja sa’a ní marca nuu casilla ya’a, je’e ní tu’un kuu tanu ka’an nda ley in ñuu ja siki in ñayiví axi in tata/Ñayiví ja jito luli, siki ñukua kuu ja, kuu kivi kunde’e ji nda tutu siki tu’un nda vacuna ñayiví.",
     "safe": "Nda vacuna COVID-19 iyo va’a ji, nduu kuya’avi ji ji satiñu va’a de mita iyo ji ja kuu kuatiñu nda ñayiví ja iyo 5 kuiya, <1>kani ní vacuna maa ní</1>. ",

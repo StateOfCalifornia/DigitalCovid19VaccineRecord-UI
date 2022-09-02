@@ -35,6 +35,7 @@
     "pinErrorMsg5": "Daha fazla bilgi veya destek için lütfen bizimle veya sağlık uzmanınızla iletişime geçin.",
     "pinErrorMsg6": "İsteğinizi tamamlayamadık, lütfen tekrar deneyin.",
     "pinErrorMsg7": "Geçersiz veri biçimi, lütfen tekrar deneyin",
+    "pinErrorMsg8": "PIN Number must be 4 characters",
     "note": "<0>Not:</0> Dijital kaydınıza güvenli bir şekilde erişmek için PIN kodunuz gereklidir.",
     "checkboxdescription": "Bu kutuyu işaretleyerek, Hasta veya Hastanın Ebeveyni/Vasisi olduğunuzu ve bu nedenle Hastanın aşı kaydına erişme yetkiniz olduğunu eyalet ve federal yasalar uyarınca yalan yere yemin etme cezası ile beyan etmiş olursunuz.",
     "safe": "Güvenli, ücretsiz ve etkili COVID-19 aşıları artık 5 yaş ve üstü herkese sunuluyor, <1>aşı olun</1>. ",
