@@ -71,7 +71,7 @@ function App() {
            <Route exact path="/" component={MaintenanceScreen} />
           <Route path="/FAQ" component={FAQScreen} /> 
             
-
+</main>
         </Router>
         <Footer />
       </div>
