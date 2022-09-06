@@ -58,17 +58,17 @@ function App() {
         <Router>
           <Header />
 {/* Comment the entire section below to DISable the Maintenance page */}          
-          <Route exact path="/" component={Dashboard} />
+          {/*<Route exact path="/" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
           <Route path="/FAQ" component={FAQScreen} />
           <Route path="/SplashScreen" component={SplashScreen} />          
           <Route path="/qr/:lang/:id" component={QrScreen} /> 
-          <Route path="/Maintenance" component={MaintenanceScreen} />  
+  <Route path="/Maintenance" component={MaintenanceScreen} />  */}
 
 {/* Uncomment the entire section below to enable the Maintenance page */}
 
-{/*           <Route exact path="/" component={MaintenanceScreen} />
-          <Route path="/FAQ" component={FAQScreen} /> */}
+           <Route exact path="/" component={MaintenanceScreen} />
+          <Route path="/FAQ" component={FAQScreen} /> 
             
         </Router>
         <Footer />
