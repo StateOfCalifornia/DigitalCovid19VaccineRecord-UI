@@ -57,6 +57,7 @@ function App() {
       <div className="App">
         <Router>
           <Header />
+          <main>
 {/* Comment the entire section below to DISable the Maintenance page */}          
           {/*<Route exact path="/" component={Dashboard} />
           <Route path="/received" component={ReceivedScreen} />
@@ -70,6 +71,7 @@ function App() {
            <Route exact path="/" component={MaintenanceScreen} />
           <Route path="/FAQ" component={FAQScreen} /> 
             
+
         </Router>
         <Footer />
       </div>

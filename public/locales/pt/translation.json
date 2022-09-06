@@ -35,6 +35,7 @@
     "pinErrorMsg5": "Entre em contato conosco ou com seu profissional de saúde para obter mais informações ou suporte.",
     "pinErrorMsg6": "Não foi possível efetuar a sua solicitação. Tente novamente.",
     "pinErrorMsg7": "Formato de dados inválido, tente novamente",
+    "pinErrorMsg8": "PIN Number must be 4 characters",
     "note": "<0>Observação:</0> É necessário inserir seu PIN para acessar o comprovante digital de forma segura.",
     "checkboxdescription": "Ao marcar esta opção, você declara sob as penas das leis estaduais e federais que você é o paciente ou pai/responsável legal do paciente e, portanto, está autorizado a acessar o registro de imunização dele.",
     "safe": "As vacinas contra a COVID-19 são seguras, gratuitas e eficazes, e estão disponíveis agora para todos os indivíduos com idade igual ou superior a 5 anos. <1>Tomar a vacina</1>.",

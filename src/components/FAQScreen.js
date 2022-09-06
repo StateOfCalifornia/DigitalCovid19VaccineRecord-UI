@@ -48,8 +48,11 @@ const FAQScreen = () => {
                   vaccine dates and vaccine type. The QR code also confirms the vaccine record as an official
                   record of your state.
                 </Trans>
+                <hr/>
               </p>
+              
             </dd>
+            
             <dt>
               <button aria-expanded="false" aria-controls="faq02_desc">
                 <Trans i18nKey="faqpage.02question">
@@ -66,6 +69,7 @@ const FAQScreen = () => {
                   vaccination date(s), and vaccine manufacturer. You will also receive a scannable QR code
                   confirming your verification record is authentic.
                 </Trans>
+                <hr/>
               </p>
             </dd>
             <dt>
@@ -83,6 +87,7 @@ const FAQScreen = () => {
                   Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
                   save it to your photos.
                 </Trans>
+                <hr/>
               </p>
             </dd>
             <dt>
@@ -100,6 +105,7 @@ const FAQScreen = () => {
                   You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
                   photos.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -117,6 +123,7 @@ const FAQScreen = () => {
                   your digital verification record. You will need to start over in the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system to retrieve a new QR code.
                   We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -134,6 +141,7 @@ const FAQScreen = () => {
                   Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your
                   record is still not located, you may <a href="#NeedMoreHelp" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -164,6 +172,7 @@ const FAQScreen = () => {
                   Health Services or Veterans Affairs), you will need to contact those agencies for assistance
                   with your vaccination.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -182,6 +191,7 @@ const FAQScreen = () => {
                   can contact your provider to update your record or <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a>. You will be notified of our
                   findings and remediation actions within 2-3 weeks.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -202,6 +212,7 @@ const FAQScreen = () => {
                   a link to your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>. Enter the PIN you created to view the
                   record.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -223,6 +234,7 @@ const FAQScreen = () => {
                   information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }} >https://smarthealth.cards</a>. To protect your privacy, the QR code
                   can only be scanned and read by a SMART Health Card-compliant device.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -246,6 +258,7 @@ const FAQScreen = () => {
                   <i>NOTE: Once you've accessed your digital record and saved your QR code, it does not
                     expire.</i>
                 </Trans>
+                <hr/>
               </p>
             </dd>
             <dt>
@@ -271,6 +284,7 @@ const FAQScreen = () => {
                   paper verification record. It is one of the options to show proof of vaccination. The state
                   will not be implementing a mandatory passport system.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -288,6 +302,7 @@ const FAQScreen = () => {
                   verification record, you may print out your digital record and use it. If you lose your
                   <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a>, you can start the process over on the system.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -306,6 +321,7 @@ const FAQScreen = () => {
                   Verification Record</a> how they will use your data or if they will keep it. Only you can decide
                   how and when to share your record.
                 </Trans>
+                <hr/>
               </p>
             </dd>
 
@@ -324,6 +340,7 @@ const FAQScreen = () => {
                   number or email, enter the requests one at a time to receive separate links for each
                   verification record.
                 </Trans>
+                <hr/>
               </p>
             </dd>
           </dl>

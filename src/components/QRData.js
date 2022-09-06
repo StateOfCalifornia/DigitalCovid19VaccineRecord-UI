@@ -130,8 +130,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
           &nbsp;/&nbsp;
           </>
           ) : null}
-
-          <span dir="ltr"><Trans i18nKey="qrpage.title" i18n={english_i18n}>
+          <span dir="ltr" lang="en"><Trans i18nKey="qrpage.title" i18n={english_i18n}>
             Personal Digital COVID-19 Verification Record
           </Trans></span>
         </h1>
@@ -158,7 +157,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
               <img
                 src="/imgs/smart-logo.svg"
                 alt="Smart Health Card"
-                style={{ alignSelf: "baseline", width: "60px" }}
+                style={{ alignSelf: "baseline", width: "60px", minHeight: "48px" }}
               />
             </a>
           </div>
@@ -176,7 +175,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 </>
               ) : null}
 
-              <Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans>:&nbsp;
+              <span lang="en"><Trans i18nKey="qrpage.name" i18n={english_i18n}>Name</Trans></span>:&nbsp;
             </bdi>
             {user.suffix == null ? `${user.firstName} ${user.lastName}` : `${user.firstName} ${user.lastName} ${user.suffix}`}
           </p>
@@ -189,7 +188,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                 </>
               ) : null}
 
-              <Trans i18nKey="qrpage.dateofbirth" i18n={english_i18n}>DOB</Trans>:&nbsp;
+              <span lang="en"><Trans i18nKey="qrpage.dateofbirth" i18n={english_i18n}>DOB</Trans></span>:&nbsp;
             </bdi>
             {user.dob}
           </p>
@@ -206,7 +205,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                     </>
                   ) : null}
 
-                  <Trans i18nKey="qrpage.date" i18n={english_i18n}>Date</Trans>:&nbsp;
+                  <span lang="en"><Trans i18nKey="qrpage.date" i18n={english_i18n}>Date</Trans></span>:&nbsp;
                 </bdi>
                 {dose.doa}
               </p>
@@ -219,7 +218,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                     </>
                   ) : null}
 
-                  <span dir="ltr"><Trans i18nKey="qrpage.type" i18n={english_i18n}>Type/Mfr.</Trans></span>:&nbsp;
+                  <span dir="ltr" lang="en"><Trans i18nKey="qrpage.type" i18n={english_i18n}>Type/Mfr.</Trans></span>:&nbsp;
                 </bdi>
                 <span dir="ltr">{dose.type}</span>
               </p>
@@ -232,7 +231,7 @@ const QRData = ({ user, qr, apple, google, isMobile }) => {
                     </>
                   ) : null}
 
-                  <Trans i18nKey="qrpage.flotnumber" i18n={english_i18n}>Lot Number</Trans>:&nbsp;
+                <span lang="en"><Trans i18nKey="qrpage.flotnumber" i18n={english_i18n}>Lot Number</Trans></span>:&nbsp;
                 </bdi>
                 {dose.lotNumber}
               </p>

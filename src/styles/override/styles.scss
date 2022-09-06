@@ -109,7 +109,7 @@ dl.faq button {
     padding: 0.5em;
     font-size: 110%;
     display: none;
-    background-color: #fffedb;
+    //background-color: #fffedb;
     text-align: left;
   }
 
@@ -118,7 +118,7 @@ dl.faq button {
     padding: 0.5em;
     font-size: 110%;
     display: none;
-    background-color: #fffedb;
+    //background-color: #fffedb;
     text-align: right;
   }
   
@@ -192,4 +192,9 @@ dl.faq button {
 
   h1:focus{
     outline: none;
+  }
+
+  #langIcon {
+    min-width: 48px;
+    min-height: 48px;
   }
