@@ -884,9 +884,10 @@ const CovidCard = () => {
                 By checking this box, you are declaring under penalty of perjury under state and federal laws that you are the Patient or Parent/Guardian of the Patient and are therefore authorized to access the Patient’s immunization record.
                 </Trans>
               </div>
-              <br />
-              {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Policy Agreement checkbox must be selected</label> : ''}
+              
             </div>
+            <br />
+              {document.getElementById('submitcheckbox')?.getAttribute("aria-invalid") == "true" ? <label id='agreementError' htmlFor='submitcheckbox' style={{ color: '#b30000' }} class="MuiFormHelperText-root Mui-error">Policy Agreement checkbox must be selected</label> : ''}
           </CardContent>
           <CardActions style={{ marginBottom: "30px", padding: "8px 0px" }}>
             {loading ? (
