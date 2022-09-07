@@ -107,16 +107,22 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
     if (pin.length != 4) {
       setErrorMessage({ type: 'pinErrorMsg8', message: 'PIN Number must be 4 characters' });
       setError({ ...error, Pin: true })
+      document.getElementById('partitioned')?.scrollIntoView();
+      document.getElementById('partitioned')?.focus();
       return;
     }
     if (containsDuplicateChar(pin)) {
       setErrorMessage({ type: 'pinErrorMsg2', message: 'PIN cannot contain 4 duplicate numbers.' });
       setError({ ...error, Pin: true })
+      document.getElementById('partitioned')?.scrollIntoView();
+      document.getElementById('partitioned')?.focus();
       return;
     }
     if (containsAscending(pin)) {
       setErrorMessage({ type: 'pinErrorMsg1', message: 'PIN cannot contain 4 consecutive numbers.' });
       setError({ ...error, Pin: true })
+      document.getElementById('partitioned')?.scrollIntoView();
+      document.getElementById('partitioned')?.focus();
       return;
     } 
     
@@ -158,6 +164,9 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             getBlobUrl(data.fileContentSmartCard, data.mimeTypeSmartCard)
           );
           setLoading(false);
+        }else{
+          document.getElementById('partitioned')?.scrollIntoView();
+          document.getElementById('partitioned')?.focus();
         }
       })
       .catch((err) => {
