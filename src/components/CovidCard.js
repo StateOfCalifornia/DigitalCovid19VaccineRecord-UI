@@ -519,7 +519,7 @@ const CovidCard = () => {
     else return false;
   };
   const handleContactTypeChange = (event) => {
-    setError({ ...error, Phone_Email: true });
+    setError({ ...error, Phone_Email: false });
     setFieldMasks({ ...fieldMasks, textmask: '' });
     setContactType(event.target.value);
   };  
