@@ -120,7 +120,7 @@ const Header = () => {
       <div className="headerContainer" style={{ backgroundColor: '#f9f9f9', borderBottom: '1px solid #ccc' }}>
         <div className="fluid-container">
           <div className="subheaderContainer">
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', height: 70 }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', minHeight: 70 }}>
               <div style={{ display: 'flex', alignItems: 'center' }} aria-label="State of Washington">
                 <div style={{ textAlign: 'middle' }}>
                   <img className={i18n.dir(i18n.language) == "rtl"?"doh_logo_doh-black_rtl":"doh_logo_doh-black"} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
