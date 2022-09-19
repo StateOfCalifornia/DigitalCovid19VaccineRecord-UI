@@ -14,7 +14,7 @@ const Footer = () => {
         <footer className="footer">
             <div className="footerContainer">
                 <ul style={{ paddingLeft: '0' }} className={i18n.dir(i18n.language) == "rtl"? "footerLinks footerLinksDirRtl" : "footerLinks footerLinksDirLtr"}>
-                    <li><img src="/imgs/dohlogoblack.png" width='120px' alt="doh.wa.gov Footer Logo" /></li>
+                    <li><img src="/imgs/dohlogoblack.png" width='120px' alt="Washington State Department of Health Logo" /></li>
                     <li>
                         <ReactGA.OutboundLink
                             eventLabel="ca_gov"
