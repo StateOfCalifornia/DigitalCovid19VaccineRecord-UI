@@ -657,10 +657,9 @@ const CovidCard = () => {
               variant="standard"
               className={"col-12"}
               inputProps={{
-                maxLength: 30,
+                maxLength: 30
               }}
-              required
-              aria-label='First Name'
+              required              
               id="FirstName"
               onClick={(e) => handleClickBorder(e)}
               onChange={(e) => isValidInput(e) ? setError({ ...error, FirstName: true }) : setError({ ...error, FirstName: false })}
@@ -674,10 +673,10 @@ const CovidCard = () => {
               variant="standard"
               className={"col-12"}
               inputProps={{
-                maxLength: 30,
+                maxLength: 30
               }}
               required
-              aria-label='Last name'
+              
               id="LastName"
               onChange={(e) => isValidInput(e) ? setError({ ...error, LastName: true }) : setError({ ...error, LastName: false })}
               error={error.LastName || document.getElementById('LastName')?.getAttribute("aria-invalid") == "true"}
@@ -702,7 +701,7 @@ const CovidCard = () => {
               disableFuture
               required
               error={error.Date || !isDobGood}
-              aria-label='Date of birth'
+              
               maxDate={ addMonths(today, -6) }
               onClick={() => selectLocale(i18n.resolvedLanguage.toString())}
               onBlur={(e) => e.target.value.length < 1 ? setError({ ...error, Date: true }) : setError({ ...error, Date: false })}
