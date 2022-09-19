@@ -130,7 +130,7 @@ const Header = () => {
                 </div>
               </div>
               {/* Temporarily disabled until we have all the Translations */}
-              <div className="translationContainer" aria-label="languages" style={{ display: 'flex', alignItems: 'center' }}>
+              <div className="translationContainer" style={{ display: 'flex', alignItems: 'center' }}>
                 {/* <ul className={i18n.dir(i18n.language) == 'rtl'?'translationList translationListRtl':'translationList'}>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'en')} onClick={() => changeLanguage('en')}>English</li>
                   <li tabIndex={0} onKeyPress={(e) => handleKeyboardLanguage(e, 'es')} onClick={() => changeLanguage('es')}>Español</li>
