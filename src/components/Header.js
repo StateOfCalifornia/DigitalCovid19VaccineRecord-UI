@@ -123,7 +123,7 @@ const Header = () => {
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', minHeight: 70 }}>
               <div style={{ display: 'flex', alignItems: 'center' }} >
                 <div style={{ textAlign: 'middle' }}>
-                  <img className={i18n.dir(i18n.language) == "rtl"?"doh_logo_doh-black_rtl":"doh_logo_doh-black"} alt={"Wa State Seal"} width="120px" src="/imgs/doh_logo_doh-black.png" />
+                  <img className={i18n.dir(i18n.language) == "rtl"?"doh_logo_doh-black_rtl":"doh_logo_doh-black"} alt={"Washington State Department of Health Logo"} width="120px" src="/imgs/doh_logo_doh-black.png" />
                 </div>
                 <div style={{ verticalAlign: "middle", textAlign: 'middle' }}>
                 <Trans i18nKey="header.dohlogotext">Washington State<br /> Department of Health</Trans>
