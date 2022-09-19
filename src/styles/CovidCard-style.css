@@ -124,7 +124,7 @@
 }
 .qrDataItem{
   margin: 0px;
-  font-size: 90%;
+  font-size: 1em;
 }
 /* https://stackoverflow.com/questions/41658552/how-to-create-a-7-character-underline-input-text-field-in-html-and-cssscreensho */
 #partitioned {
