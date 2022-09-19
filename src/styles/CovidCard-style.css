@@ -363,7 +363,7 @@ hr {
 
   .logo-container-mobile {
     display: block;
-    text-align: center;
+    /*text-align: center;*/
   }
 
   .covid-card-container {
@@ -389,7 +389,7 @@ hr {
   
 
   .center-w-margin {
-    text-align: center;
+    /*text-align: center;*/
   }
 
   .qr-flex {
@@ -451,7 +451,7 @@ hr {
   }
 
   .dataDiv{
-    width: 100%;
+    width: 80%;
   }
 }
 
@@ -503,7 +503,7 @@ hr {
 .ResponsiveRow {
 	background-color: blue;
 	margin: 20px;
-	text-align: center;
+	/*text-align: center;*/
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
