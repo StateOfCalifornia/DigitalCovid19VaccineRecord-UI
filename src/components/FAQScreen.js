@@ -153,27 +153,26 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq07_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq07_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.07answer">
-                  Your vaccine provider submits your vaccination record to the Immunization Registry, but they
+                  <p>Your vaccine provider submits your vaccination record to the Immunization Registry, but they
                   may have provided information that's incomplete. So, it's likely we have your record, but
-                  not your correct information. For instance:
-                  
-                  ° Mobile phone number or email address was not included or does not match
-                  ° Name is spelled differently
-                  ° Date of birth does not match
-
-                  To find your record, try re-entering your information with a different email or mobile number.
-                  If your record still isn’t found, contact your provider to update your vaccination record or
+                  not your correct information. For instance:</p>
+                  <ul>
+                  <li>Mobile phone number or email address was not included or does not match</li>
+                  <li>Name is spelled differently</li>
+                  <li>Date of birth does not match</li>
+                  </ul>
+                  <p>To find your record, try re-entering your information with a different email or mobile number.
+                  If your record still isn't found, contact your provider to update your vaccination record or
                   <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>contact us</a> to request a review of your record. You'll be notified of our findings and
-                  remediation actions within 2-3 weeks.
-
-                  If you received your vaccination from a federal agency (like the Department of Defense, Indian
+                  remediation actions within 2-3 weeks.</p>
+                  <p>If you received your vaccination from a federal agency (like the Department of Defense, Indian
                   Health Services or Veterans Affairs), you will need to contact those agencies for assistance
-                  with your vaccination.
+                  with your vaccination.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>

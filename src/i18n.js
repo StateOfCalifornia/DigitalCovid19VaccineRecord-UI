@@ -45,7 +45,7 @@ i18n
           fallbacks.push('en')
           return fallbacks;
     },
-    transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', 'ul','li'],
+    
     detection: {
       cache: ["cookie"],
     },
@@ -53,7 +53,9 @@ i18n
       escapeValue: false,
     },
     react:{
-      useSuspense:false
+      useSuspense:false,
+      transKeepBasicHtmlNodesFor: ['br', 'strong', 'i', 'p', 'ul', 'li'],
+      transSupportBasicHtmlNodes: true
     }
   });
 
