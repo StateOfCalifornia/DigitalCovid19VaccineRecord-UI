@@ -104,7 +104,7 @@
     "03question": "Posso salvar meu comprovante digital em um iPhone?",
     "03answer": "<0>Você pode salvar o seu Comprovante digital no app Apple Health, com o sistema operacional iOS 15. Será necessário usar o navegador da web Safari para completar o processo. </0><1>Como opção, é possível tirar uma captura de tela do seu <1>Comprovante digital de vacinação contra a COVID-19</1> e salvá-lo nas suas fotos. </1>",
     "04question": "Posso salvar o meu Comprovante digital em um dispositivo Android?",
-    "04answer": "Sim. Você pode salvar o seu <1>Comprovante digital de vacinação contra a COVID-19</1> no Google Play se tiver o Android versão 5 e o Google Play Services versão 21.18 ou superior. <br />Você também pode tirar uma captura de tela do <3>Comprovante digital de vacinação contra a COVID-19</3> e salvá-lo em suas fotos.",
+    "04answer": "<0>Sim. Você pode salvar o seu <1>Comprovante digital de vacinação contra a COVID-19</1> no Google Play se tiver o Android versão 5 e o Google Play Services versão 21.18 ou superior. </0><1>Você também pode tirar uma captura de tela do <1>Comprovante digital de vacinação contra a COVID-19</1> e salvá-lo em suas fotos.</1>",
     "05question": "Se eu receber doses adicionais, elas aparecerão no meu comprovante digital?",
     "05answer": "Não. Se você receber uma dose adicional ou uma dose de reforço, elas não aparecerão automaticamente no seu comprovante digital. Será necessário reiniciar o sistema de <1>Comprovante digital de vacinação contra a COVID-19</1> para receber um novo código QR. <br />Recomendamos esperar entre 3 a 7 dias para que a sua nova dose apareça no Registro de imunização. ",
     "06question": "Quando a minha dose da vacina estará disponível no meu comprovante digital?",

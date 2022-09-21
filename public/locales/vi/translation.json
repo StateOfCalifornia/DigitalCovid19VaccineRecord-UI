@@ -104,7 +104,7 @@
     "03question": "Tôi có thể lưu hồ sơ xác nhận kỹ thuật số của mình vào iPhone không? ",
     "03answer": "<0>Bạn có thể lưu hồ sơ xác nhận kỹ thuật số của bạn vào ứng dụng Apple Health với hệ điều hành iOS 15. Bạn sẽ cần sử dụng trình duyệt web Safari để hoàn thành quy trình. </0><1>Hoặc bạn có thể chụp màn hình <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> và lưu vào hình ảnh của bạn. </1>",
     "04question": "Tôi có thể lưu Hồ sơ xác nhận kỹ thuật số của mình vào thiết bị Android không? ",
-    "04answer": "Có. Bạn có thể lưu <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> vào Google Play nếu bạn có Android phiên bản 5 và Google Play Services phiên bản 21.18 trở lên. Bạn cũng có thể chụp màn hình <3>Hồ sơ Xác nhận COVID-19 kỹ thuật số</3>và lưu vào hình ảnh của bạn.",   
+    "04answer": "<0>Có. Bạn có thể lưu <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> vào Google Play nếu bạn có Android phiên bản 5 và Google Play Services phiên bản 21.18 trở lên. </0><1>Bạn cũng có thể chụp màn hình <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1>và lưu vào hình ảnh của bạn.</1>",   
     "05question": "Nếu tôi được tiêm liều bổ sung, chúng có hiển thị trên hồ sơ xác nhận kỹ thuật số của tôi không? ",
     "05answer": "Không. Nếu bạn được tiêm một liều bổ sung hoặc liều tăng cường, nó sẽ không tự động phản ánh trên hồ sơ xác nhận kỹ thuật số của bạn. Bạn cần bắt đầu lại trong hệ thống <1>Hồ sơ Xác nhận COVID-19 kỹ thuật số</1> để truy xuất mã QR mới.<br />Chúng tôi đề nghị bạn đợi 3-7 ngày để liều vắc-xin mới của bạn hiển thị trong Immunization Registry (Cơ quan Đăng ký Tiêm chủng). ",
     "06question": "Khi nào liều vắc-xin có trong hồ sơ xác nhận kỹ thuật số của tôi? ",

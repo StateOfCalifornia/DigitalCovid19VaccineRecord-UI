@@ -98,15 +98,15 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq04_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq04_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.04answer">
-                  Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
-                  Android version 5 and Google Play Services version 21.18 or above.
-                  You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
-                  photos.
+                  <p>Yes. You can save your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> to Google Pay if you have
+                  Android version 5 and Google Play Services version 21.18 or above.</p>
+                  <p>You can also screenshot your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and save it to your
+                  photos.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>

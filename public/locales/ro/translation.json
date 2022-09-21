@@ -104,7 +104,7 @@
     "03question": "Pot să-mi salvez certificatul digital într-un iPhone?",
     "03answer": "<0>Puteți să salvați certificatul digital în aplicația Apple Health folosind sistemul de operare iOS 15. Pentru a finaliza procedura va trebui să utilizați browserul web Safari. </0><1>Sau puteți să realizați o captură de ecran cu un <1>Certificat digital COVID-19</1> pe care să o salvați în galeria foto.</1>",
     "04question": "Pot să-mi salvez certificatul digital într-un dispozitiv cu Android?",
-    "04answer": "Da. Puteți să salvați un <1>Certificat digital COVID-19</1> în Google Play dacă aveți un dispozitiv cu Android versiunea 5 și Google Play Services versiunea 21.18 sau ulterioară. <br />De asemenea, puteți să realizați o captură de ecran cu un <3>Certificat digital COVID-19</3> pe care să o salvați în galeria foto.",
+    "04answer": "<0>Da. Puteți să salvați un <1>Certificat digital COVID-19</1> în Google Play dacă aveți un dispozitiv cu Android versiunea 5 și Google Play Services versiunea 21.18 sau ulterioară. </0><1>De asemenea, puteți să realizați o captură de ecran cu un <1>Certificat digital COVID-19</1> pe care să o salvați în galeria foto.</1>",
     "05question": "Dacă primesc doze suplimentare, vor apărea acestea pe certificatul meu digital?",
     "05answer": "Nu. Dacă primiți o doză suplimentară sau o doză booster, aceasta nu se va regăsi automat pe certificatul dvs. digital. Trebuie să reporniți sistemul pentru <1>Certificat digital COVID-19</1> pentru a prelua un nou cod QR.<br />Vă recomandăm să așteptați între 3 și 7 zile pentru ca doza nouă să apară în Registrul de vaccinare.",
     "06question": "Când va apărea doza de vaccin pe certificatul meu digital?",

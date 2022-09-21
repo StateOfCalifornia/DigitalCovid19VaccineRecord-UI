@@ -104,7 +104,7 @@
     "03question": "Kann ich mein Digitalzertifikat auf einem iPhone speichern?",
     "03answer": "<0>Sie können Ihr Digitalzertifikat in der Apple Health-App mit dem Betriebssystem iOS 15 speichern. Für diesen Vorgang müssen Sie Ihren Safari-Webbrowser verwenden. </0><1>Sie können aber auch einen Screenshot Ihres <1>COVID-19-Digitalzertifikats</1> in Ihren Fotos speichern.</1> ",
     "04question": "Kann ich mein Digitalzertifikat auf einem Android-Gerät speichern?",
-    "04answer": "Ja, Sie können Ihr <1>COVID-19-Digitalzertifikat</1> in Google Play speichern, wenn Sie Android Version 5 und Google Play Services Version 21.18 oder höher verwenden. <br />Sie können aber ebenso einen Screenshot Ihres <3>COVID-19-Digitalzertifikats</3> in Ihren Fotos speichern.",
+    "04answer": "<0>Ja, Sie können Ihr <1>COVID-19-Digitalzertifikat</1> in Google Play speichern, wenn Sie Android Version 5 und Google Play Services Version 21.18 oder höher verwenden. </0><1>Sie können aber ebenso einen Screenshot Ihres <1>COVID-19-Digitalzertifikats</1> in Ihren Fotos speichern.</1>",
     "05question": "Wenn ich zusätzliche Dosen erhalte, werden diese in meinem Digitalzertifikat angezeigt?",
     "05answer": "Nein. Wenn Sie eine zusätzliche Dosis oder Auffrischungsdosis erhalten, wird diese nicht automatisch in Ihrem Digitalzertifikat angezeigt. Sie müssen dann im <1>COVID-19-Digitalzertifikat</1> System erneut einen QR-Code abzurufen. <br />Wir empfehlen Ihnen, 3-7 Tage zu warten, bis Ihre neue Dosis im Impfregister angezeigt wird.",
     "06question": "Wann wird meine Impfstoffdosis in meinem Digitalzertifikat verfügbar sein?",
