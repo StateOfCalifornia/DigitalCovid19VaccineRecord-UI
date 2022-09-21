@@ -108,7 +108,7 @@
     "02question": "How will my verification record be delivered?",
     "02answer": "When your verification record is found, you will receive a link delivered to the email or mobile phone number associated with the vaccination record. After entering your four-digit PIN, you will see your COVID-19 verification information including your name, date of birth, vaccination date(s), and vaccine manufacturer. You will also receive a scannable QR code confirming your verification record is authentic.", 
     "03question": "Can I save my digital verification record on an iPhone?",
-    "03answer": "You can save your Digital verification record to the Apple Health app with the iOS 15 operating system. You will need to use your Safari web browser to complete the process. <br /> Alternatively, you can take a screenshot of your <1>Digital COVID-19 Verification Record</1> and save it to your photos.",
+    "03answer": "<0>You can save your Digital verification record to the Apple Health app with the iOS 15 operating system. You will need to use your Safari web browser to complete the process. </0><1> Alternatively, you can take a screenshot of your <1>Digital COVID-19 Verification Record</1> and save it to your photos.</1>",
     "04question": "Can I save my Digital verification record on an Android device?",
     "04answer": "Yes. You can save your <1>Digital COVID-19 Verification Record</1> to Google Pay if you have Android version 5 and Google Play Services version 21.18 or above. <br /> You can also screenshot your <3>Digital COVID-19 Verification Record</3> and save it to your photos.",   
     "05question": "If I get additional doses, will they show on my digital verification record?",

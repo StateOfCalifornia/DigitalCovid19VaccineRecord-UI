@@ -102,7 +102,7 @@
     "02question": "Nasa nataji de tutu sa",
     "02answer": "Tani nani’in ní tutu ní, kenda in enlace nuu correo electrónico axi nuu yokaa ja ni je’en kivi ja ni kani vacuna ní. Tú ja ni chi’in ní PIN ja kuu ji kumi número, kuni ni tutu ní siki nasa iyo ní nuu kue’e COVID-19, nuu ndeee sivi ní, kivi ni kaku ní, nda kivi ni kani vacuna ní ji na vacuna kuu. Suni ni’in ní in código QR ja kuu kuetiñi ni tágua ste’en ní ja ndaa kuu tu’un ja neva’a ní.",
     "03question": "A kuu tava’a sa tutu sa nuu iPhone sa",
-    "03answer": "Kuu tava’a ní nuu yokaa ní nuu aplicación Apple Health ja satiñu ji iOS 15. Kanuu kuatiñu ní navegador Safari tágua kuu sa’a ní ja kúni ní. <br />Tú kuni ní, tava ní in foto pantalla <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> de tava’a ní nuu nda foto ní. ",
+    "03answer": "<0>Kuu tava’a ní nuu yokaa ní nuu aplicación Apple Health ja satiñu ji iOS 15. Kanuu kuatiñu ní navegador Safari tágua kuu sa’a ní ja kúni ní. </0><1>Tú kuni ní, tava ní in foto pantalla <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> de tava’a ní nuu nda foto ní. </1>",
     "04question": "A kuu tava’a sa tutu sa nuu in kaa Android",
     "04answer": "Saa. Kuu tava’a ní <1>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</1> nuu Google Pay tú neva’a ní in Android ja satiñu jín version 5 ji versión 21.18 Google Play Services axi ja jee ka. <br />Suni kuu tava ní in foto pantalla <3>Tutu nuu Kaa ndichí siki Tu’un Nasa  iyo ní jín kue’e COVID-19</3> de tava’a ní nuu nda foto ní.",
     "05question": "Tú ni kani ka tatan saán, a suni natuu tu’un ñukua uu tutu sa ja iyo nuu kaa ndichí",

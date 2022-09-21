@@ -80,15 +80,15 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq03_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq03_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.03answer">
-                  You can save your Digital verification record to the Apple Health app with the iOS 15
-                  operating system. You will need to use your Safari web browser to complete the process.
-                  Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
-                  save it to your photos.
+                  <p>You can save your Digital verification record to the Apple Health app with the iOS 15
+                  operating system. You will need to use your Safari web browser to complete the process.</p>
+                  <p>Alternatively, you can take a screenshot of your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> and
+                  save it to your photos.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
             <dt>
               <button aria-expanded="false" aria-controls="faq04_desc">

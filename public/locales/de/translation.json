@@ -102,7 +102,7 @@
     "02question": "Auf welchem Wege erhalte ich mein Impfzertifikat?",
     "02answer": "Wenn Ihr Impfzertifikat gefunden wird, erhalten Sie einen Link an die E-Mail-Adresse oder Handynummer, die mit dem Impfpass verknüpft ist. Nachdem Sie Ihre vierstellige PIN eingegeben haben, sehen Sie die Daten Ihres COVID-19-Zertifikats, einschließlich Ihres Namens, Geburtsdatums, Datums der Impfung(en) und des Impfstoffherstellers. Außerdem erhalten Sie einen scanbaren QR-Code, der bestätigt, dass Ihr Impfzertifikat echt ist.",
     "03question": "Kann ich mein Digitalzertifikat auf einem iPhone speichern?",
-    "03answer": "Sie können Ihr Digitalzertifikat in der Apple Health-App mit dem Betriebssystem iOS 15 speichern. Für diesen Vorgang müssen Sie Ihren Safari-Webbrowser verwenden. <br />Sie können aber auch einen Screenshot Ihres <1>COVID-19-Digitalzertifikats</1> in Ihren Fotos speichern. ",
+    "03answer": "<0>Sie können Ihr Digitalzertifikat in der Apple Health-App mit dem Betriebssystem iOS 15 speichern. Für diesen Vorgang müssen Sie Ihren Safari-Webbrowser verwenden. </0><1>Sie können aber auch einen Screenshot Ihres <1>COVID-19-Digitalzertifikats</1> in Ihren Fotos speichern.</1> ",
     "04question": "Kann ich mein Digitalzertifikat auf einem Android-Gerät speichern?",
     "04answer": "Ja, Sie können Ihr <1>COVID-19-Digitalzertifikat</1> in Google Play speichern, wenn Sie Android Version 5 und Google Play Services Version 21.18 oder höher verwenden. <br />Sie können aber ebenso einen Screenshot Ihres <3>COVID-19-Digitalzertifikats</3> in Ihren Fotos speichern.",
     "05question": "Wenn ich zusätzliche Dosen erhalte, werden diese in meinem Digitalzertifikat angezeigt?",
