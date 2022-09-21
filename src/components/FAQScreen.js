@@ -27,8 +27,31 @@ const FAQScreen = () => {
           WA Verify FAQ
         </Trans>
       </h1>
+      <div class="col-sm-12">
+          <h2 id="NeedMoreHelp">
+            <Trans i18nKey="faqpage.needhelptitle">
+              Need more help?
+            </Trans>
+          </h2>
+          <Trans i18nKey="faqpage.needhelpcontent01">
+            For questions and other assistance, contact:
+          </Trans>
+          <ul>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">1-800-525-0127, press #</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Monday 6AM-10PM</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Tuesday-Sunday 6AM-6PM</Trans></li>
+            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent05">Closed state holidays</Trans></li>
+          </ul>
+          <p style={{ paddingTop: 40 }}>
+            <Trans i18nKey="faqpage.needhelpcontent06">
+              <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
+              
+              <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Click here if your COVID-19 vaccination record is missing or incorrect</a>
+            </Trans>
+          </p>
+        </div>
       <div class="row">
-        <div class="col-sm-8">
+        <div class="col-sm-12">
           <dl class="faq" style={{ width: "90%", paddingLeft: 10 }}>
             <dt>
               <button aria-expanded="false" aria-controls="faq01_desc">
@@ -344,29 +367,7 @@ const FAQScreen = () => {
             </dd>
           </dl>
         </div>
-        <div class="col-sm-4">
-          <h2 id="NeedMoreHelp">
-            <Trans i18nKey="faqpage.needhelptitle">
-              Need more help?
-            </Trans>
-          </h2>
-          <Trans i18nKey="faqpage.needhelpcontent01">
-            For questions and other assistance, contact:
-          </Trans>
-          <ul>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent02">1-800-525-0127, press #</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent03">Monday 6AM-10PM</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent04">Tuesday-Sunday 6AM-6PM</Trans></li>
-            <li style={{ listStyleType: "none" }}><Trans i18nKey="faqpage.needhelpcontent05">Closed state holidays</Trans></li>
-          </ul>
-          <p style={{ paddingTop: 40 }}>
-            <Trans i18nKey="faqpage.needhelpcontent06">
-              <strong>NOTE</strong>: We're unable to update your <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> over the phone.
-              
-              <a href="https://redcap.doh.wa.gov/surveys/?s=EEPH93H9H3" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Click here if your COVID-19 vaccination record is missing or incorrect</a>
-            </Trans>
-          </p>
-        </div>
+        
       </div>
     </div>
   );
