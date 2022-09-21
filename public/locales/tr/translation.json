@@ -106,7 +106,7 @@
     "04question": "Dijital doğrulama kaydımı bir Android cihaza kaydedebilir miyim?", 
     "04answer": "<0>Evet. Android 5 ve üstünde, Google Play Services sürüm 21.18 veya üzerini kullanıyorsanız, <1>Dijital COVID-19 Doğrulama Kaydi</1>’nizi Google Play'e kaydedebilirsiniz.</0><1>Ayrıca <1>Dijital COVID-19 Doğrulama Kaydi</1>’nizin ekran görüntüsünü alarak fotoğraf olarak kaydetmeniz de mümkündür.</1>", 
     "05question": "Ek dozlar olduğumda bunlar dijital doğrulama kaydımda görünür mü?", 
-    "05answer": "Hayır. Ek dozlar veya hatırlatma dozları dijital doğrulama kaydınıza otomatik olarak yansımayacaktır. Yeni bir kare kod almak için <1>Dijital COVID-19 Doğrulama Kaydi</1> sisteminde baştan işlem yapmanız gerekecektir.<br />Yeni olduğunuz aşının Aşı Kaydında görünmesi için 3-7 gün beklemenizi öneririz.", 
+    "05answer": "<0>Hayır. Ek dozlar veya hatırlatma dozları dijital doğrulama kaydınıza otomatik olarak yansımayacaktır. Yeni bir kare kod almak için <1>Dijital COVID-19 Doğrulama Kaydi</1> sisteminde baştan işlem yapmanız gerekecektir.</0><1>Yeni olduğunuz aşının Aşı Kaydında görünmesi için 3-7 gün beklemenizi öneririz.</1>", 
     "06question": "Aşım dijital doğrulama kaydımda ne zaman yer alacak?", 
     "06answer": "Kliniklerin doz bilgilerini Aşı Kaydına gönderme süreleri değişir. Aşınızın sistemde görünmesi için 3-7 gün beklemenizi öneririz. Kaydınız yine de görünmüyorsa <1>bize ulaşın</1>.", 
     "07question": "Kaydım bulunmazsa ne olacak?", 

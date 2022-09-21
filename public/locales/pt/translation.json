@@ -106,7 +106,7 @@
     "04question": "Posso salvar o meu Comprovante digital em um dispositivo Android?",
     "04answer": "<0>Sim. Você pode salvar o seu <1>Comprovante digital de vacinação contra a COVID-19</1> no Google Play se tiver o Android versão 5 e o Google Play Services versão 21.18 ou superior. </0><1>Você também pode tirar uma captura de tela do <1>Comprovante digital de vacinação contra a COVID-19</1> e salvá-lo em suas fotos.</1>",
     "05question": "Se eu receber doses adicionais, elas aparecerão no meu comprovante digital?",
-    "05answer": "Não. Se você receber uma dose adicional ou uma dose de reforço, elas não aparecerão automaticamente no seu comprovante digital. Será necessário reiniciar o sistema de <1>Comprovante digital de vacinação contra a COVID-19</1> para receber um novo código QR. <br />Recomendamos esperar entre 3 a 7 dias para que a sua nova dose apareça no Registro de imunização. ",
+    "05answer": "<0>Não. Se você receber uma dose adicional ou uma dose de reforço, elas não aparecerão automaticamente no seu comprovante digital. Será necessário reiniciar o sistema de <1>Comprovante digital de vacinação contra a COVID-19</1> para receber um novo código QR. </0><1>Recomendamos esperar entre 3 a 7 dias para que a sua nova dose apareça no Registro de imunização. </1>",
     "06question": "Quando a minha dose da vacina estará disponível no meu comprovante digital?",
     "06answer": "O tempo necessário de envio das informações sobre a dose para o Registro de imunização varia de acordo com a clínica. Recomendamos esperar entre 3 a 7 dias para que a sua dose apareça no sistema. Caso o registro ainda não apareça, <1>entre em contato conosco </1>.",
     "07question": "E se o meu comprovante não for encontrado?",

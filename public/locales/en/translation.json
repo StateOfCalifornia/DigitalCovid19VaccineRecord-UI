@@ -112,7 +112,7 @@
     "04question": "Can I save my Digital verification record on an Android device?",
     "04answer": "<0>Yes. You can save your <1>Digital COVID-19 Verification Record</1> to Google Pay if you have Android version 5 and Google Play Services version 21.18 or above. </0><1> You can also screenshot your <1>Digital COVID-19 Verification Record</1> and save it to your photos.</1>",   
     "05question": "If I get additional doses, will they show on my digital verification record?",
-    "05answer": "No. If you receive an additional dose or booster dose, it will not automatically reflect on your digital verification record. You will need to start over in the <1>Digital COVID-19 Verification Record</1> system to retrieve a new QR code. <br /> We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.",
+    "05answer": "<0>No. If you receive an additional dose or booster dose, it will not automatically reflect on your digital verification record. You will need to start over in the <1>Digital COVID-19 Verification Record</1> system to retrieve a new QR code. </0><1> We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.</1>",
     "06question": "When will my vaccine dose be available in my digital verification record?",
     "06answer": "Clinics vary in the length of time it takes to submit dose information to the Immunization Registry. We recommend waiting 3-7 days for your dose to show up in the system. If your record is still not located, you may <1>contact us</1>.", 
     "07question": "What if my record is not found?",

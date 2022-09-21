@@ -140,14 +140,14 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq05_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq05_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.05answer">
-                  No. If you receive an additional dose or booster dose, it will not automatically reflect on
-                  your digital verification record. You will need to start over in the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system to retrieve a new QR code.
-                  We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.
+                  <p>No. If you receive an additional dose or booster dose, it will not automatically reflect on
+                  your digital verification record. You will need to start over in the <a href="/" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }}>Digital COVID-19 Vaccine Record</a> system to retrieve a new QR code.</p>
+                  <p>We recommend waiting 3-7 days for your new dose to show up in the Immunization Registry.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>
