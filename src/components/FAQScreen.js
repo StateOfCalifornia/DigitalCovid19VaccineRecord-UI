@@ -246,18 +246,18 @@ const FAQScreen = () => {
               </button>
             </dt>
             <dd>
-              <p id="faq10_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
+              <div id="faq10_desc" class={i18n.dir(i18n.language)=="rtl"?"descRtl":"desc"}>
                 <Trans i18nKey="faqpage.10answer">
-                  Yes. Filling out the form on the system does not provide instant access to your verification
+                  <p>Yes. Filling out the form on the system does not provide instant access to your verification
                   record. The link to the verification record requires a PIN that you create and is sent only
-                  to the mobile phone or email that is associated with your immunization record.
+                  to the mobile phone or email that is associated with your immunization record.</p>
 
-                  The QR code is a SMART Health Card, a secure copy of your verification record. More
+                  <p>The QR code is a SMART Health Card, a secure copy of your verification record. More
                   information is at&nbsp;<a href="https://smarthealth.cards" target="SmartHealth" style={{ color: "#0d6efd", margin: "0", textDecoration: "underline" }} >https://smarthealth.cards</a>. To protect your privacy, the QR code
-                  can only be scanned and read by a SMART Health Card-compliant device.
+                  can only be scanned and read by a SMART Health Card-compliant device.</p>
                 </Trans>
                 <hr/>
-              </p>
+              </div>
             </dd>
 
             <dt>
