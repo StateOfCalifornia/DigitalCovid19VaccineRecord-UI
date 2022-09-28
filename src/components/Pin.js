@@ -140,19 +140,23 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
       .then((res) => {
         if (res.status === 404) {
           setErrorMessage({ type: 'pinErrorMsg3', message: "The PIN entered is invalid. Please retry by clicking the link provided to you to re-enter your PIN." });
+          setError({ ...error, Pin: true })
           setLoading(false);
         }
         else if (res.status === 429) {
           setErrorMessage({ type: 'pinErrorMsg4', message: "Please try your request again in 1 minute." });
+          setError({ ...error, Pin: true })
           setLoading(false);
         }
         else if (res.status === 422) {
           setErrorMessage({ type: 'pinErrorMsg5', message: "Please contact WADOH for more info on your vaccine records." });
+          setError({ ...error, Pin: true })
           setLoading(false);
         }
         else if (res.status !== 200) {
           setLoading(false);
           setErrorMessage({ type: 'pinErrorMsg6', message: "Could not complete the request, please retry later." });
+          setError({ ...error, Pin: true })
         }
         status = res.status;
         return res.json();
