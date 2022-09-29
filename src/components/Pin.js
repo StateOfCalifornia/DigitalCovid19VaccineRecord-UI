@@ -235,7 +235,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
               minLength: 4,
               required: true,
               //onBlur: (e) => e.target.value.length < 4 ? [e.target.style.background = "repeating-linear-gradient(90deg, #b30000 0, #b30000 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: true })] : [e.target.style.background = "repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/100% 2px no-repeat", setError({ ...error, Pin: false })],
-              "aria-describedby": errorMessage?.type ? "pinError" : null
+              "aria-describedby":  "pinError"
             }}
             InputProps={{
               className: classes.underline
@@ -270,7 +270,7 @@ const Pin = ({ pin, setPin, setQr, setUser, id, setHealthCard, lang, walletCode 
             )}
           </CardActions>
         </Card>
-        <div style={{ color: '#b30000' }} id="pinError">{error.Pin ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
+        <div style={{ color: '#b30000' }} id="pinError" aria-live="polite">{error.Pin ? <Trans i18nKey={`vaccineform.${errorMessage.type}`}>{errorMessage.message}</Trans> : ''}</div>
       </form>
     </div>
   );
